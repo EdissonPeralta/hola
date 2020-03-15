@@ -1,0 +1,4 @@
+media=dvd
+basespool.url.number=1
+basespool.load.1=true
+basespool.load.number=1
