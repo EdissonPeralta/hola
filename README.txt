@@ -1,0 +1,1 @@
+En este repositorio se encuentra la bibliografía de las materias vistas en el semestre 2020-i. La idea es ampliarlo lo mas que se pueda.
