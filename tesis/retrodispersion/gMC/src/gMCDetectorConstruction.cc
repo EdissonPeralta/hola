@@ -127,13 +127,13 @@ G4VPhysicalVolume* gMCDetectorConstruction::Construct()
   G4double GeContMaxRad1 = GeContMaxRad2 - GeContThick;
   G4double GeContHalfLength1 = GeHalfLength + GeAl_paraDistance;
   G4double GeContHalfLength2 = GeContHalfLength1 + GeContHalfThick;
-
+  /*
   auto motherSolid
     = new G4Tubs("motherSolid",tubeMinRad, GeContMaxRad2,GeContHalfLength2,MinPhi,MaxPhi);
 
   auto motherLogical
-    = new G4LogicalVolume(motherSolid,air,"motherLogical");
-    
+   = new G4LogicalVolume(motherSolid,air,"motherLogical");
+  */
   auto tubeSolid1
     = new G4Tubs("tube1",tubeMinRad,GeContMaxRad1,GeContHalfLength1,MinPhi,MaxPhi);
  auto tubeSolid2
@@ -150,12 +150,17 @@ G4VPhysicalVolume* gMCDetectorConstruction::Construct()
     
   auto GeSolid
     = new G4Tubs("Ge",tubeMinRad,GeMaxRad,GeHalfLength,MinPhi,MaxPhi);
-
-  fGeLogical = new G4LogicalVolume(GeSolid,germanium,"GeLogical");
+  /*
+    //NaI
+  sodiumIodide = new G4Material("sodiumIodide", density= 3.67*g/cm3, nElem=2);
+  sodiumIodide->AddElement(elNa,1);
+  sodiumIodide->AddElement(elI,1);
+  */
+  fGeLogical = new G4LogicalVolume(GeSolid,sodiumIodide,"GeLogical");//llenado del detector
   G4ThreeVector TGe;    
   G4Transform3D T3DGe;
   
-  TGe.setX(0.0*cm);  TGe.setY(0.0*cm); TGe.setZ(0.0*cm);
+  TGe.setX(0.0*cm);  TGe.setY(0.0*cm); TGe.setZ(6.0*cm);
   R0= G4RotationMatrix();
   //R0.rotateX(0*deg);
   R0.rotateY(-45*deg);
@@ -165,15 +170,15 @@ G4VPhysicalVolume* gMCDetectorConstruction::Construct()
   new G4PVPlacement(T3DGe,
   		    fGeLogical,
   		    "GePhysical",
-  		    motherLogical,
+  		    worldLogical,
   		    false,0,checkOverlaps);
   
   new G4PVPlacement(T3DGe,
   		    GeContainerLogical,
   		    "GeContainerPhysical",
-  		    motherLogical,
+  		    worldLogical,
   		    false,0,checkOverlaps);
-					
+  
   //  G4double z_Ge = -GeContHalfLength + GeHalfLength + 2*GeContHalfThick + GeAl_paraDistance;
   G4ThreeVector Tmother;
   G4Transform3D T3Dmother;
@@ -186,13 +191,13 @@ G4VPhysicalVolume* gMCDetectorConstruction::Construct()
   R0.rotateX(0*deg);
   R0.rotateZ(0*deg);
   T3Dmother = G4Transform3D(R0,Tmother);    
-
+  /*
   new G4PVPlacement(T3Dmother,
 		    motherLogical,
 		    "motherDet",
 		    worldLogical,
 		    false,0,checkOverlaps);
-
+  */
   //········································
   //·········Creation the Steel·············
   //········································
@@ -288,7 +293,7 @@ G4VPhysicalVolume* gMCDetectorConstruction::Construct()
   // Placa
   G4double placa_hx = 16.5825*cm; // h = half
   G4double placa_hy = 10.085*cm;
-  G4double placa_hz = 1.0*cm; // the variation is 0.1 
+  G4double placa_hz = 4.0*cm; // the variation is 0.5 
   
   auto placaSolid
     = new G4Box("placa", placa_hx, placa_hy, placa_hz);
