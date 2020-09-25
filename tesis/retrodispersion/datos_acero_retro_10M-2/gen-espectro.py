@@ -1,4 +1,18 @@
 import matplotlib as mpl
+import random as rn
+import scipy.stats as st
+import math
+import numpy as np
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+#::::::::::::::::::::::::::::::::::::
+#:::::::: ESPECTRO EXPERIMENTAL::::::
+#::::::::::::::::::::::::::::::::::::
+
+from scipy.optimize import curve_fit
+#from scipy.signal import find_peaks
+from astropy.io import ascii
+
 mpl.rcParams['legend.fontsize'] = 12
 mpl.rcParams['axes.labelsize'] = 12
 mpl.rcParams['xtick.labelsize'] = 12
@@ -83,40 +97,16 @@ def FWHM_Ge(Eg):
 
 def FWHM_Ge(Eg):
     f0=1
-    f1=0.0027
+    f1=0.027
     f2=1.2
     return f0 + f1 * Eg + f2 * np.sqrt(Eg)
 
 
-###############################################
 
-################# 10 cm #######################
-
-############### SE APLICA EL FWHM ####################
-"""
-k=np.arange(10,len(y))
-espectro=np.zeros(len(y))
-for c in k:
-    miu10=float(c)
-    sigma10= 0.425 * FWHM_Ge(miu10)
-    nue_cuen10 = int(y[c])
-    if nue_cuen10>0:
-        
-
-        s=norm.rvs(loc=miu10, scale=sigma10, size= nue_cuen10,random_state=123)
-        smin=int(round(s.min()))-1
-        smax=int(round(s.max()))+1
-        binx=np.arange(smin, smax)
-        hist, bin_edge=np.histogram(s,bins=binx)
-        
-        for j in np.arange(0,len(hist)):
-            k=bin_edge[j]
-            espectro[k]=espectro[k]+hist[j]
-"""
 ########################################################################
 
 
-################# 9 cm #######################
+################# 0.2 cm #######################
 
 
 
@@ -124,12 +114,12 @@ for c in k:
 k=np.arange(10,len(y1))
 espectro1=np.zeros(len(y1))
 for c in k:
-    miu9=float(c)
-    sigma9= 0.425 * FWHM_Ge(miu9)
-    nue_cuen9 = int(y1[c])
-    if nue_cuen9>0:
+    miu1=float(c)
+    sigma1= 0.425 * FWHM_Ge(miu1)
+    nue_cuen1 = int(y1[c])
+    if nue_cuen1>0:
 
-        s=norm.rvs(loc=miu9,scale=sigma9, size= nue_cuen9,random_state=12345)
+        s=norm.rvs(loc=miu1,scale=sigma1, size= nue_cuen1,random_state=12345)
         smin=int(round(s.min()))-1
         smax=int(round(s.max()))+1
         binx=np.arange(smin, smax)
@@ -141,7 +131,7 @@ for c in k:
 ########################################################################
 
 
-################# 8 cm #######################
+################# 0.4 cm #######################
 
 
 
@@ -149,12 +139,12 @@ for c in k:
 k=np.arange(10,len(y2))
 espectro2=np.zeros(len(y2))
 for c in k:
-    miu8=float(c)
-    sigma8= 0.425 * FWHM_Ge(miu8)
-    nue_cuen8 = int(y2[c])
-    if nue_cuen8>0:
+    miu2=float(c)
+    sigma2= 0.425 * FWHM_Ge(miu2)
+    nue_cuen2 = int(y2[c])
+    if nue_cuen2>0:
 
-        s=norm.rvs(loc=miu8,scale=sigma8, size= nue_cuen8,random_state=12345)
+        s=norm.rvs(loc=miu2,scale=sigma2, size= nue_cuen2,random_state=12345)
         smin=int(round(s.min()))-1
         smax=int(round(s.max()))+1
         binx=np.arange(smin, smax)
@@ -166,7 +156,7 @@ for c in k:
 ########################################################################
 
 
-################# 7 cm #######################
+################# 0.6 cm #######################
 
 
 ############### SE APLICA EL FWHM ####################
@@ -174,12 +164,12 @@ for c in k:
 k=np.arange(10,len(y3))
 espectro3=np.zeros(len(y3))
 for c in k:
-    miu7=float(c)
-    sigma7= 0.425 * FWHM_Ge(miu7)
-    nue_cuen7 = int(y3[c])
-    if nue_cuen7>0:
+    miu3=float(c)
+    sigma3= 0.425 * FWHM_Ge(miu3)
+    nue_cuen3 = int(y3[c])
+    if nue_cuen3>0:
         
-        s=norm.rvs(loc=miu7,scale=sigma7, size= nue_cuen7,random_state=12345)
+        s=norm.rvs(loc=miu3,scale=sigma3, size= nue_cuen3,random_state=12345)
         smin=int(round(s.min()))-1
         smax=int(round(s.max()))+1
         binx=np.arange(smin, smax)
@@ -194,19 +184,19 @@ for c in k:
 
 
 
-################# 6 cm #######################
+################# 0.8 cm #######################
 
 
 ############### SE APLICA EL FWHM ####################
 k=np.arange(10,len(y4))
 espectro4=np.zeros(len(y4))
 for c in k:
-    miu6=float(c)
-    sigma6= 0.425 * FWHM_Ge(miu6)
-    nue_cuen6 = int(y4[c])
-    if nue_cuen6>0:
+    miu4=float(c)
+    sigma4= 0.425 * FWHM_Ge(miu4)
+    nue_cuen4 = int(y4[c])
+    if nue_cuen4>0:
 
-        s=norm.rvs(loc=miu6,scale=sigma6, size= nue_cuen6,random_state=12345)
+        s=norm.rvs(loc=miu4,scale=sigma4, size= nue_cuen4,random_state=12345)
         smin=int(round(s.min()))-1
         smax=int(round(s.max()))+1
         binx=np.arange(smin, smax)
@@ -220,7 +210,7 @@ for c in k:
 
 
 
-################# 5 cm #######################
+################# 1.0 cm #######################
 
 
 ############### SE APLICA EL FWHM ####################
@@ -248,19 +238,19 @@ for c in k:
 
 
 
-################# 4 cm #######################
+################# 1.2 cm #######################
 
 
 ############### SE APLICA EL FWHM ####################
 k=np.arange(10,len(y6))
 espectro6=np.zeros(len(y6))
 for c in k:
-    miu4=float(c)
-    sigma4= 0.425 * FWHM_Ge(miu4)
-    nue_cuen4 = int(y6[c])
-    if nue_cuen4>0:
+    miu6=float(c)
+    sigma6= 0.425 * FWHM_Ge(miu6)
+    nue_cuen6 = int(y6[c])
+    if nue_cuen6>0:
         
-        s=norm.rvs(loc=miu4,scale=sigma4, size= nue_cuen4,random_state=12345)
+        s=norm.rvs(loc=miu6,scale=sigma6, size= nue_cuen6,random_state=12345)
         smin=int(round(s.min()))-1
         smax=int(round(s.max()))+1
         binx=np.arange(smin, smax)
@@ -275,19 +265,19 @@ for c in k:
 
 
 
-################# 3 cm #######################
+################# 1.4 cm #######################
 
 
 ############### SE APLICA EL FWHM ####################
 k=np.arange(10,len(y7))
 espectro7=np.zeros(len(y7))
 for c in k:
-    miu3=float(c)
-    sigma3= 0.425 * FWHM_Ge(miu3)
-    nue_cuen3 = int(y7[c])
-    if nue_cuen3>0:
+    miu7=float(c)
+    sigma7= 0.425 * FWHM_Ge(miu7)
+    nue_cuen7 = int(y7[c])
+    if nue_cuen7>0:
         
-        s=norm.rvs(loc=miu3,scale=sigma3, size= nue_cuen3,random_state=12345)
+        s=norm.rvs(loc=miu7,scale=sigma7, size= nue_cuen7,random_state=12345)
         smin=int(round(s.min()))-1
         smax=int(round(s.max()))+1
         binx=np.arange(smin, smax)
@@ -302,19 +292,19 @@ for c in k:
 
 
 
-################# 2 cm #######################
+################# 1.6 cm #######################
 
 
 ############### SE APLICA EL FWHM ####################
 k=np.arange(10,len(y8))
 espectro8=np.zeros(len(y8))
 for c in k:
-    miu2=float(c)
-    sigma2= 0.425 * FWHM_Ge(miu2)
-    nue_cuen2 = int(y8[c])
-    if nue_cuen2>0:
+    miu8=float(c)
+    sigma8= 0.425 * FWHM_Ge(miu8)
+    nue_cuen8 = int(y8[c])
+    if nue_cuen8>0:
 
-        s=norm.rvs(loc=miu2,scale=sigma2, size= nue_cuen2,random_state=12345)
+        s=norm.rvs(loc=miu8,scale=sigma8, size= nue_cuen8,random_state=12345)
         smin=int(round(s.min()))-1
         smax=int(round(s.max()))+1
         binx=np.arange(smin, smax)
@@ -329,18 +319,18 @@ for c in k:
 
 
 
-################# 1 cm #######################
+################# 1.8 cm #######################
 
 ############### SE APLICA EL FWHM ####################
 k=np.arange(10,len(y9))
 espectro9=np.zeros(len(y9))
 for c in k:
-    miu1=float(c)
-    sigma1= 0.425 * FWHM_Ge(miu1)
-    nue_cuen1 = int(y9[c])
-    if nue_cuen1>0:
+    miu9=float(c)
+    sigma9= 0.425 * FWHM_Ge(miu9)
+    nue_cuen9 = int(y9[c])
+    if nue_cuen9>0:
 
-        s=norm.rvs(loc=miu1,scale=sigma1, size= nue_cuen1,random_state=12345)
+        s=norm.rvs(loc=miu9,scale=sigma9, size= nue_cuen9,random_state=12345)
         smin=int(round(s.min()))-1
         smax=int(round(s.max()))+1
         binx=np.arange(smin, smax)
@@ -354,18 +344,18 @@ for c in k:
 
 
 
-################# 0.0 cm #######################
+################# 2.0 cm #######################
 
 ############### SE APLICA EL FWHM ####################
 k=np.arange(10,len(y10))
 espectro10=np.zeros(len(y10))
 for c in k:
-    miu0=float(c)
-    sigma0= 0.425 * FWHM_Ge(miu0)
-    nue_cuen0 = int(y10[c])
-    if nue_cuen0>0:
+    miu10=float(c)
+    sigma10= 0.425 * FWHM_Ge(miu10)
+    nue_cuen10 = int(y10[c])
+    if nue_cuen10>0:
         
-        s=norm.rvs(loc=miu0,scale=sigma0, size= nue_cuen0,random_state=12345)
+        s=norm.rvs(loc=miu10,scale=sigma10, size= nue_cuen10,random_state=12345)
         smin=int(round(s.min()))-1
         smax=int(round(s.max()))+1
         binx=np.arange(smin, smax)
@@ -378,9 +368,9 @@ for c in k:
 
 
 
-#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#:::::::::::::::::::::: Graficas :::::::::::::::::::::::::::::
-#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#:::::::::::::::::::::: Graficas despues de aplicar el filtro ::::::::::::::
+#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ax.plot(x1,espectro1,drawstyle='steps-mid',label='0.2 cm')
 ax.plot(x2,espectro2,drawstyle='steps-mid',label='0.4 cm')
@@ -393,21 +383,164 @@ ax.plot(x8,espectro8,drawstyle='steps-mid',label='1.6 cm')
 ax.plot(x9,espectro9,drawstyle='steps-mid',label='1.8 cm')
 ax.plot(x10,espectro10,drawstyle='steps-mid',label='2.0 cm')
 
-"""
-ax.plot(x1,y1,drawstyle='steps-mid',label='0.2 cm')
-ax.plot(x2,y2,drawstyle='steps-mid',label='0.4 cm')
-ax.plot(x3,y3,drawstyle='steps-mid',label='0.6 cm')
-ax.plot(x4,y4,drawstyle='steps-mid',label='0.8 cm')
-ax.plot(x5,y5,drawstyle='steps-mid',label='1.0 cm')
-ax.plot(x6,y6,drawstyle='steps-mid',label='1.2 cm')
-ax.plot(x7,y7,drawstyle='steps-mid',label='1.4 cm')
-ax.plot(x8,y8,drawstyle='steps-mid',label='1.6 cm')
-ax.plot(x9,y9,drawstyle='steps-mid',label='1.8 cm')
-ax.plot(x10,y10,drawstyle='steps-mid',label='2.0 cm')
-"""
+
+####################################################################
+################ AJUSTES A LOS FOTOPICOS ###########################
+####################################################################
+
+max1=int(max(espectro1[170:330]))
+
+
+for i in range(170,330):
+    if espectro1[i]==max1:
+        mu1=x1[i]
+
+sig1= 0.425 * FWHM_Ge(mu1)
+
+cuentas1=espectro1[170:330]
+eje1=x1[170:330]
+
+a0=1
+a1=1
+def gaussi1(t,max1,mu1,sig1,a1,a0):
+	return max1*(np.exp(-((mu1-t)**2)/((math.sqrt(2)*sig1)**2)))+((a1*t)+a0)
+
+popt_gaussi1, pcov=curve_fit(gaussi1, eje1, cuentas1, p0=[max1,mu1,sig1,a1,a0])
+
+errores1= np.sqrt(np.diag(pcov))
+
+print('errores1',errores1)
+
+max1=popt_gaussi1[0]
+mu1=popt_gaussi1[1]
+sig1=popt_gaussi1[2]
+a1=popt_gaussi1[3]
+a0=popt_gaussi1[4]
+
+print (max1,mu1,sig1,a1,a0)
+
+ax.plot(x1,gaussi1(x1,max1,mu1,sig1,a1,a0),drawstyle='steps-mid',label='0.2 cm',color='purple')
+######################################################################
+######################################################################
+
+max2=int(max(espectro2[170:330]))
+
+
+for i in range(170,330):
+    if espectro2[i]==max2:
+        mu2=x2[i]
 
 
 
+######################################################################
+######################################################################
+
+max3=int(max(espectro3[170:330]))
+
+
+for i in range(170,330):
+    if espectro3[i]==max3:
+        mu3=x3[i]
+
+print ("el maximo es",max3)
+print ("el valor de mu es",mu3)
+
+########################################################################
+########################################################################
+
+max4=int(max(espectro4[170:330]))
+
+
+for i in range(170,330):
+    if espectro4[i]==max4:
+        mu4=x4[i]
+
+print ("el maximo es",max4)
+print ("el valor de mu es",mu4)
+
+######################################################################
+######################################################################
+
+max5=int(max(espectro5[170:330]))
+
+
+for i in range(170,330):
+    if espectro5[i]==max5:
+        mu5=x5[i]
+
+print ("el maximo es",max5)
+print ("el valor de mu es",mu5)
+
+######################################################################
+######################################################################
+
+max6=int(max(espectro6[170:330]))
+
+
+for i in range(170,330):
+    if espectro6[i]==max6:
+        mu6=x6[i]
+
+print ("el maximo es",max6)
+print ("el valor de mu es",mu3)
+
+######################################################################
+######################################################################
+
+max7=int(max(espectro7[170:330]))
+
+
+for i in range(170,330):
+    if espectro7[i]==max7:
+        mu7=x7[i]
+
+print ("el maximo es",max7)
+print ("el valor de mu es",mu7)
+
+######################################################################
+######################################################################
+
+max8=int(max(espectro8[170:330]))
+
+
+for i in range(170,330):
+    if espectro8[i]==max8:
+        mu8=x8[i]
+
+print ("el maximo es",max8)
+print ("el valor de mu es",mu8)
+
+######################################################################
+######################################################################
+
+max9=int(max(espectro9[170:330]))
+
+
+for i in range(170,330):
+    if espectro9[i]==max9:
+        mu9=x9[i]
+
+print ("el maximo es",max9)
+print ("el valor de mu es",mu9)
+
+
+######################################################################
+######################################################################
+
+max10=int(max(espectro10[170:330]))
+
+
+for i in range(170,330):
+    if espectro10[i]==max10:
+        mu10=x10[i]
+
+print ("el maximo es",max10)
+print ("el valor de mu es",mu10)
+
+
+
+####################################################################
+####################################################################
 
 ax.set_xlabel(r'$E_\gamma$ (keV)')
 #ax.xaxis.set_minor_locator(AutoMinorLocator(5))
