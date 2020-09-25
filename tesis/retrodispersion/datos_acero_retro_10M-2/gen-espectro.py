@@ -368,22 +368,6 @@ for c in k:
 
 
 
-#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#:::::::::::::::::::::: Graficas despues de aplicar el filtro ::::::::::::::
-#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-ax.plot(x1,espectro1,drawstyle='steps-mid',label='0.2 cm')
-ax.plot(x2,espectro2,drawstyle='steps-mid',label='0.4 cm')
-ax.plot(x3,espectro3,drawstyle='steps-mid',label='0.6 cm')
-ax.plot(x4,espectro4,drawstyle='steps-mid',label='0.8 cm')
-ax.plot(x5,espectro5,drawstyle='steps-mid',label='1.0 cm')
-ax.plot(x6,espectro6,drawstyle='steps-mid',label='1.2 cm')
-ax.plot(x7,espectro7,drawstyle='steps-mid',label='1.4 cm')
-ax.plot(x8,espectro8,drawstyle='steps-mid',label='1.6 cm')
-ax.plot(x9,espectro9,drawstyle='steps-mid',label='1.8 cm')
-ax.plot(x10,espectro10,drawstyle='steps-mid',label='2.0 cm')
-
-
 ####################################################################
 ################ AJUSTES A LOS FOTOPICOS ###########################
 ####################################################################
@@ -419,7 +403,7 @@ a0=popt_gaussi1[4]
 
 print (max1,mu1,sig1,a1,a0)
 
-ax.plot(x1,gaussi1(x1,max1,mu1,sig1,a1,a0),drawstyle='steps-mid',label='0.2 cm',color='purple')
+
 ######################################################################
 ######################################################################
 
@@ -429,6 +413,30 @@ max2=int(max(espectro2[170:330]))
 for i in range(170,330):
     if espectro2[i]==max2:
         mu2=x2[i]
+
+sig2= 0.425 * FWHM_Ge(mu2)
+
+cuentas2=espectro2[170:330]
+eje2=x2[170:330]
+
+a0_2=1
+a1_2=1
+def gaussi2(t,max2,mu2,sig2,a1_2,a0_2):
+	return max2*(np.exp(-((mu2-t)**2)/((math.sqrt(2)*sig2)**2)))+((a1_2*t)+a0_2)
+
+popt_gaussi2, pcov2=curve_fit(gaussi2, eje2, cuentas2, p0=[max2,mu2,sig2,a1_2,a0_2])
+
+errores2= np.sqrt(np.diag(pcov2))
+
+print('errores2',errores2)
+
+max2=popt_gaussi2[0]
+mu2=popt_gaussi2[1]
+sig2=popt_gaussi2[2]
+a1_2=popt_gaussi2[3]
+a0_2=popt_gaussi2[4]
+
+print (max2,mu2,sig2,a1_2,a0_2)
 
 
 
@@ -442,8 +450,31 @@ for i in range(170,330):
     if espectro3[i]==max3:
         mu3=x3[i]
 
-print ("el maximo es",max3)
-print ("el valor de mu es",mu3)
+sig3= 0.425 * FWHM_Ge(mu3)
+
+cuentas3=espectro3[170:330]
+eje3=x3[170:330]
+
+a0_3=1
+a1_3=1
+def gaussi3(t,max3,mu3,sig3,a1_3,a0_3):
+	return max3*(np.exp(-((mu3-t)**2)/((math.sqrt(2)*sig3)**2)))+((a1_3*t)+a0_3)
+
+popt_gaussi3, pcov3=curve_fit(gaussi3, eje3, cuentas3, p0=[max3,mu3,sig3,a1_3,a0_3])
+
+errores3= np.sqrt(np.diag(pcov3))
+
+print('errores3',errores3)
+
+max3=popt_gaussi3[0]
+mu3=popt_gaussi3[1]
+sig3=popt_gaussi3[2]
+a1_3=popt_gaussi3[3]
+a0_3=popt_gaussi3[4]
+
+print (max3,mu3,sig3,a1_3,a0_3)
+
+
 
 ########################################################################
 ########################################################################
@@ -455,8 +486,32 @@ for i in range(170,330):
     if espectro4[i]==max4:
         mu4=x4[i]
 
-print ("el maximo es",max4)
-print ("el valor de mu es",mu4)
+sig4= 0.425 * FWHM_Ge(mu4)
+
+cuentas4=espectro4[170:330]
+eje4=x4[170:330]
+
+a0_4=1
+a1_4=1
+def gaussi4(t,max4,mu4,sig4,a1_4,a0_4):
+	return max4*(np.exp(-((mu4-t)**2)/((math.sqrt(2)*sig4)**2)))+((a1_4*t)+a0_4)
+
+popt_gaussi4, pcov4=curve_fit(gaussi4, eje4, cuentas4, p0=[max4,mu4,sig4,a1_4,a0_4])
+
+errores4= np.sqrt(np.diag(pcov4))
+
+print('errores4',errores4)
+
+max4=popt_gaussi4[0]
+mu4=popt_gaussi4[1]
+sig4=popt_gaussi4[2]
+a1_4=popt_gaussi4[3]
+a0_4=popt_gaussi4[4]
+
+print (max4,mu4,sig4,a1_4,a0_4)
+
+
+        
 
 ######################################################################
 ######################################################################
@@ -468,8 +523,32 @@ for i in range(170,330):
     if espectro5[i]==max5:
         mu5=x5[i]
 
-print ("el maximo es",max5)
-print ("el valor de mu es",mu5)
+
+sig5= 0.425 * FWHM_Ge(mu5)
+
+cuentas5=espectro5[170:330]
+eje5=x5[170:330]
+
+a0_5=1
+a1_5=1
+def gaussi5(t,max5,mu5,sig5,a1_5,a0_5):
+	return max5*(np.exp(-((mu5-t)**2)/((math.sqrt(2)*sig5)**2)))+((a1_5*t)+a0_5)
+
+popt_gaussi5, pcov5=curve_fit(gaussi5, eje5, cuentas5, p0=[max5,mu5,sig5,a1_5,a0_5])
+
+errores5= np.sqrt(np.diag(pcov5))
+
+print('errores5',errores5)
+
+max5=popt_gaussi5[0]
+mu5=popt_gaussi5[1]
+sig5=popt_gaussi5[2]
+a1_5=popt_gaussi5[3]
+a0_5=popt_gaussi5[4]
+
+print (max5,mu5,sig5,a1_5,a0_5)
+
+
 
 ######################################################################
 ######################################################################
@@ -481,8 +560,31 @@ for i in range(170,330):
     if espectro6[i]==max6:
         mu6=x6[i]
 
-print ("el maximo es",max6)
-print ("el valor de mu es",mu3)
+sig6= 0.425 * FWHM_Ge(mu6)
+
+cuentas6=espectro6[170:330]
+eje6=x6[170:330]
+
+a0_6=1
+a1_6=1
+def gaussi6(t,max6,mu6,sig6,a1_6,a0_6):
+	return max6*(np.exp(-((mu6-t)**2)/((math.sqrt(2)*sig6)**2)))+((a1_6*t)+a0_6)
+
+popt_gaussi6, pcov6=curve_fit(gaussi6, eje6, cuentas6, p0=[max6,mu6,sig6,a1_6,a0_6])
+
+errores6= np.sqrt(np.diag(pcov6))
+
+print('errores6',errores6)
+
+max6=popt_gaussi6[0]
+mu6=popt_gaussi6[1]
+sig6=popt_gaussi6[2]
+a1_6=popt_gaussi6[3]
+a0_6=popt_gaussi6[4]
+
+print (max6,mu6,sig6,a1_6,a0_6)
+
+
 
 ######################################################################
 ######################################################################
@@ -494,8 +596,31 @@ for i in range(170,330):
     if espectro7[i]==max7:
         mu7=x7[i]
 
-print ("el maximo es",max7)
-print ("el valor de mu es",mu7)
+sig7= 0.425 * FWHM_Ge(mu7)
+
+cuentas7=espectro7[170:330]
+eje7=x7[170:330]
+
+a0_7=1
+a1_7=1
+def gaussi7(t,max7,mu7,sig7,a1_7,a0_7):
+	return max7*(np.exp(-((mu7-t)**2)/((math.sqrt(2)*sig7)**2)))+((a1_7*t)+a0_7)
+
+popt_gaussi7, pcov7=curve_fit(gaussi7, eje7, cuentas7, p0=[max7,mu7,sig7,a1_7,a0_7])
+
+errores7= np.sqrt(np.diag(pcov7))
+
+print('errores7',errores7)
+
+max7=popt_gaussi7[0]
+mu7=popt_gaussi7[1]
+sig7=popt_gaussi7[2]
+a1_7=popt_gaussi7[3]
+a0_7=popt_gaussi7[4]
+
+print (max7,mu7,sig7,a1_7,a0_7)
+
+
 
 ######################################################################
 ######################################################################
@@ -507,8 +632,31 @@ for i in range(170,330):
     if espectro8[i]==max8:
         mu8=x8[i]
 
-print ("el maximo es",max8)
-print ("el valor de mu es",mu8)
+sig8= 0.425 * FWHM_Ge(mu8)
+
+cuentas8=espectro8[170:330]
+eje8=x8[170:330]
+
+a0_8=1
+a1_8=1
+def gaussi8(t,max8,mu8,sig8,a1_8,a0_8):
+	return max8*(np.exp(-((mu8-t)**2)/((math.sqrt(2)*sig8)**2)))+((a1_8*t)+a0_8)
+
+popt_gaussi8, pcov8=curve_fit(gaussi8, eje8, cuentas8, p0=[max8,mu8,sig8,a1_8,a0_8])
+
+errores8= np.sqrt(np.diag(pcov8))
+
+print('errores8',errores8)
+
+max8=popt_gaussi8[0]
+mu8=popt_gaussi8[1]
+sig8=popt_gaussi8[2]
+a1_8=popt_gaussi8[3]
+a0_8=popt_gaussi8[4]
+
+print (max8,mu8,sig8,a1_8,a0_8)
+
+
 
 ######################################################################
 ######################################################################
@@ -520,8 +668,32 @@ for i in range(170,330):
     if espectro9[i]==max9:
         mu9=x9[i]
 
-print ("el maximo es",max9)
-print ("el valor de mu es",mu9)
+sig9= 0.425 * FWHM_Ge(mu9)
+
+cuentas9=espectro9[170:330]
+eje9=x9[170:330]
+
+a0_9=1
+a1_9=1
+def gaussi9(t,max9,mu9,sig9,a1_9,a0_9):
+	return max9*(np.exp(-((mu9-t)**2)/((math.sqrt(2)*sig9)**2)))+((a1_9*t)+a0_9)
+
+popt_gaussi9, pcov9=curve_fit(gaussi9, eje9, cuentas9, p0=[max9,mu9,sig9,a1_9,a0_9])
+
+errores9= np.sqrt(np.diag(pcov9))
+
+print('errores9',errores9)
+
+max9=popt_gaussi9[0]
+mu9=popt_gaussi9[1]
+sig9=popt_gaussi9[2]
+a1_9=popt_gaussi9[3]
+a0_9=popt_gaussi9[4]
+
+print (max9,mu9,sig9,a1_9,a0_9)
+
+
+
 
 
 ######################################################################
@@ -534,14 +706,75 @@ for i in range(170,330):
     if espectro10[i]==max10:
         mu10=x10[i]
 
-print ("el maximo es",max10)
-print ("el valor de mu es",mu10)
+sig10= 0.425 * FWHM_Ge(mu10)
 
+cuentas10=espectro10[170:330]
+eje10=x10[170:330]
+
+a0_10=1
+a1_10=1
+def gaussi10(t,max10,mu10,sig10,a1_10,a0_10):
+	return max10*(np.exp(-((mu10-t)**2)/((math.sqrt(2)*sig10)**2)))+((a1_10*t)+a0_10)
+
+popt_gaussi10, pcov10=curve_fit(gaussi10, eje10, cuentas10, p0=[max10,mu10,sig10,a1_10,a0_10])
+
+errores10= np.sqrt(np.diag(pcov10))
+
+print('errores10',errores10)
+
+max10=popt_gaussi10[0]
+mu10=popt_gaussi10[1]
+sig10=popt_gaussi10[2]
+a1_10=popt_gaussi10[3]
+a0_10=popt_gaussi10[4]
+
+print (max10,mu10,sig10,a1_10,a0_10)
 
 
 ####################################################################
 ####################################################################
 
+
+
+
+#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#:::::::::::::::::::::: Graficas despues de aplicar el filtro ::::::::::::::
+#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ax.plot(x1,espectro1,drawstyle='steps-mid',label='0.2 cm')
+ax.plot(x2,espectro2,drawstyle='steps-mid',label='0.4 cm')
+ax.plot(x3,espectro3,drawstyle='steps-mid',label='0.6 cm')
+ax.plot(x4,espectro4,drawstyle='steps-mid',label='0.8 cm')
+ax.plot(x5,espectro5,drawstyle='steps-mid',label='1.0 cm')
+ax.plot(x6,espectro6,drawstyle='steps-mid',label='1.2 cm')
+ax.plot(x7,espectro7,drawstyle='steps-mid',label='1.4 cm')
+ax.plot(x8,espectro8,drawstyle='steps-mid',label='1.6 cm')
+ax.plot(x9,espectro9,drawstyle='steps-mid',label='1.8 cm')
+ax.plot(x10,espectro10,drawstyle='steps-mid',label='2.0 cm')
+
+
+#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#:::::::::::::::::::::: Graficas de los ajustes gaussianos :::::::::::::::::::::
+#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+ax.plot(x1,gaussi1(x1,max1,mu1,sig1,a1,a0),drawstyle='steps-mid',label='0.2 cm',color='purple')
+ax.plot(x2,gaussi1(x2,max2,mu2,sig2,a1_2,a0_2),drawstyle='steps-mid',label='0.2 cm',color='purple')
+ax.plot(x3,gaussi1(x3,max3,mu3,sig3,a1_3,a0_3),drawstyle='steps-mid',label='0.2 cm',color='purple')
+ax.plot(x4,gaussi1(x4,max4,mu4,sig4,a1_4,a0_4),drawstyle='steps-mid',label='0.2 cm',color='purple')
+ax.plot(x5,gaussi5(x5,max5,mu5,sig5,a1_5,a0_5),drawstyle='steps-mid',label='0.2 cm',color='purple')
+ax.plot(x6,gaussi6(x6,max6,mu6,sig6,a1_6,a0_6),drawstyle='steps-mid',label='0.2 cm',color='purple')
+ax.plot(x7,gaussi7(x7,max7,mu7,sig7,a1_7,a0_7),drawstyle='steps-mid',label='0.2 cm',color='purple')
+ax.plot(x8,gaussi1(x8,max8,mu8,sig8,a1_8,a0_8),drawstyle='steps-mid',label='0.2 cm',color='purple')
+ax.plot(x9,gaussi9(x9,max9,mu9,sig9,a1_9,a0_9),drawstyle='steps-mid',label='0.2 cm',color='purple')
+ax.plot(x10,gaussi10(x10,max10,mu10,sig10,a1_10,a0_10),drawstyle='steps-mid',label='0.2 cm',color='purple')
+
+#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ax.set_xlabel(r'$E_\gamma$ (keV)')
 #ax.xaxis.set_minor_locator(AutoMinorLocator(5))
 ax.set_ylabel('cuentas/keV')
