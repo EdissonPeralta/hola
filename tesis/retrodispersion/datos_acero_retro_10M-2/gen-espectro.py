@@ -393,7 +393,6 @@ popt_gaussi1, pcov=curve_fit(gaussi1, eje1, cuentas1, p0=[max1,mu1,sig1,a1,a0])
 
 errores1= np.sqrt(np.diag(pcov))
 
-print('errores1',errores1)
 
 max1=popt_gaussi1[0]
 mu1=popt_gaussi1[1]
@@ -401,9 +400,21 @@ sig1=popt_gaussi1[2]
 a1=popt_gaussi1[3]
 a0=popt_gaussi1[4]
 
-print (max1,mu1,sig1,a1,a0)
+
+print('nuevas cuentas 1')
+cuentas1=math.sqrt(2*math.pi)*max1*sig1
+print(cuentas1)
 
 
+errores_max1=errores1[0]
+errores_sig1=errores1[2]
+
+incer1=cuentas1*math.sqrt((errores_max1/max1)**2+(errores_sig1/sig1)**2)
+
+print('incertidumbre en las cuentas!!!')
+print(incer1)
+
+print ("------------------------------------")
 ######################################################################
 ######################################################################
 
@@ -428,7 +439,6 @@ popt_gaussi2, pcov2=curve_fit(gaussi2, eje2, cuentas2, p0=[max2,mu2,sig2,a1_2,a0
 
 errores2= np.sqrt(np.diag(pcov2))
 
-print('errores2',errores2)
 
 max2=popt_gaussi2[0]
 mu2=popt_gaussi2[1]
@@ -436,7 +446,20 @@ sig2=popt_gaussi2[2]
 a1_2=popt_gaussi2[3]
 a0_2=popt_gaussi2[4]
 
-print (max2,mu2,sig2,a1_2,a0_2)
+print('nuevas cuentas 2')
+cuentas2=math.sqrt(2*math.pi)*max2*sig2
+print(cuentas2)
+
+
+errores_max2=errores2[0]
+errores_sig2=errores2[2]
+
+incer2=cuentas2*math.sqrt((errores_max2/max2)**2+(errores_sig2/sig2)**2)
+
+print('incertidumbre en las cuentas!!!')
+print(incer2)
+
+print ("------------------------------------")
 
 
 
@@ -464,7 +487,6 @@ popt_gaussi3, pcov3=curve_fit(gaussi3, eje3, cuentas3, p0=[max3,mu3,sig3,a1_3,a0
 
 errores3= np.sqrt(np.diag(pcov3))
 
-print('errores3',errores3)
 
 max3=popt_gaussi3[0]
 mu3=popt_gaussi3[1]
@@ -472,7 +494,20 @@ sig3=popt_gaussi3[2]
 a1_3=popt_gaussi3[3]
 a0_3=popt_gaussi3[4]
 
-print (max3,mu3,sig3,a1_3,a0_3)
+print('nuevas cuentas 3')
+cuentas3=math.sqrt(2*math.pi)*max3*sig3
+print(cuentas3)
+
+
+errores_max3=errores3[0]
+errores_sig3=errores3[2]
+
+incer3=cuentas3*math.sqrt((errores_max3/max3)**2+(errores_sig3/sig3)**2)
+
+print('incertidumbre en las cuentas!!!')
+print(incer3)
+
+print ("------------------------------------")
 
 
 
@@ -500,7 +535,7 @@ popt_gaussi4, pcov4=curve_fit(gaussi4, eje4, cuentas4, p0=[max4,mu4,sig4,a1_4,a0
 
 errores4= np.sqrt(np.diag(pcov4))
 
-print('errores4',errores4)
+
 
 max4=popt_gaussi4[0]
 mu4=popt_gaussi4[1]
@@ -508,8 +543,20 @@ sig4=popt_gaussi4[2]
 a1_4=popt_gaussi4[3]
 a0_4=popt_gaussi4[4]
 
-print (max4,mu4,sig4,a1_4,a0_4)
+print('nuevas cuentas 4')
+cuentas4=math.sqrt(2*math.pi)*max4*sig4
+print(cuentas4)
 
+
+errores_max4=errores4[0]
+errores_sig4=errores4[2]
+
+incer4=cuentas4*math.sqrt((errores_max4/max4)**2+(errores_sig4/sig4)**2)
+
+print('incertidumbre en las cuentas!!!')
+print(incer4)
+
+print ("------------------------------------")
 
         
 
@@ -538,7 +585,7 @@ popt_gaussi5, pcov5=curve_fit(gaussi5, eje5, cuentas5, p0=[max5,mu5,sig5,a1_5,a0
 
 errores5= np.sqrt(np.diag(pcov5))
 
-print('errores5',errores5)
+
 
 max5=popt_gaussi5[0]
 mu5=popt_gaussi5[1]
@@ -546,7 +593,20 @@ sig5=popt_gaussi5[2]
 a1_5=popt_gaussi5[3]
 a0_5=popt_gaussi5[4]
 
-print (max5,mu5,sig5,a1_5,a0_5)
+print('nuevas cuentas 5')
+cuentas5=math.sqrt(2*math.pi)*max5*sig5
+print(cuentas5)
+
+
+errores_max5=errores5[0]
+errores_sig5=errores5[2]
+
+incer5=cuentas5*math.sqrt((errores_max5/max5)**2+(errores_sig5/sig5)**2)
+
+print('incertidumbre en las cuentas!!!')
+print(incer5)
+
+print ("------------------------------------")
 
 
 
@@ -574,7 +634,6 @@ popt_gaussi6, pcov6=curve_fit(gaussi6, eje6, cuentas6, p0=[max6,mu6,sig6,a1_6,a0
 
 errores6= np.sqrt(np.diag(pcov6))
 
-print('errores6',errores6)
 
 max6=popt_gaussi6[0]
 mu6=popt_gaussi6[1]
@@ -582,8 +641,21 @@ sig6=popt_gaussi6[2]
 a1_6=popt_gaussi6[3]
 a0_6=popt_gaussi6[4]
 
-print (max6,mu6,sig6,a1_6,a0_6)
 
+print('nuevas cuentas 6')
+cuentas6=math.sqrt(2*math.pi)*max6*sig6
+print(cuentas6)
+
+
+errores_max6=errores6[0]
+errores_sig6=errores6[2]
+
+incer6=cuentas6*math.sqrt((errores_max6/max6)**2+(errores_sig6/sig6)**2)
+
+print('incertidumbre en las cuentas!!!')
+print(incer6)
+
+print ("------------------------------------")
 
 
 ######################################################################
@@ -610,7 +682,6 @@ popt_gaussi7, pcov7=curve_fit(gaussi7, eje7, cuentas7, p0=[max7,mu7,sig7,a1_7,a0
 
 errores7= np.sqrt(np.diag(pcov7))
 
-print('errores7',errores7)
 
 max7=popt_gaussi7[0]
 mu7=popt_gaussi7[1]
@@ -618,8 +689,21 @@ sig7=popt_gaussi7[2]
 a1_7=popt_gaussi7[3]
 a0_7=popt_gaussi7[4]
 
-print (max7,mu7,sig7,a1_7,a0_7)
 
+print('nuevas cuentas 7')
+cuentas7=math.sqrt(2*math.pi)*max7*sig7
+print(cuentas7)
+
+
+errores_max7=errores7[0]
+errores_sig7=errores7[2]
+
+incer7=cuentas7*math.sqrt((errores_max7/max7)**2+(errores_sig7/sig7)**2)
+
+print('incertidumbre en las cuentas!!!')
+print(incer7)
+
+print ("------------------------------------")
 
 
 ######################################################################
@@ -646,7 +730,6 @@ popt_gaussi8, pcov8=curve_fit(gaussi8, eje8, cuentas8, p0=[max8,mu8,sig8,a1_8,a0
 
 errores8= np.sqrt(np.diag(pcov8))
 
-print('errores8',errores8)
 
 max8=popt_gaussi8[0]
 mu8=popt_gaussi8[1]
@@ -654,8 +737,21 @@ sig8=popt_gaussi8[2]
 a1_8=popt_gaussi8[3]
 a0_8=popt_gaussi8[4]
 
-print (max8,mu8,sig8,a1_8,a0_8)
 
+print('nuevas cuentas 8')
+cuentas8=math.sqrt(2*math.pi)*max8*sig8
+print(cuentas8)
+
+
+errores_max8=errores8[0]
+errores_sig8=errores8[2]
+
+incer8=cuentas8*math.sqrt((errores_max8/max8)**2+(errores_sig8/sig8)**2)
+
+print('incertidumbre en las cuentas!!!')
+print(incer8)
+
+print ("------------------------------------")
 
 
 ######################################################################
@@ -682,7 +778,7 @@ popt_gaussi9, pcov9=curve_fit(gaussi9, eje9, cuentas9, p0=[max9,mu9,sig9,a1_9,a0
 
 errores9= np.sqrt(np.diag(pcov9))
 
-print('errores9',errores9)
+
 
 max9=popt_gaussi9[0]
 mu9=popt_gaussi9[1]
@@ -690,8 +786,20 @@ sig9=popt_gaussi9[2]
 a1_9=popt_gaussi9[3]
 a0_9=popt_gaussi9[4]
 
-print (max9,mu9,sig9,a1_9,a0_9)
+print('nuevas cuentas 9')
+cuentas9=math.sqrt(2*math.pi)*max9*sig9
+print(cuentas9)
 
+
+errores_max9=errores9[0]
+errores_sig9=errores9[2]
+
+incer9=cuentas9*math.sqrt((errores_max9/max9)**2+(errores_sig9/sig9)**2)
+
+print('incertidumbre en las cuentas!!!')
+print(incer9)
+
+print ("------------------------------------")
 
 
 
@@ -720,7 +828,6 @@ popt_gaussi10, pcov10=curve_fit(gaussi10, eje10, cuentas10, p0=[max10,mu10,sig10
 
 errores10= np.sqrt(np.diag(pcov10))
 
-print('errores10',errores10)
 
 max10=popt_gaussi10[0]
 mu10=popt_gaussi10[1]
@@ -728,7 +835,21 @@ sig10=popt_gaussi10[2]
 a1_10=popt_gaussi10[3]
 a0_10=popt_gaussi10[4]
 
-print (max10,mu10,sig10,a1_10,a0_10)
+print('nuevas cuentas 10')
+cuentas10=math.sqrt(2*math.pi)*max10*sig10
+print(cuentas10)
+
+
+errores_max10=errores10[0]
+errores_sig10=errores10[2]
+
+incer10=cuentas10*math.sqrt((errores_max10/max10)**2+(errores_sig10/sig10)**2)
+
+print('incertidumbre en las cuentas!!!')
+print(incer10)
+
+print ("------------------------------------")
+
 
 
 ####################################################################
@@ -737,9 +858,9 @@ print (max10,mu10,sig10,a1_10,a0_10)
 
 
 
-#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#:::::::::::::::::::::: Graficas despues de aplicar el filtro ::::::::::::::
-#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#:::::::::::::::::::::: Graficas despues de aplicar el filtro Gaussiano ::::::::::::::
+#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ax.plot(x1,espectro1,drawstyle='steps-mid',label='0.2 cm')
 ax.plot(x2,espectro2,drawstyle='steps-mid',label='0.4 cm')
@@ -759,8 +880,10 @@ ax.plot(x10,espectro10,drawstyle='steps-mid',label='2.0 cm')
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 #:::::::::::::::::::::: Graficas de los ajustes gaussianos :::::::::::::::::::::
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-
+"""
 ax.plot(x1,gaussi1(x1,max1,mu1,sig1,a1,a0),drawstyle='steps-mid',label='0.2 cm',color='purple')
 ax.plot(x2,gaussi1(x2,max2,mu2,sig2,a1_2,a0_2),drawstyle='steps-mid',label='0.2 cm',color='purple')
 ax.plot(x3,gaussi1(x3,max3,mu3,sig3,a1_3,a0_3),drawstyle='steps-mid',label='0.2 cm',color='purple')
@@ -771,10 +894,12 @@ ax.plot(x7,gaussi7(x7,max7,mu7,sig7,a1_7,a0_7),drawstyle='steps-mid',label='0.2 
 ax.plot(x8,gaussi1(x8,max8,mu8,sig8,a1_8,a0_8),drawstyle='steps-mid',label='0.2 cm',color='purple')
 ax.plot(x9,gaussi9(x9,max9,mu9,sig9,a1_9,a0_9),drawstyle='steps-mid',label='0.2 cm',color='purple')
 ax.plot(x10,gaussi10(x10,max10,mu10,sig10,a1_10,a0_10),drawstyle='steps-mid',label='0.2 cm',color='purple')
+"""
 
-#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+############################################################################################################
+######################## EJES ##############################################################################
+############################################################################################################
+
 ax.set_xlabel(r'$E_\gamma$ (keV)')
 #ax.xaxis.set_minor_locator(AutoMinorLocator(5))
 ax.set_ylabel('cuentas/keV')
@@ -786,3 +911,55 @@ for legobj in leg.legendHandles: #tamaño de la leyenda
     legobj.set_linewidth(5.0) #tamaño de la leyenda
 plt.show()
 
+
+#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+#INTENSIDADES Y SUS ERRORES RESPECTIVOS
+
+intensidades=[cuentas1, cuentas2, cuentas3, cuentas4, cuentas5, cuentas6, cuentas7, cuentas8, cuentas9, cuentas10]
+int_max=max(intensidades)
+intensidades=intensidades/int_max
+errores_inten=[incer1,incer2,incer3, incer4, incer5, incer6, incer7, incer8,incer9, incer10]
+errores_inten=errores_inten/int_max
+
+#GROSORES
+grosor=[0.2, 0.4, 0.6, 0.8, 1.0, 1.2, 1.4, 1.6, 1.8, 2.0]
+
+
+#REGRESION
+
+
+
+mu_T=-1.6
+def intensidad(grosor,mu_T):
+    return (1-np.exp(mu_T*grosor))
+
+
+popt_retro,pcov_retro=curve_fit(intensidad, grosor, intensidades,p0=[mu_T], sigma=errores_inten)
+
+
+perror=np.sqrt(np.diag(pcov_retro))
+print ("error")
+print (perror)
+print ("-----------------")
+print ("mu_T")
+print (popt_retro)
+
+mu_T=popt_retro
+
+fig2, axs=plt.subplots(1,1,sharey=False)
+axs.errorbar(grosor,intensidades,yerr=errores_inten,xerr=None,fmt='.',color='purple', markersize=12,label='experimento')
+
+axs.set_xlabel(r'$Grosor$ (cm)')
+axs.set_ylabel('intensidad (cuentas)')
+
+axs.plot(grosor,intensidad(grosor,mu_T), label='ajuste',color='red')
+
+leg=axs.legend(loc="center right")
+for legobj in leg.legendHandles: #tamaño de la leyenda
+    legobj.set_linewidth(2.0) #tamaño de la leyenda
+plt.show()
+
+plt.show()
