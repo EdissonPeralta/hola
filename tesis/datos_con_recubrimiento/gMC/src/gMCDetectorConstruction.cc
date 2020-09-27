@@ -127,13 +127,13 @@ G4VPhysicalVolume* gMCDetectorConstruction::Construct()
   G4double GeContMaxRad1 = GeContMaxRad2 - GeContThick;
   G4double GeContHalfLength1 = GeHalfLength + GeAl_paraDistance;
   G4double GeContHalfLength2 = GeContHalfLength1 + GeContHalfThick;
-
+  /*
   auto motherSolid
     = new G4Tubs("motherSolid",tubeMinRad, GeContMaxRad2,GeContHalfLength2,MinPhi,MaxPhi);
 
   auto motherLogical
-    = new G4LogicalVolume(motherSolid,air,"motherLogical");
-    
+   = new G4LogicalVolume(motherSolid,air,"motherLogical");
+  */
   auto tubeSolid1
     = new G4Tubs("tube1",tubeMinRad,GeContMaxRad1,GeContHalfLength1,MinPhi,MaxPhi);
  auto tubeSolid2
@@ -144,60 +144,167 @@ G4VPhysicalVolume* gMCDetectorConstruction::Construct()
 			     tubeSolid2,
 			     tubeSolid1,
 			     0,
-			     G4ThreeVector(0.,0.,0.));
+			     G4ThreeVector(0.0,0.0,0.0));
 
   GeContainerLogical = new G4LogicalVolume(GeContainer,aluminum,"GeContainerLogical");
     
   auto GeSolid
     = new G4Tubs("Ge",tubeMinRad,GeMaxRad,GeHalfLength,MinPhi,MaxPhi);
-
-  fGeLogical = new G4LogicalVolume(GeSolid,germanium,"GeLogical");
+  /*
+    //NaI
+  sodiumIodide = new G4Material("sodiumIodide", density= 3.67*g/cm3, nElem=2);
+  sodiumIodide->AddElement(elNa,1);
+  sodiumIodide->AddElement(elI,1);
+  */
+  fGeLogical = new G4LogicalVolume(GeSolid,sodiumIodide,"GeLogical");//llenado del detector
   G4ThreeVector TGe;    
   G4Transform3D T3DGe;
   
-  TGe.setX(0.0*cm);  TGe.setY(0.*cm); TGe.setZ(0.*cm);
+  TGe.setX(0.0*cm);  TGe.setY(0.0*cm); TGe.setZ(6.0*cm);
+  R0= G4RotationMatrix();
+  //R0.rotateX(0*deg);
+  //R0.rotateY(-45*deg);
+  //R0.rotateZ(0*deg);
   T3DGe = G4Transform3D(R0,TGe);
     
   new G4PVPlacement(T3DGe,
   		    fGeLogical,
   		    "GePhysical",
-  		    motherLogical,
+  		    worldLogical,
   		    false,0,checkOverlaps);
   
   new G4PVPlacement(T3DGe,
   		    GeContainerLogical,
   		    "GeContainerPhysical",
-  		    motherLogical,
+  		    worldLogical,
   		    false,0,checkOverlaps);
-					
+  
   //  G4double z_Ge = -GeContHalfLength + GeHalfLength + 2*GeContHalfThick + GeAl_paraDistance;
   G4ThreeVector Tmother;
   G4Transform3D T3Dmother;
-  Tmother.setX(0.0*cm); Tmother.setY(0.0*cm);
+  Tmother.setX(-3.0*cm); Tmother.setY(0.0*cm);
   G4double z_shift = 5.0*cm;
-  G4double z_mother = GeHalfLength + 2*GeContHalfThick + GeAl_paraDistance + z_shift;
+  G4double z_mother = GeHalfLength + 2*GeContHalfThick + GeAl_paraDistance + z_shift - 3*cm;
   Tmother.setZ(z_mother);
+  R0= G4RotationMatrix();
+  R0.rotateY(0*deg);
+  R0.rotateX(0*deg);
+  R0.rotateZ(0*deg);
   T3Dmother = G4Transform3D(R0,Tmother);    
-
+  /*
   new G4PVPlacement(T3Dmother,
 		    motherLogical,
 		    "motherDet",
 		    worldLogical,
 		    false,0,checkOverlaps);
+  */
+  //········································
+  //·········Creation the Steel·············
+  //········································
+
+  
+  
+  //Elements
+  G4double a;
+  G4double z;
+  G4double density;
+  G4double fractionMass;
+  G4String name;
+  G4String symbol;
+  G4int nElem;
+  
+  a = 12.011*g/mole;
+  G4Element* elC = new G4Element(name="Carbon", symbol="C", z=6., a);
+  
+  a = 28.086*g/mole;
+  G4Element* elSi = new G4Element(name="Silicium", symbol="Si", z=14., a);
+  
+  a = 54.9385*g/mole;
+  G4Element* elMn = new G4Element(name="Manganese", symbol="Mn", z=25., a);
+  
+  a = 30.974*g/mole;
+  G4Element* elP = new G4Element(name="Phosphorus", symbol="P", z=15., a);
+  
+  a = 32.065*g/mole;
+  G4Element* elS = new G4Element(name="Sulfur", symbol="S", z=16., a);
+  
+  a = 51.996*g/mole;
+  G4Element* elCr = new G4Element(name="Chromium", symbol="Cr", z=24., a);
+  
+  a = 95.96*g/mole;
+  G4Element* elMo = new G4Element(name="Molydbenum", symbol="Mo", z=42., a);
+  
+  a = 58.693*g/mole;
+  G4Element* elNi = new G4Element(name="Nickel", symbol="Ni", z=28., a);
+  
+  a = 26.982*g/mole;
+  G4Element* elAl = new G4Element(name="Aliminium", symbol="Al", z=13., a);
+  
+  a = 58.933*g/mole;
+  G4Element* elCo = new G4Element(name="Cobalt", symbol="Co", z=27., a);
+  
+  a = 63.546*g/mole;
+  G4Element* elCu = new G4Element(name="Copper", symbol="Cu", z=29., a);
+  
+  a = 92.906*g/mole;
+  G4Element* elNb = new G4Element(name="Niobium", symbol="Nb", z=41., a);
+  
+  a = 47.867*g/mole;
+  G4Element* elTi = new G4Element(name="Titanium", symbol="Ti", z=22., a);
+  
+  a = 50.942*g/mole;
+  G4Element* elV = new G4Element(name="Vanadium", symbol="V", z=23., a);
+  
+  a = 183.84*g/mole;
+  G4Element* elW = new G4Element(name="Tungsten", symbol="W", z=74., a);
+  
+  a = 10.811*g/mole;
+  G4Element* elB = new G4Element(name="Boron", symbol="B", z=5., a);
+  
+  a = 14.007*g/mole;
+  G4Element* elN = new G4Element(name="Nitrogen", symbol="N", z=7., a);
+  
+  a = 55.845*g/mole;
+  G4Element* elFe = new G4Element(name="Iron", symbol="Fe", z=26., a);
+  
+  //·····································································
+  
+  //Mixture of the elements
+  G4Material* Steel = new G4Material("Steel", density = 8.156*g/cm3, nElem = 18);
+  Steel->AddElement(elC, fractionMass = 0.0516*perCent);
+  Steel->AddElement(elSi, fractionMass = 0.0564*perCent);
+  Steel->AddElement(elMn, fractionMass = 1.2*perCent);
+  Steel->AddElement(elP, fractionMass = 0.0918*perCent);
+  Steel->AddElement(elS, fractionMass = 0.00123*perCent);
+  Steel->AddElement(elCr, fractionMass = 18.32*perCent);
+  Steel->AddElement(elMo, fractionMass = 0.102*perCent);
+  Steel->AddElement(elNi, fractionMass = 8.47*perCent);
+  Steel->AddElement(elAl, fractionMass = 0.00411*perCent);
+  Steel->AddElement(elCo, fractionMass = 0.0805*perCent);
+  Steel->AddElement(elCu, fractionMass = 0.355*perCent);
+  Steel->AddElement(elNb, fractionMass = 0.00654*perCent);
+  Steel->AddElement(elTi, fractionMass = 0.00268*perCent);
+  Steel->AddElement(elV, fractionMass = 0.0665*perCent);
+  Steel->AddElement(elW, fractionMass = 0.0320*perCent);
+  Steel->AddElement(elB, fractionMass = 0.00146*perCent);
+  Steel->AddElement(elN, fractionMass = 0.0338*perCent);
+  Steel->AddElement(elFe, fractionMass = 70.6*perCent);
   
   // Placa
-  G4double placa_hx = 10.0*cm; // h = half
-  G4double placa_hy = 10.0*cm;
-  G4double placa_hz = 2.0*cm;
-
+  G4double placa_hx = 16.5825*cm; // h = half
+  G4double placa_hy = 10.085*cm;
+  G4double placa_hz = 1.0*cm; // the variation is 0.1
+  
   auto placaSolid
     = new G4Box("placa", placa_hx, placa_hy, placa_hz);
-
-  fPlacaLogical = new G4LogicalVolume(placaSolid,aluminum,"placaLogical");
+  
+  
+  
+  fPlacaLogical = new G4LogicalVolume(placaSolid, Steel,"placaLogical");
 
   G4ThreeVector Tplaca;    
   G4Transform3D T3Dplaca;
-  Tplaca.setX(0.0*cm);  Tplaca.setY(0.*cm);
+  Tplaca.setX(4.0*cm);  Tplaca.setY(0.*cm);
   G4double zPlaca = - placa_hz  ;
   Tplaca.setZ(zPlaca);
   T3Dplaca = G4Transform3D(R0,Tplaca);    

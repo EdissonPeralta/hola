@@ -954,8 +954,9 @@ axs.errorbar(grosor,intensidades,yerr=errores_inten,xerr=None,fmt='.',color='pur
 
 axs.set_xlabel(r'$Grosor$ (cm)')
 axs.set_ylabel('intensidad (cuentas)')
-
-axs.plot(grosor,intensidad(grosor,mu_T), label='ajuste',color='red')
+x=np.linspace(0.2,2,10000)
+axs.plot(x,intensidad(x,mu_T), label='ajuste',color='red')
+#axs.plot(grosor,intensidad(grosor,mu_T), label='ajuste',color='red')
 
 leg=axs.legend(loc="center right")
 for legobj in leg.legendHandles: #tamaño de la leyenda

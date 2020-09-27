@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/edisson/datos_con_recubrimiento/gMC
+CMAKE_SOURCE_DIR = /home/edisson/Documentos/hola/tesis/retrodispersion/gMC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/edisson/datos_con_recubrimiento/gMC/build
+CMAKE_BINARY_DIR = /home/edisson/Documentos/hola/tesis/retrodispersion/gMC/build
 
 # Utility rule file for gammaMaterialesConstruccion.
 
@@ -71,6 +71,6 @@ CMakeFiles/gammaMaterialesConstruccion.dir/clean:
 .PHONY : CMakeFiles/gammaMaterialesConstruccion.dir/clean
 
 CMakeFiles/gammaMaterialesConstruccion.dir/depend:
-	cd /home/edisson/datos_con_recubrimiento/gMC/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/edisson/datos_con_recubrimiento/gMC /home/edisson/datos_con_recubrimiento/gMC /home/edisson/datos_con_recubrimiento/gMC/build /home/edisson/datos_con_recubrimiento/gMC/build /home/edisson/datos_con_recubrimiento/gMC/build/CMakeFiles/gammaMaterialesConstruccion.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/edisson/Documentos/hola/tesis/retrodispersion/gMC/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/edisson/Documentos/hola/tesis/retrodispersion/gMC /home/edisson/Documentos/hola/tesis/retrodispersion/gMC /home/edisson/Documentos/hola/tesis/retrodispersion/gMC/build /home/edisson/Documentos/hola/tesis/retrodispersion/gMC/build /home/edisson/Documentos/hola/tesis/retrodispersion/gMC/build/CMakeFiles/gammaMaterialesConstruccion.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/gammaMaterialesConstruccion.dir/depend
 

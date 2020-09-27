@@ -1,8 +1,8 @@
-/home/edisson/datos_con_recubrimiento/gMC/build/CMakeFiles/install/strip.dir
-/home/edisson/datos_con_recubrimiento/gMC/build/CMakeFiles/install.dir
-/home/edisson/datos_con_recubrimiento/gMC/build/CMakeFiles/list_install_components.dir
-/home/edisson/datos_con_recubrimiento/gMC/build/CMakeFiles/rebuild_cache.dir
-/home/edisson/datos_con_recubrimiento/gMC/build/CMakeFiles/edit_cache.dir
-/home/edisson/datos_con_recubrimiento/gMC/build/CMakeFiles/install/local.dir
-/home/edisson/datos_con_recubrimiento/gMC/build/CMakeFiles/gammaMaterialesConstruccion.dir
-/home/edisson/datos_con_recubrimiento/gMC/build/CMakeFiles/gMC.dir
+/home/edisson/Documentos/hola/tesis/retrodispersion/gMC/build/CMakeFiles/install/strip.dir
+/home/edisson/Documentos/hola/tesis/retrodispersion/gMC/build/CMakeFiles/install.dir
+/home/edisson/Documentos/hola/tesis/retrodispersion/gMC/build/CMakeFiles/list_install_components.dir
+/home/edisson/Documentos/hola/tesis/retrodispersion/gMC/build/CMakeFiles/rebuild_cache.dir
+/home/edisson/Documentos/hola/tesis/retrodispersion/gMC/build/CMakeFiles/edit_cache.dir
+/home/edisson/Documentos/hola/tesis/retrodispersion/gMC/build/CMakeFiles/install/local.dir
+/home/edisson/Documentos/hola/tesis/retrodispersion/gMC/build/CMakeFiles/gammaMaterialesConstruccion.dir
+/home/edisson/Documentos/hola/tesis/retrodispersion/gMC/build/CMakeFiles/gMC.dir
