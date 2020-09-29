@@ -36,12 +36,12 @@ from scipy.stats import norm
 
 
 #fig = plt.figure(figsize=(mt.cm2inch(18.0),mt.cm2inch(10.0)))
-fig, axs=plt.subplots(1,1,sharey=False)
+fig, ax=plt.subplots(1,1,sharey=False)
 grid = plt.GridSpec(1, 1, wspace=0.25, hspace=0.2,left=0.1,right=0.98,bottom=0.17,top=0.98)
 
 
-ax =fig.add_subplot(grid[0,0])
-ax.tick_params(bottom=True,top=True,right=True,direction='in',which='both')
+#ax =fig.add_subplot(grid[0,0])
+#ax.tick_params(bottom=True,top=True,right=True,direction='in',which='both')
 
 
 f1 = np.genfromtxt('gMC_h1_Ge.csv',delimiter=',')
