@@ -1,39 +1,11 @@
 /run/verbose 2
 /run/initialize
-/vis/open HepRepFile
-/vis/sceneHandler/create HepRepFile
-/vis/viewer/create ! ! 600
-/vis/viewer/set/autoRefresh false
-/vis/verbose errors
-/vis/drawVolume
-/vis/scene/create
-/vis/scene/add/volume world -1 -1 none m 0 0 0 0 0 0
-/vis/sceneHandler/attach
-/vis/viewer/set/viewpointThetaPhi 130. 20.
-/vis/viewer/zoom 1
-/vis/scene/add/trajectories smooth
-/tracking/storeTrajectory 2
-/vis/scene/notifyHandlers
-/vis/modeling/trajectories/create/drawByCharge
-/vis/viewer/set/autoRefresh true
-/vis/verbose warnings
-/vis/scene/endOfEventAction accumulate
 /gps/particle gamma
-/gps/position 0 0 -1 cm
+/gps/position 6.0 0 6.0 cm
 /gps/energy 662 keV
 /gps/ang/type iso
-/gps/ang/maxtheta 180. deg
-/gps/ang/mintheta 0. deg
-/gps/ang/minphi 0 deg
-/gps/ang/maxphi 360 deg
-/run/beamOn 10
-/vis/scene/notifyHandlers scene-0
-/vis/open OGL
-/vis/sceneHandler/create OGL
-/vis/sceneHandler/attach
-/vis/viewer/create ! ! 600
-/vis/viewer/refresh
 /gps/ang/maxtheta 10. deg
 /gps/ang/mintheta 10. deg
-/gps/position 6.0 0 6.0 cm
-/run/beamOn 100
+/gps/ang/minphi 0 deg
+/gps/ang/maxphi 360 deg
+/run/beamOn 10000000
