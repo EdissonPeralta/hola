@@ -1418,21 +1418,21 @@
               <heprep:attvalue showLabel="NONE" name="Visibility"
                 value="True"/>
               <heprep:primitive>
-                <heprep:point x="205.825" y="100.85" z="-2">
+                <heprep:point x="165.825" y="100.85" z="-400">
                 </heprep:point>
-                <heprep:point x="205.825" y="-100.85" z="-2">
+                <heprep:point x="165.825" y="-100.85" z="-400">
                 </heprep:point>
-                <heprep:point x="-125.825" y="-100.85" z="-2">
+                <heprep:point x="-165.825" y="-100.85" z="-400">
                 </heprep:point>
-                <heprep:point x="-125.825" y="100.85" z="-2">
+                <heprep:point x="-165.825" y="100.85" z="-400">
                 </heprep:point>
-                <heprep:point x="205.825" y="100.85" z="0">
+                <heprep:point x="165.825" y="100.85" z="0">
                 </heprep:point>
-                <heprep:point x="205.825" y="-100.85" z="0">
+                <heprep:point x="165.825" y="-100.85" z="0">
                 </heprep:point>
-                <heprep:point x="-125.825" y="-100.85" z="0">
+                <heprep:point x="-165.825" y="-100.85" z="0">
                 </heprep:point>
-                <heprep:point x="-125.825" y="100.85" z="0">
+                <heprep:point x="-165.825" y="100.85" z="0">
                 </heprep:point>
               </heprep:primitive>
             </heprep:instance>
@@ -1482,15 +1482,15 @@
           <heprep:attvalue showLabel="NONE" name="IKE"
             value="0.662"/>
           <heprep:attvalue showLabel="NONE" name="IMom-X"
-            value="-0.48295"/>
+            value="-0.517226"/>
           <heprep:attvalue showLabel="NONE" name="IMom-Y"
-            value="0.451859"/>
+            value="-0.413098"/>
           <heprep:attvalue showLabel="NONE" name="IMom-Z"
-            value="-0.028758"/>
+            value="-0.00841566"/>
           <heprep:attvalue showLabel="NONE" name="IMag"
             value="0.662"/>
           <heprep:attvalue showLabel="NONE" name="NTP"
-            value="3"/>
+            value="6"/>
           <heprep:attvalue showLabel="NONE" name="DrawAs"
             value="Line"/>
           <heprep:attvalue showLabel="NONE" name="LineColor"
@@ -1500,7 +1500,101 @@
           <heprep:primitive>
             <heprep:point x="0" y="0" z="-10">
             </heprep:point>
-            <heprep:point x="-1000" y="935.624" z="-69.5465">
+            <heprep:point x="-1.25884" y="-1.00541" z="-10.0205">
+            </heprep:point>
+            <heprep:point x="-3.37802" y="-4.27745" z="-3.3484">
+            </heprep:point>
+            <heprep:point x="-10.5481" y="-3.41783" z="-1.24345e-14">
+            </heprep:point>
+            <heprep:point x="-1000" y="115.207" z="462.072">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="3"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.0947945"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="0.155882"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="-0.19395"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="0.209642"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.32537"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="5"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="-3.37802" y="-4.27745" z="-3.3484">
+            </heprep:point>
+            <heprep:point x="-3.37677" y="-4.27857" z="-3.34795">
+            </heprep:point>
+            <heprep:point x="-3.37358" y="-4.28111" z="-3.34882">
+            </heprep:point>
+            <heprep:point x="-3.37274" y="-4.28133" z="-3.34908">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="2"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.273645"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="-0.414271"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="-0.250878"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="-0.346391"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.595438"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="9"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="-1.25884" y="-1.00541" z="-10.0205">
+            </heprep:point>
+            <heprep:point x="-1.26751" y="-1.00755" z="-10.0231">
+            </heprep:point>
+            <heprep:point x="-1.28867" y="-1.00352" z="-10.0222">
+            </heprep:point>
+            <heprep:point x="-1.28959" y="-1.01991" z="-10.0248">
+            </heprep:point>
+            <heprep:point x="-1.28627" y="-1.03017" z="-10.027">
+            </heprep:point>
+            <heprep:point x="-1.2812" y="-1.02689" z="-10.0319">
+            </heprep:point>
+            <heprep:point x="-1.28177" y="-1.02904" z="-10.0319">
+            </heprep:point>
+            <heprep:point x="-1.28163" y="-1.029" z="-10.032">
             </heprep:point>
           </heprep:primitive>
         </heprep:instance>
@@ -1518,15 +1612,15 @@
           <heprep:attvalue showLabel="NONE" name="IKE"
             value="0.662"/>
           <heprep:attvalue showLabel="NONE" name="IMom-X"
-            value="0.524788"/>
+            value="-0.0932079"/>
           <heprep:attvalue showLabel="NONE" name="IMom-Y"
-            value="0.0858008"/>
+            value="-0.3081"/>
           <heprep:attvalue showLabel="NONE" name="IMom-Z"
-            value="-0.394309"/>
+            value="-0.578473"/>
           <heprep:attvalue showLabel="NONE" name="IMag"
             value="0.662"/>
           <heprep:attvalue showLabel="NONE" name="NTP"
-            value="3"/>
+            value="6"/>
           <heprep:attvalue showLabel="NONE" name="DrawAs"
             value="Line"/>
           <heprep:attvalue showLabel="NONE" name="LineColor"
@@ -1536,7 +1630,147 @@
           <heprep:primitive>
             <heprep:point x="0" y="0" z="-10">
             </heprep:point>
-            <heprep:point x="1000" y="163.496" z="-761.368">
+            <heprep:point x="-6.90473" y="-22.8236" z="-52.8526">
+            </heprep:point>
+            <heprep:point x="-12.889" y="-47.7695" z="-90.9879">
+            </heprep:point>
+            <heprep:point x="-12.7151" y="-47.753" z="-91.0459">
+            </heprep:point>
+            <heprep:point x="-11.7003" y="-44.273" z="-95.1925">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="4"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.234991"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="0.39552"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="0.363117"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="-0.0842115"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.54349"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="8"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="-11.7003" y="-44.273" z="-95.1925">
+            </heprep:point>
+            <heprep:point x="-11.6951" y="-44.2739" z="-95.1881">
+            </heprep:point>
+            <heprep:point x="-11.6854" y="-44.277" z="-95.1742">
+            </heprep:point>
+            <heprep:point x="-11.6966" y="-44.2852" z="-95.175">
+            </heprep:point>
+            <heprep:point x="-11.7009" y="-44.2866" z="-95.1771">
+            </heprep:point>
+            <heprep:point x="-11.6988" y="-44.2866" z="-95.1773">
+            </heprep:point>
+            <heprep:point x="-11.6988" y="-44.2866" z="-95.1773">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="3"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.08131"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="0.260783"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="-0.123657"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="0.0800702"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.299516"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="5"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="-12.7151" y="-47.753" z="-91.0459">
+            </heprep:point>
+            <heprep:point x="-12.7138" y="-47.7536" z="-91.0457">
+            </heprep:point>
+            <heprep:point x="-12.7105" y="-47.7545" z="-91.0453">
+            </heprep:point>
+            <heprep:point x="-12.7103" y="-47.7543" z="-91.0447">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="2"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.330034"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="-0.368621"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="-0.365295"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="-0.420588"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.667994"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="9"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="-12.889" y="-47.7695" z="-90.9879">
+            </heprep:point>
+            <heprep:point x="-12.888" y="-47.7721" z="-90.9972">
+            </heprep:point>
+            <heprep:point x="-12.8651" y="-47.7677" z="-91.0115">
+            </heprep:point>
+            <heprep:point x="-12.8594" y="-47.7466" z="-91.0129">
+            </heprep:point>
+            <heprep:point x="-12.8652" y="-47.7392" z="-91.003">
+            </heprep:point>
+            <heprep:point x="-12.8736" y="-47.7401" z="-91.0055">
+            </heprep:point>
+            <heprep:point x="-12.8785" y="-47.7386" z="-91.0034">
+            </heprep:point>
+            <heprep:point x="-12.8775" y="-47.7397" z="-91.005">
             </heprep:point>
           </heprep:primitive>
         </heprep:instance>
@@ -1554,15 +1788,15 @@
           <heprep:attvalue showLabel="NONE" name="IKE"
             value="0.662"/>
           <heprep:attvalue showLabel="NONE" name="IMom-X"
-            value="-0.534058"/>
+            value="0.239091"/>
           <heprep:attvalue showLabel="NONE" name="IMom-Y"
-            value="-0.127348"/>
+            value="0.503364"/>
           <heprep:attvalue showLabel="NONE" name="IMom-Z"
-            value="-0.369876"/>
+            value="0.357358"/>
           <heprep:attvalue showLabel="NONE" name="IMag"
             value="0.662"/>
           <heprep:attvalue showLabel="NONE" name="NTP"
-            value="3"/>
+            value="10"/>
           <heprep:attvalue showLabel="NONE" name="DrawAs"
             value="Line"/>
           <heprep:attvalue showLabel="NONE" name="LineColor"
@@ -1572,7 +1806,97 @@
           <heprep:primitive>
             <heprep:point x="0" y="0" z="-10">
             </heprep:point>
-            <heprep:point x="-1000" y="-238.454" z="-702.576">
+            <heprep:point x="0.0792466" y="0.16684" z="-9.88155">
+            </heprep:point>
+            <heprep:point x="4.18641" y="8.38077" z="-7.10543e-15">
+            </heprep:point>
+            <heprep:point x="14.3425" y="28.692" z="24.4349">
+            </heprep:point>
+            <heprep:point x="14.7149" y="29.4368" z="25.3309">
+            </heprep:point>
+            <heprep:point x="15.7705" y="30.7932" z="26.9235">
+            </heprep:point>
+            <heprep:point x="20.0607" y="36.3064" z="33.3966">
+            </heprep:point>
+            <heprep:point x="21.405" y="38.034" z="35.425">
+            </heprep:point>
+            <heprep:point x="769.98" y="1000" z="1164.88">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="3"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.00913577"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="-0.0858448"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="0.0236589"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="0.0386151"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.0970577"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="4"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="14.7149" y="29.4368" z="25.3309">
+            </heprep:point>
+            <heprep:point x="14.7149" y="29.4368" z="25.331">
+            </heprep:point>
+            <heprep:point x="14.7146" y="29.4368" z="25.3311">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="2"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.0265278"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="0.0461032"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="0.117628"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="-0.108873"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.166779"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="4"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="0.0792466" y="0.16684" z="-9.88155">
+            </heprep:point>
+            <heprep:point x="0.0792873" y="0.166973" z="-9.88171">
+            </heprep:point>
+            <heprep:point x="0.0793839" y="0.167098" z="-9.88217">
             </heprep:point>
           </heprep:primitive>
         </heprep:instance>
@@ -1590,15 +1914,15 @@
           <heprep:attvalue showLabel="NONE" name="IKE"
             value="0.662"/>
           <heprep:attvalue showLabel="NONE" name="IMom-X"
-            value="0.287593"/>
+            value="0.115228"/>
           <heprep:attvalue showLabel="NONE" name="IMom-Y"
-            value="-0.553318"/>
+            value="0.576561"/>
           <heprep:attvalue showLabel="NONE" name="IMom-Z"
-            value="-0.222202"/>
+            value="-0.304211"/>
           <heprep:attvalue showLabel="NONE" name="IMag"
             value="0.662"/>
           <heprep:attvalue showLabel="NONE" name="NTP"
-            value="3"/>
+            value="7"/>
           <heprep:attvalue showLabel="NONE" name="DrawAs"
             value="Line"/>
           <heprep:attvalue showLabel="NONE" name="LineColor"
@@ -1608,7 +1932,223 @@
           <heprep:primitive>
             <heprep:point x="0" y="0" z="-10">
             </heprep:point>
-            <heprep:point x="519.762" y="-1000" z="-411.581">
+            <heprep:point x="2.53743" y="12.6964" z="-16.699">
+            </heprep:point>
+            <heprep:point x="12.0782" y="16.2193" z="-13.9738">
+            </heprep:point>
+            <heprep:point x="12.1159" y="16.2159" z="-13.8917">
+            </heprep:point>
+            <heprep:point x="19.9831" y="19.1574" z="-11.3842">
+            </heprep:point>
+            <heprep:point x="19.9018" y="19.2894" z="-11.2883">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="6"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.132876"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="-0.270265"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="-0.0593447"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="-0.27729"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.391733"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="6"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="19.9018" y="19.2894" z="-11.2883">
+            </heprep:point>
+            <heprep:point x="19.8993" y="19.2896" z="-11.2903">
+            </heprep:point>
+            <heprep:point x="19.8947" y="19.2942" z="-11.2938">
+            </heprep:point>
+            <heprep:point x="19.8967" y="19.2924" z="-11.2969">
+            </heprep:point>
+            <heprep:point x="19.8973" y="19.2927" z="-11.296">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="5"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.081394"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="0.298272"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="-0.0275474"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="-0.0092045"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.299682"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="5"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="19.9831" y="19.1574" z="-11.3842">
+            </heprep:point>
+            <heprep:point x="19.9844" y="19.1578" z="-11.3838">
+            </heprep:point>
+            <heprep:point x="19.986" y="19.1587" z="-11.3824">
+            </heprep:point>
+            <heprep:point x="19.9861" y="19.1588" z="-11.3822">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="4"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.0526495"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="-0.0919141"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="-0.0914956"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="0.199399"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.237865"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="4"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="12.1159" y="16.2159" z="-13.8917">
+            </heprep:point>
+            <heprep:point x="12.1156" y="16.2157" z="-13.8912">
+            </heprep:point>
+            <heprep:point x="12.1143" y="16.2164" z="-13.8906">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="3"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.0795694"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="0.209872"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="0.13148"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="-0.162227"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.296059"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="5"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="12.0782" y="16.2193" z="-13.9738">
+            </heprep:point>
+            <heprep:point x="12.0779" y="16.2204" z="-13.9731">
+            </heprep:point>
+            <heprep:point x="12.0762" y="16.223" z="-13.9719">
+            </heprep:point>
+            <heprep:point x="12.0765" y="16.2229" z="-13.9718">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="2"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.300787"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="-0.208482"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="0.448608"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="-0.391359"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.630774"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="9"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="2.53743" y="12.6964" z="-16.699">
+            </heprep:point>
+            <heprep:point x="2.53265" y="12.7051" z="-16.705">
+            </heprep:point>
+            <heprep:point x="2.51693" y="12.7205" z="-16.7143">
+            </heprep:point>
+            <heprep:point x="2.5081" y="12.7074" z="-16.7082">
+            </heprep:point>
+            <heprep:point x="2.50082" y="12.7005" z="-16.7149">
+            </heprep:point>
+            <heprep:point x="2.50695" y="12.702" z="-16.714">
+            </heprep:point>
+            <heprep:point x="2.50807" y="12.7035" z="-16.7145">
+            </heprep:point>
+            <heprep:point x="2.50803" y="12.7037" z="-16.7146">
             </heprep:point>
           </heprep:primitive>
         </heprep:instance>
@@ -1626,11 +2166,11 @@
           <heprep:attvalue showLabel="NONE" name="IKE"
             value="0.662"/>
           <heprep:attvalue showLabel="NONE" name="IMom-X"
-            value="-0.600547"/>
+            value="-0.238127"/>
           <heprep:attvalue showLabel="NONE" name="IMom-Y"
-            value="-0.209068"/>
+            value="0.296293"/>
           <heprep:attvalue showLabel="NONE" name="IMom-Z"
-            value="0.184059"/>
+            value="0.541987"/>
           <heprep:attvalue showLabel="NONE" name="IMag"
             value="0.662"/>
           <heprep:attvalue showLabel="NONE" name="NTP"
@@ -1644,11 +2184,53 @@
           <heprep:primitive>
             <heprep:point x="0" y="0" z="-10">
             </heprep:point>
-            <heprep:point x="-26.1024" y="-9.087" z="-2">
+            <heprep:point x="-0.364175" y="0.453129" z="-9.17112">
             </heprep:point>
-            <heprep:point x="-32.628" y="-11.3588" z="0">
+            <heprep:point x="1.36617" y="13.1456" z="-1.77636e-15">
             </heprep:point>
-            <heprep:point x="-1000" y="-348.129" z="296.485">
+            <heprep:point x="135.902" y="1000" z="713.065">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="2"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.14471"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="-0.3034"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="-0.123695"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="0.247957"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.410895"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="6"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="-0.364175" y="0.453129" z="-9.17112">
+            </heprep:point>
+            <heprep:point x="-0.364542" y="0.455153" z="-9.16849">
+            </heprep:point>
+            <heprep:point x="-0.36591" y="0.459845" z="-9.16143">
+            </heprep:point>
+            <heprep:point x="-0.365376" y="0.464209" z="-9.1609">
+            </heprep:point>
+            <heprep:point x="-0.363965" y="0.46524" z="-9.16086">
             </heprep:point>
           </heprep:primitive>
         </heprep:instance>
@@ -1666,13 +2248,61 @@
           <heprep:attvalue showLabel="NONE" name="IKE"
             value="0.662"/>
           <heprep:attvalue showLabel="NONE" name="IMom-X"
-            value="0.217175"/>
+            value="0.113716"/>
           <heprep:attvalue showLabel="NONE" name="IMom-Y"
-            value="0.0691535"/>
+            value="-0.123865"/>
           <heprep:attvalue showLabel="NONE" name="IMom-Z"
-            value="-0.621528"/>
+            value="0.640289"/>
           <heprep:attvalue showLabel="NONE" name="IMag"
             value="0.662"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="9"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="0,255,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="0" y="0" z="-10">
+            </heprep:point>
+            <heprep:point x="1.77601" y="-1.93451" z="0">
+            </heprep:point>
+            <heprep:point x="4.33906" y="-4.7263" z="14.4315">
+            </heprep:point>
+            <heprep:point x="4.56812" y="-4.9758" z="15.7212">
+            </heprep:point>
+            <heprep:point x="6.06156" y="-6.60252" z="24.1301">
+            </heprep:point>
+            <heprep:point x="12.7265" y="-13.8623" z="61.6577">
+            </heprep:point>
+            <heprep:point x="16.0417" y="-12.1386" z="77.2235">
+            </heprep:point>
+            <heprep:point x="19.9484" y="-6.16561" z="75.0347">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="5"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="gamma"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="0"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="22"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.0283065"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="-0.023242"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="0.0130713"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="0.00949767"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.0283065"/>
           <heprep:attvalue showLabel="NONE" name="NTP"
             value="3"/>
           <heprep:attvalue showLabel="NONE" name="DrawAs"
@@ -1682,155 +2312,223 @@
           <heprep:attvalue showLabel="NONE" name="Visibility"
             value="True"/>
           <heprep:primitive>
-            <heprep:point x="0" y="0" z="-10">
+            <heprep:point x="19.9484" y="-6.16561" z="75.0347">
             </heprep:point>
-            <heprep:point x="695.347" y="221.415" z="-2000">
+            <heprep:point x="19.693" y="-6.02195" z="75.1391">
             </heprep:point>
           </heprep:primitive>
         </heprep:instance>
         <heprep:instance>
           <heprep:attvalue showLabel="NONE" name="ID"
-            value="1"/>
+            value="6"/>
           <heprep:attvalue showLabel="NONE" name="PID"
-            value="0"/>
-          <heprep:attvalue showLabel="NONE" name="PN"
-            value="gamma"/>
-          <heprep:attvalue showLabel="NONE" name="Ch"
-            value="0"/>
-          <heprep:attvalue showLabel="NONE" name="PDG"
-            value="22"/>
-          <heprep:attvalue showLabel="NONE" name="IKE"
-            value="0.662"/>
-          <heprep:attvalue showLabel="NONE" name="IMom-X"
-            value="-0.191831"/>
-          <heprep:attvalue showLabel="NONE" name="IMom-Y"
-            value="0.429957"/>
-          <heprep:attvalue showLabel="NONE" name="IMom-Z"
-            value="0.465384"/>
-          <heprep:attvalue showLabel="NONE" name="IMag"
-            value="0.662"/>
-          <heprep:attvalue showLabel="NONE" name="NTP"
             value="5"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.023449"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="-0.0918833"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="0.053341"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="0.115008"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.156572"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="4"/>
           <heprep:attvalue showLabel="NONE" name="DrawAs"
             value="Line"/>
           <heprep:attvalue showLabel="NONE" name="LineColor"
-            value="0,255,0"/>
+            value="255,0,0"/>
           <heprep:attvalue showLabel="NONE" name="Visibility"
             value="True"/>
           <heprep:primitive>
-            <heprep:point x="0" y="0" z="-10">
+            <heprep:point x="19.693" y="-6.02195" z="75.1391">
             </heprep:point>
-            <heprep:point x="-3.2976" y="7.391" z="-2">
+            <heprep:point x="19.6928" y="-6.02183" z="75.1394">
             </heprep:point>
-            <heprep:point x="-4.122" y="9.23875" z="0">
-            </heprep:point>
-            <heprep:point x="-446.164" y="1000" z="1072.4">
+            <heprep:point x="19.6922" y="-6.02165" z="75.1389">
             </heprep:point>
           </heprep:primitive>
         </heprep:instance>
         <heprep:instance>
           <heprep:attvalue showLabel="NONE" name="ID"
-            value="1"/>
+            value="4"/>
           <heprep:attvalue showLabel="NONE" name="PID"
-            value="0"/>
+            value="1"/>
           <heprep:attvalue showLabel="NONE" name="PN"
-            value="gamma"/>
+            value="e-"/>
           <heprep:attvalue showLabel="NONE" name="Ch"
-            value="0"/>
+            value="-1"/>
           <heprep:attvalue showLabel="NONE" name="PDG"
-            value="22"/>
+            value="11"/>
           <heprep:attvalue showLabel="NONE" name="IKE"
-            value="0.662"/>
+            value="0.219254"/>
           <heprep:attvalue showLabel="NONE" name="IMom-X"
-            value="0.590731"/>
+            value="0.374093"/>
           <heprep:attvalue showLabel="NONE" name="IMom-Y"
-            value="-0.266859"/>
+            value="0.327566"/>
           <heprep:attvalue showLabel="NONE" name="IMom-Z"
-            value="0.134416"/>
+            value="0.157811"/>
           <heprep:attvalue showLabel="NONE" name="IMag"
-            value="0.662"/>
+            value="0.521679"/>
           <heprep:attvalue showLabel="NONE" name="NTP"
-            value="5"/>
+            value="12"/>
           <heprep:attvalue showLabel="NONE" name="DrawAs"
             value="Line"/>
           <heprep:attvalue showLabel="NONE" name="LineColor"
-            value="0,255,0"/>
+            value="255,0,0"/>
           <heprep:attvalue showLabel="NONE" name="Visibility"
             value="True"/>
           <heprep:primitive>
-            <heprep:point x="0" y="0" z="-10">
+            <heprep:point x="19.9484" y="-6.16561" z="75.0347">
             </heprep:point>
-            <heprep:point x="35.1583" y="-15.8825" z="-2">
+            <heprep:point x="19.9597" y="-6.15199" z="75.0372">
             </heprep:point>
-            <heprep:point x="43.9478" y="-19.8532" z="0">
+            <heprep:point x="19.974" y="-6.12957" z="75.0372">
             </heprep:point>
-            <heprep:point x="1000" y="-451.744" z="217.543">
+            <heprep:point x="19.9568" y="-6.12947" z="75.0496">
+            </heprep:point>
+            <heprep:point x="19.9653" y="-6.13663" z="75.0627">
+            </heprep:point>
+            <heprep:point x="19.9779" y="-6.13334" z="75.0652">
+            </heprep:point>
+            <heprep:point x="19.9774" y="-6.14387" z="75.0646">
+            </heprep:point>
+            <heprep:point x="19.9847" y="-6.14244" z="75.0625">
+            </heprep:point>
+            <heprep:point x="19.9817" y="-6.14502" z="75.0592">
+            </heprep:point>
+            <heprep:point x="19.9847" y="-6.1456" z="75.0578">
+            </heprep:point>
+            <heprep:point x="19.9839" y="-6.14531" z="75.058">
             </heprep:point>
           </heprep:primitive>
         </heprep:instance>
         <heprep:instance>
           <heprep:attvalue showLabel="NONE" name="ID"
-            value="1"/>
-          <heprep:attvalue showLabel="NONE" name="PID"
-            value="0"/>
-          <heprep:attvalue showLabel="NONE" name="PN"
-            value="gamma"/>
-          <heprep:attvalue showLabel="NONE" name="Ch"
-            value="0"/>
-          <heprep:attvalue showLabel="NONE" name="PDG"
-            value="22"/>
-          <heprep:attvalue showLabel="NONE" name="IKE"
-            value="0.662"/>
-          <heprep:attvalue showLabel="NONE" name="IMom-X"
-            value="-0.111334"/>
-          <heprep:attvalue showLabel="NONE" name="IMom-Y"
-            value="-0.379862"/>
-          <heprep:attvalue showLabel="NONE" name="IMom-Z"
-            value="0.530616"/>
-          <heprep:attvalue showLabel="NONE" name="IMag"
-            value="0.662"/>
-          <heprep:attvalue showLabel="NONE" name="NTP"
-            value="5"/>
-          <heprep:attvalue showLabel="NONE" name="DrawAs"
-            value="Line"/>
-          <heprep:attvalue showLabel="NONE" name="LineColor"
-            value="0,255,0"/>
-          <heprep:attvalue showLabel="NONE" name="Visibility"
-            value="True"/>
-          <heprep:primitive>
-            <heprep:point x="0" y="0" z="-10">
-            </heprep:point>
-            <heprep:point x="-1.67856" y="-5.72712" z="-2">
-            </heprep:point>
-            <heprep:point x="-2.0982" y="-7.15889" z="0">
-            </heprep:point>
-            <heprep:point x="-293.09" y="-1000" z="1386.86">
-            </heprep:point>
-          </heprep:primitive>
-        </heprep:instance>
-        <heprep:instance>
-          <heprep:attvalue showLabel="NONE" name="ID"
-            value="1"/>
-          <heprep:attvalue showLabel="NONE" name="PID"
-            value="0"/>
-          <heprep:attvalue showLabel="NONE" name="PN"
-            value="gamma"/>
-          <heprep:attvalue showLabel="NONE" name="Ch"
-            value="0"/>
-          <heprep:attvalue showLabel="NONE" name="PDG"
-            value="22"/>
-          <heprep:attvalue showLabel="NONE" name="IKE"
-            value="0.662"/>
-          <heprep:attvalue showLabel="NONE" name="IMom-X"
-            value="-0.552371"/>
-          <heprep:attvalue showLabel="NONE" name="IMom-Y"
-            value="0.21987"/>
-          <heprep:attvalue showLabel="NONE" name="IMom-Z"
-            value="-0.291184"/>
-          <heprep:attvalue showLabel="NONE" name="IMag"
-            value="0.662"/>
-          <heprep:attvalue showLabel="NONE" name="NTP"
             value="3"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.373456"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="-0.00158203"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="-0.138278"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="0.708531"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.7219"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="14"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="16.0417" y="-12.1386" z="77.2235">
+            </heprep:point>
+            <heprep:point x="16.0656" y="-12.1373" z="77.2359">
+            </heprep:point>
+            <heprep:point x="16.1149" y="-12.1325" z="77.2111">
+            </heprep:point>
+            <heprep:point x="16.1099" y="-12.1152" z="77.2501">
+            </heprep:point>
+            <heprep:point x="16.1297" y="-12.0907" z="77.2627">
+            </heprep:point>
+            <heprep:point x="16.1476" y="-12.0927" z="77.2801">
+            </heprep:point>
+            <heprep:point x="16.1523" y="-12.075" z="77.2897">
+            </heprep:point>
+            <heprep:point x="16.1446" y="-12.0691" z="77.3032">
+            </heprep:point>
+            <heprep:point x="16.1326" y="-12.0639" z="77.2985">
+            </heprep:point>
+            <heprep:point x="16.1339" y="-12.0567" z="77.3044">
+            </heprep:point>
+            <heprep:point x="16.1319" y="-12.0522" z="77.303">
+            </heprep:point>
+            <heprep:point x="16.1328" y="-12.0504" z="77.3046">
+            </heprep:point>
+            <heprep:point x="16.1333" y="-12.0498" z="77.3047">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="2"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.0315236"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="-0.0157898"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="-0.179744"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="0.0255681"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.182238"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="4"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="12.7265" y="-13.8623" z="61.6577">
+            </heprep:point>
+            <heprep:point x="12.7264" y="-13.863" z="61.658">
+            </heprep:point>
+            <heprep:point x="12.726" y="-13.8638" z="61.6588">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="0"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="gamma"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="0"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="22"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.662"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="0.337545"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="-0.0945167"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="-0.561581"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.662"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="10"/>
           <heprep:attvalue showLabel="NONE" name="DrawAs"
             value="Line"/>
           <heprep:attvalue showLabel="NONE" name="LineColor"
@@ -1840,7 +2538,1001 @@
           <heprep:primitive>
             <heprep:point x="0" y="0" z="-10">
             </heprep:point>
-            <heprep:point x="-1000" y="398.048" z="-537.153">
+            <heprep:point x="8.93178" y="-2.501" z="-24.86">
+            </heprep:point>
+            <heprep:point x="22.0327" y="-7.3149" z="-46.7546">
+            </heprep:point>
+            <heprep:point x="90.3529" y="31.0883" z="-53.3754">
+            </heprep:point>
+            <heprep:point x="91.0917" y="31.2412" z="-55.115">
+            </heprep:point>
+            <heprep:point x="91.0224" y="31.7091" z="-55.3169">
+            </heprep:point>
+            <heprep:point x="92.9819" y="31.2024" z="-54.6237">
+            </heprep:point>
+            <heprep:point x="92.609" y="31.1611" z="-54.6922">
+            </heprep:point>
+            <heprep:point x="92.5217" y="31.2366" z="-54.9976">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="8"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.069008"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="-0.103372"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="0.253718"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="0.0151508"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.274387"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="5"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="92.5217" y="31.2366" z="-54.9976">
+            </heprep:point>
+            <heprep:point x="92.5212" y="31.2372" z="-54.9971">
+            </heprep:point>
+            <heprep:point x="92.5193" y="31.2363" z="-54.9985">
+            </heprep:point>
+            <heprep:point x="92.5193" y="31.2363" z="-54.9985">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="7"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.00887043"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="-0.0681757"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="-0.0290109"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="0.060454"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.0956255"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="4"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="92.609" y="31.1611" z="-54.6922">
+            </heprep:point>
+            <heprep:point x="92.609" y="31.1611" z="-54.6922">
+            </heprep:point>
+            <heprep:point x="92.609" y="31.1611" z="-54.6922">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="6"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.0438457"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="0.2069"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="-0.021962"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="0.0586753"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.216177"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="4"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="92.9819" y="31.2024" z="-54.6237">
+            </heprep:point>
+            <heprep:point x="92.9823" y="31.2021" z="-54.6236">
+            </heprep:point>
+            <heprep:point x="92.9832" y="31.2016" z="-54.6231">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="5"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.0757777"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="-0.14572"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="0.216849"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="-0.122184"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.288421"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="5"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="91.0224" y="31.7091" z="-55.3169">
+            </heprep:point>
+            <heprep:point x="91.0219" y="31.7101" z="-55.3176">
+            </heprep:point>
+            <heprep:point x="91.0212" y="31.7128" z="-55.3191">
+            </heprep:point>
+            <heprep:point x="91.0215" y="31.7123" z="-55.3188">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="4"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.0645122"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="0.130375"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="-0.161875"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="-0.163987"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.264751"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="5"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="91.0917" y="31.2412" z="-55.115">
+            </heprep:point>
+            <heprep:point x="91.0921" y="31.2404" z="-55.1155">
+            </heprep:point>
+            <heprep:point x="91.0927" y="31.2385" z="-55.1165">
+            </heprep:point>
+            <heprep:point x="91.0926" y="31.2384" z="-55.1165">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="3"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.109282"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="0.224398"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="0.163493"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="0.21574"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.351608"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="6"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="90.3529" y="31.0883" z="-53.3754">
+            </heprep:point>
+            <heprep:point x="90.354" y="31.0896" z="-53.3738">
+            </heprep:point>
+            <heprep:point x="90.3566" y="31.0942" z="-53.3721">
+            </heprep:point>
+            <heprep:point x="90.358" y="31.0924" z="-53.3701">
+            </heprep:point>
+            <heprep:point x="90.3579" y="31.0922" z="-53.3703">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="2"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.281947"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="0.00411348"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="-0.306385"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="-0.523216"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.606336"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="10"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="22.0327" y="-7.3149" z="-46.7546">
+            </heprep:point>
+            <heprep:point x="22.0335" y="-7.32119" z="-46.7626">
+            </heprep:point>
+            <heprep:point x="22.0405" y="-7.34048" z="-46.7713">
+            </heprep:point>
+            <heprep:point x="22.0329" y="-7.35025" z="-46.7838">
+            </heprep:point>
+            <heprep:point x="22.024" y="-7.35782" z="-46.7904">
+            </heprep:point>
+            <heprep:point x="22.0157" y="-7.35907" z="-46.7872">
+            </heprep:point>
+            <heprep:point x="22.0164" y="-7.35486" z="-46.7899">
+            </heprep:point>
+            <heprep:point x="22.0185" y="-7.35611" z="-46.79">
+            </heprep:point>
+            <heprep:point x="22.0185" y="-7.35618" z="-46.79">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="0"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="gamma"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="0"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="22"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.662"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="0.550879"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="0.346886"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="-0.120195"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.662"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="13"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="0,255,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="0" y="0" z="-10">
+            </heprep:point>
+            <heprep:point x="6.83296" y="4.30269" z="-11.4909">
+            </heprep:point>
+            <heprep:point x="6.21221" y="4.77556" z="1.24345e-14">
+            </heprep:point>
+            <heprep:point x="5.37656" y="5.41213" z="15.469">
+            </heprep:point>
+            <heprep:point x="5.3222" y="5.45354" z="16.4753">
+            </heprep:point>
+            <heprep:point x="4.96776" y="5.72354" z="23.0363">
+            </heprep:point>
+            <heprep:point x="4.01379" y="6.45025" z="40.6956">
+            </heprep:point>
+            <heprep:point x="-2.05097" y="21.6308" z="38.6595">
+            </heprep:point>
+            <heprep:point x="-3.1841" y="25.8033" z="38.6322">
+            </heprep:point>
+            <heprep:point x="-4.75337" y="31.5819" z="38.5944">
+            </heprep:point>
+            <heprep:point x="-5.17568" y="33.137" z="38.5843">
+            </heprep:point>
+            <heprep:point x="-267.746" y="1000" z="32.2658">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="3"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.0936353"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="0.0483566"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="-0.145813"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="0.284364"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.323207"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="7"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="4.01379" y="6.45025" z="40.6956">
+            </heprep:point>
+            <heprep:point x="4.01494" y="6.44781" z="40.6929">
+            </heprep:point>
+            <heprep:point x="4.0102" y="6.44282" z="40.6905">
+            </heprep:point>
+            <heprep:point x="4.00812" y="6.43881" z="40.6898">
+            </heprep:point>
+            <heprep:point x="4.00797" y="6.43638" z="40.6897">
+            </heprep:point>
+            <heprep:point x="4.00828" y="6.4366" z="40.6898">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="2"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.398654"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="0.559009"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="0.332488"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="-0.378562"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.752561"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="6.83296" y="4.30269" z="-11.4909">
+            </heprep:point>
+            <heprep:point x="6.84558" y="4.30939" z="-11.4997">
+            </heprep:point>
+            <heprep:point x="6.86364" y="4.31757" z="-11.5278">
+            </heprep:point>
+            <heprep:point x="6.85378" y="4.3446" z="-11.5325">
+            </heprep:point>
+            <heprep:point x="6.86455" y="4.34854" z="-11.5144">
+            </heprep:point>
+            <heprep:point x="6.87601" y="4.3473" z="-11.5271">
+            </heprep:point>
+            <heprep:point x="6.86708" y="4.34512" z="-11.5212">
+            </heprep:point>
+            <heprep:point x="6.8709" y="4.34227" z="-11.5158">
+            </heprep:point>
+            <heprep:point x="6.86847" y="4.3439" z="-11.5151">
+            </heprep:point>
+            <heprep:point x="6.86818" y="4.34369" z="-11.5148">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="0"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="gamma"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="0"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="22"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.662"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="0.247369"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="-0.590465"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="0.168535"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.662"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="9"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="0,255,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="0" y="0" z="-10">
+            </heprep:point>
+            <heprep:point x="1.46064" y="-3.48652" z="-9.00485">
+            </heprep:point>
+            <heprep:point x="1.48855" y="-6.54233" z="-2.62717">
+            </heprep:point>
+            <heprep:point x="-0.244803" y="-6.6621" z="-4.16414">
+            </heprep:point>
+            <heprep:point x="-2.01106" y="-8.67438" z="-6.71161">
+            </heprep:point>
+            <heprep:point x="-2.06342" y="-8.90401" z="-6.8332">
+            </heprep:point>
+            <heprep:point x="-3.32978" y="-9.64207" z="-5.84943">
+            </heprep:point>
+            <heprep:point x="-3.57141" y="-9.83906" z="-5.61776">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="7"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.129211"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="0.0161775"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="0.176509"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="0.342537"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.385679"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="6"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="-3.57141" y="-9.83906" z="-5.61776">
+            </heprep:point>
+            <heprep:point x="-3.57146" y="-9.83773" z="-5.61485">
+            </heprep:point>
+            <heprep:point x="-3.57245" y="-9.83466" z="-5.60868">
+            </heprep:point>
+            <heprep:point x="-3.57481" y="-9.83351" z="-5.60752">
+            </heprep:point>
+            <heprep:point x="-3.57501" y="-9.83353" z="-5.60775">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="6"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.0306584"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="0.0619693"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="-0.0841341"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="-0.14613"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.179646"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="4"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="-2.06342" y="-8.90401" z="-6.8332">
+            </heprep:point>
+            <heprep:point x="-2.06334" y="-8.90407" z="-6.83344">
+            </heprep:point>
+            <heprep:point x="-2.0634" y="-8.90391" z="-6.83408">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="5"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.00717176"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="-0.0520597"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="0.0513571"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="-0.045091"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.0859125"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="4"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="-2.01106" y="-8.67438" z="-6.71161">
+            </heprep:point>
+            <heprep:point x="-2.01108" y="-8.67437" z="-6.71163">
+            </heprep:point>
+            <heprep:point x="-2.01112" y="-8.67437" z="-6.71165">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="4"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.0100456"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="-0.0548743"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="0.0857412"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="-0.00217519"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.101821"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="4"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="-0.244803" y="-6.6621" z="-4.16414">
+            </heprep:point>
+            <heprep:point x="-0.244824" y="-6.66207" z="-4.16413">
+            </heprep:point>
+            <heprep:point x="-0.244831" y="-6.66198" z="-4.16408">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="3"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.266056"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="0.141729"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="-0.187733"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="0.536063"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.585401"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="5"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="1.48855" y="-6.54233" z="-2.62717">
+            </heprep:point>
+            <heprep:point x="1.49152" y="-6.54364" z="-2.61819">
+            </heprep:point>
+            <heprep:point x="1.50195" y="-6.54239" z="-2.60317">
+            </heprep:point>
+            <heprep:point x="1.50966" y="-6.53823" z="-2.59183">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="2"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.21038"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="0.239084"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="-0.384968"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="-0.232176"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.509183"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="7"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="1.46064" y="-3.48652" z="-9.00485">
+            </heprep:point>
+            <heprep:point x="1.46499" y="-3.49027" z="-9.00841">
+            </heprep:point>
+            <heprep:point x="1.47542" y="-3.49496" z="-9.01778">
+            </heprep:point>
+            <heprep:point x="1.47288" y="-3.49213" z="-9.00949">
+            </heprep:point>
+            <heprep:point x="1.4752" y="-3.49489" z="-9.01121">
+            </heprep:point>
+            <heprep:point x="1.47412" y="-3.49529" z="-9.01096">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="0"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="gamma"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="0"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="22"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.662"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="-0.241573"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="0.539858"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="0.297388"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.662"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="7"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="0,255,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="0" y="0" z="-10">
+            </heprep:point>
+            <heprep:point x="-7.79462" y="17.4191" z="-0.404462">
+            </heprep:point>
+            <heprep:point x="-1.86888" y="8.50465" z="-16.3621">
+            </heprep:point>
+            <heprep:point x="5.36994" y="0.465555" z="-20.8337">
+            </heprep:point>
+            <heprep:point x="6.14177" y="-0.849527" z="-18.0707">
+            </heprep:point>
+            <heprep:point x="5.82697" y="-2.1708" z="-22.9325">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="6"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.0891635"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="0.192823"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="-0.155376"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="-0.194301"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.314762"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="5"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="5.82697" y="-2.1708" z="-22.9325">
+            </heprep:point>
+            <heprep:point x="5.82744" y="-2.17155" z="-22.9339">
+            </heprep:point>
+            <heprep:point x="5.82786" y="-2.17408" z="-22.937">
+            </heprep:point>
+            <heprep:point x="5.82737" y="-2.17402" z="-22.9358">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="5"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.042529"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="0.0385933"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="-0.0315935"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="0.206847"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.212775"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="4"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="6.14177" y="-0.849527" z="-18.0707">
+            </heprep:point>
+            <heprep:point x="6.14187" y="-0.84981" z="-18.0703">
+            </heprep:point>
+            <heprep:point x="6.14127" y="-0.850519" z="-18.0697">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="4"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.044997"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="0.0798691"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="-0.0685067"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="-0.192196"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.219115"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="4"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="5.36994" y="0.465555" z="-20.8337">
+            </heprep:point>
+            <heprep:point x="5.37024" y="0.465291" z="-20.834">
+            </heprep:point>
+            <heprep:point x="5.37073" y="0.46454" z="-20.8344">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="3"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.00936648"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="-0.0476224"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="0.0321746"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="-0.0797317"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.0982866"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="4"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="-1.86888" y="8.50465" z="-16.3621">
+            </heprep:point>
+            <heprep:point x="-1.86889" y="8.50465" z="-16.3622">
+            </heprep:point>
+            <heprep:point x="-1.8689" y="8.50464" z="-16.3623">
+            </heprep:point>
+          </heprep:primitive>
+        </heprep:instance>
+        <heprep:instance>
+          <heprep:attvalue showLabel="NONE" name="ID"
+            value="2"/>
+          <heprep:attvalue showLabel="NONE" name="PID"
+            value="1"/>
+          <heprep:attvalue showLabel="NONE" name="PN"
+            value="e-"/>
+          <heprep:attvalue showLabel="NONE" name="Ch"
+            value="-1"/>
+          <heprep:attvalue showLabel="NONE" name="PDG"
+            value="11"/>
+          <heprep:attvalue showLabel="NONE" name="IKE"
+            value="0.468024"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-X"
+            value="-0.301316"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Y"
+            value="0.629739"/>
+          <heprep:attvalue showLabel="NONE" name="IMom-Z"
+            value="0.458261"/>
+          <heprep:attvalue showLabel="NONE" name="IMag"
+            value="0.835084"/>
+          <heprep:attvalue showLabel="NONE" name="NTP"
+            value="12"/>
+          <heprep:attvalue showLabel="NONE" name="DrawAs"
+            value="Line"/>
+          <heprep:attvalue showLabel="NONE" name="LineColor"
+            value="255,0,0"/>
+          <heprep:attvalue showLabel="NONE" name="Visibility"
+            value="True"/>
+          <heprep:primitive>
+            <heprep:point x="-7.79462" y="17.4191" z="-0.404462">
+            </heprep:point>
+            <heprep:point x="-7.80035" y="17.4281" z="-0.386422">
+            </heprep:point>
+            <heprep:point x="-7.82716" y="17.4579" z="-0.373082">
+            </heprep:point>
+            <heprep:point x="-7.84836" y="17.4672" z="-0.398308">
+            </heprep:point>
+            <heprep:point x="-7.83751" y="17.4934" z="-0.392441">
+            </heprep:point>
+            <heprep:point x="-7.85134" y="17.488" z="-0.37654">
+            </heprep:point>
+            <heprep:point x="-7.86137" y="17.4999" z="-0.374387">
+            </heprep:point>
+            <heprep:point x="-7.87018" y="17.5062" z="-0.370203">
+            </heprep:point>
+            <heprep:point x="-7.86483" y="17.5052" z="-0.363203">
+            </heprep:point>
+            <heprep:point x="-7.86636" y="17.509" z="-0.363968">
+            </heprep:point>
+            <heprep:point x="-7.86502" y="17.5085" z="-0.364212">
             </heprep:point>
           </heprep:primitive>
         </heprep:instance>
