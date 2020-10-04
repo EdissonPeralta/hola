@@ -290,22 +290,22 @@ G4Element* elNa = new G4Element(name="Sodium", symbol="Na", z=11., a);
   //·····································································
   
   //Mixture of the elements
-  Morteros1 = new G4Material("Morteros1", density= 1.6262*g/cm3, nElem=9);
+  Morteros1 = new G4Material("Morteros1", density= 1.7508*g/cm3, nElem=9);
 
-  Morteros1->AddMaterial(SiO2, fractionMass=36.58536*perCent);
-  Morteros1->AddMaterial(water, fractionMass=24.39024*perCent);
-  Morteros1->AddMaterial(CaO, fractionMass=23.20369*perCent);
-  Morteros1->AddMaterial(Fe2O3, fractionMass=5.27356*perCent); 
-  Morteros1->AddMaterial(Al2O3, fractionMass=3.16414*perCent);
-  Morteros1->AddMaterial(MgO, fractionMass=3.16414*perCent); 
-  Morteros1->AddMaterial(SO3, fractionMass=3.16414*perCent);
-  Morteros1->AddMaterial(K2O, fractionMass=0.73828*perCent); 
-  Morteros1->AddMaterial(Na2O, fractionMass=0.31643*perCent);;
+  Morteros1->AddMaterial(SiO2, fractionMass=63.38028*perCent);
+  Morteros1->AddMaterial(water, fractionMass=14.0845*perCent);
+  Morteros1->AddMaterial(CaO, fractionMass=13.39931*perCent);
+  Morteros1->AddMaterial(Fe2O3, fractionMass=3.04529*perCent); 
+  Morteros1->AddMaterial(Al2O3, fractionMass=1.82717*perCent);
+  Morteros1->AddMaterial(MgO, fractionMass=1.82717*perCent); 
+  Morteros1->AddMaterial(SO3, fractionMass=1.82717*perCent);
+  Morteros1->AddMaterial(K2O, fractionMass=0.42633*perCent); 
+  Morteros1->AddMaterial(Na2O, fractionMass=0.18272*perCent);;
   
   // Placa
-  G4double placa_hx = 4.8063*cm; // 9,61275
-  G4double placa_hy = 4.8466*cm; // 9,69337 
-  G4double placa_hz = 1.0*cm; // the variation jummmm
+  G4double placa_hx = 4.5627*cm; // 9,1255
+  G4double placa_hy = 4.7776*cm; // 9,55525 
+  G4double placa_hz = 1.0*cm; // the variation is jummm
   
   auto placaSolid
     = new G4Box("placa", placa_hx, placa_hy, placa_hz);

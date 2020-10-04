@@ -1,0 +1,22 @@
+# Macro file for gMC
+# basic example of visualization 
+/run/initialize
+/vis/open HepRepFile
+/vis/verbose errors
+/vis/drawVolume
+/vis/scene/add/trajectories smooth
+/vis/viewer/set/autoRefresh true
+/vis/verbose warnings
+/vis/scene/endOfEventAction accumulate
+
+/gps/particle gamma
+/gps/position 0 0 -5 cm
+/gps/energy 662 keV
+/gps/ang/type iso
+/gps/ang/maxtheta 180. deg
+/gps/ang/mintheta 175. deg
+/gps/ang/minphi 0 deg
+/gps/ang/maxphi 360 deg
+/run/beamOn 6
+
+
