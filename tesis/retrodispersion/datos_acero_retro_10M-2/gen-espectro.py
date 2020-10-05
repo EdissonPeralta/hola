@@ -368,492 +368,6 @@ for c in k:
 
 
 
-####################################################################
-################ AJUSTES A LOS FOTOPICOS ###########################
-####################################################################
-
-max1=int(max(espectro1[170:330]))
-
-
-for i in range(170,330):
-    if espectro1[i]==max1:
-        mu1=x1[i]
-
-sig1= 0.425 * FWHM_Ge(mu1)
-
-cuentas1=espectro1[170:330]
-eje1=x1[170:330]
-
-a0=1
-a1=1
-def gaussi1(t,max1,mu1,sig1,a1,a0):
-	return max1*(np.exp(-((mu1-t)**2)/((math.sqrt(2)*sig1)**2)))+((a1*t)+a0)
-
-popt_gaussi1, pcov=curve_fit(gaussi1, eje1, cuentas1, p0=[max1,mu1,sig1,a1,a0])
-
-errores1= np.sqrt(np.diag(pcov))
-
-
-max1=popt_gaussi1[0]
-mu1=popt_gaussi1[1]
-sig1=popt_gaussi1[2]
-a1=popt_gaussi1[3]
-a0=popt_gaussi1[4]
-
-
-print('nuevas cuentas 1')
-cuentas1=math.sqrt(2*math.pi)*max1*sig1
-print(cuentas1)
-
-
-errores_max1=errores1[0]
-errores_sig1=errores1[2]
-
-incer1=cuentas1*math.sqrt((errores_max1/max1)**2+(errores_sig1/sig1)**2)
-
-print('incertidumbre en las cuentas!!!')
-print(incer1)
-
-print ("------------------------------------")
-######################################################################
-######################################################################
-
-max2=int(max(espectro2[170:330]))
-
-
-for i in range(170,330):
-    if espectro2[i]==max2:
-        mu2=x2[i]
-
-sig2= 0.425 * FWHM_Ge(mu2)
-
-cuentas2=espectro2[170:330]
-eje2=x2[170:330]
-
-a0_2=1
-a1_2=1
-def gaussi2(t,max2,mu2,sig2,a1_2,a0_2):
-	return max2*(np.exp(-((mu2-t)**2)/((math.sqrt(2)*sig2)**2)))+((a1_2*t)+a0_2)
-
-popt_gaussi2, pcov2=curve_fit(gaussi2, eje2, cuentas2, p0=[max2,mu2,sig2,a1_2,a0_2])
-
-errores2= np.sqrt(np.diag(pcov2))
-
-
-max2=popt_gaussi2[0]
-mu2=popt_gaussi2[1]
-sig2=popt_gaussi2[2]
-a1_2=popt_gaussi2[3]
-a0_2=popt_gaussi2[4]
-
-print('nuevas cuentas 2')
-cuentas2=math.sqrt(2*math.pi)*max2*sig2
-print(cuentas2)
-
-
-errores_max2=errores2[0]
-errores_sig2=errores2[2]
-
-incer2=cuentas2*math.sqrt((errores_max2/max2)**2+(errores_sig2/sig2)**2)
-
-print('incertidumbre en las cuentas!!!')
-print(incer2)
-
-print ("------------------------------------")
-
-
-
-######################################################################
-######################################################################
-
-max3=int(max(espectro3[170:330]))
-
-
-for i in range(170,330):
-    if espectro3[i]==max3:
-        mu3=x3[i]
-
-sig3= 0.425 * FWHM_Ge(mu3)
-
-cuentas3=espectro3[170:330]
-eje3=x3[170:330]
-
-a0_3=1
-a1_3=1
-def gaussi3(t,max3,mu3,sig3,a1_3,a0_3):
-	return max3*(np.exp(-((mu3-t)**2)/((math.sqrt(2)*sig3)**2)))+((a1_3*t)+a0_3)
-
-popt_gaussi3, pcov3=curve_fit(gaussi3, eje3, cuentas3, p0=[max3,mu3,sig3,a1_3,a0_3])
-
-errores3= np.sqrt(np.diag(pcov3))
-
-
-max3=popt_gaussi3[0]
-mu3=popt_gaussi3[1]
-sig3=popt_gaussi3[2]
-a1_3=popt_gaussi3[3]
-a0_3=popt_gaussi3[4]
-
-print('nuevas cuentas 3')
-cuentas3=math.sqrt(2*math.pi)*max3*sig3
-print(cuentas3)
-
-
-errores_max3=errores3[0]
-errores_sig3=errores3[2]
-
-incer3=cuentas3*math.sqrt((errores_max3/max3)**2+(errores_sig3/sig3)**2)
-
-print('incertidumbre en las cuentas!!!')
-print(incer3)
-
-print ("------------------------------------")
-
-
-
-########################################################################
-########################################################################
-
-max4=int(max(espectro4[170:330]))
-
-
-for i in range(170,330):
-    if espectro4[i]==max4:
-        mu4=x4[i]
-
-sig4= 0.425 * FWHM_Ge(mu4)
-
-cuentas4=espectro4[170:330]
-eje4=x4[170:330]
-
-a0_4=1
-a1_4=1
-def gaussi4(t,max4,mu4,sig4,a1_4,a0_4):
-	return max4*(np.exp(-((mu4-t)**2)/((math.sqrt(2)*sig4)**2)))+((a1_4*t)+a0_4)
-
-popt_gaussi4, pcov4=curve_fit(gaussi4, eje4, cuentas4, p0=[max4,mu4,sig4,a1_4,a0_4])
-
-errores4= np.sqrt(np.diag(pcov4))
-
-
-
-max4=popt_gaussi4[0]
-mu4=popt_gaussi4[1]
-sig4=popt_gaussi4[2]
-a1_4=popt_gaussi4[3]
-a0_4=popt_gaussi4[4]
-
-print('nuevas cuentas 4')
-cuentas4=math.sqrt(2*math.pi)*max4*sig4
-print(cuentas4)
-
-
-errores_max4=errores4[0]
-errores_sig4=errores4[2]
-
-incer4=cuentas4*math.sqrt((errores_max4/max4)**2+(errores_sig4/sig4)**2)
-
-print('incertidumbre en las cuentas!!!')
-print(incer4)
-
-print ("------------------------------------")
-
-        
-
-######################################################################
-######################################################################
-
-max5=int(max(espectro5[170:330]))
-
-
-for i in range(170,330):
-    if espectro5[i]==max5:
-        mu5=x5[i]
-
-
-sig5= 0.425 * FWHM_Ge(mu5)
-
-cuentas5=espectro5[170:330]
-eje5=x5[170:330]
-
-a0_5=1
-a1_5=1
-def gaussi5(t,max5,mu5,sig5,a1_5,a0_5):
-	return max5*(np.exp(-((mu5-t)**2)/((math.sqrt(2)*sig5)**2)))+((a1_5*t)+a0_5)
-
-popt_gaussi5, pcov5=curve_fit(gaussi5, eje5, cuentas5, p0=[max5,mu5,sig5,a1_5,a0_5])
-
-errores5= np.sqrt(np.diag(pcov5))
-
-
-
-max5=popt_gaussi5[0]
-mu5=popt_gaussi5[1]
-sig5=popt_gaussi5[2]
-a1_5=popt_gaussi5[3]
-a0_5=popt_gaussi5[4]
-
-print('nuevas cuentas 5')
-cuentas5=math.sqrt(2*math.pi)*max5*sig5
-print(cuentas5)
-
-
-errores_max5=errores5[0]
-errores_sig5=errores5[2]
-
-incer5=cuentas5*math.sqrt((errores_max5/max5)**2+(errores_sig5/sig5)**2)
-
-print('incertidumbre en las cuentas!!!')
-print(incer5)
-
-print ("------------------------------------")
-
-
-
-######################################################################
-######################################################################
-
-max6=int(max(espectro6[170:330]))
-
-
-for i in range(170,330):
-    if espectro6[i]==max6:
-        mu6=x6[i]
-
-sig6= 0.425 * FWHM_Ge(mu6)
-
-cuentas6=espectro6[170:330]
-eje6=x6[170:330]
-
-a0_6=1
-a1_6=1
-def gaussi6(t,max6,mu6,sig6,a1_6,a0_6):
-	return max6*(np.exp(-((mu6-t)**2)/((math.sqrt(2)*sig6)**2)))+((a1_6*t)+a0_6)
-
-popt_gaussi6, pcov6=curve_fit(gaussi6, eje6, cuentas6, p0=[max6,mu6,sig6,a1_6,a0_6])
-
-errores6= np.sqrt(np.diag(pcov6))
-
-
-max6=popt_gaussi6[0]
-mu6=popt_gaussi6[1]
-sig6=popt_gaussi6[2]
-a1_6=popt_gaussi6[3]
-a0_6=popt_gaussi6[4]
-
-
-print('nuevas cuentas 6')
-cuentas6=math.sqrt(2*math.pi)*max6*sig6
-print(cuentas6)
-
-
-errores_max6=errores6[0]
-errores_sig6=errores6[2]
-
-incer6=cuentas6*math.sqrt((errores_max6/max6)**2+(errores_sig6/sig6)**2)
-
-print('incertidumbre en las cuentas!!!')
-print(incer6)
-
-print ("------------------------------------")
-
-
-######################################################################
-######################################################################
-
-max7=int(max(espectro7[170:330]))
-
-
-for i in range(170,330):
-    if espectro7[i]==max7:
-        mu7=x7[i]
-
-sig7= 0.425 * FWHM_Ge(mu7)
-
-cuentas7=espectro7[170:330]
-eje7=x7[170:330]
-
-a0_7=1
-a1_7=1
-def gaussi7(t,max7,mu7,sig7,a1_7,a0_7):
-	return max7*(np.exp(-((mu7-t)**2)/((math.sqrt(2)*sig7)**2)))+((a1_7*t)+a0_7)
-
-popt_gaussi7, pcov7=curve_fit(gaussi7, eje7, cuentas7, p0=[max7,mu7,sig7,a1_7,a0_7])
-
-errores7= np.sqrt(np.diag(pcov7))
-
-
-max7=popt_gaussi7[0]
-mu7=popt_gaussi7[1]
-sig7=popt_gaussi7[2]
-a1_7=popt_gaussi7[3]
-a0_7=popt_gaussi7[4]
-
-
-print('nuevas cuentas 7')
-cuentas7=math.sqrt(2*math.pi)*max7*sig7
-print(cuentas7)
-
-
-errores_max7=errores7[0]
-errores_sig7=errores7[2]
-
-incer7=cuentas7*math.sqrt((errores_max7/max7)**2+(errores_sig7/sig7)**2)
-
-print('incertidumbre en las cuentas!!!')
-print(incer7)
-
-print ("------------------------------------")
-
-
-######################################################################
-######################################################################
-
-max8=int(max(espectro8[170:330]))
-
-
-for i in range(170,330):
-    if espectro8[i]==max8:
-        mu8=x8[i]
-
-sig8= 0.425 * FWHM_Ge(mu8)
-
-cuentas8=espectro8[170:330]
-eje8=x8[170:330]
-
-a0_8=1
-a1_8=1
-def gaussi8(t,max8,mu8,sig8,a1_8,a0_8):
-	return max8*(np.exp(-((mu8-t)**2)/((math.sqrt(2)*sig8)**2)))+((a1_8*t)+a0_8)
-
-popt_gaussi8, pcov8=curve_fit(gaussi8, eje8, cuentas8, p0=[max8,mu8,sig8,a1_8,a0_8])
-
-errores8= np.sqrt(np.diag(pcov8))
-
-
-max8=popt_gaussi8[0]
-mu8=popt_gaussi8[1]
-sig8=popt_gaussi8[2]
-a1_8=popt_gaussi8[3]
-a0_8=popt_gaussi8[4]
-
-
-print('nuevas cuentas 8')
-cuentas8=math.sqrt(2*math.pi)*max8*sig8
-print(cuentas8)
-
-
-errores_max8=errores8[0]
-errores_sig8=errores8[2]
-
-incer8=cuentas8*math.sqrt((errores_max8/max8)**2+(errores_sig8/sig8)**2)
-
-print('incertidumbre en las cuentas!!!')
-print(incer8)
-
-print ("------------------------------------")
-
-
-######################################################################
-######################################################################
-
-max9=int(max(espectro9[170:330]))
-
-
-for i in range(170,330):
-    if espectro9[i]==max9:
-        mu9=x9[i]
-
-sig9= 0.425 * FWHM_Ge(mu9)
-
-cuentas9=espectro9[170:330]
-eje9=x9[170:330]
-
-a0_9=1
-a1_9=1
-def gaussi9(t,max9,mu9,sig9,a1_9,a0_9):
-	return max9*(np.exp(-((mu9-t)**2)/((math.sqrt(2)*sig9)**2)))+((a1_9*t)+a0_9)
-
-popt_gaussi9, pcov9=curve_fit(gaussi9, eje9, cuentas9, p0=[max9,mu9,sig9,a1_9,a0_9])
-
-errores9= np.sqrt(np.diag(pcov9))
-
-
-
-max9=popt_gaussi9[0]
-mu9=popt_gaussi9[1]
-sig9=popt_gaussi9[2]
-a1_9=popt_gaussi9[3]
-a0_9=popt_gaussi9[4]
-
-print('nuevas cuentas 9')
-cuentas9=math.sqrt(2*math.pi)*max9*sig9
-print(cuentas9)
-
-
-errores_max9=errores9[0]
-errores_sig9=errores9[2]
-
-incer9=cuentas9*math.sqrt((errores_max9/max9)**2+(errores_sig9/sig9)**2)
-
-print('incertidumbre en las cuentas!!!')
-print(incer9)
-
-print ("------------------------------------")
-
-
-
-
-######################################################################
-######################################################################
-
-max10=int(max(espectro10[170:330]))
-
-
-for i in range(170,330):
-    if espectro10[i]==max10:
-        mu10=x10[i]
-
-sig10= 0.425 * FWHM_Ge(mu10)
-
-cuentas10=espectro10[170:330]
-eje10=x10[170:330]
-
-a0_10=1
-a1_10=1
-def gaussi10(t,max10,mu10,sig10,a1_10,a0_10):
-	return max10*(np.exp(-((mu10-t)**2)/((math.sqrt(2)*sig10)**2)))+((a1_10*t)+a0_10)
-
-popt_gaussi10, pcov10=curve_fit(gaussi10, eje10, cuentas10, p0=[max10,mu10,sig10,a1_10,a0_10])
-
-errores10= np.sqrt(np.diag(pcov10))
-
-
-max10=popt_gaussi10[0]
-mu10=popt_gaussi10[1]
-sig10=popt_gaussi10[2]
-a1_10=popt_gaussi10[3]
-a0_10=popt_gaussi10[4]
-
-print('nuevas cuentas 10')
-cuentas10=math.sqrt(2*math.pi)*max10*sig10
-print(cuentas10)
-
-
-errores_max10=errores10[0]
-errores_sig10=errores10[2]
-
-incer10=cuentas10*math.sqrt((errores_max10/max10)**2+(errores_sig10/sig10)**2)
-
-print('incertidumbre en las cuentas!!!')
-print(incer10)
-
-print ("------------------------------------")
-
-
-
-####################################################################
-####################################################################
 
 
 
@@ -874,27 +388,7 @@ ax.plot(x9,espectro9,drawstyle='steps-mid',label='1.8 cm')
 ax.plot(x10,espectro10,drawstyle='steps-mid',label='2.0 cm')
 
 
-#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#:::::::::::::::::::::: Graficas de los ajustes gaussianos :::::::::::::::::::::
-#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-"""
-ax.plot(x1,gaussi1(x1,max1,mu1,sig1,a1,a0),drawstyle='steps-mid',label='0.2 cm',color='purple')
-ax.plot(x2,gaussi1(x2,max2,mu2,sig2,a1_2,a0_2),drawstyle='steps-mid',label='0.2 cm',color='purple')
-ax.plot(x3,gaussi1(x3,max3,mu3,sig3,a1_3,a0_3),drawstyle='steps-mid',label='0.2 cm',color='purple')
-ax.plot(x4,gaussi1(x4,max4,mu4,sig4,a1_4,a0_4),drawstyle='steps-mid',label='0.2 cm',color='purple')
-ax.plot(x5,gaussi5(x5,max5,mu5,sig5,a1_5,a0_5),drawstyle='steps-mid',label='0.2 cm',color='purple')
-ax.plot(x6,gaussi6(x6,max6,mu6,sig6,a1_6,a0_6),drawstyle='steps-mid',label='0.2 cm',color='purple')
-ax.plot(x7,gaussi7(x7,max7,mu7,sig7,a1_7,a0_7),drawstyle='steps-mid',label='0.2 cm',color='purple')
-ax.plot(x8,gaussi1(x8,max8,mu8,sig8,a1_8,a0_8),drawstyle='steps-mid',label='0.2 cm',color='purple')
-ax.plot(x9,gaussi9(x9,max9,mu9,sig9,a1_9,a0_9),drawstyle='steps-mid',label='0.2 cm',color='purple')
-ax.plot(x10,gaussi10(x10,max10,mu10,sig10,a1_10,a0_10),drawstyle='steps-mid',label='0.2 cm',color='purple')
-"""
 
 ############################################################################################################
 ######################## EJES ##############################################################################
@@ -911,6 +405,119 @@ for legobj in leg.legendHandles: #tamaño de la leyenda
     legobj.set_linewidth(5.0) #tamaño de la leyenda
 plt.show()
 
+#########################################################################
+################# INICIO DE CONTEO  #####################################
+#########################################################################
+
+E1=197 #keV
+E2= 262 #keV
+
+############################################
+############################################
+ejex1=x1[E1:E2]
+cuentas1=0
+for i in range(len(ejex1)):
+   cuentas1=cuentas1+espectro1[i]
+    
+print (cuentas1)
+############################################
+############################################
+
+ejex2=x2[E1:E2]
+cuentas2=0
+for i in range(len(ejex2)):
+   cuentas2=cuentas2+espectro2[i]
+    
+print (cuentas2)
+############################################
+############################################
+
+ejex3=x3[E1:E2]
+cuentas3=0
+for i in range(len(ejex3)):
+   cuentas3=cuentas3+espectro3[i]
+    
+print (cuentas3)
+############################################
+############################################
+
+
+ejex4=x4[E1:E2]
+cuentas4=0
+for i in range(len(ejex4)):
+   cuentas4=cuentas4+espectro4[i]
+    
+print (cuentas4)
+############################################
+############################################
+
+
+
+
+ejex5=x5[E1:E2]
+cuentas5=0
+for i in range(len(ejex5)):
+   cuentas5=cuentas5+espectro5[i]
+    
+print (cuentas5)
+############################################
+############################################
+
+
+
+
+
+
+ejex6=x6[E1:E2]
+cuentas6=0
+for i in range(len(ejex6)):
+   cuentas6=cuentas6+espectro6[i]
+    
+print (cuentas6)
+############################################
+############################################
+
+
+
+
+
+ejex7=x7[E1:E2]
+cuentas7=0
+for i in range(len(ejex7)):
+   cuentas7=cuentas7+espectro7[i]
+    
+print (cuentas7)
+############################################
+############################################
+
+ejex8=x8[E1:E2]
+cuentas8=0
+for i in range(len(ejex8)):
+   cuentas8=cuentas8+espectro8[i]
+    
+print (cuentas8)
+############################################
+############################################
+
+ejex9=x9[E1:E2]
+cuentas9=0
+for i in range(len(ejex9)):
+   cuentas9=cuentas9+espectro9[i]
+    
+print (cuentas9)
+############################################
+############################################
+
+
+ejex10=x10[E1:E2]
+cuentas10=0
+for i in range(len(ejex10)):
+   cuentas10=cuentas10+espectro10[i]
+    
+print (cuentas10)
+############################################
+############################################
+
 
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -921,8 +528,8 @@ plt.show()
 intensidades=[cuentas1, cuentas2, cuentas3, cuentas4, cuentas5, cuentas6, cuentas7, cuentas8, cuentas9, cuentas10]
 int_max=max(intensidades)
 intensidades=intensidades/int_max
-errores_inten=[incer1,incer2,incer3, incer4, incer5, incer6, incer7, incer8,incer9, incer10]
-errores_inten=errores_inten/int_max
+#errores_inten=[incer1,incer2,incer3, incer4, incer5, incer6, incer7, incer8,incer9, incer10]
+#errores_inten=errores_inten/int_max
 
 #GROSORES
 grosor=[0.2, 0.4, 0.6, 0.8, 1.0, 1.2, 1.4, 1.6, 1.8, 2.0]
@@ -937,7 +544,7 @@ def intensidad(grosor,mu_T):
     return (1-np.exp(mu_T*grosor))
 
 
-popt_retro,pcov_retro=curve_fit(intensidad, grosor, intensidades,p0=[mu_T], sigma=errores_inten)
+popt_retro,pcov_retro=curve_fit(intensidad, grosor, intensidades,p0=[mu_T])
 
 
 perror=np.sqrt(np.diag(pcov_retro))
@@ -950,17 +557,20 @@ print (popt_retro)
 mu_T=popt_retro
 
 fig2, axs=plt.subplots(1,1,sharey=False)
-axs.errorbar(grosor,intensidades,yerr=errores_inten,xerr=None,fmt='.',color='purple', markersize=12,label='experimento')
+x=np.linspace(0.2,2,10000)
+#axs.errorbar(grosor,intensidades,yerr=errores_inten,xerr=None,fmt='.',color='purple', markersize=12,label='experimento')
+axs.plot(grosor,intensidades,'o', label='Geant4',color='purple')
 
 axs.set_xlabel(r'$Grosor$ (cm)')
 axs.set_ylabel('intensidad (cuentas)')
-x=np.linspace(0.2,2,10000)
-axs.plot(x,intensidad(x,mu_T), label='ajuste',color='red')
-#axs.plot(grosor,intensidad(grosor,mu_T), label='ajuste',color='red')
+
+axs.plot(x,intensidad(x,mu_T), label='Ajuste ',color='red')
+
 
 leg=axs.legend(loc="center right")
 for legobj in leg.legendHandles: #tamaño de la leyenda
     legobj.set_linewidth(2.0) #tamaño de la leyenda
 plt.show()
 
-plt.show()
+
+
