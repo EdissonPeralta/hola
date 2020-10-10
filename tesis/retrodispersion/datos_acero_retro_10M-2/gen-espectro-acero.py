@@ -366,36 +366,46 @@ for c in k:
             espectro10[k]=espectro10[k]+hist[j]
 ########################################################################
 
+
+
+
+
+
+
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 #:::::::::::::::::::::: Graficas despues de aplicar el filtro Gaussiano ::::::::::::::
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-ax.plot(x1,espectro1,drawstyle='steps-mid',label='1 cm')
-ax.plot(x2,espectro2,drawstyle='steps-mid',label='2 cm')
-ax.plot(x3,espectro3,drawstyle='steps-mid',label='3 cm')
-ax.plot(x4,espectro4,drawstyle='steps-mid',label='4 cm')
-ax.plot(x5,espectro5,drawstyle='steps-mid',label='5 cm')
-ax.plot(x6,espectro6,drawstyle='steps-mid',label='6 cm')
-ax.plot(x7,espectro7,drawstyle='steps-mid',label='7 cm')
-ax.plot(x8,espectro8,drawstyle='steps-mid',label='8 cm')
-ax.plot(x9,espectro9,drawstyle='steps-mid',label='9 cm')
-ax.plot(x10,espectro10,drawstyle='steps-mid',label='10 cm')
+ax.plot(x1,espectro1,drawstyle='steps-mid',label='0.2 cm')
+ax.plot(x2,espectro2,drawstyle='steps-mid',label='0.4 cm')
+ax.plot(x3,espectro3,drawstyle='steps-mid',label='0.6 cm')
+ax.plot(x4,espectro4,drawstyle='steps-mid',label='0.8 cm')
+ax.plot(x5,espectro5,drawstyle='steps-mid',label='1.0 cm')
+ax.plot(x6,espectro6,drawstyle='steps-mid',label='1.2 cm')
+ax.plot(x7,espectro7,drawstyle='steps-mid',label='1.4 cm')
+ax.plot(x8,espectro8,drawstyle='steps-mid',label='1.6 cm')
+ax.plot(x9,espectro9,drawstyle='steps-mid',label='1.8 cm')
+ax.plot(x10,espectro10,drawstyle='steps-mid',label='2.0 cm')
+
+
+
 
 ############################################################################################################
 ######################## EJES ##############################################################################
 ############################################################################################################
 
-ax.set_xlabel(r'$E_\gamma$ (keV)')
+ax.set_xlabel(r'$E_\gamma$ (keV)', size=20)
 #ax.xaxis.set_minor_locator(AutoMinorLocator(5))
-ax.set_ylabel('cuentas/keV')
-plt.xlim(0,400)
-plt.ylim(0,2500)
+ax.set_ylabel('cuentas/keV',size=20)
+plt.xlim(0,300)
+plt.ylim(0,2100)
 
-leg=plt.legend(loc="center right")
+plt.xticks(fontsize=16)
+plt.yticks(fontsize=16)
+leg=plt.legend(loc="center left",prop={'size': 14})
 for legobj in leg.legendHandles: #tamaño de la leyenda
     legobj.set_linewidth(5.0) #tamaño de la leyenda
 plt.show()
-
 
 #########################################################################
 ################# INICIO DE CONTEO  #####################################
@@ -520,15 +530,19 @@ print (cuentas10)
 intensidades=[cuentas1, cuentas2, cuentas3, cuentas4, cuentas5, cuentas6, cuentas7, cuentas8, cuentas9, cuentas10]
 int_max=max(intensidades)
 intensidades=intensidades/int_max
-#errores_inten=[incer1,incer2,incer3, incer4, incer5, incer6, incer7, incer8,incer9, incer10]
-#errores_inten=errores_inten/int_max
+errores_inten=[math.sqrt(cuentas1),math.sqrt(cuentas2),math.sqrt(cuentas3), math.sqrt(cuentas4), math.sqrt(cuentas5), math.sqrt(cuentas6), math.sqrt(cuentas7), math.sqrt(cuentas8), math.sqrt(cuentas9), math.sqrt(cuentas10)]
+
+propaga_error_y=[cuentas1/int_max*math.sqrt((math.sqrt(cuentas1)/cuentas1)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)), cuentas2/int_max*math.sqrt((math.sqrt(cuentas2)/cuentas2)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)), cuentas3/int_max*math.sqrt((math.sqrt(cuentas3)/cuentas3)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)), cuentas4/int_max*math.sqrt((math.sqrt(cuentas4)/cuentas4)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)),cuentas5/int_max*math.sqrt((math.sqrt(cuentas5)/cuentas5)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)),cuentas6/int_max*math.sqrt((math.sqrt(cuentas6)/cuentas6)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)),cuentas7/int_max*math.sqrt((math.sqrt(cuentas7)/cuentas7)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)),cuentas8/int_max*math.sqrt((math.sqrt(cuentas8)/cuentas8)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)),cuentas9/int_max*math.sqrt((math.sqrt(cuentas9)/cuentas9)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)),cuentas10/int_max*math.sqrt((math.sqrt(cuentas10)/cuentas10)**2+math.sqrt((math.sqrt(int_max)/int_max)**2))]
+
+propaga_error_x=[0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005]
+
 
 #GROSORES
-grosor=[1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0]
+grosor=[0.2, 0.4, 0.6, 0.8, 1.0, 1.2, 1.4, 1.6, 1.8, 2.0]
 
 
 #REGRESION
-
+print (propaga_error_y)
 
 
 mu_T=-1.6
@@ -536,7 +550,7 @@ def intensidad(grosor,mu_T):
     return (1-np.exp(mu_T*grosor))
 
 
-popt_retro,pcov_retro=curve_fit(intensidad, grosor, intensidades,p0=[mu_T])
+popt_retro,pcov_retro=curve_fit(intensidad, grosor, intensidades,p0=[mu_T],sigma=propaga_error_y)
 
 
 perror=np.sqrt(np.diag(pcov_retro))
@@ -549,17 +563,19 @@ print (popt_retro)
 mu_T=popt_retro
 
 fig2, axs=plt.subplots(1,1,sharey=False)
-x=np.linspace(0.2,10,10000)
-#axs.errorbar(grosor,intensidades,yerr=errores_inten,xerr=None,fmt='.',color='purple', markersize=12,label='experimento')
-axs.plot(grosor,intensidades,'o', label='Geant4',color='purple')
+x=np.linspace(0.2,2.0,10000)
+axs.errorbar(grosor,intensidades,yerr=propaga_error_y, xerr=propaga_error_x,fmt='.',color='purple', markersize=12,label='experimento')
 
-axs.set_xlabel(r'$Grosor$ (cm)')
-axs.set_ylabel('intensidad (cuentas)')
+#axs.plot(grosor,intensidades,'o', label='Geant4',color='purple')
+
+axs.set_xlabel(r'$t$ (cm)', size=20)
+axs.set_ylabel('intensidad (cuentas)', size=20)
 
 axs.plot(x,intensidad(x,mu_T), label='Ajuste ',color='red')
+plt.xticks(fontsize=16)
+plt.yticks(fontsize=16)
 
-
-leg=axs.legend(loc="center right")
+leg=axs.legend(loc="center right",prop={'size': 14})
 for legobj in leg.legendHandles: #tamaño de la leyenda
     legobj.set_linewidth(2.0) #tamaño de la leyenda
 plt.show()

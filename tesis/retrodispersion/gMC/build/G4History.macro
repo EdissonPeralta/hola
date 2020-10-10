@@ -28,8 +28,11 @@
 /gps/ang/maxphi 360 deg
 /run/beamOn 10
 /vis/scene/notifyHandlers scene-0
+/run/beamOn 100
 /vis/open OGL
 /vis/sceneHandler/create OGL
 /vis/sceneHandler/attach
 /vis/viewer/create ! ! 600
 /vis/viewer/refresh
+/run/beamOn 100
+/run/beamOn 1
