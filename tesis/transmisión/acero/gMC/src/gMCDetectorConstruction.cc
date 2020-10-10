@@ -163,7 +163,7 @@ G4VPhysicalVolume* gMCDetectorConstruction::Construct()
   TGe.setX(0.0*cm);  TGe.setY(0.0*cm); TGe.setZ(6.0*cm);
   R0= G4RotationMatrix();
   //R0.rotateX(0*deg);
-  R0.rotateY(-45*deg);
+  //R0.rotateY(-45*deg);
   //R0.rotateZ(0*deg);
   T3DGe = G4Transform3D(R0,TGe);
     
@@ -182,9 +182,9 @@ G4VPhysicalVolume* gMCDetectorConstruction::Construct()
   //  G4double z_Ge = -GeContHalfLength + GeHalfLength + 2*GeContHalfThick + GeAl_paraDistance;
   G4ThreeVector Tmother;
   G4Transform3D T3Dmother;
-  Tmother.setX(-3.0*cm); Tmother.setY(0.0*cm);
+  Tmother.setX(0.0*cm); Tmother.setY(0.0*cm);
   G4double z_shift = 5.0*cm;
-  G4double z_mother = GeHalfLength + 2*GeContHalfThick + GeAl_paraDistance + z_shift - 3*cm;
+  G4double z_mother = GeHalfLength + 2*GeContHalfThick + GeAl_paraDistance + z_shift;
   Tmother.setZ(z_mother);
   R0= G4RotationMatrix();
   R0.rotateY(0*deg);
@@ -304,7 +304,7 @@ G4VPhysicalVolume* gMCDetectorConstruction::Construct()
 
   G4ThreeVector Tplaca;    
   G4Transform3D T3Dplaca;
-  Tplaca.setX(4.0*cm);  Tplaca.setY(0.*cm);
+  Tplaca.setX(0.0*cm);  Tplaca.setY(0.*cm);
   G4double zPlaca = - placa_hz  ;
   Tplaca.setZ(zPlaca);
   T3Dplaca = G4Transform3D(R0,Tplaca);    

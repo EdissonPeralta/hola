@@ -28,28 +28,14 @@
 /gps/ang/maxphi 360 deg
 /run/beamOn 10
 /vis/scene/notifyHandlers scene-0
-/gps/ang/maxtheta 10. deg
-/gps/ang/mintheta 10. deg
-/gps/position 6.5 0 6.0 cm
-/run/beamOn 100
 /vis/open OGL
 /vis/sceneHandler/create OGL
 /vis/sceneHandler/attach
 /vis/viewer/create ! ! 600
 /vis/viewer/refresh
+/gps/ang/maxtheta 180. deg
+/gps/ang/mintheta 90. deg
+/gps/position 0 0 -3.0 cm
 /run/beamOn 100
+/run/beamOn 1
 /run/beamOn 100
-/run/beamOn 100
-/run/beamOn 100
-/run/beamOn 100
-/run/beamOn 100
-/run/beamOn 100
-/run/beamOn 100
-/run/beamOn 100
-/run/beamOn 100
-/run/beamOn 100
-/run/beamOn 10
-/run/beamOn 100
-/run/beamOn 1000
-/run/beamOn 100
-/run/beamOn 20
