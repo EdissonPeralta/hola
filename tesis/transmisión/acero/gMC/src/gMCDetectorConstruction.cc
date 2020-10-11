@@ -156,7 +156,7 @@ G4VPhysicalVolume* gMCDetectorConstruction::Construct()
   sodiumIodide->AddElement(elNa,1);
   sodiumIodide->AddElement(elI,1);
   */
-  fGeLogical = new G4LogicalVolume(GeSolid,sodiumIodide,"GeLogical");//llenado del detector
+  fGeLogical = new G4LogicalVolume(GeSolid,germanium,"GeLogical");//llenado del detector
   G4ThreeVector TGe;    
   G4Transform3D T3DGe;
   
@@ -293,7 +293,7 @@ G4VPhysicalVolume* gMCDetectorConstruction::Construct()
   // Placa
   G4double placa_hx = 16.5825*cm; // h = half
   G4double placa_hy = 10.085*cm;
-  G4double placa_hz = 1.0*cm; // the variation is 0.1
+  G4double placa_hz = 0.00001*cm; // the variation is 0.1
   
   auto placaSolid
     = new G4Box("placa", placa_hx, placa_hy, placa_hz);
