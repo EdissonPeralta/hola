@@ -151,14 +151,14 @@ G4VPhysicalVolume* gMCDetectorConstruction::Construct()
   auto GeSolid
     = new G4Tubs("Ge",tubeMinRad,GeMaxRad,GeHalfLength,MinPhi,MaxPhi);
 
-  fGeLogical = new G4LogicalVolume(GeSolid,sodiumIodide,"GeLogical");//llenado del detector
+  fGeLogical = new G4LogicalVolume(GeSolid,germanium,"GeLogical");//llenado del detector
   G4ThreeVector TGe;    
   G4Transform3D T3DGe;
   
   TGe.setX(0.0*cm);  TGe.setY(0.0*cm); TGe.setZ(6.0*cm);
   R0= G4RotationMatrix();
   //R0.rotateX(0*deg);
-   R0.rotateY(-45*deg);
+  // R0.rotateY(-45*deg);
   //R0.rotateZ(0*deg);
   T3DGe = G4Transform3D(R0,TGe);
     
@@ -305,7 +305,7 @@ G4Element* elNa = new G4Element(name="Sodium", symbol="Na", z=11., a);
   // Placa
   G4double placa_hx = 4.8018*cm; // 9,6037
   G4double placa_hy = 4.8406*cm; // 9,6813
-  G4double placa_hz = 0.5*cm; // the variation is 0.5 
+  G4double placa_hz = 0.00001*cm; // the variation is 0.5 
   
   auto placaSolid
     = new G4Box("placa", placa_hx, placa_hy, placa_hz);
@@ -316,7 +316,7 @@ G4Element* elNa = new G4Element(name="Sodium", symbol="Na", z=11., a);
 
   G4ThreeVector Tplaca;    
   G4Transform3D T3Dplaca;
-  Tplaca.setX(4.5*cm);  Tplaca.setY(0.0*cm);
+  Tplaca.setX(0.0*cm);  Tplaca.setY(0.0*cm);
   G4double zPlaca = - placa_hz  ;
   Tplaca.setZ(zPlaca);
   T3Dplaca = G4Transform3D(R0,Tplaca);    

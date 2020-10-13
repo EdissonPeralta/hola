@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/edisson/Documentos/hola/tesis/retrodispersion/morteros/m5/gMC/gMC.cc" "/home/edisson/Documentos/hola/tesis/retrodispersion/morteros/m5/gMC/build/CMakeFiles/gMC.dir/gMC.cc.o"
-  "/home/edisson/Documentos/hola/tesis/retrodispersion/morteros/m5/gMC/src/gMCActionInitialization.cc" "/home/edisson/Documentos/hola/tesis/retrodispersion/morteros/m5/gMC/build/CMakeFiles/gMC.dir/src/gMCActionInitialization.cc.o"
-  "/home/edisson/Documentos/hola/tesis/retrodispersion/morteros/m5/gMC/src/gMCDetectorConstruction.cc" "/home/edisson/Documentos/hola/tesis/retrodispersion/morteros/m5/gMC/build/CMakeFiles/gMC.dir/src/gMCDetectorConstruction.cc.o"
-  "/home/edisson/Documentos/hola/tesis/retrodispersion/morteros/m5/gMC/src/gMCEmCalorimeterHit.cc" "/home/edisson/Documentos/hola/tesis/retrodispersion/morteros/m5/gMC/build/CMakeFiles/gMC.dir/src/gMCEmCalorimeterHit.cc.o"
-  "/home/edisson/Documentos/hola/tesis/retrodispersion/morteros/m5/gMC/src/gMCEmCalorimeterSD.cc" "/home/edisson/Documentos/hola/tesis/retrodispersion/morteros/m5/gMC/build/CMakeFiles/gMC.dir/src/gMCEmCalorimeterSD.cc.o"
-  "/home/edisson/Documentos/hola/tesis/retrodispersion/morteros/m5/gMC/src/gMCEventAction.cc" "/home/edisson/Documentos/hola/tesis/retrodispersion/morteros/m5/gMC/build/CMakeFiles/gMC.dir/src/gMCEventAction.cc.o"
-  "/home/edisson/Documentos/hola/tesis/retrodispersion/morteros/m5/gMC/src/gMCPrimaryGeneratorAction.cc" "/home/edisson/Documentos/hola/tesis/retrodispersion/morteros/m5/gMC/build/CMakeFiles/gMC.dir/src/gMCPrimaryGeneratorAction.cc.o"
-  "/home/edisson/Documentos/hola/tesis/retrodispersion/morteros/m5/gMC/src/gMCRunAction.cc" "/home/edisson/Documentos/hola/tesis/retrodispersion/morteros/m5/gMC/build/CMakeFiles/gMC.dir/src/gMCRunAction.cc.o"
+  "/home/edisson/Documentos/hola/tesis/transmisión/m5/gMC/gMC.cc" "/home/edisson/Documentos/hola/tesis/transmisión/m5/gMC/build/CMakeFiles/gMC.dir/gMC.cc.o"
+  "/home/edisson/Documentos/hola/tesis/transmisión/m5/gMC/src/gMCActionInitialization.cc" "/home/edisson/Documentos/hola/tesis/transmisión/m5/gMC/build/CMakeFiles/gMC.dir/src/gMCActionInitialization.cc.o"
+  "/home/edisson/Documentos/hola/tesis/transmisión/m5/gMC/src/gMCDetectorConstruction.cc" "/home/edisson/Documentos/hola/tesis/transmisión/m5/gMC/build/CMakeFiles/gMC.dir/src/gMCDetectorConstruction.cc.o"
+  "/home/edisson/Documentos/hola/tesis/transmisión/m5/gMC/src/gMCEmCalorimeterHit.cc" "/home/edisson/Documentos/hola/tesis/transmisión/m5/gMC/build/CMakeFiles/gMC.dir/src/gMCEmCalorimeterHit.cc.o"
+  "/home/edisson/Documentos/hola/tesis/transmisión/m5/gMC/src/gMCEmCalorimeterSD.cc" "/home/edisson/Documentos/hola/tesis/transmisión/m5/gMC/build/CMakeFiles/gMC.dir/src/gMCEmCalorimeterSD.cc.o"
+  "/home/edisson/Documentos/hola/tesis/transmisión/m5/gMC/src/gMCEventAction.cc" "/home/edisson/Documentos/hola/tesis/transmisión/m5/gMC/build/CMakeFiles/gMC.dir/src/gMCEventAction.cc.o"
+  "/home/edisson/Documentos/hola/tesis/transmisión/m5/gMC/src/gMCPrimaryGeneratorAction.cc" "/home/edisson/Documentos/hola/tesis/transmisión/m5/gMC/build/CMakeFiles/gMC.dir/src/gMCPrimaryGeneratorAction.cc.o"
+  "/home/edisson/Documentos/hola/tesis/transmisión/m5/gMC/src/gMCRunAction.cc" "/home/edisson/Documentos/hola/tesis/transmisión/m5/gMC/build/CMakeFiles/gMC.dir/src/gMCRunAction.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
