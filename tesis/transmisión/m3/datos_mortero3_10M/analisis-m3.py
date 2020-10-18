@@ -207,7 +207,7 @@ for i in range(len(xs[0])):
 
 
     
-density=1.62 #g/cm3 computing in a external excel
+density=1.624 #g/cm3 computing in a external excel
 ddensity=0.016 #g/cm3 DEBO CALCULARLA BIEN !!!!
 
 muu=mu/density 
@@ -219,7 +219,7 @@ mu=muu
 #print(dmu)
 
 #ahora pongo los valores que me da el nist y hago ajustes a una funcion potencia
-munist=[2.35E-01, 1.62E-01, 1.006E-01, 8.66E-02, 7.73E-02, 5.89E-02, 5.65E-02, 5.52E-02]
+munist=[1.902E-01, 1.510E-01, 1.012E-01, 8.743E-02, 7.814E-02, 5.957E-02, 5.715E-02, 5.584E-02]
 
 #ahora pongo los valores experimentales
 muexp=[0.18867332, 0.14790356, 0.09812104, 0.08385468,0.07720204, 0.06038583, 0.05390741, 0.05053051] #falta cambiarlo !!!!
@@ -232,7 +232,7 @@ def myExpFunc(x, a, b):
     return a * np.power(x, b)
 
 popt, pcov = curve_fit(myExpFunc, energy, mu,sigma=dmu)
-pop_exp, pcov_exp = curve_fit(myExpFunc, energy, muexp,sigma=dmuexp)
+pop_exp, pcov_exp = curve_fit(myExpFunc, energy, munist,sigma=None)
 alph_exp=popt[0]
 dalph_exp=np.sqrt(pcov[0][0])
 alph2_exp=popt[1]
@@ -281,8 +281,8 @@ for j in range(0,8,2):
         ii+=1
     elif jj==0 and ii==0:
         jj+=1
-fig_1.tight_layout()
-fig_1.savefig('2.pdf')
+#fig_1.tight_layout()
+#fig_1.savefig('2.pdf')
 #::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 #grafico los ajuste a la funcion potencia
@@ -310,20 +310,20 @@ axs.set_xticklabels(['80','200','500','1000','1500'])
 label1=[str(np.round(alph_exp,2))+'('+str(int(np.round(dalph_exp,2)*100))+')',str(np.round(alph2_exp,2))+'('+str(int(np.round(dalph2_exp,2)*100))+')']
 label2=[str(np.round(alph_nist,2))+'('+str(int(np.round(dalph_nist,2)*100))+')',str(np.round(alph2_nist,2))+'('+str(int(np.round(dalph2_nist,2)*100))+')']
 #grafico
-axs.plot(xx, myExpFunc(xx, *popt), 'C0',label=r"$y={}E^{{{}}} $".format(*label1))
+axs.plot(xx, myExpFunc(xx, *popt), 'C0',label=r"$y={}E^{{{}}} $".format(*label1), color='red')
 
-axs.errorbar(energy, mu, yerr=dmu, fmt='x',c='C0',ecolor='k',label=r"Simulación")
+axs.errorbar(energy, mu, yerr=dmu, fmt='o', c='red',ecolor='k',label=r"Simulación")
 
-#axs.plot(xx, myExpFunc(xx, *pop_exp), 'red',label=r"$y={}E^{{{}}}$".format(*label2))
+axs.plot(xx, myExpFunc(xx, *pop_exp), 'purple',label=r"$y={}E^{{{}}}$".format(*label2))
 
-axs.errorbar(energy,munist,yerr=None, fmt='x',c='red',ecolor='k',label=r'NIST')
+axs.errorbar(energy,munist,yerr=None, fmt='o',c='purple',ecolor='k',label=r'NIST')
 axs.legend()
 
 plt.xticks(fontsize=16)
 plt.yticks(fontsize=16)
-leg=plt.legend(loc="upper right",prop={'size': 14})
+leg=plt.legend(loc="upper right",prop={'size': 16})
 for legobj in leg.legendHandles: #tamaño de la leyenda
-    legobj.set_linewidth(2.0) #tamaño de la leyenda
+    legobj.set_linewidth(2.5) #tamaño de la leyenda
 
 plt.show()
 """

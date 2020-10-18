@@ -38,7 +38,7 @@ pic=8
 num=11
 
 #grosor de las placas usadas
-grosor=[0,.56,1.12,1.68,2.24,2.8,3.36,3.92,4.48,5.04,5.6]
+grosor=[0.0 ,1.0 ,2.0 ,3.0 ,4.0 ,5.0 ,6.0 ,7.0 ,8.0 ,9.0 ,10.0]
 #energía de loss picos s analizar
 energy=[81,122,356,511,662,1173,1273,1332]
 
@@ -182,7 +182,7 @@ for i in range(len(xs)):
 I=I.transpose()
 dI=dI.transpose()
 #print(dI)
-print(I[1])
+#print(I[1])
 #arrays para guaradr los resultados de los ajustes
 I0=np.zeros(pic)
 dI0=np.zeros(pic)
@@ -203,12 +203,12 @@ for i in range(len(xs[0])):
     mu[i]=popt_exp[i][1]
     dmu[i]=np.sqrt(pcov_exp[i][1][1])
 
-print(mu[1])
+#print(mu[1])
 
-"""
+
     
-density=1.319 #g/cm3 computing in a external excel
-ddensity=0.016 #g/cm3
+density=1.602 #g/cm3 computing in a external excel
+ddensity=0.016 #g/cm3 DEBO CALCULARLA BIEN !!!!
 
 muu=mu/density 
 dmu=muu*np.sqrt((dmu/mu)*(dmu/mu)+(ddensity/density)*(ddensity/density))
@@ -219,17 +219,20 @@ mu=muu
 #print(dmu)
 
 #ahora pongo los valores que me da el nist y hago ajustes a una funcion potencia
-munist=[1.95E-01, 1.52E-01, 1.01E-01, 8.69E-02, 7.77E-02, 5.92E-02, 5.68E-02, 5.55E-02]
+munist=[2.437E-01, 1.664E-01, 1.024E-01, 8.819E-02, 7.876E-02, 6.000E-02, 5.756E-02, 5.625E-02]
 
 #ahora pongo los valores experimentales
-muexp=[0.18867332, 0.14790356, 0.09812104, 0.08385468,0.07720204, 0.06038583, 0.05390741, 0.05053051]
-dmuexp=[0.00709664, 0.00321366, 0.0050095,  0.00236088, 0.00270814, 0.0035002, 0.00150228, 0.00614035]
+muexp=[0.18867332, 0.14790356, 0.09812104, 0.08385468,0.07720204, 0.06038583, 0.05390741, 0.05053051] #falta cambiarlo !!!!
+dmuexp=[0.00709664, 0.00321366, 0.0050095,  0.00236088, 0.00270814, 0.0035002, 0.00150228, 0.00614035] #falta cambiarlo !!!!
+
+
+
 
 def myExpFunc(x, a, b):
     return a * np.power(x, b)
 
 popt, pcov = curve_fit(myExpFunc, energy, mu,sigma=dmu)
-pop_exp, pcov_exp = curve_fit(myExpFunc, energy, muexp,sigma=dmuexp)
+pop_exp, pcov_exp = curve_fit(myExpFunc, energy, munist,sigma=None)
 alph_exp=popt[0]
 dalph_exp=np.sqrt(pcov[0][0])
 alph2_exp=popt[1]
@@ -244,7 +247,7 @@ dalph2_nist=np.sqrt(pcov_exp[1][1])
 #::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 #:::::GRAFICAS:::::GRAFICAS:::::GRAFICAS:::::GRAFICAS:::::GRAFICAS:::::::::::
 #::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
+"""
 #espectro completo
 fig_1,axs=plt.subplots(1,1,figsize=(6.5,4))
 axs.set_ylabel(r'Cuentas')
@@ -258,7 +261,8 @@ for i in range(pic):
     else:
         axs.text(peaksx[0][i],peaksy[0][i],str(energy[i])+' keV', fontsize=11,ha='center')
         
-fig_1.savefig('1.pdf')
+#fig_1.savefig('1.pdf')
+"""
 #::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 #grafico algun picos
@@ -277,16 +281,16 @@ for j in range(0,8,2):
         ii+=1
     elif jj==0 and ii==0:
         jj+=1
-fig_1.tight_layout()
-fig_1.savefig('2.pdf')
+#fig_1.tight_layout()
+#fig_1.savefig('2.pdf')
 #::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 #grafico los ajuste a la funcion potencia
 xx=x[50:]
 fig_1,axs=plt.subplots(1,1,figsize=(6.5,4))
 
-axs.set_ylabel(r"$\mu$ (cm$^2$/g)",fontsize=15)
-axs.set_xlabel(r'$E_{\gamma}$ keV')
+axs.set_ylabel(r"$\mu$ (cm$^2$/g)",fontsize=15, size=20)
+axs.set_xlabel(r'$E_{\gamma}$ keV', size=20)
 
 #plt.tick_params(
 #    axis='y',          # changes apply to the y-axis
@@ -306,16 +310,23 @@ axs.set_xticklabels(['80','200','500','1000','1500'])
 label1=[str(np.round(alph_exp,2))+'('+str(int(np.round(dalph_exp,2)*100))+')',str(np.round(alph2_exp,2))+'('+str(int(np.round(dalph2_exp,2)*100))+')']
 label2=[str(np.round(alph_nist,2))+'('+str(int(np.round(dalph_nist,2)*100))+')',str(np.round(alph2_nist,2))+'('+str(int(np.round(dalph2_nist,2)*100))+')']
 #grafico
-axs.plot(xx, myExpFunc(xx, *popt), 'C0',label=r"$y={}E^{{{}}} $".format(*label1))
+axs.plot(xx, myExpFunc(xx, *popt), 'C0',label=r"$y={}E^{{{}}} $".format(*label1), color='red')
 
-axs.errorbar(energy, mu, yerr=dmu, fmt='x',c='C0',ecolor='k',label=r"Simulación")
+axs.errorbar(energy, mu, yerr=dmu, fmt='o', c='red',ecolor='k',label=r"Simulación")
 
-axs.plot(xx, myExpFunc(xx, *pop_exp), 'red',label=r"$y={}E^{{{}}}$".format(*label2))
-axs.errorbar(energy,muexp,yerr=dmuexp, fmt='x',c='red',ecolor='k',label=r'Experimental')
+axs.plot(xx, myExpFunc(xx, *pop_exp), 'purple',label=r"$y={}E^{{{}}}$".format(*label2))
+
+axs.errorbar(energy,munist,yerr=None, fmt='o',c='purple',ecolor='k',label=r'NIST')
 axs.legend()
-fig_1.tight_layout()
-fig_1.savefig('3.pdf')
 
+plt.xticks(fontsize=16)
+plt.yticks(fontsize=16)
+leg=plt.legend(loc="upper right",prop={'size': 16})
+for legobj in leg.legendHandles: #tamaño de la leyenda
+    legobj.set_linewidth(2.5) #tamaño de la leyenda
+
+plt.show()
+"""
 
 pico_graf=2
 fig_2,axs=plt.subplots(1,1)
