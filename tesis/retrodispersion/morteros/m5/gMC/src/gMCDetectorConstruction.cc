@@ -305,7 +305,7 @@ G4Element* elNa = new G4Element(name="Sodium", symbol="Na", z=11., a);
   // Placa
   G4double placa_hx = 4.8018*cm; // 9,6037
   G4double placa_hy = 4.8406*cm; // 9,6813
-  G4double placa_hz = 0.5*cm; // the variation is 0.5 
+  G4double placa_hz = 6.5*cm; // the variation is 0.5 
   
   auto placaSolid
     = new G4Box("placa", placa_hx, placa_hy, placa_hz);
