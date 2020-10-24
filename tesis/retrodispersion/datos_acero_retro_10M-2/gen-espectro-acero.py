@@ -562,15 +562,32 @@ print (popt_retro)
 
 mu_T=popt_retro
 
+densidad=8.15
+Ddensidad=0.03
+mu_T_masico_sim=mu_T/densidad
+error=mu_T_masico_sim*math.sqrt((perror/mu_T)**2+(Ddensidad/densidad)**2)
+print (mu_T_masico_sim, error)
+
+
+######################################################
+mu_1=7.250E-02
+mu_2=1.325E-01
+mu_T_masico_nist=mu_1-(mu_2/math.cos(3*math.pi/4))
+print (mu_T_masico_nist)
+####################################################
+
+
 fig2, axs=plt.subplots(1,1,sharey=False)
-x=np.linspace(0.2,2.0,10000)
-axs.errorbar(grosor,intensidades,yerr=propaga_error_y, xerr=propaga_error_x,fmt='.',color='purple', markersize=12,label='experimento')
+x=np.linspace(0.0,2.0,10000)
+axs.errorbar(grosor,intensidades,yerr=propaga_error_y, xerr=propaga_error_x,fmt='.',color='purple', markersize=12,label='Geant4')
 
 #axs.plot(grosor,intensidades,'o', label='Geant4',color='purple')
 
 axs.set_xlabel(r'$t$ (cm)', size=20)
 axs.set_ylabel('intensidad (cuentas)', size=20)
-
+plt.text(1.5,0.3,r'Geant4: $\mu_T$=0.177(4)$\frac{cm^2}{g}$', size=15)
+plt.text(1.5,0.2,r'NIST: $\mu_T$=0.259$\frac{cm^2}{g}$', size=15)
+plt.text(1.5,0.1,r'Discrepancia: 31.6$\%$', size=15)
 axs.plot(x,intensidad(x,mu_T), label='Ajuste ',color='red')
 plt.xticks(fontsize=16)
 plt.yticks(fontsize=16)
