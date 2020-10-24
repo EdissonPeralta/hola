@@ -7,8 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/gMC.dir/src/gMCEventAction.cc.o"
   "CMakeFiles/gMC.dir/src/gMCPrimaryGeneratorAction.cc.o"
   "CMakeFiles/gMC.dir/src/gMCRunAction.cc.o"
-  "gMC"
   "gMC.pdb"
+  "gMC"
 )
 
 # Per-language clean rules from dependency scanning.
