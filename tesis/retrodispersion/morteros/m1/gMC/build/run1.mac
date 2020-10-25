@@ -11,6 +11,6 @@
 /gps/ang/mintheta 10. deg
 /gps/ang/minphi 0 deg
 /gps/ang/maxphi 360 deg
-/run/beamOn 10000000
+/run/beamOn 100000
 
 
