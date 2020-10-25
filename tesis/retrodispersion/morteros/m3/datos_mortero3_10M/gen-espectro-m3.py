@@ -56,6 +56,7 @@ f9 = np.genfromtxt('gMC_h9_Ge.csv',delimiter=',')
 f10 = np.genfromtxt('gMC_h10_Ge.csv',delimiter=',')
 f11 = np.genfromtxt('gMC_h11_Ge.csv',delimiter=',')
 f12 = np.genfromtxt('gMC_h12_Ge.csv',delimiter=',')
+f13 = np.genfromtxt('gMC_h13_Ge.csv',delimiter=',')
 
 y1 = f1[2:,1]
 y2 = f2[2:,1]
@@ -69,6 +70,7 @@ y9 = f9[2:,1]
 y10 = f10[2:,1]
 y11 = f11[2:,1]
 y12 = f12[2:,1]
+y13 = f13[2:,1]
 
 x1 = np.arange(0,len(y1))
 x2 = np.arange(0,len(y2))
@@ -82,6 +84,8 @@ x9 = np.arange(0,len(y9))
 x10 = np.arange(0,len(y10))
 x11 = np.arange(0,len(y11))
 x12 = np.arange(0,len(y12))
+x13 = np.arange(0,len(y13))
+
 
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 #:::::::::::::::::::::: CUENTAS :::::::::::::::::::::::::::::
@@ -411,7 +415,27 @@ for c in k:
             k=bin_edge[j]
             espectro12[k]=espectro12[k]+hist[j]
 ########################################################################
+############### SE APLICA EL FWHM ####################
+k=np.arange(10,len(y13))
+espectro13=np.zeros(len(y13))
+for c in k:
+    miu13=float(c)
+    sigma13= 0.425 * FWHM_Ge(miu13)
+    nue_cuen13 = int(y13[c])
+    if nue_cuen13>0:
+        
+        s=norm.rvs(loc=miu13,scale=sigma13, size= nue_cuen13,random_state=12345)
+        smin=int(round(s.min()))-1
+        smax=int(round(s.max()))+1
+        binx=np.arange(smin, smax)
+        hist, bin_edge=np.histogram(s,bins=binx)
+        
+        for j in np.arange(0,len(hist)):
+            k=bin_edge[j]
+            espectro13[k]=espectro13[k]+hist[j]
 
+
+########################################################################
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 #:::::::::::::::::::::: Graficas despues de aplicar el filtro Gaussiano ::::::::::::::
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -426,8 +450,9 @@ ax.plot(x7,espectro7,drawstyle='steps-mid',label='7 cm')
 ax.plot(x8,espectro8,drawstyle='steps-mid',label='8 cm')
 ax.plot(x9,espectro9,drawstyle='steps-mid',label='9 cm')
 ax.plot(x10,espectro10,drawstyle='steps-mid',label='10 cm')
-#ax.plot(x11,espectro11,drawstyle='steps-mid',label='11 cm')
-#ax.plot(x12,espectro12,drawstyle='steps-mid',label='12 cm')
+ax.plot(x11,espectro11,drawstyle='steps-mid',label='11 cm', color='yellow')
+ax.plot(x12,espectro12,drawstyle='steps-mid',label='12 cm', color='black')
+ax.plot(x13,espectro13,drawstyle='steps-mid',label='13 cm', color='aqua')
 ############################################################################################################
 ######################## EJES ##############################################################################
 ############################################################################################################
@@ -435,8 +460,8 @@ ax.plot(x10,espectro10,drawstyle='steps-mid',label='10 cm')
 ax.set_xlabel(r'$E_\gamma$ (keV)', size=20)
 #ax.xaxis.set_minor_locator(AutoMinorLocator(5))
 ax.set_ylabel('cuentas/keV', size=20)
-plt.xlim(0,300)
-plt.ylim(0,2300)
+plt.xlim(0,270)
+#plt.ylim(0,2300)
 plt.xticks(fontsize=16)
 plt.yticks(fontsize=16)
 leg=plt.legend(loc="center left",prop={'size': 14})
@@ -573,7 +598,14 @@ for i in range(len(ejex12)):
 print (cuentas12)
 ############################################
 ############################################
-
+ejex13=x13[E1:E2]
+cuentas13=0
+for i in range(len(ejex13)):
+   cuentas13=cuentas13+espectro13[i]
+    
+print (cuentas13)
+############################################
+############################################
 
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -581,18 +613,18 @@ print (cuentas12)
 
 #INTENSIDADES Y SUS ERRORES RESPECTIVOS
 
-intensidades=[cuentas1, cuentas2, cuentas3, cuentas4, cuentas5, cuentas6, cuentas7, cuentas8, cuentas9, cuentas10]
+intensidades=[cuentas1, cuentas2, cuentas3, cuentas4, cuentas5, cuentas6, cuentas7, cuentas8, cuentas9, cuentas10, cuentas11, cuentas12, cuentas13]
 int_max=max(intensidades)
 intensidades=intensidades/int_max
-errores_inten=[math.sqrt(cuentas1),math.sqrt(cuentas2),math.sqrt(cuentas3), math.sqrt(cuentas4), math.sqrt(cuentas5), math.sqrt(cuentas6), math.sqrt(cuentas7), math.sqrt(cuentas8), math.sqrt(cuentas9), math.sqrt(cuentas10)]
+errores_inten=[math.sqrt(cuentas1),math.sqrt(cuentas2),math.sqrt(cuentas3), math.sqrt(cuentas4), math.sqrt(cuentas5), math.sqrt(cuentas6), math.sqrt(cuentas7), math.sqrt(cuentas8), math.sqrt(cuentas9), math.sqrt(cuentas10), math.sqrt(cuentas11),  math.sqrt(cuentas12),  math.sqrt(cuentas13)]
 
-propaga_error_y=[cuentas1/int_max*math.sqrt((math.sqrt(cuentas1)/cuentas1)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)), cuentas2/int_max*math.sqrt((math.sqrt(cuentas2)/cuentas2)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)), cuentas3/int_max*math.sqrt((math.sqrt(cuentas3)/cuentas3)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)), cuentas4/int_max*math.sqrt((math.sqrt(cuentas4)/cuentas4)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)),cuentas5/int_max*math.sqrt((math.sqrt(cuentas5)/cuentas5)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)),cuentas6/int_max*math.sqrt((math.sqrt(cuentas6)/cuentas6)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)),cuentas7/int_max*math.sqrt((math.sqrt(cuentas7)/cuentas7)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)),cuentas8/int_max*math.sqrt((math.sqrt(cuentas8)/cuentas8)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)),cuentas9/int_max*math.sqrt((math.sqrt(cuentas9)/cuentas9)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)),cuentas10/int_max*math.sqrt((math.sqrt(cuentas10)/cuentas10)**2+math.sqrt((math.sqrt(int_max)/int_max)**2))]
+propaga_error_y=[cuentas1/int_max*math.sqrt((math.sqrt(cuentas1)/cuentas1)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)), cuentas2/int_max*math.sqrt((math.sqrt(cuentas2)/cuentas2)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)), cuentas3/int_max*math.sqrt((math.sqrt(cuentas3)/cuentas3)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)), cuentas4/int_max*math.sqrt((math.sqrt(cuentas4)/cuentas4)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)),cuentas5/int_max*math.sqrt((math.sqrt(cuentas5)/cuentas5)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)),cuentas6/int_max*math.sqrt((math.sqrt(cuentas6)/cuentas6)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)),cuentas7/int_max*math.sqrt((math.sqrt(cuentas7)/cuentas7)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)),cuentas8/int_max*math.sqrt((math.sqrt(cuentas8)/cuentas8)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)),cuentas9/int_max*math.sqrt((math.sqrt(cuentas9)/cuentas9)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)),cuentas10/int_max*math.sqrt((math.sqrt(cuentas10)/cuentas10)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)), cuentas11/int_max*math.sqrt((math.sqrt(cuentas11)/cuentas11)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)), cuentas12/int_max*math.sqrt((math.sqrt(cuentas12)/cuentas12)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)), cuentas13/int_max*math.sqrt((math.sqrt(cuentas13)/cuentas13)**2+math.sqrt((math.sqrt(int_max)/int_max)**2))]
 
-propaga_error_x=[0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005]
+propaga_error_x=[0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005]
 
 
 #GROSORES
-grosor=[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0]
+grosor=[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0]
 
 
 #REGRESION
@@ -632,20 +664,20 @@ print (mu_T_masico_nist)
 
 
 fig2, axs=plt.subplots(1,1,sharey=False)
-x=np.linspace(0.2,10.0,10000)
+x=np.linspace(0.2,13.0,10000)
 axs.errorbar(grosor,intensidades,yerr=propaga_error_y, xerr=propaga_error_x,fmt='.',color='purple', markersize=12,label='Geant4')
 
 #axs.plot(grosor,intensidades,'o', label='Geant4',color='purple')
 
 axs.set_xlabel(r'$t$ (cm)', size=20)
 axs.set_ylabel('intensidad (cuentas)', size=20)
-plt.text(8.0,0.3,r'Geant4: $\mu_T$=0.151(9)$\frac{cm^2}{g}$', size=15)
+plt.text(8.0,0.3,r'Geant4: $\mu_T$=0.145(8)$\frac{cm^2}{g}$', size=15)
 plt.text(8.0,0.2,r'NIST: $\mu_T$=0.253$\frac{cm^2}{g}$', size=15)
-plt.text(8.0,0.1,r'Discrepancia: 40.3$\%$', size=15)
+plt.text(8.0,0.1,r'Discrepancia: 42.6$\%$', size=15)
 axs.plot(x,intensidad(x,mu_T), label='Ajuste ',color='red')
 plt.xticks(fontsize=16)
 plt.yticks(fontsize=16)
-
+plt.grid(True)
 leg=axs.legend(loc="center right",prop={'size': 14})
 for legobj in leg.legendHandles: #tamaño de la leyenda
     legobj.set_linewidth(2.0) #tamaño de la leyenda
