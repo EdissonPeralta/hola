@@ -663,6 +663,17 @@ mu_T_masico_nist=mu_1-(mu_2/math.cos(3*math.pi/4))
 print (mu_T_masico_nist)
 ####################################################
 
+####################################################
+#CALCULO DE LA DISTANCIA DE SATURACIÓN
+####################################################
+
+Xsaturacion = 1/mu_T*np.log(0.1)
+print("distancia de saturación")
+print(Xsaturacion)
+
+
+#######################################################
+
 
 fig2, axs=plt.subplots(1,1,sharey=False)
 x=np.linspace(0.2,13.0,10000)
@@ -670,16 +681,22 @@ axs.errorbar(grosor,intensidades,yerr=propaga_error_y, xerr=propaga_error_x,fmt=
 
 #axs.plot(grosor,intensidades,'o', label='Geant4',color='purple')
 
+axs.vlines(Xsaturacion, 0.0, 0.9, color='navy', alpha=0.5)
+plt.text(Xsaturacion + 0.1, 0.7, r'8.35021(agregar) cm', size=15, color='navy')
+
+
+
 axs.set_xlabel(r'$t$ (cm)', size=20)
-axs.set_ylabel('intensidad (cuentas)', size=20)
-plt.text(8.0,0.3,r'Geant4: $\mu_T$=0.172(7)$\frac{cm^2}{g}$', size=15)
-plt.text(8.0,0.2,r'NIST: $\mu_T$=0.258$\frac{cm^2}{g}$', size=15)
-plt.text(8.0,0.1,r'Discrepancia: 33.3$\%$', size=15)
-axs.plot(x,intensidad(x,mu_T), label='Ajuste ',color='red')
-plt.xticks(fontsize=16)
+axs.set_ylabel('Intensidad (cuentas)', size=20)
+plt.text(10.0,0.3,r'Geant4: $\mu_T$=0.172(7)$\frac{cm^2}{g}$', size=15)
+plt.text(10.0,0.2,r'NIST: $\mu_T$=0.258$\frac{cm^2}{g}$', size=15)
+plt.text(10.0,0.1,r'Discrepancia: 33.3$\%$', size=15)
+axs.plot(x,intensidad(x,mu_T), label='Ajuste ',color='dimgrey')
+plt.xticks(grosor, fontsize=16)
 plt.yticks(fontsize=16)
-plt.grid(True)
-leg=axs.legend(loc="center right",prop={'size': 14})
+plt.ylim(0, 1.15)
+#plt.grid(True)
+leg=axs.legend(loc="upper left",prop={'size': 14})
 for legobj in leg.legendHandles: #tamaño de la leyenda
     legobj.set_linewidth(2.0) #tamaño de la leyenda
 plt.show()
