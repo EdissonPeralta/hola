@@ -302,20 +302,39 @@ G4Element* elNa = new G4Element(name="Sodium", symbol="Na", z=11., a);
   // Dimension of the cement board
   G4double placa_hx = 4.8063*cm; // 9,61275
   G4double placa_hy = 4.8466*cm; // 9,69337 
-  G4double placa_hz = 1.0*cm; // the variation is 0.5
+  G4double placa_hz = 3.0*cm; // the variation is 0.5
 
+  //Creation of the hole
+
+  G4double h_x=2.0*cm;
+  G4double h_y=2.0*cm;
+  G4double h_z=2.0*cm;
+   
 
 
   //////////////////////////////////////////////////////////////////////////
-  //Creation of the cement board number 1
+  //Creation of the cement board number 1 with hole
   ///////////////////////////////////////////////////////////////////////////
   
   auto placaSolid = new G4Box("placa", placa_hx, placa_hy, placa_hz);  
-  fPlacaLogical = new G4LogicalVolume(placaSolid, Morteros1,"placaLogical");
+ 
+  auto placavacio = new G4Box("hueco", h_x, h_y, h_z);
+  
 
+  G4SubtractionSolid* nueva_placa
+    = new G4SubtractionSolid("nueva_placa",
+			     placaSolid,
+			     placavacio,
+			     0,
+			     G4ThreeVector(0.0,0.0,-placa_hz + h_z));
+  
+  fPlacaLogical = new G4LogicalVolume(nueva_placa, Morteros1,"placaLogical");
+
+  
+  G4double desplazamiento= 8.0*cm; //Aca se regula el dezplazamiento en x para barrer el mortero. Se hace desde 8.0 hasta -1.0 de a 0.5
   G4ThreeVector Tplaca;    
   G4Transform3D T3Dplaca;
-  Tplaca.setX(4.5*cm);  Tplaca.setY(0.0*cm);
+  Tplaca.setX(4.5*cm + desplazamiento);  Tplaca.setY(0.0*cm);
   G4double zPlaca = - placa_hz  ;
   Tplaca.setZ(zPlaca);
   T3Dplaca = G4Transform3D(R0,Tplaca);    
@@ -324,9 +343,65 @@ G4Element* elNa = new G4Element(name="Sodium", symbol="Na", z=11., a);
   		    "placaPhysical",
   		    worldLogical,
   		    false,0,checkOverlaps);
+
+  //Colimador de plomo
+  //Dimensiones
+  G4double angulomin = 0*deg;
+  G4double angulomax = 360*deg;
+  G4double radiomin = 0.0*cm; // Para todos !!!
+  G4double radiomax = 2.5*cm;
+  G4double radio_abertura = 0.2*cm;
+  G4double altura = 1.0*cm;
+  G4double alturaint = 0.6*cm;
+  G4double radioint = 1.0*cm;
+  G4double altura_abertura = altura - alturaint;
+
+  
+  auto tubeplomo
+    = new G4Tubs("tubo_plomo",radiomin,radiomax,altura,angulomin,angulomax);
+
+  
+  auto tubeplomoint
+    = new G4Tubs("tubo_interior_plomo",radiomin, radioint, alturaint, angulomin, angulomax);
+
+  auto abertura
+    = new G4Tubs("hueco_abertura", radiomin, radio_abertura, altura_abertura, angulomin, angulomax);
+
+    G4SubtractionSolid* cilindroplomo
+    = new G4SubtractionSolid("colimador_sin_Abertura",
+			     tubeplomo,
+			     tubeplomoint,
+			     0,
+			     G4ThreeVector(0.0,0.0,0.0));
+
+  
+      G4SubtractionSolid* colimador
+    = new G4SubtractionSolid("colimador",
+			     cilindroplomo,
+			     abertura,
+			     0,
+			     G4ThreeVector(0.0,0.0,-alturaint));
+  
+  fPlacaLogical_colimador = new G4LogicalVolume(colimador, lead,"placaLogical_plomo");
+ 
+  G4ThreeVector Tplaca_plomo;    
+  G4Transform3D T3Dplaca_plomo;
+  Tplaca_plomo.setX(8.0*cm);  Tplaca_plomo.setY(0.0*cm);
+  G4double zPlaca_plomo = 6.0*cm;
+  Tplaca_plomo.setZ(zPlaca_plomo);
+  T3Dplaca_plomo = G4Transform3D(R0,Tplaca_plomo);    
+  new G4PVPlacement(T3Dplaca_plomo,
+  		    fPlacaLogical_colimador,
+  		    "placaPhysical",
+  		    worldLogical,
+  		    false,0,checkOverlaps);
+
+
+
+  
   //###############################################################################
 
-
+  /*
   ///////////////////////////////////////////////////////////////////////////////
   //Creation of the cement board number 2
   ///////////////////////////////////////////////////////////////////////////////
@@ -349,7 +424,9 @@ G4Element* elNa = new G4Element(name="Sodium", symbol="Na", z=11., a);
 
 
   //###############################################################################
-    // visualization attributes ------------------------------------------------
+  */  
+
+  // visualization attributes ------------------------------------------------
 
   auto visAttributes = new G4VisAttributes(G4Colour(0.,0.,0.));
   visAttributes->SetVisibility(false);
@@ -361,19 +438,20 @@ G4Element* elNa = new G4Element(name="Sodium", symbol="Na", z=11., a);
   visAttributes->SetForceSolid(true);
   fGeLogical->SetVisAttributes(visAttributes);
   fVisAttributes.push_back(visAttributes);
-  
+  /*
   visAttributes = new G4VisAttributes(G4Colour(0.40,0.40,0.40));
   visAttributes->SetVisibility(true);
   visAttributes->SetForceSolid(true);
-  fPlacaLogical->SetVisAttributes(visAttributes);
+  fPlacaLogical_colimador ->SetVisAttributes(visAttributes);
   fVisAttributes.push_back(visAttributes);
+  
   
   visAttributes = new G4VisAttributes(G4Colour(0.40,0.40,0.40));
   visAttributes->SetVisibility(true);
   visAttributes->SetForceSolid(true);
   fPlacaLogical2->SetVisAttributes(visAttributes);
   fVisAttributes.push_back(visAttributes);
-
+  */
   visAttributes = new G4VisAttributes(G4Colour(0.7,0.6,0.7));
   visAttributes->SetVisibility(true);
   visAttributes->SetForceSolid(false);

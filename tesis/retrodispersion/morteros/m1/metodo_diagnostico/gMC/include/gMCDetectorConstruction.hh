@@ -65,6 +65,7 @@ private:
   G4LogicalVolume* fGeLogical;
   G4LogicalVolume* fPlacaLogical;
   G4LogicalVolume* fPlacaLogical2;
+  G4LogicalVolume* fPlacaLogical_colimador;
   G4LogicalVolume* GeContainerLogical;
   
   std::vector<G4VisAttributes*> fVisAttributes;
