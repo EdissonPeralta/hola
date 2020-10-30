@@ -19,17 +19,13 @@ from matplotlib.ticker import NullFormatter
 import scipy.stats as st
 from scipy.stats import norm
 
-#fig = plt.figure(figsize=(mt.cm2inch(18.0),mt.cm2inch(10.0)))
 fig, ax=plt.subplots(1,1,sharey=True)
-#grid = plt.GridSpec(1, 1, wspace=0.25, hspace=0.2,left=0.1,right=0.98,bottom=0.17,top=0.98)
 
-#ax =fig.add_subplot(grid[0,0])
-#ax.tick_params(bottom=True,top=True,right=True,direction='in',which='both')
 
 f = np.genfromtxt('gMC_h1_Ge.csv',delimiter=',')
 y = f[2:,1]
 x = np.arange(0,len(y))
-#ax.plot(x,y,drawstyle='steps-mid',color='purple')
+ax.plot(x,y,drawstyle='steps-mid',color='purple')
 
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 #:::::::::::::::::::::: CUENTAS :::::::::::::::::::::::::::::
@@ -37,13 +33,25 @@ x = np.arange(0,len(y))
 
 
 # FUNCION ENCARGADA DE DAR EL "FWHM" para el Ge-HP
-
+"""
 ####################################################
 def FWHM_Ge(Eg):
     f0 = 1.24
     f1 = 0.00068
     return f0 + f1 * Eg
 ##########################################
+"""
+##########################################
+
+#FUNCION ENCARGADA DE DAR EL "FWHM" PARA EL NaI
+
+def FWHM_Ge(Eg):
+    f0=1
+    f1=0.027
+    f2=1.2
+    return f0 + f1 * Eg + f2 * np.sqrt(Eg)
+
+###############################################
 
 k=np.arange(10,len(y))
 espectro=np.zeros(len(y))
@@ -75,12 +83,11 @@ for c in k:
 
 
 
-
 ax.plot(x,espectro,drawstyle='steps-mid',color='red')
 ax.set_xlabel(r'$E_\gamma$ (keV)')
 #ax.xaxis.set_minor_locator(AutoMinorLocator(5))
 ax.set_ylabel('cuentas/keV')
-plt.xlim(0,300)
-plt.ylim(0,2500)
+plt.xlim(1,650)
+plt.ylim(0,3000)
 plt.show()
 
