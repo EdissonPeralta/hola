@@ -33,3 +33,7 @@
 /vis/sceneHandler/attach
 /vis/viewer/create ! ! 600
 /vis/viewer/refresh
+/gps/ang/maxtheta 10. deg
+/gps/ang/mintheta 10. deg
+/gps/position 8.0 0 6.0 cm
+/run/beamOn 100
