@@ -1,8 +1,8 @@
-/home/edisson/Documentos/hola/tesis/retrodispersion/morteros/m2/metodo_diagnostico/gMC/build/CMakeFiles/install/strip.dir
-/home/edisson/Documentos/hola/tesis/retrodispersion/morteros/m2/metodo_diagnostico/gMC/build/CMakeFiles/install.dir
-/home/edisson/Documentos/hola/tesis/retrodispersion/morteros/m2/metodo_diagnostico/gMC/build/CMakeFiles/list_install_components.dir
-/home/edisson/Documentos/hola/tesis/retrodispersion/morteros/m2/metodo_diagnostico/gMC/build/CMakeFiles/rebuild_cache.dir
-/home/edisson/Documentos/hola/tesis/retrodispersion/morteros/m2/metodo_diagnostico/gMC/build/CMakeFiles/edit_cache.dir
-/home/edisson/Documentos/hola/tesis/retrodispersion/morteros/m2/metodo_diagnostico/gMC/build/CMakeFiles/install/local.dir
-/home/edisson/Documentos/hola/tesis/retrodispersion/morteros/m2/metodo_diagnostico/gMC/build/CMakeFiles/gammaMaterialesConstruccion.dir
-/home/edisson/Documentos/hola/tesis/retrodispersion/morteros/m2/metodo_diagnostico/gMC/build/CMakeFiles/gMC.dir
+/home/gfnun/Documents/hola/tesis/retrodispersion/morteros/m2/metodo_diagnostico/gMC/build/CMakeFiles/install/strip.dir
+/home/gfnun/Documents/hola/tesis/retrodispersion/morteros/m2/metodo_diagnostico/gMC/build/CMakeFiles/install/local.dir
+/home/gfnun/Documents/hola/tesis/retrodispersion/morteros/m2/metodo_diagnostico/gMC/build/CMakeFiles/gammaMaterialesConstruccion.dir
+/home/gfnun/Documents/hola/tesis/retrodispersion/morteros/m2/metodo_diagnostico/gMC/build/CMakeFiles/edit_cache.dir
+/home/gfnun/Documents/hola/tesis/retrodispersion/morteros/m2/metodo_diagnostico/gMC/build/CMakeFiles/gMC.dir
+/home/gfnun/Documents/hola/tesis/retrodispersion/morteros/m2/metodo_diagnostico/gMC/build/CMakeFiles/rebuild_cache.dir
+/home/gfnun/Documents/hola/tesis/retrodispersion/morteros/m2/metodo_diagnostico/gMC/build/CMakeFiles/list_install_components.dir
+/home/gfnun/Documents/hola/tesis/retrodispersion/morteros/m2/metodo_diagnostico/gMC/build/CMakeFiles/install.dir
