@@ -338,7 +338,7 @@ for j in range (len(ejeXM6)):
 
 ####################################################################
 
-########################### L6 #############################3
+########################### L7 #############################3
 maximo0=int(max(cuentasM7[m01:m02]))
 maximo1=int(max(cuentasM7[m11:m12]))
 
@@ -363,6 +363,132 @@ for j in range (len(ejeXM7)):
 
 ####################################################################
 
+########################### L8 #############################3
+maximo0=int(max(cuentasM8[m01:m02]))
+maximo1=int(max(cuentasM8[m11:m12]))
+
+for i in range(m01,m02):
+	if cuentasM8[i]==maximo0:
+		d0=ejeXM8[i]
+                
+for i in range(m11,m12):
+	if cuentasM8[i]==maximo1:
+		d1=ejeXM8[i]
+
+a1=(662-32)/(d1-d0)
+a0=32-a1*d0
+
+
+def regresion(x):
+    return a0 + a1 * x
+
+for j in range (len(ejeXM8)):
+    canalM8[j]= regresion(ejeXM8[j])
+
+
+####################################################################
+
+########################### L9 #############################3
+maximo0=int(max(cuentasM9[m01:m02]))
+maximo1=int(max(cuentasM9[m11:m12]))
+
+for i in range(m01,m02):
+	if cuentasM9[i]==maximo0:
+		d0=ejeXM9[i]
+                
+for i in range(m11,m12):
+	if cuentasM9[i]==maximo1:
+		d1=ejeXM9[i]
+
+a1=(662-32)/(d1-d0)
+a0=32-a1*d0
+
+
+def regresion(x):
+    return a0 + a1 * x
+
+for j in range (len(ejeXM9)):
+    canalM9[j]= regresion(ejeXM9[j])
+
+
+####################################################################
+
+########################### L10 #############################3
+maximo0=int(max(cuentasM10[m01:m02]))
+maximo1=int(max(cuentasM10[m11:m12]))
+
+for i in range(m01,m02):
+	if cuentasM10[i]==maximo0:
+		d0=ejeXM10[i]
+                
+for i in range(m11,m12):
+	if cuentasM10[i]==maximo1:
+		d1=ejeXM10[i]
+
+a1=(662-32)/(d1-d0)
+a0=32-a1*d0
+
+
+def regresion(x):
+    return a0 + a1 * x
+
+for j in range (len(ejeXM10)):
+    canalM10[j]= regresion(ejeXM10[j])
+
+
+##############################################################
+
+########################### L11 #############################3
+maximo0=int(max(cuentasM11[m01:m02]))
+maximo1=int(max(cuentasM11[m11:m12]))
+
+for i in range(m01,m02):
+	if cuentasM11[i]==maximo0:
+		d0=ejeXM11[i]
+                
+for i in range(m11,m12):
+	if cuentasM11[i]==maximo1:
+		d1=ejeXM11[i]
+
+a1=(662-32)/(d1-d0)
+a0=32-a1*d0
+
+
+def regresion(x):
+    return a0 + a1 * x
+
+for j in range (len(ejeXM11)):
+    canalM11[j]= regresion(ejeXM11[j])
+
+
+##############################################################
+
+
+########################### L12 #############################3
+maximo0=int(max(cuentasM12[m01:m02]))
+maximo1=int(max(cuentasM12[m11:m12]))
+
+for i in range(m01,m02):
+	if cuentasM12[i]==maximo0:
+		d0=ejeXM12[i]
+                
+for i in range(m11,m12):
+	if cuentasM12[i]==maximo1:
+		d1=ejeXM12[i]
+
+a1=(662-32)/(d1-d0)
+a0=32-a1*d0
+
+
+def regresion(x):
+    return a0 + a1 * x
+
+for j in range (len(ejeXM12)):
+    canalM12[j]= regresion(ejeXM12[j])
+
+
+##############################################################
+
 
 fig, axs=plt.subplots(1,1,sharey=False)
 
@@ -383,6 +509,12 @@ axs.step(canalM4,cuentasM4, where='mid',color= 'black')
 axs.step(canalM5,cuentasM5, where='mid',color= 'orange')
 axs.step(canalM6,cuentasM6, where='mid',color= 'green')
 axs.step(canalM7,cuentasM7, where='mid',color= 'blue')
+axs.step(canalM8,cuentasM8, where='mid',color= 'yellow')
+axs.step(canalM9,cuentasM9, where='mid',color= 'black')
+axs.step(canalM10,cuentasM10, where='mid',color= 'orange')
+axs.step(canalM11,cuentasM11, where='mid',color= 'green')
+axs.step(canalM12,cuentasM12, where='mid',color= 'blue'
+
 """
 axs.step(ejeXM0,cuentasM0, where='mid')
 axs.step(ejeXM1,cuentasM1, where='mid')
