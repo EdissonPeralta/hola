@@ -513,26 +513,164 @@ axs.step(canalM8,cuentasM8, where='mid',color= 'yellow')
 axs.step(canalM9,cuentasM9, where='mid',color= 'black')
 axs.step(canalM10,cuentasM10, where='mid',color= 'orange')
 axs.step(canalM11,cuentasM11, where='mid',color= 'green')
-axs.step(canalM12,cuentasM12, where='mid',color= 'blue'
-
-"""
-axs.step(ejeXM0,cuentasM0, where='mid')
-axs.step(ejeXM1,cuentasM1, where='mid')
-axs.step(ejeXM2,cuentasM2, where='mid')
-axs.step(ejeXM3,cuentasM3, where='mid')
-axs.step(ejeXM4,cuentasM4, where='mid')
-axs.step(ejeXM5,cuentasM5,color='aqua', where='mid')
-axs.step(ejeXM6,cuentasM6, where='mid')
-axs.step(ejeXM7,cuentasM7, where='mid')
-axs.step(ejeXM8,cuentasM8, where='mid')
-axs.step(ejeXM9,cuentasM9, where='mid')
-axs.step(ejeXM10,cuentasM10, where='mid')
-axs.step(ejeXM11,cuentasM11, where='mid')
-axs.step(ejeXM12,cuentasM12, where='mid')
-"""
+axs.step(canalM12,cuentasM12, where='mid',color= 'blue')
 
 plt.show()
     
+
+E1=190 #keV
+E2=250 #keV
+
+############################################################
+energia0=canalM0[E1:E2]
+cuentas0=0
+for i in range(len(energia0)):
+   cuentas0=cuentas0+cuentasM0[i]
+    
+print (cuentas0)
+
+#############################################################
+
+############################################################
+energia1=canalM1[E1:E2]
+cuentas1=0
+for i in range(len(energia1)):
+   cuentas1=cuentas1+cuentasM1[i]
+    
+print (cuentas1)
+
+#############################################################
+
+############################################################
+energia2=canalM2[E1:E2]
+cuentas2=0
+for i in range(len(energia2)):
+   cuentas2=cuentas2+cuentasM2[i]
+    
+print (cuentas2)
+
+#############################################################
+
+############################################################
+energia3=canalM3[E1:E2]
+cuentas3=0
+for i in range(len(energia3)):
+   cuentas3=cuentas3+cuentasM3[i]
+    
+print (cuentas3)
+
+#############################################################
+
+
+############################################################
+energia4=canalM4[E1:E2]
+cuentas4=0
+for i in range(len(energia4)):
+   cuentas4=cuentas4+cuentasM4[i]
+    
+print (cuentas4)
+
+#############################################################
+
+############################################################
+energia5=canalM5[E1:E2]
+cuentas5=0
+for i in range(len(energia5)):
+   cuentas5=cuentas5+cuentasM5[i]
+    
+print (cuentas5)
+
+#############################################################
+
+############################################################
+energia6=canalM6[E1:E2]
+cuentas6=0
+for i in range(len(energia6)):
+   cuentas6=cuentas6+cuentasM6[i]
+    
+print (cuentas6)
+
+#############################################################
+
+############################################################
+energia7=canalM7[E1:E2]
+cuentas7=0
+for i in range(len(energia7)):
+   cuentas7=cuentas7+cuentasM7[i]
+    
+print (cuentas7)
+
+#############################################################
+
+############################################################
+energia8=canalM8[E1:E2]
+cuentas8=0
+for i in range(len(energia8)):
+   cuentas8=cuentas8+cuentasM8[i]
+    
+print (cuentas8)
+
+#############################################################
+
+
+############################################################
+energia9=canalM9[E1:E2]
+cuentas9=0
+for i in range(len(energia9)):
+   cuentas9=cuentas9+cuentasM9[i]
+    
+print (cuentas9)
+
+#############################################################
+
+############################################################
+energia10=canalM10[E1:E2]
+cuentas10=0
+for i in range(len(energia10)):
+   cuentas10=cuentas10+cuentasM10[i]
+    
+print (cuentas10)
+
+#############################################################
+
+############################################################
+energia11=canalM11[E1:E2]
+cuentas11=0
+for i in range(len(energia11)):
+   cuentas11=cuentas11+cuentasM11[i]
+    
+print (cuentas11)
+
+#############################################################
+############################################################
+energia12=canalM12[E1:E2]
+cuentas12=0
+for i in range(len(energia12)):
+   cuentas12=cuentas12+cuentasM12[i]
+    
+print (cuentas12)
+
+#############################################################
+
+
+intensidades=[cuentas1,cuentas2,cuentas3,cuentas4,cuentas5,cuentas6,cuentas7,cuentas8,cuentas9,cuentas10,cuentas11,cuentas12]
+
+int_max=max(intensidades)
+intensidades=intensidades/int_max
+errores_inten=[math.sqrt(cuentas1),math.sqrt(cuentas2),math.sqrt(cuentas3), math.sqrt(cuentas4), math.sqrt(cuentas5), math.sqrt(cuentas6), math.sqrt(cuentas7), math.sqrt(cuentas8), math.sqrt(cuentas9), math.sqrt(cuentas10),  math.sqrt(cuentas11),  math.sqrt(cuentas12)]
+
+propaga_error_y=[cuentas1/int_max*math.sqrt((math.sqrt(cuentas1)/cuentas1)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)), cuentas2/int_max*math.sqrt((math.sqrt(cuentas2)/cuentas2)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)), cuentas3/int_max*math.sqrt((math.sqrt(cuentas3)/cuentas3)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)), cuentas4/int_max*math.sqrt((math.sqrt(cuentas4)/cuentas4)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)),cuentas5/int_max*math.sqrt((math.sqrt(cuentas5)/cuentas5)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)),cuentas6/int_max*math.sqrt((math.sqrt(cuentas6)/cuentas6)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)),cuentas7/int_max*math.sqrt((math.sqrt(cuentas7)/cuentas7)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)),cuentas8/int_max*math.sqrt((math.sqrt(cuentas8)/cuentas8)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)),cuentas9/int_max*math.sqrt((math.sqrt(cuentas9)/cuentas9)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)),cuentas10/int_max*math.sqrt((math.sqrt(cuentas10)/cuentas10)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)), cuentas11/int_max*math.sqrt((math.sqrt(cuentas11)/cuentas11)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)), cuentas12/int_max*math.sqrt((math.sqrt(cuentas12)/cuentas12)**2+math.sqrt((math.sqrt(int_max)/int_max)**2))]
+
+propaga_error_x=[0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005, 0.005, 0.005, 0.005]
+
+
+#GROSORES-MODIFICAR
+grosor=[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0]
+
+fig2, axs=plt.subplots(1,1,sharey=False)
+axs.plot(grosor,intensidades,'o',color= 'blue')
+         
+plt.show()
 
 """
 ################## L0 #################################333
