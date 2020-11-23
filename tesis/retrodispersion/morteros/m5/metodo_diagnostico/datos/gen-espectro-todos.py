@@ -647,9 +647,9 @@ print (cuentas19)
 ############################################
 ############################################
 
-cuentas_totales=[cuentas1, cuentas2, cuentas3, cuentas4, cuentas5, cuentas6, cuentas7, cuentas8, cuentas9, cuentas10, cuentas11, cuentas12, cuentas18, cuentas19]
+cuentas_totales=[cuentas18, cuentas19,cuentas1, cuentas2, cuentas3, cuentas4, cuentas5, cuentas6, cuentas7, cuentas8, cuentas9, cuentas10, cuentas11, cuentas12]
 
-ejex_graf=[-1.0, -0.5, 0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5]
+ejex_graf=[-1.0, -0.5, 0.0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5]
 
 fig2, axs=plt.subplots(1,1,sharey=False)
 x=np.linspace(0.2,13.0,10000)

@@ -668,6 +668,8 @@ propaga_error_x=[0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005, 0.
 grosor=[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0]
 
 fig2, axs=plt.subplots(1,1,sharey=False)
+plt.xlabel('t(cm)', fontsize=14)
+plt.ylabel('Intensidad', fontsize=14)
 axs.plot(grosor,intensidades,'o',color= 'blue')
          
 plt.show()

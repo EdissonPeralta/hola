@@ -829,7 +829,7 @@ x=np.linspace(0.2,13.0,10000)
 axs.set_xlabel(r'$x$ (cm)', size=20)
 axs.set_ylabel('Intensidad (cuentas)', size=20)
 
-axs.plot(ejex_graf,cuentas_totales, label='Ajuste ',color='dimgrey')
+axs.plot(ejex_graf,cuentas_totales,'o', label='Ajuste ',color='purple')
 plt.xticks(ejex_graf,fontsize=16)
 plt.yticks(fontsize=16)
 plt.xlim(-1.0, 5.5)
