@@ -947,9 +947,9 @@ ax.plot(x10,espectro10,drawstyle='steps-mid',label='10.0 cm')
 
 
 
-ax.set_xlabel(r'$E_\gamma$ (keV)', size=20)
+ax.set_xlabel(r'$E_\gamma$ (keV)', size=23)
 #ax.xaxis.set_minor_locator(AutoMinorLocator(5))
-ax.set_ylabel('cuentas/keV', size=20)
+ax.set_ylabel('cuentas/keV', size=23)
 #plt.xlim(0,1400)
 #plt.ylim(0,7000)
 plt.xticks(fontsize=16)

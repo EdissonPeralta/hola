@@ -131,7 +131,7 @@ ax.plot(x13,y13,drawstyle='steps-mid')
 ax.set_xlabel(r'$E_\gamma$ (keV)')
 #ax.xaxis.set_minor_locator(AutoMinorLocator(5))
 ax.set_ylabel('cuentas/keV')
-plt.xlim(0,300)
+plt.xlim(20,650)
 plt.ylim(0,500)
 plt.show()
 

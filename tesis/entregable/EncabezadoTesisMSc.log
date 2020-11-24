@@ -1,0 +1,4761 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.10)  24 NOV 2020 07:36
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**EncabezadoTesisMSc.tex
+(./EncabezadoTesisMSc.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14>
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbook.cls
+Document Class: scrbook 2020/01/24 v3.29 KOMA-Script document class (book)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2020/01/24 v3.29 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2020/01/24 v3.29 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2020/01/24 v3.29 KOMA-Script package (loading files)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2020/01/24 v3.29 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip47
+\scr@dte@tocline@numbox=\box45
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 137.
+Package scrbook Info: You've used standard option `12pt'.
+(scrbook)             This is correct!
+(scrbook)             Internally I'm using `fontsize=12pt'.
+(scrbook)             If you'd like to set the option with \KOMAoptions,
+(scrbook)             you'd have to use `fontsize=12pt' there
+(scrbook)             instead of `12pt', too.
+Class scrbook Info: You've used standard option `openany'.
+(scrbook)           This is correct!
+(scrbook)           Internally I'm using `open=any'.
+(scrbook)           If you'd like to set the option with \KOMAoptions,
+(scrbook)           you'd have to use `open=any' there
+(scrbook)           instead of `openany', too.
+Class scrbook Info: File `scrsize12pt.clo' used to setup font sizes on input li
+ne 2424.
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize12pt.clo
+File: scrsize12pt.clo 2020/01/24 v3.29 KOMA-Script font size class option (12pt
+)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2020/01/24 v3.29 KOMA-Script package (type area)
+\ta@bcor=\skip48
+\ta@div=\count167
+Package typearea Info: You've used standard option `letterpaper'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `paper=letter'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=letter' there
+(typearea)             instead of `letterpaper', too.
+\ta@hblk=\skip49
+\ta@vblk=\skip50
+\ta@temp=\skip51
+\footheight=\skip52
+Package typearea Info: With paper sizes other than (almost) `A4' predefined
+(typearea)             DIV values do not exist. Using DIV calculation for good
+(typearea)             line width (unless using `version=3.24` or prior).
+
+DIV calculation for typearea with good linewidth.
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 8
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 614.295pt
+(typearea)              \textwidth      = 383.9344pt
+(typearea)              DIV departure   = 1%
+(typearea)              \evensidemargin = 81.30374pt
+(typearea)              \oddsidemargin  = 4.51688pt
+(typearea)             \paperheight     = 794.96999pt
+(typearea)              \textheight     = 505.0pt
+(typearea)              \topmargin      = -12.77374pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
+(typearea)              on input line 1719.
+)
+\c@part=\count168
+\c@chapter=\count169
+\c@section=\count170
+\c@subsection=\count171
+\c@subsubsection=\count172
+\c@paragraph=\count173
+\c@subparagraph=\count174
+\scr@dte@chapter@maxnumwidth=\skip53
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\chapter on input line 5545.
+\scr@dte@section@maxnumwidth=\skip54
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\section on input line 5555.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\section on input line 5555.
+\scr@dte@part@maxnumwidth=\skip55
+Class scrbook Info: using compatibility default `afterindent=true'
+(scrbook)           for `\part on input line 5564.
+\scr@dte@subsection@maxnumwidth=\skip56
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\subsection on input line 5574.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\subsection on input line 5574.
+\scr@dte@subsubsection@maxnumwidth=\skip57
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\subsubsection on input line 5584.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\subsubsection on input line 5584.
+\scr@dte@paragraph@maxnumwidth=\skip58
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\paragraph on input line 5594.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\paragraph on input line 5594.
+\scr@dte@subparagraph@maxnumwidth=\skip59
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\subparagraph on input line 5604.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\subparagraph on input line 5604.
+\abovecaptionskip=\skip60
+\belowcaptionskip=\skip61
+\c@pti@nb@sid@b@x=\box46
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 6846.
+\scr@dte@figure@maxnumwidth=\skip62
+\c@figure=\count175
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 6867.
+\scr@dte@table@maxnumwidth=\skip63
+\c@table=\count176
+Class scrbook Info: Redefining `\numberline' on input line 7040.
+\bibindent=\dimen134
+) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/02/14 3.40 The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2020/02/14 3.40 Babel switching mechanism
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/02/14 3.40 Babel common definitions
+\babel@savecnt=\count177
+\U@D=\dimen135
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count178
+)
+\es@quottoks=\toks17
+\es@quotdepth=\count179
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+))
+
+Class scrbook Warning: Usage of package `fancyhdr' together
+(scrbook)              with a KOMA-Script class is not recommended.
+(scrbook)              I'd suggest to use 
+(scrbook)              package `scrlayer' or `scrlayer-scrpage', because
+(scrbook)              they support KOMA-Script classes.
+(scrbook)              With `fancyhdr' several features of class `scrbook'
+(scrbook)              like options `headsepline', `footsepline' or command
+(scrbook)              `\MakeMarkcase' and the commands `\setkomafont' and
+(scrbook)              `\addtokomafont' for the page style elements need
+(scrbook)              explicite user intervention to work.
+(scrbook)              Nevertheless, using requested
+(scrbook)              package `fancyhdr' on input line 5.
+
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip64
+\f@nch@O@elh=\skip65
+\f@nch@O@erh=\skip66
+\f@nch@O@olh=\skip67
+\f@nch@O@orh=\skip68
+\f@nch@O@elf=\skip69
+\f@nch@O@erf=\skip70
+\f@nch@O@olf=\skip71
+\f@nch@O@orf=\skip72
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2020/01/17 v1.23 mathematical typesetting tools
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count180
+\calc@Bcount=\count181
+\calc@Adimen=\dimen136
+\calc@Bdimen=\dimen137
+\calc@Askip=\skip73
+\calc@Bskip=\skip74
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count182
+\calc@Cskip=\skip75
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip76
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen138
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen139
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count183
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count184
+\leftroot@=\count185
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count186
+\DOTSCASE@=\count187
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen140
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count188
+\c@MaxMatrixCols=\count189
+\dotsspace@=\muskip16
+\c@parentequation=\count190
+\dspbrk@lvl=\count191
+\tag@help=\toks19
+\row@=\count192
+\column@=\count193
+\maxfields@=\count194
+\andhelp@=\toks20
+\eqnshift@=\dimen141
+\alignsep@=\dimen142
+\tagshift@=\dimen143
+\tagwidth@=\dimen144
+\totwidth@=\dimen145
+\lineht@=\dimen146
+\@envbody=\toks21
+\multlinegap=\skip77
+\multlinetaggap=\skip78
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count195
+\l_MT_multwidth_dim=\dimen147
+\origjot=\skip79
+\l_MT_shortvdotswithinadjustabove_dim=\dimen148
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen149
+\l_MT_above_intertext_sep=\dimen150
+\l_MT_below_intertext_sep=\dimen151
+\l_MT_above_shortintertext_sep=\dimen152
+\l_MT_below_shortintertext_sep=\dimen153
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count196
+\mult@box=\box49
+\multicol@leftmargin=\dimen154
+\c@unbalance=\count197
+\c@collectmore=\count198
+\doublecol@number=\count199
+\multicoltolerance=\count266
+\multicolpretolerance=\count267
+\full@width=\dimen155
+\page@free=\dimen156
+\premulticols=\dimen157
+\postmulticols=\dimen158
+\multicolsep=\skip80
+\multicolbaselineskip=\skip81
+\partial@page=\box50
+\last@line=\box51
+\maxbalancingoverflow=\dimen159
+\mult@rightbox=\box52
+\mult@grightbox=\box53
+\mult@gfirstbox=\box54
+\mult@firstbox=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\c@minrows=\count268
+\c@columnbadness=\count269
+\c@finalcolumnbadness=\count270
+\last@try=\dimen160
+\multicolovershoot=\dimen161
+\multicolundershoot=\dimen162
+\mult@nat@firstbox=\box93
+\colbreak@box=\box94
+\mc@col@check@num=\count271
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen163
+\Gin@req@width=\dimen164
+)
+\epsfxsize=\dimen165
+\epsfysize=\dimen166
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip82
+\multirow@cntb=\count272
+\multirow@dima=\skip83
+\bigstrutjot=\dimen167
+)
+(/usr/share/texlive/texmf-dist/tex/latex/eepic/epic.sty
+Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
+\@@multicnt=\count273
+\d@lta=\count274
+\@delta=\dimen168
+\@@delta=\dimen169
+\@gridcnt=\count275
+\@joinkind=\count276
+\@dotgap=\dimen170
+\@ddotgap=\dimen171
+\@x@diff=\count277
+\@y@diff=\count278
+\x@diff=\dimen172
+\y@diff=\dimen173
+\@dotbox=\box95
+\num@segments=\count279
+\num@segmentsi=\count280
+\@datafile=\read3
+) (/usr/share/texlive/texmf-dist/tex/latex/eepic/eepic.sty
+Extension to Epic and LaTeX. Version 1.1e - Released Dec 21, 1999
+\@gphlinewidth=\count281
+\@eepictcnt=\count282
+\@tempdimc=\dimen174
+\maxovaldiam=\dimen175
+\@filltype=\box96
+) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/share/texlive/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box97
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amscd.sty
+Package: amscd 2017/04/14 v2.1 AMS Commutative Diagrams
+\athelp@=\toks23
+\minaw@=\dimen176
+\bigaw@=\dimen177
+\minCDarrowwidth=\dimen178
+)
+(/usr/share/texlive/texmf-dist/tex/latex/here/here.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count283
+\float@exts=\toks24
+\float@box=\box98
+\@float@everytoks=\toks25
+\@floatcapt=\box99
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen179
+\ar@mcellbox=\box100
+\extrarowheight=\dimen180
+\NC@list=\toks26
+\extratabsurround=\skip84
+\backup@length=\skip85
+\ar@cellbox=\box101
+)
+\TX@col@width=\dimen181
+\TX@old@table=\dimen182
+\TX@old@col=\dimen183
+\TX@target=\dimen184
+\TX@delta=\dimen185
+\TX@cols=\count284
+\TX@ftn=\toks27
+)
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip86
+\subfigcapskip=\skip87
+\subfigcaptopadj=\dimen186
+\subfigbottomskip=\skip88
+\subfigcapmargin=\dimen187
+\subfiglabelskip=\skip89
+\c@subfigure=\count285
+\c@lofdepth=\count286
+\c@subtable=\count287
+\c@lotdepth=\count288
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip90
+\subfig@bottom=\skip91
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip92
+\LTright=\skip93
+\LTpre=\skip94
+\LTpost=\skip95
+\LTchunksize=\count289
+\LTcapwidth=\dimen188
+\LT@head=\box102
+\LT@firsthead=\box103
+\LT@foot=\box104
+\LT@lastfoot=\box105
+\LT@cols=\count290
+\LT@rows=\count291
+\c@LT@tables=\count292
+\c@LT@chunks=\count293
+\LT@p@ftn=\toks28
+)
+Class scrbook Info: longtable captions redefined on input line 23.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count294
+\rotFPtop=\skip96
+\rotFPbot=\skip97
+\rot@float@box=\box106
+\rot@mess@toks=\toks29
+) (./Befehle.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count295
+\l__pdf_internal_box=\box107
+)
+(./EncabezadoTesisMSc.aux (./HojaTitulo/HojaTituloMSc.aux)
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+ (./Kap1/Kap1.aux)
+(./Kap2/Kap2.aux) (./Kap3/Kap3.aux) (./Kap4/Kap4.aux) (./Kap5/Kap5.aux)
+(./Kap6/Kap6.aux) (./Kap7/Kap7.aux) (./Anexos/Anexos.aux))
+\openout1 = `EncabezadoTesisMSc.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Info: Redefining \. on input line 66.
+LaTeX Info: Redefining \% on input line 66.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count296
+\scratchdimen=\dimen189
+\scratchbox=\box108
+\nofMPsegments=\count297
+\nofMParguments=\count298
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count299
+\MPscratchDim=\dimen190
+\MPnumerator=\count300
+\makeMPintoPDFobject=\count301
+\everyMPtoPDFconversion=\toks31
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\openout2 = `HojaTitulo/HojaTituloMSc.aux'.
+
+
+(./HojaTitulo/HojaTituloMSc.tex
+<HojaTitulo/EscudoUN.png, id=1, 202.356pt x 82.8696pt>
+File: HojaTitulo/EscudoUN.png Graphic file (type png)
+<use HojaTitulo/EscudoUN.png>
+Package pdftex.def Info: HojaTitulo/EscudoUN.png  used on input line 6.
+(pdftex.def)             Requested size: 202.3555pt x 82.86937pt.
+ [1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./HojaTitulo/EscudoUN.png>
+] [2
+
+
+] [3] [4
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 53.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 53.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [5] [6
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 59--64
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--64
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--64
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--64
+
+ []
+
+[7] [8
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 68--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 90--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--69
+
+ []
+
+[9] [10]
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 7
+0.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+(./EncabezadoTesisMSc.toc
+Package tocbasic Info: Using my definition of `\numberline' on input line 1.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/bx/sc' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 1.
+
+
+Package spanish Warning: Replacing `T1/cmss/bx/sc' by 
+(spanish)                faked small caps on input line 1.
+
+Package tocbasic Info: Using my definition of `\numberline' on input line 2.
+
+Package spanish Warning: Replacing `T1/cmss/bx/sc' by 
+(spanish)                faked small caps on input line 2.
+
+LaTeX Info: Redefining \. on input line 3.
+LaTeX Info: Redefining \% on input line 3.
+Package tocbasic Info: Using my definition of `\numberline' on input line 4.
+Package tocbasic Info: Using my definition of `\numberline' on input line 5.
+Package tocbasic Info: Using my definition of `\numberline' on input line 6.
+Package tocbasic Info: Using my definition of `\numberline' on input line 7.
+Package tocbasic Info: Using my definition of `\numberline' on input line 8.
+Package tocbasic Info: Using my definition of `\numberline' on input line 9.
+Package tocbasic Info: Using my definition of `\numberline' on input line 10.
+Package tocbasic Info: Using my definition of `\numberline' on input line 11.
+Package tocbasic Info: Using my definition of `\numberline' on input line 12.
+Package tocbasic Info: Using my definition of `\numberline' on input line 13.
+Package tocbasic Info: Using my definition of `\numberline' on input line 14.
+Package tocbasic Info: Using my definition of `\numberline' on input line 15.
+Package tocbasic Info: Using my definition of `\numberline' on input line 16.
+Package tocbasic Info: Using my definition of `\numberline' on input line 17.
+Package tocbasic Info: Using my definition of `\numberline' on input line 18.
+Package tocbasic Info: Using my definition of `\numberline' on input line 19.
+Package tocbasic Info: Using my definition of `\numberline' on input line 20.
+Package tocbasic Info: Using my definition of `\numberline' on input line 21.
+Package tocbasic Info: Using my definition of `\numberline' on input line 22.
+Package tocbasic Info: Using my definition of `\numberline' on input line 23.
+Package tocbasic Info: Using my definition of `\numberline' on input line 24.
+Package tocbasic Info: Using my definition of `\numberline' on input line 25.
+Package tocbasic Info: Using my definition of `\numberline' on input line 26.
+Package tocbasic Info: Using my definition of `\numberline' on input line 27.
+Package tocbasic Info: Using my definition of `\numberline' on input line 28.
+Package tocbasic Info: Using my definition of `\numberline' on input line 29.
+Package tocbasic Info: Using my definition of `\numberline' on input line 30.
+[11
+
+
+]
+Package tocbasic Info: Using my definition of `\numberline' on input line 31.
+Package tocbasic Info: Using my definition of `\numberline' on input line 32.
+Package tocbasic Info: Using my definition of `\numberline' on input line 33.
+Package tocbasic Info: Using my definition of `\numberline' on input line 34.
+)
+\tf@toc=\write3
+\openout3 = `EncabezadoTesisMSc.toc'.
+
+LaTeX Info: Redefining \. on input line 80.
+LaTeX Info: Redefining \% on input line 80.
+ [12]
+\openout2 = `Kap1/Kap1.aux'.
+
+ (./Kap1/Kap1.tex
+chapter 1.
+
+Class scrbook Warning: \float@addtolists detected!
+(scrbook)              Implementation of \float@addtolist became
+(scrbook)              deprecated in KOMA-Script v3.01 2008/11/14 and
+(scrbook)              has been replaced by several more flexible
+(scrbook)              features of package `tocbasic`.
+(scrbook)              Since Version 3.12 support for deprecated
+(scrbook)              \float@addtolist interface has been
+(scrbook)              restricted to only some of the KOMA-Script
+(scrbook)              features and been removed from others.
+(scrbook)              Loading of package `scrhack' may help to
+(scrbook)              avoid this warning, if you are using a
+(scrbook)              a package that still implements the
+(scrbook)              deprecated \float@addtolist interface .
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+[1
+
+
+
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 16--97
+
+ []
+
+LaTeX Info: Redefining \. on input line 97.
+LaTeX Info: Redefining \% on input line 97.
+[2]
+\openout2 = `Kap2/Kap2.aux'.
+
+ (./Kap2/Kap2.tex
+chapter 2.
+) [3
+
+
+
+]
+\openout2 = `Kap3/Kap3.aux'.
+
+ (./Kap3/Kap3.tex
+chapter 3.
+
+LaTeX Warning: Reference `Fig:Diagrama-Mortero' on page 4 undefined on input li
+ne 9.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.17 		\multirow{Lamina \#} &
+                              Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1 ...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.17 		\multirow{Lamina \#} &
+                              Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1 ...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `L' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 		\multirow{Lamina \#} &
+                              Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1 ...
+
+I expected to see one of: + - * / )
+
+! Missing number, treated as zero.
+<to be read again> 
+                   !
+l.17 		\multirow{Lamina \#} &
+                              Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1 ...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.17 		\multirow{Lamina \#} &
+                              Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1 ...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.17 		\multirow{Lamina \#} &
+                              Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1 ...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.17 		\multirow{Lamina \#} &
+                              Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1 ...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `L' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 		\multirow{Lamina \#} &
+                              Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1 ...
+
+I expected to see one of: + - * / )
+
+! Missing number, treated as zero.
+<to be read again> 
+                   !
+l.17 		\multirow{Lamina \#} &
+                              Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1 ...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.17 		\multirow{Lamina \#} &
+                              Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1 ...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.17 		\multirow{Lamina \#} &
+                              Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1 ...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.17 		\multirow{Lamina \#} &
+                              Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1 ...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing = inserted for \ifdim.
+<to be read again> 
+                   L
+l.17 		\multirow{Lamina \#} &
+                              Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1 ...
+I was expecting to see `<', `=', or `>'. Didn't.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.17 		\multirow{Lamina \#} &
+                              Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1 ...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.17 		\multirow{Lamina \#} &
+                              Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1 ...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.17 		\multirow{Lamina \#} &
+                              Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1 ...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.17 		\multirow{Lamina \#} &
+                              Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1 ...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \unskip 
+l.17 		\multirow{Lamina \#} &
+                              Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1 ...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \unskip 
+l.17 		\multirow{Lamina \#} &
+                              Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1 ...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `\unskip ' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 		\multirow{Lamina \#} &
+                              Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1 ...
+
+I expected to see one of: + - * / )
+
+
+Overfull \hbox (3.26308pt too wide) in paragraph at lines 17--17
+[]\T1/cmr/m/n/12 ! 
+ []
+
+! Extra }, or forgotten \endgroup.
+\multirow@vbox ...\if #1b\relax \else \vfill \fi }
+                                                  
+l.17 		\multirow{Lamina \#} &
+                              Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1 ...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.17 		\multirow{Lamina \#} &
+                              Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1 ...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.17 		\multirow{Lamina \#} &
+                              Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1 ...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing = inserted for \ifdim.
+<to be read again> 
+                   L
+l.17 		\multirow{Lamina \#} &
+                              Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1 ...
+I was expecting to see `<', `=', or `>'. Didn't.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.17 		\multirow{Lamina \#} &
+                              Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1 ...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.17 		\multirow{Lamina \#} &
+                              Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1 ...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.17 		\multirow{Lamina \#} &
+                              Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1 ...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.17 		\multirow{Lamina \#} &
+                              Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1 ...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.17 		\multirow{Lamina \#} &
+                              Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1 ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \vbox (37.26445pt too high) detected at line 17
+ []
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.17 		\multirow{Lamina \#} &
+                              Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1 ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.17 		\multirow{Lamina \#} &
+                              Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1 ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.17 		\multirow{Lamina \#} &
+                              Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1 ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (90.16528pt too wide) in paragraph at lines 14--24
+ [][] 
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.34  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.34  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `L' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+
+I expected to see one of: + - * / )
+
+! Missing number, treated as zero.
+<to be read again> 
+                   !
+l.34  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.34  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.34  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.34  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `L' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+
+I expected to see one of: + - * / )
+
+! Missing number, treated as zero.
+<to be read again> 
+                   !
+l.34  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.34  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.34  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.34  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing = inserted for \ifdim.
+<to be read again> 
+                   L
+l.34  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+I was expecting to see `<', `=', or `>'. Didn't.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.34  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.34  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.34  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.34  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \unskip 
+l.34  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \unskip 
+l.34  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `\unskip ' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+
+I expected to see one of: + - * / )
+
+
+Overfull \hbox (3.26308pt too wide) in paragraph at lines 34--34
+[]\T1/cmr/m/n/12 ! 
+ []
+
+! Extra }, or forgotten \endgroup.
+\multirow@vbox ...\if #1b\relax \else \vfill \fi }
+                                                  
+l.34  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.34  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.34  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing = inserted for \ifdim.
+<to be read again> 
+                   L
+l.34  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+I was expecting to see `<', `=', or `>'. Didn't.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.34  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.34  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.34  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.34  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.34  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \vbox (37.26445pt too high) detected at line 34
+ []
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.34  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.34  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.34  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (90.16528pt too wide) in paragraph at lines 31--41
+ [][] 
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.50  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.50  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `L' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+
+I expected to see one of: + - * / )
+
+! Missing number, treated as zero.
+<to be read again> 
+                   !
+l.50  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.50  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.50  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.50  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `L' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+
+I expected to see one of: + - * / )
+
+! Missing number, treated as zero.
+<to be read again> 
+                   !
+l.50  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.50  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.50  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.50  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing = inserted for \ifdim.
+<to be read again> 
+                   L
+l.50  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+I was expecting to see `<', `=', or `>'. Didn't.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.50  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.50  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.50  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.50  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \unskip 
+l.50  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \unskip 
+l.50  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `\unskip ' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+
+I expected to see one of: + - * / )
+
+
+Overfull \hbox (3.26308pt too wide) in paragraph at lines 50--50
+[]\T1/cmr/m/n/12 ! 
+ []
+
+! Extra }, or forgotten \endgroup.
+\multirow@vbox ...\if #1b\relax \else \vfill \fi }
+                                                  
+l.50  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.50  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.50  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing = inserted for \ifdim.
+<to be read again> 
+                   L
+l.50  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+I was expecting to see `<', `=', or `>'. Didn't.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.50  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.50  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.50  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.50  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.50  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \vbox (37.26445pt too high) detected at line 50
+ []
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.50  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.50  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.50  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (90.16528pt too wide) in paragraph at lines 47--57
+ [][] 
+ []
+
+[4
+
+
+
+]
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.67  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.67  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `L' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+
+I expected to see one of: + - * / )
+
+! Missing number, treated as zero.
+<to be read again> 
+                   !
+l.67  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.67  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.67  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.67  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `L' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+
+I expected to see one of: + - * / )
+
+! Missing number, treated as zero.
+<to be read again> 
+                   !
+l.67  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.67  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.67  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.67  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing = inserted for \ifdim.
+<to be read again> 
+                   L
+l.67  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+I was expecting to see `<', `=', or `>'. Didn't.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.67  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.67  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.67  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.67  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \unskip 
+l.67  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \unskip 
+l.67  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `\unskip ' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+
+I expected to see one of: + - * / )
+
+
+Overfull \hbox (3.26308pt too wide) in paragraph at lines 67--67
+[]\T1/cmr/m/n/12 ! 
+ []
+
+! Extra }, or forgotten \endgroup.
+\multirow@vbox ...\if #1b\relax \else \vfill \fi }
+                                                  
+l.67  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.67  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.67  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing = inserted for \ifdim.
+<to be read again> 
+                   L
+l.67  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+I was expecting to see `<', `=', or `>'. Didn't.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.67  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.67  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.67  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.67  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.67  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \vbox (37.26445pt too high) detected at line 67
+ []
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.67  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.67  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.67  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (90.16528pt too wide) in paragraph at lines 64--74
+ [][] 
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.84  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.84  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `L' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+
+I expected to see one of: + - * / )
+
+! Missing number, treated as zero.
+<to be read again> 
+                   !
+l.84  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.84  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.84  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.84  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `L' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+
+I expected to see one of: + - * / )
+
+! Missing number, treated as zero.
+<to be read again> 
+                   !
+l.84  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.84  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.84  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.84  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing = inserted for \ifdim.
+<to be read again> 
+                   L
+l.84  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+I was expecting to see `<', `=', or `>'. Didn't.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.84  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.84  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.84  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.84  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \unskip 
+l.84  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \unskip 
+l.84  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `\unskip ' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+
+I expected to see one of: + - * / )
+
+
+Overfull \hbox (3.26308pt too wide) in paragraph at lines 84--84
+[]\T1/cmr/m/n/12 ! 
+ []
+
+! Extra }, or forgotten \endgroup.
+\multirow@vbox ...\if #1b\relax \else \vfill \fi }
+                                                  
+l.84  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.84  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.84  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing = inserted for \ifdim.
+<to be read again> 
+                   L
+l.84  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+I was expecting to see `<', `=', or `>'. Didn't.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.84  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.84  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.84  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.84  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.84  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \vbox (37.26445pt too high) detected at line 84
+ []
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.84  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.84  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.84  		\multirow{Lamina \#} &
+                               Masa {[}g{]} & H1 {[}cm{]} & H2 {[}cm{]} & L1...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (90.16528pt too wide) in paragraph at lines 81--90
+ [][] 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.106 ...       Lote de Morteros & densidad (g/cm^
+                                                  3) \\ \hline
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.106 ...de Morteros & densidad (g/cm^3) \\ \hline
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+LaTeX Info: Redefining \. on input line 117.
+LaTeX Info: Redefining \% on input line 117.
+[5]
+! Missing number, treated as zero.
+<to be read again> 
+                   M
+l.128 		\multirow{Material Mortero1} &
+                                       \multicolumn{2}{c|}{4 placas} \\ \cli...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   M
+l.128 		\multirow{Material Mortero1} &
+                                       \multicolumn{2}{c|}{4 placas} \\ \cli...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `M' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128 		\multirow{Material Mortero1} &
+                                       \multicolumn{2}{c|}{4 placas} \\ \cli...
+
+I expected to see one of: + - * / )
+
+! Missing number, treated as zero.
+<to be read again> 
+                   !
+l.128 		\multirow{Material Mortero1} &
+                                       \multicolumn{2}{c|}{4 placas} \\ \cli...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.128 		\multirow{Material Mortero1} &
+                                       \multicolumn{2}{c|}{4 placas} \\ \cli...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   M
+l.128 		\multirow{Material Mortero1} &
+                                       \multicolumn{2}{c|}{4 placas} \\ \cli...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   M
+l.128 		\multirow{Material Mortero1} &
+                                       \multicolumn{2}{c|}{4 placas} \\ \cli...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `M' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128 		\multirow{Material Mortero1} &
+                                       \multicolumn{2}{c|}{4 placas} \\ \cli...
+
+I expected to see one of: + - * / )
+
+! Missing number, treated as zero.
+<to be read again> 
+                   !
+l.128 		\multirow{Material Mortero1} &
+                                       \multicolumn{2}{c|}{4 placas} \\ \cli...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.128 		\multirow{Material Mortero1} &
+                                       \multicolumn{2}{c|}{4 placas} \\ \cli...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   M
+l.128 		\multirow{Material Mortero1} &
+                                       \multicolumn{2}{c|}{4 placas} \\ \cli...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   M
+l.128 		\multirow{Material Mortero1} &
+                                       \multicolumn{2}{c|}{4 placas} \\ \cli...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing = inserted for \ifdim.
+<to be read again> 
+                   M
+l.128 		\multirow{Material Mortero1} &
+                                       \multicolumn{2}{c|}{4 placas} \\ \cli...
+I was expecting to see `<', `=', or `>'. Didn't.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   M
+l.128 		\multirow{Material Mortero1} &
+                                       \multicolumn{2}{c|}{4 placas} \\ \cli...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   M
+l.128 		\multirow{Material Mortero1} &
+                                       \multicolumn{2}{c|}{4 placas} \\ \cli...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.128 		\multirow{Material Mortero1} &
+                                       \multicolumn{2}{c|}{4 placas} \\ \cli...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.128 		\multirow{Material Mortero1} &
+                                       \multicolumn{2}{c|}{4 placas} \\ \cli...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \unskip 
+l.128 		\multirow{Material Mortero1} &
+                                       \multicolumn{2}{c|}{4 placas} \\ \cli...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \unskip 
+l.128 		\multirow{Material Mortero1} &
+                                       \multicolumn{2}{c|}{4 placas} \\ \cli...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `\unskip ' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128 		\multirow{Material Mortero1} &
+                                       \multicolumn{2}{c|}{4 placas} \\ \cli...
+
+I expected to see one of: + - * / )
+
+
+Overfull \hbox (3.26308pt too wide) in paragraph at lines 128--128
+[]\T1/cmr/m/n/12 ! 
+ []
+
+! Extra }, or forgotten \endgroup.
+\multirow@vbox ...\if #1b\relax \else \vfill \fi }
+                                                  
+l.128 		\multirow{Material Mortero1} &
+                                       \multicolumn{2}{c|}{4 placas} \\ \cli...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   M
+l.128 		\multirow{Material Mortero1} &
+                                       \multicolumn{2}{c|}{4 placas} \\ \cli...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   M
+l.128 		\multirow{Material Mortero1} &
+                                       \multicolumn{2}{c|}{4 placas} \\ \cli...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing = inserted for \ifdim.
+<to be read again> 
+                   M
+l.128 		\multirow{Material Mortero1} &
+                                       \multicolumn{2}{c|}{4 placas} \\ \cli...
+I was expecting to see `<', `=', or `>'. Didn't.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   M
+l.128 		\multirow{Material Mortero1} &
+                                       \multicolumn{2}{c|}{4 placas} \\ \cli...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   M
+l.128 		\multirow{Material Mortero1} &
+                                       \multicolumn{2}{c|}{4 placas} \\ \cli...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.128 		\multirow{Material Mortero1} &
+                                       \multicolumn{2}{c|}{4 placas} \\ \cli...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.128 		\multirow{Material Mortero1} &
+                                       \multicolumn{2}{c|}{4 placas} \\ \cli...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.128 		\multirow{Material Mortero1} &
+                                       \multicolumn{2}{c|}{4 placas} \\ \cli...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \vbox (37.26445pt too high) detected at line 128
+ []
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.128 		\multirow{Material Mortero1} &
+                                       \multicolumn{2}{c|}{4 placas} \\ \cli...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.128 		\multirow{Material Mortero1} &
+                                       \multicolumn{2}{c|}{4 placas} \\ \cli...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.128 		\multirow{Material Mortero1} &
+                                       \multicolumn{2}{c|}{4 placas} \\ \cli...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (140.80965pt too wide) in paragraph at lines 126--135
+ [][] 
+ []
+
+Class scrbook Info: Workaround for not recommended usage of \\ or
+(scrbook)           \newlinein caption text  on input line 135.
+! Missing number, treated as zero.
+<to be read again> 
+                   M
+l.144  		\multirow{Material Mortero2} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   M
+l.144  		\multirow{Material Mortero2} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `M' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.144  		\multirow{Material Mortero2} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+
+I expected to see one of: + - * / )
+
+! Missing number, treated as zero.
+<to be read again> 
+                   !
+l.144  		\multirow{Material Mortero2} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.144  		\multirow{Material Mortero2} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   M
+l.144  		\multirow{Material Mortero2} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   M
+l.144  		\multirow{Material Mortero2} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `M' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.144  		\multirow{Material Mortero2} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+
+I expected to see one of: + - * / )
+
+! Missing number, treated as zero.
+<to be read again> 
+                   !
+l.144  		\multirow{Material Mortero2} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.144  		\multirow{Material Mortero2} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   M
+l.144  		\multirow{Material Mortero2} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   M
+l.144  		\multirow{Material Mortero2} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing = inserted for \ifdim.
+<to be read again> 
+                   M
+l.144  		\multirow{Material Mortero2} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+I was expecting to see `<', `=', or `>'. Didn't.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   M
+l.144  		\multirow{Material Mortero2} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   M
+l.144  		\multirow{Material Mortero2} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.144  		\multirow{Material Mortero2} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.144  		\multirow{Material Mortero2} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \unskip 
+l.144  		\multirow{Material Mortero2} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \unskip 
+l.144  		\multirow{Material Mortero2} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `\unskip ' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.144  		\multirow{Material Mortero2} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+
+I expected to see one of: + - * / )
+
+
+Overfull \hbox (3.26308pt too wide) in paragraph at lines 144--144
+[]\T1/cmr/m/n/12 ! 
+ []
+
+! Extra }, or forgotten \endgroup.
+\multirow@vbox ...\if #1b\relax \else \vfill \fi }
+                                                  
+l.144  		\multirow{Material Mortero2} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   M
+l.144  		\multirow{Material Mortero2} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   M
+l.144  		\multirow{Material Mortero2} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing = inserted for \ifdim.
+<to be read again> 
+                   M
+l.144  		\multirow{Material Mortero2} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+I was expecting to see `<', `=', or `>'. Didn't.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   M
+l.144  		\multirow{Material Mortero2} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   M
+l.144  		\multirow{Material Mortero2} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.144  		\multirow{Material Mortero2} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.144  		\multirow{Material Mortero2} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.144  		\multirow{Material Mortero2} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \vbox (37.26445pt too high) detected at line 144
+ []
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.144  		\multirow{Material Mortero2} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.144  		\multirow{Material Mortero2} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.144  		\multirow{Material Mortero2} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (140.80965pt too wide) in paragraph at lines 142--151
+ [][] 
+ []
+
+Class scrbook Info: Workaround for not recommended usage of \\ or
+(scrbook)           \newlinein caption text  on input line 151.
+! Missing number, treated as zero.
+<to be read again> 
+                   M
+l.161  		\multirow{Material Mortero3} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   M
+l.161  		\multirow{Material Mortero3} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `M' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161  		\multirow{Material Mortero3} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+
+I expected to see one of: + - * / )
+
+! Missing number, treated as zero.
+<to be read again> 
+                   !
+l.161  		\multirow{Material Mortero3} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.161  		\multirow{Material Mortero3} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   M
+l.161  		\multirow{Material Mortero3} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   M
+l.161  		\multirow{Material Mortero3} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `M' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161  		\multirow{Material Mortero3} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+
+I expected to see one of: + - * / )
+
+! Missing number, treated as zero.
+<to be read again> 
+                   !
+l.161  		\multirow{Material Mortero3} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.161  		\multirow{Material Mortero3} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   M
+l.161  		\multirow{Material Mortero3} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   M
+l.161  		\multirow{Material Mortero3} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing = inserted for \ifdim.
+<to be read again> 
+                   M
+l.161  		\multirow{Material Mortero3} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+I was expecting to see `<', `=', or `>'. Didn't.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   M
+l.161  		\multirow{Material Mortero3} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   M
+l.161  		\multirow{Material Mortero3} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.161  		\multirow{Material Mortero3} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.161  		\multirow{Material Mortero3} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \unskip 
+l.161  		\multirow{Material Mortero3} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \unskip 
+l.161  		\multirow{Material Mortero3} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `\unskip ' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161  		\multirow{Material Mortero3} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+
+I expected to see one of: + - * / )
+
+
+Overfull \hbox (3.26308pt too wide) in paragraph at lines 161--161
+[]\T1/cmr/m/n/12 ! 
+ []
+
+! Extra }, or forgotten \endgroup.
+\multirow@vbox ...\if #1b\relax \else \vfill \fi }
+                                                  
+l.161  		\multirow{Material Mortero3} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   M
+l.161  		\multirow{Material Mortero3} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   M
+l.161  		\multirow{Material Mortero3} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing = inserted for \ifdim.
+<to be read again> 
+                   M
+l.161  		\multirow{Material Mortero3} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+I was expecting to see `<', `=', or `>'. Didn't.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   M
+l.161  		\multirow{Material Mortero3} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   M
+l.161  		\multirow{Material Mortero3} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.161  		\multirow{Material Mortero3} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.161  		\multirow{Material Mortero3} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.161  		\multirow{Material Mortero3} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \vbox (37.26445pt too high) detected at line 161
+ []
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.161  		\multirow{Material Mortero3} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.161  		\multirow{Material Mortero3} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.161  		\multirow{Material Mortero3} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (140.80965pt too wide) in paragraph at lines 159--168
+ [][] 
+ []
+
+Class scrbook Info: Workaround for not recommended usage of \\ or
+(scrbook)           \newlinein caption text  on input line 168.
+! Missing number, treated as zero.
+<to be read again> 
+                   M
+l.178  		\multirow{Material Mortero4} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   M
+l.178  		\multirow{Material Mortero4} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `M' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.178  		\multirow{Material Mortero4} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+
+I expected to see one of: + - * / )
+
+! Missing number, treated as zero.
+<to be read again> 
+                   !
+l.178  		\multirow{Material Mortero4} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.178  		\multirow{Material Mortero4} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   M
+l.178  		\multirow{Material Mortero4} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   M
+l.178  		\multirow{Material Mortero4} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `M' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.178  		\multirow{Material Mortero4} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+
+I expected to see one of: + - * / )
+
+! Missing number, treated as zero.
+<to be read again> 
+                   !
+l.178  		\multirow{Material Mortero4} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.178  		\multirow{Material Mortero4} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   M
+l.178  		\multirow{Material Mortero4} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   M
+l.178  		\multirow{Material Mortero4} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing = inserted for \ifdim.
+<to be read again> 
+                   M
+l.178  		\multirow{Material Mortero4} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+I was expecting to see `<', `=', or `>'. Didn't.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   M
+l.178  		\multirow{Material Mortero4} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   M
+l.178  		\multirow{Material Mortero4} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.178  		\multirow{Material Mortero4} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.178  		\multirow{Material Mortero4} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \unskip 
+l.178  		\multirow{Material Mortero4} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \unskip 
+l.178  		\multirow{Material Mortero4} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `\unskip ' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.178  		\multirow{Material Mortero4} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+
+I expected to see one of: + - * / )
+
+
+Overfull \hbox (3.26308pt too wide) in paragraph at lines 178--178
+[]\T1/cmr/m/n/12 ! 
+ []
+
+! Extra }, or forgotten \endgroup.
+\multirow@vbox ...\if #1b\relax \else \vfill \fi }
+                                                  
+l.178  		\multirow{Material Mortero4} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   M
+l.178  		\multirow{Material Mortero4} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   M
+l.178  		\multirow{Material Mortero4} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing = inserted for \ifdim.
+<to be read again> 
+                   M
+l.178  		\multirow{Material Mortero4} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+I was expecting to see `<', `=', or `>'. Didn't.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   M
+l.178  		\multirow{Material Mortero4} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   M
+l.178  		\multirow{Material Mortero4} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.178  		\multirow{Material Mortero4} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.178  		\multirow{Material Mortero4} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.178  		\multirow{Material Mortero4} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \vbox (37.26445pt too high) detected at line 178
+ []
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.178  		\multirow{Material Mortero4} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.178  		\multirow{Material Mortero4} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.178  		\multirow{Material Mortero4} &
+                                        \multicolumn{2}{c|}{4 placas} \\ \cl...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (140.80965pt too wide) in paragraph at lines 176--185
+ [][] 
+ []
+
+Class scrbook Info: Workaround for not recommended usage of \\ or
+(scrbook)           \newlinein caption text  on input line 185.
+! Missing number, treated as zero.
+<to be read again> 
+                   M
+l.199  		\multirow{Material Morteros5} &
+                                         \multicolumn{2}{c|}{4 placas} \\ \c...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   M
+l.199  		\multirow{Material Morteros5} &
+                                         \multicolumn{2}{c|}{4 placas} \\ \c...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `M' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.199  		\multirow{Material Morteros5} &
+                                         \multicolumn{2}{c|}{4 placas} \\ \c...
+
+I expected to see one of: + - * / )
+
+! Missing number, treated as zero.
+<to be read again> 
+                   !
+l.199  		\multirow{Material Morteros5} &
+                                         \multicolumn{2}{c|}{4 placas} \\ \c...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.199  		\multirow{Material Morteros5} &
+                                         \multicolumn{2}{c|}{4 placas} \\ \c...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   M
+l.199  		\multirow{Material Morteros5} &
+                                         \multicolumn{2}{c|}{4 placas} \\ \c...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   M
+l.199  		\multirow{Material Morteros5} &
+                                         \multicolumn{2}{c|}{4 placas} \\ \c...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `M' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.199  		\multirow{Material Morteros5} &
+                                         \multicolumn{2}{c|}{4 placas} \\ \c...
+
+I expected to see one of: + - * / )
+
+! Missing number, treated as zero.
+<to be read again> 
+                   !
+l.199  		\multirow{Material Morteros5} &
+                                         \multicolumn{2}{c|}{4 placas} \\ \c...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.199  		\multirow{Material Morteros5} &
+                                         \multicolumn{2}{c|}{4 placas} \\ \c...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   M
+l.199  		\multirow{Material Morteros5} &
+                                         \multicolumn{2}{c|}{4 placas} \\ \c...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   M
+l.199  		\multirow{Material Morteros5} &
+                                         \multicolumn{2}{c|}{4 placas} \\ \c...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing = inserted for \ifdim.
+<to be read again> 
+                   M
+l.199  		\multirow{Material Morteros5} &
+                                         \multicolumn{2}{c|}{4 placas} \\ \c...
+I was expecting to see `<', `=', or `>'. Didn't.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   M
+l.199  		\multirow{Material Morteros5} &
+                                         \multicolumn{2}{c|}{4 placas} \\ \c...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   M
+l.199  		\multirow{Material Morteros5} &
+                                         \multicolumn{2}{c|}{4 placas} \\ \c...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.199  		\multirow{Material Morteros5} &
+                                         \multicolumn{2}{c|}{4 placas} \\ \c...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.199  		\multirow{Material Morteros5} &
+                                         \multicolumn{2}{c|}{4 placas} \\ \c...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \unskip 
+l.199  		\multirow{Material Morteros5} &
+                                         \multicolumn{2}{c|}{4 placas} \\ \c...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \unskip 
+l.199  		\multirow{Material Morteros5} &
+                                         \multicolumn{2}{c|}{4 placas} \\ \c...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `\unskip ' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.199  		\multirow{Material Morteros5} &
+                                         \multicolumn{2}{c|}{4 placas} \\ \c...
+
+I expected to see one of: + - * / )
+
+
+Overfull \hbox (3.26308pt too wide) in paragraph at lines 199--199
+[]\T1/cmr/m/n/12 ! 
+ []
+
+! Extra }, or forgotten \endgroup.
+\multirow@vbox ...\if #1b\relax \else \vfill \fi }
+                                                  
+l.199  		\multirow{Material Morteros5} &
+                                         \multicolumn{2}{c|}{4 placas} \\ \c...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   M
+l.199  		\multirow{Material Morteros5} &
+                                         \multicolumn{2}{c|}{4 placas} \\ \c...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   M
+l.199  		\multirow{Material Morteros5} &
+                                         \multicolumn{2}{c|}{4 placas} \\ \c...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing = inserted for \ifdim.
+<to be read again> 
+                   M
+l.199  		\multirow{Material Morteros5} &
+                                         \multicolumn{2}{c|}{4 placas} \\ \c...
+I was expecting to see `<', `=', or `>'. Didn't.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   M
+l.199  		\multirow{Material Morteros5} &
+                                         \multicolumn{2}{c|}{4 placas} \\ \c...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   M
+l.199  		\multirow{Material Morteros5} &
+                                         \multicolumn{2}{c|}{4 placas} \\ \c...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.199  		\multirow{Material Morteros5} &
+                                         \multicolumn{2}{c|}{4 placas} \\ \c...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.199  		\multirow{Material Morteros5} &
+                                         \multicolumn{2}{c|}{4 placas} \\ \c...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.199  		\multirow{Material Morteros5} &
+                                         \multicolumn{2}{c|}{4 placas} \\ \c...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \vbox (37.26445pt too high) detected at line 199
+ []
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.199  		\multirow{Material Morteros5} &
+                                         \multicolumn{2}{c|}{4 placas} \\ \c...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.199  		\multirow{Material Morteros5} &
+                                         \multicolumn{2}{c|}{4 placas} \\ \c...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.199  		\multirow{Material Morteros5} &
+                                         \multicolumn{2}{c|}{4 placas} \\ \c...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 208.
+LaTeX Info: Redefining \% on input line 208.
+ [6])
+LaTeX Info: Redefining \. on input line 99.
+LaTeX Info: Redefining \% on input line 99.
+
+[7]
+\openout2 = `Kap4/Kap4.aux'.
+
+ (./Kap4/Kap4.tex
+chapter 4.
+<Kap4/espectro_m1-10M-trans.pdf, id=86, 987.20822pt x 476.25931pt>
+File: Kap4/espectro_m1-10M-trans.pdf Graphic file (type pdf)
+<use Kap4/espectro_m1-10M-trans.pdf>
+Package pdftex.def Info: Kap4/espectro_m1-10M-trans.pdf  used on input line 11.
+
+(pdftex.def)             Requested size: 375.57779pt x 181.19116pt.
+[8
+
+
+
+ <./Kap4/espectro_m1-10M-trans.pdf>]
+<Kap4/mu-trans-m1.pdf, id=114, 987.20822pt x 476.25931pt>
+File: Kap4/mu-trans-m1.pdf Graphic file (type pdf)
+<use Kap4/mu-trans-m1.pdf>
+Package pdftex.def Info: Kap4/mu-trans-m1.pdf  used on input line 32.
+(pdftex.def)             Requested size: 469.47046pt x 226.48712pt.
+<Kap4/espectros_m1.pdf, id=115, 987.20822pt x 476.25931pt>
+File: Kap4/espectros_m1.pdf Graphic file (type pdf)
+<use Kap4/espectros_m1.pdf>
+Package pdftex.def Info: Kap4/espectros_m1.pdf  used on input line 44.
+(pdftex.def)             Requested size: 469.47046pt x 226.48712pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 48.
+LaTeX Info: Redefining \% on input line 48.
+ [9 <./Kap4/mu-trans-m1.pdf>]
+
+LaTeX Warning: Reference `g:Montaje-Exp-Retro' on page 10 undefined on input li
+ne 49.
+
+<Kap4/mu_T-m1.pdf, id=151, 987.20822pt x 476.25931pt>
+File: Kap4/mu_T-m1.pdf Graphic file (type pdf)
+<use Kap4/mu_T-m1.pdf>
+Package pdftex.def Info: Kap4/mu_T-m1.pdf  used on input line 53.
+(pdftex.def)             Requested size: 469.47046pt x 226.48712pt.
+LaTeX Info: Redefining \. on input line 59.
+LaTeX Info: Redefining \% on input line 59.
+[10 <./Kap4/espectros_m1.pdf> <./Kap4/mu_T-m1.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Kap4/mu_T-m1.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Reference `t:materiales-mor2' on page 11 undefined on input line
+ 67.
+
+<Kap4/espectro_m2-10M-trans.pdf, id=193, 987.20822pt x 476.25931pt>
+File: Kap4/espectro_m2-10M-trans.pdf Graphic file (type pdf)
+<use Kap4/espectro_m2-10M-trans.pdf>
+Package pdftex.def Info: Kap4/espectro_m2-10M-trans.pdf  used on input line 81.
+
+(pdftex.def)             Requested size: 469.47046pt x 226.48712pt.
+<Kap4/mu-trans-m2.pdf, id=194, 987.20822pt x 476.25931pt>
+File: Kap4/mu-trans-m2.pdf Graphic file (type pdf)
+<use Kap4/mu-trans-m2.pdf>
+Package pdftex.def Info: Kap4/mu-trans-m2.pdf  used on input line 89.
+(pdftex.def)             Requested size: 469.47046pt x 226.48712pt.
+
+Underfull \vbox (badness 3364) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 93.
+LaTeX Info: Redefining \% on input line 93.
+ [11 <./Kap4/espectro_m2-10M-trans.pdf>]
+<Kap4/espectro_m2.pdf, id=212, 987.20822pt x 476.25931pt>
+File: Kap4/espectro_m2.pdf Graphic file (type pdf)
+<use Kap4/espectro_m2.pdf>
+Package pdftex.def Info: Kap4/espectro_m2.pdf  used on input line 100.
+(pdftex.def)             Requested size: 469.47046pt x 226.48712pt.
+<Kap4/mu_T-m2.pdf, id=213, 987.20822pt x 476.25931pt>
+File: Kap4/mu_T-m2.pdf Graphic file (type pdf)
+<use Kap4/mu_T-m2.pdf>
+Package pdftex.def Info: Kap4/mu_T-m2.pdf  used on input line 107.
+(pdftex.def)             Requested size: 469.47046pt x 226.48712pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 111.
+LaTeX Info: Redefining \% on input line 111.
+ [12 <./Kap4/mu-trans-m2.pdf> <./Kap4/espectro_m2.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Kap4/espectro_m2.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+>]
+<Kap4/espectro_m3-M10-trans.pdf, id=255, 987.20822pt x 476.25931pt>
+File: Kap4/espectro_m3-M10-trans.pdf Graphic file (type pdf)
+<use Kap4/espectro_m3-M10-trans.pdf>
+Package pdftex.def Info: Kap4/espectro_m3-M10-trans.pdf  used on input line 129
+.
+(pdftex.def)             Requested size: 469.47046pt x 226.48712pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 133.
+LaTeX Info: Redefining \% on input line 133.
+ [13 <./Kap4/mu_T-m2.pdf>]
+<Kap4/mu-trans-m3.pdf, id=281, 987.20822pt x 476.25931pt>
+File: Kap4/mu-trans-m3.pdf Graphic file (type pdf)
+<use Kap4/mu-trans-m3.pdf>
+Package pdftex.def Info: Kap4/mu-trans-m3.pdf  used on input line 136.
+(pdftex.def)             Requested size: 469.47046pt x 226.48712pt.
+<Kap4/espectro_m3.pdf, id=282, 987.20822pt x 476.25931pt>
+File: Kap4/espectro_m3.pdf Graphic file (type pdf)
+<use Kap4/espectro_m3.pdf>
+Package pdftex.def Info: Kap4/espectro_m3.pdf  used on input line 146.
+(pdftex.def)             Requested size: 469.47046pt x 226.48712pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 150.
+LaTeX Info: Redefining \% on input line 150.
+ [14 <./Kap4/espectro_m3-M10-trans.pdf> <./Kap4/mu-trans-m3.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Kap4/mu-trans-m3.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+>]
+<Kap4/mu_T-m3.pdf, id=325, 987.20822pt x 476.25931pt>
+File: Kap4/mu_T-m3.pdf Graphic file (type pdf)
+<use Kap4/mu_T-m3.pdf>
+Package pdftex.def Info: Kap4/mu_T-m3.pdf  used on input line 153.
+(pdftex.def)             Requested size: 469.47046pt x 226.48712pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 168.
+LaTeX Info: Redefining \% on input line 168.
+ [15 <./Kap4/espectro_m3.pdf> <./Kap4/mu_T-m3.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Kap4/mu_T-m3.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+>]
+<Kap4/espectro_m4-10M-trans.pdf, id=363, 987.20822pt x 476.25931pt>
+File: Kap4/espectro_m4-10M-trans.pdf Graphic file (type pdf)
+<use Kap4/espectro_m4-10M-trans.pdf>
+Package pdftex.def Info: Kap4/espectro_m4-10M-trans.pdf  used on input line 174
+.
+(pdftex.def)             Requested size: 469.47046pt x 226.48712pt.
+<Kap4/mu-trans-m4.pdf, id=364, 987.20822pt x 476.25931pt>
+File: Kap4/mu-trans-m4.pdf Graphic file (type pdf)
+<use Kap4/mu-trans-m4.pdf>
+Package pdftex.def Info: Kap4/mu-trans-m4.pdf  used on input line 181.
+(pdftex.def)             Requested size: 469.47046pt x 226.48712pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 185.
+LaTeX Info: Redefining \% on input line 185.
+ [16 <./Kap4/espectro_m4-10M-trans.pdf>]
+<Kap4/espectro_m4.pdf, id=382, 987.20822pt x 476.25931pt>
+File: Kap4/espectro_m4.pdf Graphic file (type pdf)
+<use Kap4/espectro_m4.pdf>
+Package pdftex.def Info: Kap4/espectro_m4.pdf  used on input line 191.
+(pdftex.def)             Requested size: 469.47046pt x 226.48712pt.
+<Kap4/mu_T-m4.pdf, id=383, 987.20822pt x 476.25931pt>
+File: Kap4/mu_T-m4.pdf Graphic file (type pdf)
+<use Kap4/mu_T-m4.pdf>
+Package pdftex.def Info: Kap4/mu_T-m4.pdf  used on input line 198.
+(pdftex.def)             Requested size: 469.47046pt x 226.48712pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 202.
+LaTeX Info: Redefining \% on input line 202.
+ [17 <./Kap4/mu-trans-m4.pdf> <./Kap4/espectro_m4.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Kap4/espectro_m4.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+>]
+<Kap4/espectro_m5-10Mtrans.pdf, id=426, 987.20822pt x 476.25931pt>
+File: Kap4/espectro_m5-10Mtrans.pdf Graphic file (type pdf)
+<use Kap4/espectro_m5-10Mtrans.pdf>
+Package pdftex.def Info: Kap4/espectro_m5-10Mtrans.pdf  used on input line 218.
+
+(pdftex.def)             Requested size: 469.47046pt x 226.48712pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 222.
+LaTeX Info: Redefining \% on input line 222.
+ [18 <./Kap4/mu_T-m4.pdf>]
+<Kap4/mu-trans-m5.pdf, id=451, 987.20822pt x 476.25931pt>
+File: Kap4/mu-trans-m5.pdf Graphic file (type pdf)
+<use Kap4/mu-trans-m5.pdf>
+Package pdftex.def Info: Kap4/mu-trans-m5.pdf  used on input line 225.
+(pdftex.def)             Requested size: 469.47046pt x 226.48712pt.
+<Kap4/espectro_m5.pdf, id=452, 987.20822pt x 476.25931pt>
+File: Kap4/espectro_m5.pdf Graphic file (type pdf)
+<use Kap4/espectro_m5.pdf>
+Package pdftex.def Info: Kap4/espectro_m5.pdf  used on input line 234.
+(pdftex.def)             Requested size: 469.47046pt x 226.48712pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 238.
+LaTeX Info: Redefining \% on input line 238.
+ [19 <./Kap4/espectro_m5-10Mtrans.pdf> <./Kap4/mu-trans-m5.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Kap4/mu-trans-m5.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+>]
+<Kap4/mu_T-m5.pdf, id=495, 987.20822pt x 476.25931pt>
+File: Kap4/mu_T-m5.pdf Graphic file (type pdf)
+<use Kap4/mu_T-m5.pdf>
+Package pdftex.def Info: Kap4/mu_T-m5.pdf  used on input line 241.
+(pdftex.def)             Requested size: 469.47046pt x 226.48712pt.
+)
+LaTeX Info: Redefining \. on input line 100.
+LaTeX Info: Redefining \% on input line 100.
+ [20 <./Kap4/espectro_m5.pdf> <./Kap4/mu_T-m5.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Kap4/mu_T-m5.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+>]
+\openout2 = `Kap5/Kap5.aux'.
+
+ (./Kap5/Kap5.tex
+chapter 5.
+) [21
+
+
+
+]
+\openout2 = `Kap6/Kap6.aux'.
+
+ (./Kap6/Kap6.tex
+chapter 6.
+) [22
+
+
+
+]
+\openout2 = `Kap7/Kap7.aux'.
+
+ (./Kap7/Kap7.tex
+chapter 7.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 6--103
+
+ []
+
+[23
+
+
+
+]
+\openout2 = `Anexos/Anexos.aux'.
+
+ (./Anexos/Anexos.tex
+
+Class scrbook Warning: You are using `\begin{appendix}...\end{appendix}'.
+(scrbook)              You should note, that `\appendix' is a mostly globally
+(scrbook)              working command not an enviroment with only local
+(scrbook)              effects. Therefore `\end{appendix}' will neither
+(scrbook)              switch back to normal section numbering nor finish
+(scrbook)              every other effect of `\begin{appendix}'.
+(scrbook)              Nevertheless, some effects may end with
+(scrbook)              `\end{appendix}' and the document may become
+(scrbook)              inconsistent.
+(scrbook)              Because of this, you should remove `\end{appendix}'
+(scrbook)              and replace `\begin{appendix}' by command
+(scrbook)              `\appendix' on input line 1.
+
+chapter A.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+[24
+
+
+
+]
+chapter B.
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+[25
+
+]
+chapter C.
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+[]|\T1/cmr/m/n/12 American Psy-cho-lo-gi-cal As-so-cia-tion
+ []
+
+[26
+
+]) [27]
+No file EncabezadoTesisMSc.bbl.
+(./EncabezadoTesisMSc.aux (./HojaTitulo/HojaTituloMSc.aux)
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+ (./Kap1/Kap1.aux)
+(./Kap2/Kap2.aux) (./Kap3/Kap3.aux) (./Kap4/Kap4.aux) (./Kap5/Kap5.aux)
+(./Kap6/Kap6.aux) (./Kap7/Kap7.aux) (./Anexos/Anexos.aux))
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 8331 strings out of 481239
+ 139610 string characters out of 5920376
+ 520762 words of memory out of 5000000
+ 23366 multiletter control sequences out of 15000+600000
+ 554050 words of font info for 70 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 43i,15n,72p,10140b,522s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss1
+2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/t
+exmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/pub
+lic/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx172
+8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/publ
+ic/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600
+.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/tex
+mf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/publi
+c/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.
+pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texm
+f/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf/fonts/type1/public
+/cm-super/sfsx0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.p
+fb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf
+/fonts/type1/public/cm-super/sfsx1728.pfb></usr/share/texmf/fonts/type1/public/
+cm-super/sfsx2488.pfb>
+Output written on EncabezadoTesisMSc.pdf (39 pages, 1245945 bytes).
+PDF statistics:
+ 637 PDF objects out of 1000 (max. 8388607)
+ 524 compressed objects within 6 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+

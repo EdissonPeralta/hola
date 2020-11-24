@@ -306,26 +306,48 @@ axs.set_xticks([8*10**1, 2*10**2, 5*10**2, 1*10**3, 1.5*10**3])
 axs.set_xticklabels(['80','200','500','1000','1500'])
 
 
+#SIMULACION
+
+print (np.round(alph_exp,2))
+
+
+print (np.round(dalph_exp,2))
+
+print (np.round(alph2_exp,2))
+print (np.round(dalph2_exp,2))
+#######################################
+
+ #NIST
+
+print (np.round(alph_nist,2))
+
+print (np.round(dalph_nist,2))
+print (np.round(alph2_nist,2))
+
+print (np.round(dalph2_nist,2))
+
+
 #los labels para que queden como una ecuación 
-label1=[str(np.round(alph_exp,2))+'('+str(int(np.round(dalph_exp,2)*100))+')',str(np.round(alph2_exp,2))+'('+str(int(np.round(dalph2_exp,2)*100))+')']
-label2=[str(np.round(alph_nist,2))+'('+str(int(np.round(dalph_nist,2)*100))+')',str(np.round(alph2_nist,2))+'('+str(int(np.round(dalph2_nist,2)*100))+')']
+
 #grafico
-axs.plot(xx, myExpFunc(xx, *popt), 'C0',label=r"$y={}E^{{{}}} $".format(*label1), color='red')
+axs.plot(xx, myExpFunc(xx, *popt), 'C0', color='red')
 
 axs.errorbar(energy, mu, yerr=dmu, fmt='o', c='red',ecolor='k',label=r"Simulación")
 
-axs.plot(xx, myExpFunc(xx, *pop_exp), 'purple',label=r"$y={}E^{{{}}}$".format(*label2))
+axs.plot(xx, myExpFunc(xx, *pop_exp), 'purple')
 
 axs.errorbar(energy,munist,yerr=None, fmt='o',c='purple',ecolor='k',label=r'NIST')
 axs.legend()
-
+plt.tick_params(labelright=True, right=True)
 plt.xticks(fontsize=16)
 plt.yticks(fontsize=16)
-leg=plt.legend(loc="upper right",prop={'size': 16})
+leg=plt.legend(loc="upper right",prop={'size': 20})
 for legobj in leg.legendHandles: #tamaño de la leyenda
     legobj.set_linewidth(2.5) #tamaño de la leyenda
 
 plt.show()
+
+
 """
 
 pico_graf=2

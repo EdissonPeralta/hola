@@ -832,7 +832,7 @@ axs.set_ylabel('Intensidad (cuentas)', size=20)
 axs.plot(ejex_graf,cuentas_totales,'o', label='Ajuste ',color='purple')
 plt.xticks(ejex_graf,fontsize=16)
 plt.yticks(fontsize=16)
-plt.xlim(-1.0, 5.5)
+#plt.xlim(-1.0, 5.5)
 """
 leg=axs.legend(loc="upper left",prop={'size': 14})
 for legobj in leg.legendHandles: #tamaño de la leyenda
