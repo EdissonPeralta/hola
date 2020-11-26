@@ -1,4 +1,4 @@
-# Install script for directory: /home/gfnun/Documents/hola/tesis/retrodispersion/morteros/m1/gMC
+# Install script for directory: /home/mauro/Documentos/hola/tesis/retrodispersion/morteros/m1/gMC
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/gMC"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/gfnun/Documents/hola/tesis/retrodispersion/morteros/m1/gMC/build/gMC")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/mauro/Documentos/hola/tesis/retrodispersion/morteros/m1/gMC/build/gMC")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/gMC" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/gMC")
     file(RPATH_CHANGE
@@ -65,5 +65,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/gfnun/Documents/hola/tesis/retrodispersion/morteros/m1/gMC/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/mauro/Documentos/hola/tesis/retrodispersion/morteros/m1/gMC/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

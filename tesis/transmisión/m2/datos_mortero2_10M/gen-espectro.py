@@ -947,13 +947,13 @@ ax.plot(x10,espectro10,drawstyle='steps-mid',label='10.0 cm')
 
 
 
-ax.set_xlabel(r'$E_\gamma$ (keV)', size=23)
+ax.set_xlabel(r'$E_\gamma$ (keV)', size=25)
 #ax.xaxis.set_minor_locator(AutoMinorLocator(5))
-ax.set_ylabel('cuentas/keV', size=23)
+ax.set_ylabel('cuentas/keV', size=25)
 #plt.xlim(0,1400)
 #plt.ylim(0,7000)
-plt.xticks(fontsize=16)
-plt.yticks(fontsize=16)
+plt.xticks(fontsize=21)
+plt.yticks(fontsize=21)
 leg=plt.legend(loc=(0.6,0.35),prop={'size': 14})
 for legobj in leg.legendHandles: #tamaño de la leyenda
     legobj.set_linewidth(5.0) #tamaño de la leyenda

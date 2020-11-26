@@ -290,7 +290,7 @@ xx=x[50:]
 fig_1,axs=plt.subplots(1,1,figsize=(6.5,4))
 
 axs.set_ylabel(r"$\mu$ (cm$^2$/g)",fontsize=15, size=23)
-axs.set_xlabel(r'$E_{\gamma}$ keV', size=23)
+axs.set_xlabel(r'$E_{\gamma}$ (keV)', size=23)
 
 #plt.tick_params(
 #    axis='y',          # changes apply to the y-axis
@@ -330,6 +330,7 @@ print (np.round(dalph2_nist,2))
 #los labels para que queden como una ecuación 
 
 #grafico
+plt.title("Morteros 1", size= 30)
 axs.plot(xx, myExpFunc(xx, *popt), 'C0', color='red')
 
 axs.errorbar(energy, mu, yerr=dmu, fmt='o', c='red',ecolor='k',label=r"Simulación")
@@ -339,8 +340,8 @@ axs.plot(xx, myExpFunc(xx, *pop_exp), 'purple')
 axs.errorbar(energy,munist,yerr=None, fmt='o',c='purple',ecolor='k',label=r'NIST')
 axs.legend()
 plt.tick_params(labelright=True, right=True)
-plt.xticks(fontsize=16)
-plt.yticks(fontsize=16)
+plt.xticks(fontsize=20)
+plt.yticks(fontsize=20)
 leg=plt.legend(loc="upper right",prop={'size': 20})
 for legobj in leg.legendHandles: #tamaño de la leyenda
     legobj.set_linewidth(2.5) #tamaño de la leyenda

@@ -913,19 +913,21 @@ print ("------------------------------------")
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 #:::::::::::::::::::::::::: GRAFICAS DE LOS AJUSTES ::::::::::::::::::::::::::::::::::::::::::::::::::
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-"""
-ax.plot(x1,gaussi1(x1,max1,mu1,sig1,a1,a0),drawstyle='steps-mid',label='0.2 cm',color='purple')
-ax.plot(x2,gaussi1(x2,max2,mu2,sig2,a1_2,a0_2),drawstyle='steps-mid',label='0.2 cm',color='purple')
-ax.plot(x3,gaussi1(x3,max3,mu3,sig3,a1_3,a0_3),drawstyle='steps-mid',label='0.2 cm',color='purple')
-ax.plot(x4,gaussi1(x4,max4,mu4,sig4,a1_4,a0_4),drawstyle='steps-mid',label='0.2 cm',color='purple')
-ax.plot(x5,gaussi5(x5,max5,mu5,sig5,a1_5,a0_5),drawstyle='steps-mid',label='0.2 cm',color='purple')
-ax.plot(x6,gaussi6(x6,max6,mu6,sig6,a1_6,a0_6),drawstyle='steps-mid',label='0.2 cm',color='purple')
-ax.plot(x7,gaussi7(x7,max7,mu7,sig7,a1_7,a0_7),drawstyle='steps-mid',label='0.2 cm',color='purple')
-ax.plot(x8,gaussi1(x8,max8,mu8,sig8,a1_8,a0_8),drawstyle='steps-mid',label='0.2 cm',color='purple')
-ax.plot(x9,gaussi9(x9,max9,mu9,sig9,a1_9,a0_9),drawstyle='steps-mid',label='0.2 cm',color='purple')
-ax.plot(x10,gaussi10(x10,max10,mu10,sig10,a1_10,a0_10),drawstyle='steps-mid',label='0.2 cm',color='purple')
-ax.plot(x11,gaussi10(x11,max11,mu11,sig11,a1_11,a0_11),drawstyle='steps-mid',label='0.2 cm',color='purple')
-"""
+
+x=np.linspace(657,665,10000)
+ax.plot(x,gaussi1(x,max0,mu0,sig0,a1_0,a0_0),color='black')
+ax.plot(x,gaussi1(x,max1,mu1,sig1,a1,a0),color='black')
+ax.plot(x,gaussi1(x,max2,mu2,sig2,a1_2,a0_2),color='black')
+ax.plot(x,gaussi1(x,max3,mu3,sig3,a1_3,a0_3),color='black')
+ax.plot(x,gaussi1(x,max4,mu4,sig4,a1_4,a0_4),color='black')
+ax.plot(x,gaussi5(x,max5,mu5,sig5,a1_5,a0_5),color='black')
+ax.plot(x,gaussi6(x,max6,mu6,sig6,a1_6,a0_6),color='black')
+ax.plot(x,gaussi7(x,max7,mu7,sig7,a1_7,a0_7),color='black')
+ax.plot(x,gaussi1(x,max8,mu8,sig8,a1_8,a0_8),color='black')
+ax.plot(x,gaussi9(x,max9,mu9,sig9,a1_9,a0_9),color='black')
+ax.plot(x,gaussi10(x,max10,mu10,sig10,a1_10,a0_10),label='Ajustes',color='black')
+
+
 ########################################################################
 ########################################################################
 ########################################################################
@@ -947,16 +949,18 @@ ax.plot(x10,espectro10,drawstyle='steps-mid',label='10.0 cm')
 
 
 
-ax.set_xlabel(r'$E_\gamma$ (keV)', size=20)
+ax.set_xlabel(r'$E_\gamma$ (keV)', size=25)
 #ax.xaxis.set_minor_locator(AutoMinorLocator(5))
-ax.set_ylabel('cuentas/keV', size=20)
-#plt.xlim(0,1400)
-#plt.ylim(0,7000)
-plt.xticks(fontsize=16)
-plt.yticks(fontsize=16)
-leg=plt.legend(loc=(0.6,0.35),prop={'size': 14})
+ax.set_ylabel('cuentas/keV', size=25)
+plt.xlim(657,665)
+plt.ylim(-50,5500)
+plt.xticks(fontsize=21)
+plt.yticks(fontsize=21)
+
+leg=plt.legend(loc=(0.8, 0.3),prop={'size': 14})#loc=(0.6,0.35)
 for legobj in leg.legendHandles: #tamaño de la leyenda
     legobj.set_linewidth(5.0) #tamaño de la leyenda
+
 plt.show()
 """
 ###################################################################################################

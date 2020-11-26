@@ -305,7 +305,7 @@ G4Element* elNa = new G4Element(name="Sodium", symbol="Na", z=11., a);
   // Placa
   G4double placa_hx = 4.8063*cm; // 9,61275
   G4double placa_hy = 4.8466*cm; // 9,69337 
-  G4double placa_hz = 0.00001*cm; // the variation is 0.5
+  G4double placa_hz = 2.0*cm; // the variation is 0.5
   
   auto placaSolid
     = new G4Box("placa", placa_hx, placa_hy, placa_hz);
@@ -339,7 +339,7 @@ G4Element* elNa = new G4Element(name="Sodium", symbol="Na", z=11., a);
   fGeLogical->SetVisAttributes(visAttributes);
   fVisAttributes.push_back(visAttributes);
   
-  visAttributes = new G4VisAttributes(G4Colour(0.6,0.6,0.2));
+  visAttributes = new G4VisAttributes(G4Colour(0.229,0.228,0.226));// 0.6 0.6 0.2 
   visAttributes->SetVisibility(true);
   visAttributes->SetForceSolid(true);
   fPlacaLogical->SetVisAttributes(visAttributes);
