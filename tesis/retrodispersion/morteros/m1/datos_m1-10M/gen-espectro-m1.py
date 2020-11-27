@@ -678,6 +678,8 @@ print("distancia de saturación")
 print(Xsaturacion)
 
 
+
+
 #######################################################
 
 fig2, axs=plt.subplots(1,1,sharey=False)
