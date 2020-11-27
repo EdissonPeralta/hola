@@ -1,0 +1,7 @@
+#! /bin/sh
+cd .. && cd src\
+&&python3 padrote
+&&make \
+&& ./gMC
+
+
