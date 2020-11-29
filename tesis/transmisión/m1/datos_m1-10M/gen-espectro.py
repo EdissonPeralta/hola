@@ -14,17 +14,17 @@ from scipy.optimize import curve_fit
 #from scipy.signal import find_peaks
 from astropy.io import ascii
 
-mpl.rcParams['legend.fontsize'] = 12
-mpl.rcParams['axes.labelsize'] = 12
-mpl.rcParams['xtick.labelsize'] = 12
-mpl.rcParams['ytick.labelsize'] = 12
-mpl.rcParams['text.usetex'] = True
-mpl.rcParams['font.family'] = 'sans-serif'
-mpl.rcParams['mathtext.fontset'] = 'dejavusans'
-mpl.rcParams['text.latex.preamble'] = [r'\usepackage{mathrsfs}']
-#mpl.rcParams['text.latex.preamble'] = [r'\usepackage{pxfonts}']
-mpl.rcParams.update({'font.size': 12})
-
+mpl.rcParams.update({"text.usetex":True,
+                     "font.family":"serif",
+                     "font.sans-serif":["Computer Modern San serif"],
+                     "legend.fontsize":12,
+                     "axes.labelsize":12,
+                     "xtick.labelsize":12,
+                     "ytick.labelsize":12,
+                     "figure.figsize":(3.4,3.2),
+                     "mathtext.fontset":"dejavusans",
+                     "text.latex.preamble":r"\usepackage{amsmath}"
+})
 #import metodos_MC as mt
 import numpy as np
 import math
@@ -34,9 +34,9 @@ from matplotlib.ticker import AutoMinorLocator
 from matplotlib.ticker import NullFormatter
 import scipy.stats as st
 from scipy.stats import norm
+ 
 
-
-fig, ax=plt.subplots(1,1,sharey=False)
+fig, ax=plt.subplots(1,1,figsize=(6,3.5))
 grid = plt.GridSpec(1, 1, wspace=0.25, hspace=0.2,left=0.1,right=0.98,bottom=0.17,top=0.98)
 
 
@@ -947,20 +947,23 @@ ax.plot(x8,espectro8,drawstyle='steps-mid',label='8.0 cm')
 ax.plot(x9,espectro9,drawstyle='steps-mid',label='9.0 cm')
 ax.plot(x10,espectro10,drawstyle='steps-mid',label='10.0 cm')
 
+  
 
-
-ax.set_xlabel(r'$E_\gamma$ (keV)', size=25)
+ax.set_xlabel(r'$E_\gamma$ (keV)')
 #ax.xaxis.set_minor_locator(AutoMinorLocator(5))
-ax.set_ylabel('cuentas/keV', size=25)
+ax.set_ylabel('cuentas/keV')
 plt.xlim(657,665)
 plt.ylim(-50,5500)
-plt.xticks(fontsize=21)
-plt.yticks(fontsize=21)
+#plt.xticks(fontsize=21)
+#plt.yticks(fontsize=21)
 
-leg=plt.legend(loc=(0.8, 0.3),prop={'size': 14})#loc=(0.6,0.35)
-for legobj in leg.legendHandles: #tamaño de la leyenda
-    legobj.set_linewidth(5.0) #tamaño de la leyenda
+leg=plt.legend(loc='upper left', bbox_to_anchor=(1, 1.05))#,prop={'size': 14})#para el pico de interesloc=(0.75,0.2)loc=(0.55, 0.25
+#for legobj in leg.legendHandles: #tamaño de la leyenda
+    #legobj.set_linewidth(5.0) #tamaño de la leyenda
 
+fig.tight_layout()
+#plt.savefig('espectro_m1-10M.pdf')
+     
 plt.show()
 """
 ###################################################################################################

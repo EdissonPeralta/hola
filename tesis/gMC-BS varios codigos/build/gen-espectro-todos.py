@@ -1,34 +1,17 @@
 import matplotlib as mpl
-import random as rn
-import scipy.stats as st
-import math
-import numpy as np
-import matplotlib as mpl
-import matplotlib.pyplot as plt
-#::::::::::::::::::::::::::::::::::::
-#:::::::: ESPECTRO EXPERIMENTAL::::::
-#::::::::::::::::::::::::::::::::::::
-
-from scipy.optimize import curve_fit
-#from scipy.signal import find_peaks
-from astropy.io import ascii
-
-mpl.rcParams.update({"text.usetex":True,
-                     "font.family":"serif",
-                     "font.sans-serif":["Computer Modern San serif"],
-                     "legend.fontsize":12,
-                     "axes.labelsize":12,
-                     "xtick.labelsize":12,
-                     "ytick.labelsize":12,
-                     "figure.figsize":(3.4,3.2),
-                     "mathtext.fontset":"dejavusans",
-                     "text.latex.preamble":r"\usepackage{amsmath}"
-})
-
+mpl.rcParams['legend.fontsize'] = 12
+mpl.rcParams['axes.labelsize'] = 12
+mpl.rcParams['xtick.labelsize'] = 12
+mpl.rcParams['ytick.labelsize'] = 12
+mpl.rcParams['text.usetex'] = True
+mpl.rcParams['font.family'] = 'sans-serif'
+mpl.rcParams['mathtext.fontset'] = 'dejavusans'
+mpl.rcParams['text.latex.preamble'] = [r'\usepackage{mathrsfs}']
+#mpl.rcParams['text.latex.preamble'] = [r'\usepackage{pxfonts}']
+mpl.rcParams.update({'font.size': 12})
 
 #import metodos_MC as mt
 import numpy as np
-import math
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 from matplotlib.ticker import AutoMinorLocator
@@ -36,29 +19,33 @@ from matplotlib.ticker import NullFormatter
 import scipy.stats as st
 from scipy.stats import norm
 
-
 #fig = plt.figure(figsize=(mt.cm2inch(18.0),mt.cm2inch(10.0)))
-fig, ax=plt.subplots(1,1,figsize=(6,3.5))
-grid = plt.GridSpec(1, 1, wspace=0.25, hspace=0.2,left=0.1,right=0.98,bottom=0.17,top=0.98)
-
+fig, ax=plt.subplots(1,1,sharey=True)
+#grid = plt.GridSpec(1, 1, wspace=0.25, hspace=0.2,left=0.1,right=0.98,bottom=0.17,top=0.98)
 
 #ax =fig.add_subplot(grid[0,0])
 #ax.tick_params(bottom=True,top=True,right=True,direction='in',which='both')
 
+f1 = np.genfromtxt('gMC_h1_NaI19.csv',delimiter=',')
+f2 = np.genfromtxt('gMC_h1_NaI20.csv',delimiter=',')
+f3 = np.genfromtxt('gMC_h1_NaI21.csv',delimiter=',')
+f4 = np.genfromtxt('gMC_h1_NaI22.csv',delimiter=',')
+f5 = np.genfromtxt('gMC_h1_NaI23.csv',delimiter=',')
+f6 = np.genfromtxt('gMC_h1_NaI24.csv',delimiter=',')
+f7 = np.genfromtxt('gMC_h1_NaI25.csv',delimiter=',')
+f8 = np.genfromtxt('gMC_h1_NaI26.csv',delimiter=',')
+f9 = np.genfromtxt('gMC_h1_NaI27.csv',delimiter=',')
+f10 = np.genfromtxt('gMC_h1_NaI28.csv',delimiter=',')
+f11 = np.genfromtxt('gMC_h1_NaI29.csv',delimiter=',')
+f12 = np.genfromtxt('gMC_h1_NaI30.csv',delimiter=',')
+f13 = np.genfromtxt('gMC_h1_NaI31.csv',delimiter=',')
+f14 = np.genfromtxt('gMC_h1_NaI32.csv',delimiter=',')
+f15 = np.genfromtxt('gMC_h1_NaI14.csv',delimiter=',')
+f16 = np.genfromtxt('gMC_h1_NaI15.csv',delimiter=',')
+f17 = np.genfromtxt('gMC_h1_NaI16.csv',delimiter=',')
+f18 = np.genfromtxt('gMC_h1_NaI17.csv',delimiter=',')
+f19 = np.genfromtxt('gMC_h1_NaI18.csv',delimiter=',')
 
-f1 = np.genfromtxt('gMC_h1_Ge.csv',delimiter=',')
-f2 = np.genfromtxt('gMC_h2_Ge.csv',delimiter=',')
-f3 = np.genfromtxt('gMC_h3_Ge.csv',delimiter=',')
-f4 = np.genfromtxt('gMC_h4_Ge.csv',delimiter=',')
-f5 = np.genfromtxt('gMC_h5_Ge.csv',delimiter=',')
-f6 = np.genfromtxt('gMC_h6_Ge.csv',delimiter=',')
-f7 = np.genfromtxt('gMC_h7_Ge.csv',delimiter=',')
-f8 = np.genfromtxt('gMC_h8_Ge.csv',delimiter=',')
-f9 = np.genfromtxt('gMC_h9_Ge.csv',delimiter=',')
-f10 = np.genfromtxt('gMC_h10_Ge.csv',delimiter=',')
-f11 = np.genfromtxt('gMC_h11_Ge.csv',delimiter=',')
-f12 = np.genfromtxt('gMC_h12_Ge.csv',delimiter=',')
-f13 = np.genfromtxt('gMC_h13_Ge.csv',delimiter=',')
 
 y1 = f1[2:,1]
 y2 = f2[2:,1]
@@ -73,6 +60,12 @@ y10 = f10[2:,1]
 y11 = f11[2:,1]
 y12 = f12[2:,1]
 y13 = f13[2:,1]
+y14 = f14[2:,1]
+y15 = f15[2:,1]
+y16 = f16[2:,1]
+y17 = f17[2:,1]
+y18 = f18[2:,1]
+y19 = f19[2:,1]
 
 x1 = np.arange(0,len(y1))
 x2 = np.arange(0,len(y2))
@@ -87,6 +80,15 @@ x10 = np.arange(0,len(y10))
 x11 = np.arange(0,len(y11))
 x12 = np.arange(0,len(y12))
 x13 = np.arange(0,len(y13))
+x14 = np.arange(0,len(y14))
+x15 = np.arange(0,len(y15))
+x16 = np.arange(0,len(y16))
+x17 = np.arange(0,len(y17))
+x18 = np.arange(0,len(y18))
+x19 = np.arange(0,len(y19))
+#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#:::::::::::::::::::::: CUENTAS :::::::::::::::::::::::::::::
+#::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -396,8 +398,7 @@ for c in k:
         for j in np.arange(0,len(hist)):
             k=bin_edge[j]
             espectro11[k]=espectro11[k]+hist[j]
-########################################################################
-
+            
 ############### SE APLICA EL FWHM ####################
 k=np.arange(10,len(y12))
 espectro12=np.zeros(len(y12))
@@ -416,7 +417,8 @@ for c in k:
         for j in np.arange(0,len(hist)):
             k=bin_edge[j]
             espectro12[k]=espectro12[k]+hist[j]
-########################################################################
+#################################################################################
+
 ############### SE APLICA EL FWHM ####################
 k=np.arange(10,len(y13))
 espectro13=np.zeros(len(y13))
@@ -437,43 +439,181 @@ for c in k:
             espectro13[k]=espectro13[k]+hist[j]
 
 
+
+############### SE APLICA EL FWHM ####################
+k=np.arange(10,len(y14))
+espectro14=np.zeros(len(y14))
+for c in k:
+    miu14=float(c)
+    sigma14= 0.425 * FWHM_Ge(miu14)
+    nue_cuen14 = int(y14[c])
+    if nue_cuen14>0:
+
+        s=norm.rvs(loc=miu14,scale=sigma14, size= nue_cuen14,random_state=12345)
+        smin=int(round(s.min()))-1
+        smax=int(round(s.max()))+1
+        binx=np.arange(smin, smax)
+        hist, bin_edge=np.histogram(s,bins=binx)
+        
+        for j in np.arange(0,len(hist)):
+            k=bin_edge[j]
+            espectro14[k]=espectro14[k]+hist[j]
 ########################################################################
+
+
+
+
+
+################# 1.8 cm #######################
+
+############### SE APLICA EL FWHM ####################
+k=np.arange(10,len(y15))
+espectro15=np.zeros(len(y15))
+for c in k:
+    miu15=float(c)
+    sigma15= 0.425 * FWHM_Ge(miu15)
+    nue_cuen15 = int(y15[c])
+    if nue_cuen15>0:
+
+        s=norm.rvs(loc=miu15,scale=sigma15, size= nue_cuen15,random_state=12345)
+        smin=int(round(s.min()))-1
+        smax=int(round(s.max()))+1
+        binx=np.arange(smin, smax)
+        hist, bin_edge=np.histogram(s,bins=binx)
+        
+        for j in np.arange(0,len(hist)):
+            k=bin_edge[j]
+            espectro15[k]=espectro15[k]+hist[j]
+########################################################################
+
+
+
+
+################# 2.0 cm #######################
+
+############### SE APLICA EL FWHM ####################
+k=np.arange(10,len(y16))
+espectro16=np.zeros(len(y16))
+for c in k:
+    miu16=float(c)
+    sigma16= 0.425 * FWHM_Ge(miu16)
+    nue_cuen16 = int(y16[c])
+    if nue_cuen16>0:
+        
+        s=norm.rvs(loc=miu16,scale=sigma16, size= nue_cuen16,random_state=12345)
+        smin=int(round(s.min()))-1
+        smax=int(round(s.max()))+1
+        binx=np.arange(smin, smax)
+        hist, bin_edge=np.histogram(s,bins=binx)
+        
+        for j in np.arange(0,len(hist)):
+            k=bin_edge[j]
+            espectro16[k]=espectro16[k]+hist[j]
+########################################################################
+
+############### SE APLICA EL FWHM ####################
+k=np.arange(10,len(y17))
+espectro17=np.zeros(len(y17))
+for c in k:
+    miu17=float(c)
+    sigma17= 0.425 * FWHM_Ge(miu17)
+    nue_cuen17 = int(y17[c])
+    if nue_cuen17>0:
+        
+        s=norm.rvs(loc=miu17,scale=sigma17, size= nue_cuen17,random_state=12345)
+        smin=int(round(s.min()))-1
+        smax=int(round(s.max()))+1
+        binx=np.arange(smin, smax)
+        hist, bin_edge=np.histogram(s,bins=binx)
+        
+        for j in np.arange(0,len(hist)):
+            k=bin_edge[j]
+            espectro17[k]=espectro17[k]+hist[j]
+            
+############### SE APLICA EL FWHM ####################
+k=np.arange(10,len(y18))
+espectro18=np.zeros(len(y18))
+for c in k:
+    miu18=float(c)
+    sigma18= 0.425 * FWHM_Ge(miu18)
+    nue_cuen18 = int(y18[c])
+    if nue_cuen18>0:
+        
+        s=norm.rvs(loc=miu18,scale=sigma18, size= nue_cuen18,random_state=12345)
+        smin=int(round(s.min()))-1
+        smax=int(round(s.max()))+1
+        binx=np.arange(smin, smax)
+        hist, bin_edge=np.histogram(s,bins=binx)
+        
+        for j in np.arange(0,len(hist)):
+            k=bin_edge[j]
+            espectro18[k]=espectro18[k]+hist[j]
+#################################################################################
+
+############### SE APLICA EL FWHM ####################
+k=np.arange(10,len(y19))
+espectro19=np.zeros(len(y19))
+for c in k:
+    miu19=float(c)
+    sigma19= 0.425 * FWHM_Ge(miu19)
+    nue_cuen19 = int(y19[c])
+    if nue_cuen19>0:
+        
+        s=norm.rvs(loc=miu19,scale=sigma19, size= nue_cuen19,random_state=12345)
+        smin=int(round(s.min()))-1
+        smax=int(round(s.max()))+1
+        binx=np.arange(smin, smax)
+        hist, bin_edge=np.histogram(s,bins=binx)
+        
+        for j in np.arange(0,len(hist)):
+            k=bin_edge[j]
+            espectro19[k]=espectro19[k]+hist[j]
+            
+
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 #:::::::::::::::::::::: Graficas despues de aplicar el filtro Gaussiano ::::::::::::::
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-ax.plot(x1,espectro1,drawstyle='steps-mid',label='1 cm')
-ax.plot(x2,espectro2,drawstyle='steps-mid',label='2 cm')
-ax.plot(x3,espectro3,drawstyle='steps-mid',label='3 cm')
-ax.plot(x4,espectro4,drawstyle='steps-mid',label='4 cm')
-ax.plot(x5,espectro5,drawstyle='steps-mid',label='5 cm')
-ax.plot(x6,espectro6,drawstyle='steps-mid',label='6 cm')
-ax.plot(x7,espectro7,drawstyle='steps-mid',label='7 cm')
-ax.plot(x8,espectro8,drawstyle='steps-mid',label='8 cm')
-ax.plot(x9,espectro9,drawstyle='steps-mid',label='9 cm')
-ax.plot(x10,espectro10,drawstyle='steps-mid',label='10 cm')
-ax.plot(x11,espectro11,drawstyle='steps-mid',label='11 cm', color='yellow')
-ax.plot(x12,espectro12,drawstyle='steps-mid',label='12 cm', color='black')
-ax.plot(x13,espectro13,drawstyle='steps-mid',label='13 cm', color='aqua')
+ax.plot(x19,espectro19,drawstyle='steps-mid',label='-1.0 cm')
+ax.plot(x18,espectro18,drawstyle='steps-mid',label='-0.5 cm')
+ax.plot(x1,espectro1,drawstyle='steps-mid',label='0.0 cm')
+ax.plot(x2,espectro2,drawstyle='steps-mid',label='0.5 cm')
+ax.plot(x3,espectro3,drawstyle='steps-mid',label='1.0 cm')
+ax.plot(x4,espectro4,drawstyle='steps-mid',label='1.5 cm')
+ax.plot(x5,espectro5,drawstyle='steps-mid',label='2.0 cm')
+ax.plot(x6,espectro6,drawstyle='steps-mid',label='2.5 cm')
+ax.plot(x7,espectro7,drawstyle='steps-mid',label='3.0 cm')
+ax.plot(x8,espectro8,drawstyle='steps-mid',label='3.5 cm')
+ax.plot(x9,espectro9,drawstyle='steps-mid',label='4.0 cm')
+ax.plot(x10,espectro10,drawstyle='steps-mid',label='4.5 cm')
+ax.plot(x11,espectro11,drawstyle='steps-mid',label='5.0 cm')
+ax.plot(x12,espectro12,drawstyle='steps-mid',label='5.5 cm')
+ax.plot(x13,espectro13,drawstyle='steps-mid',label='6.0 cm')
+ax.plot(x14,espectro14,drawstyle='steps-mid',label='6.5 cm')
+ax.plot(x15,espectro15,drawstyle='steps-mid',label='7.0 cm')
+ax.plot(x16,espectro16,drawstyle='steps-mid',label='7.5 cm')
+ax.plot(x17,espectro17,drawstyle='steps-mid',label='8.0 cm')
+
+
 ############################################################################################################
 ######################## EJES ##############################################################################
 ############################################################################################################
 
-ax.set_xlabel(r'$E_\gamma$ (keV)')
+ax.set_xlabel(r'$E_\gamma$ (keV)', size=20)
 #ax.xaxis.set_minor_locator(AutoMinorLocator(5))
-ax.set_ylabel('cuentas/keV')
-plt.xlim(0,270)
+ax.set_ylabel('cuentas/keV', size=20)
+plt.xlim(0,300)
 #plt.ylim(0,2300)
-#plt.xticks(fontsize=16)
-#plt.yticks(fontsize=16)
-leg=plt.legend(loc="center left")#,prop={'size': 14})
-#for legobj in leg.legendHandles: #tamaño de la leyenda
-#    legobj.set_linewidth(5.0) #tamaño de la leyenda
-
-
+plt.xticks(fontsize=16)
+plt.yticks(fontsize=16)
+leg=plt.legend(loc="center left",prop={'size': 14})
+for legobj in leg.legendHandles: #tamaño de la leyenda
+    legobj.set_linewidth(5.0) #tamaño de la leyenda
 plt.show()
 
-
+###############################################################################################################
+################################################################################################################
+##################################################################################################################
 #########################################################################
 ################# INICIO DE CONTEO  #####################################
 #########################################################################
@@ -586,14 +726,18 @@ for i in range(len(ejex10)):
 print (cuentas10)
 ############################################
 ############################################
+
+
 ejex11=x11[E1:E2]
 cuentas11=0
-for i in range(len(ejex10)):
+for i in range(len(ejex11)):
    cuentas11=cuentas11+espectro11[i]
     
 print (cuentas11)
 ############################################
 ############################################
+
+
 ejex12=x12[E1:E2]
 cuentas12=0
 for i in range(len(ejex12)):
@@ -602,6 +746,8 @@ for i in range(len(ejex12)):
 print (cuentas12)
 ############################################
 ############################################
+
+
 ejex13=x13[E1:E2]
 cuentas13=0
 for i in range(len(ejex13)):
@@ -611,98 +757,85 @@ print (cuentas13)
 ############################################
 ############################################
 
-#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+############################################
+############################################
 
-#INTENSIDADES Y SUS ERRORES RESPECTIVOS
+ejex14=x14[E1:E2]
+cuentas14=0
+for i in range(len(ejex14)):
+   cuentas14=cuentas14+espectro14[i]
+    
+print (cuentas14)
+############################################
+############################################
 
-intensidades=[cuentas1, cuentas2, cuentas3, cuentas4, cuentas5, cuentas6, cuentas7, cuentas8, cuentas9, cuentas10, cuentas11, cuentas12, cuentas13]
-int_max=max(intensidades)
-intensidades=intensidades/int_max
-errores_inten=[math.sqrt(cuentas1),math.sqrt(cuentas2),math.sqrt(cuentas3), math.sqrt(cuentas4), math.sqrt(cuentas5), math.sqrt(cuentas6), math.sqrt(cuentas7), math.sqrt(cuentas8), math.sqrt(cuentas9), math.sqrt(cuentas10), math.sqrt(cuentas11),  math.sqrt(cuentas12),  math.sqrt(cuentas13)]
-
-propaga_error_y=[cuentas1/int_max*math.sqrt((math.sqrt(cuentas1)/cuentas1)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)), cuentas2/int_max*math.sqrt((math.sqrt(cuentas2)/cuentas2)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)), cuentas3/int_max*math.sqrt((math.sqrt(cuentas3)/cuentas3)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)), cuentas4/int_max*math.sqrt((math.sqrt(cuentas4)/cuentas4)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)),cuentas5/int_max*math.sqrt((math.sqrt(cuentas5)/cuentas5)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)),cuentas6/int_max*math.sqrt((math.sqrt(cuentas6)/cuentas6)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)),cuentas7/int_max*math.sqrt((math.sqrt(cuentas7)/cuentas7)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)),cuentas8/int_max*math.sqrt((math.sqrt(cuentas8)/cuentas8)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)),cuentas9/int_max*math.sqrt((math.sqrt(cuentas9)/cuentas9)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)),cuentas10/int_max*math.sqrt((math.sqrt(cuentas10)/cuentas10)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)), cuentas11/int_max*math.sqrt((math.sqrt(cuentas11)/cuentas11)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)), cuentas12/int_max*math.sqrt((math.sqrt(cuentas12)/cuentas12)**2+math.sqrt((math.sqrt(int_max)/int_max)**2)), cuentas13/int_max*math.sqrt((math.sqrt(cuentas13)/cuentas13)**2+math.sqrt((math.sqrt(int_max)/int_max)**2))]
-
-propaga_error_x=[0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005]
-
-
-#GROSORES
-grosor=[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0]
-
-
-#REGRESION
-print (propaga_error_y)
+ejex15=x15[E1:E2]
+cuentas15=0
+for i in range(len(ejex15)):
+   cuentas15=cuentas15+espectro15[i]
+    
+print (cuentas15)
+############################################
+############################################
 
 
-mu_T=-1.6
-def intensidad(grosor,mu_T):
-    return (1-np.exp(mu_T*grosor))
+ejex16=x16[E1:E2]
+cuentas16=0
+for i in range(len(ejex16)):
+   cuentas16=cuentas16+espectro16[i]
+    
+print (cuentas16)
+############################################
+############################################
 
 
-popt_retro,pcov_retro=curve_fit(intensidad, grosor, intensidades,p0=[mu_T],sigma=propaga_error_y)
+ejex17=x17[E1:E2]
+cuentas17=0
+for i in range(len(ejex17)):
+   cuentas17=cuentas17+espectro17[i]
+    
+print (cuentas17)
+############################################
+############################################
 
 
-perror=np.sqrt(np.diag(pcov_retro))
-print ("error")
-print (perror)
-print ("-----------------")
-print ("mu_T")
-print (popt_retro)
-
-mu_T=popt_retro
-
-densidad=1.62
-Ddensidad=0.07
-mu_T_masico_sim=mu_T/densidad
-error=mu_T_masico_sim*math.sqrt((perror/mu_T)**2+(Ddensidad/densidad)**2)
-print (mu_T_masico_sim, error)
+ejex18=x18[E1:E2]
+cuentas18=0
+for i in range(len(ejex18)):
+   cuentas18=cuentas18+espectro18[i]
+    
+print (cuentas18)
+############################################
+############################################
 
 
-######################################################
-mu_1=7.814E-02
-mu_2=1.239E-01
-mu_T_masico_nist=mu_1-(mu_2/math.cos(3*math.pi/4))
-print (mu_T_masico_nist)
-####################################################
+ejex19=x19[E1:E2]
+cuentas19=0
+for i in range(len(ejex19)):
+   cuentas19=cuentas19+espectro19[i]
+    
+print (cuentas19)
+############################################
+############################################
 
-####################################################
-#CALCULO DE LA DISTANCIA DE SATURACIÓN
-####################################################
+cuentas_totales=[cuentas1, cuentas2, cuentas3, cuentas4, cuentas5, cuentas6, cuentas7, cuentas8, cuentas9, cuentas10, cuentas11, cuentas12, cuentas13, cuentas14, cuentas15, cuentas16, cuentas17, cuentas18, cuentas19]
 
-Xsaturacion = 1/mu_T*np.log(0.1)
-print("distancia de saturación")
-print(Xsaturacion)
+ejex_graf=[-1.0, -0.5, 0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5, 7.0, 7.5, 8.0]
 
-
-#######################################################
-
-
-fig2, axs=plt.subplots(1,1,figsize=(6,3.5))
+fig2, axs=plt.subplots(1,1,sharey=False)
 x=np.linspace(0.2,13.0,10000)
-axs.errorbar(grosor,intensidades,yerr=propaga_error_y, xerr=propaga_error_x,fmt='.',color='purple', label='Geant4')
-
-#axs.plot(grosor,intensidades,'o', label='Geant4',color='purple')
-
-axs.vlines(Xsaturacion, 0.0, 0.9, color='navy', alpha=0.5)
-plt.text(Xsaturacion + 0.1, 0.7, r'9.7852(agregar) cm', color='navy')
 
 
-axs.set_xlabel(r'$t$ (cm)')
-axs.set_ylabel('Intensidad (cuentas)')
-#plt.text(10.0,0.3,r'Geant4: $\mu_T$=0.145(8)$\frac{cm^2}{g}$')
-#plt.text(10.0,0.2,r'NIST: $\mu_T$=0.253$\frac{cm^2}{g}$')
-#plt.text(10.0,0.1,r'Discrepancia: 42.6$\%$')
-axs.plot(x,intensidad(x,mu_T), label='Ajuste ',color='dimgrey')
-plt.xticks(grosor)#,fontsize=16)
-#plt.yticks(fontsize=16)
-plt.ylim(0,1.15)
-#plt.grid(True)
+axs.set_xlabel(r'$x$ (cm)', size=20)
+axs.set_ylabel('Intensidad (cuentas)', size=20)
 
-leg=axs.legend(loc="upper left")#,prop={'size': 14})
-#for legobj in leg.legendHandles: #tamaño de la leyenda
-#    legobj.set_linewidth(2.0) #tamaño de la leyenda
-
-fig2.tight_layout()
-
+axs.plot(ejex_graf,cuentas_totales,'o', label='Ajuste ',color='purple')
+plt.xticks(ejex_graf,fontsize=16)
+plt.yticks(fontsize=16)
+#plt.xlim(-1.0, 5.5)
+"""
+leg=axs.legend(loc="upper left",prop={'size': 14})
+for legobj in leg.legendHandles: #tamaño de la leyenda
+    legobj.set_linewidth(2.0) #tamaño de la leyenda
+"""
 plt.show()

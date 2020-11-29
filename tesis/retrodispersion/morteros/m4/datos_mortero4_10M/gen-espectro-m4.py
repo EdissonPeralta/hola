@@ -13,16 +13,19 @@ from scipy.optimize import curve_fit
 #from scipy.signal import find_peaks
 from astropy.io import ascii
 
-mpl.rcParams['legend.fontsize'] = 12
-mpl.rcParams['axes.labelsize'] = 12
-mpl.rcParams['xtick.labelsize'] = 12
-mpl.rcParams['ytick.labelsize'] = 12
-mpl.rcParams['text.usetex'] = True
-mpl.rcParams['font.family'] = 'sans-serif'
-mpl.rcParams['mathtext.fontset'] = 'dejavusans'
-mpl.rcParams['text.latex.preamble'] = [r'\usepackage{mathrsfs}']
-#mpl.rcParams['text.latex.preamble'] = [r'\usepackage{pxfonts}']
-mpl.rcParams.update({'font.size': 12})
+mpl.rcParams.update({"text.usetex":True,
+                     "font.family":"serif",
+                     "font.sans-serif":["Computer Modern San serif"],
+                     "legend.fontsize":12,
+                     "axes.labelsize":12,
+                     "xtick.labelsize":12,
+                     "ytick.labelsize":12,
+                     "figure.figsize":(3.4,3.2),
+                     "mathtext.fontset":"dejavusans",
+                     "text.latex.preamble":r"\usepackage{amsmath}"
+})
+
+
 
 #import metodos_MC as mt
 import numpy as np
@@ -676,27 +679,28 @@ print(Xsaturacion)
 
 #######################################################
 
-fig2, axs=plt.subplots(1,1,sharey=False)
+fig2, axs=plt.subplots(1,1,figsize=(6,3.5))
 x=np.linspace(0.2,13.0,10000)
-axs.errorbar(grosor,intensidades,yerr=propaga_error_y, xerr=propaga_error_x,fmt='.',color='purple', markersize=12,label='Geant4')
+axs.errorbar(grosor,intensidades,yerr=propaga_error_y, xerr=propaga_error_x,fmt='.',color='purple',label='Geant4')
 
 #axs.plot(grosor,intensidades,'o', label='Geant4',color='purple')
 
 axs.vlines(Xsaturacion, 0.0, 0.9, color='navy', alpha=0.5)
-plt.text(Xsaturacion + 0.1, 0.7, r'9.8614(agregar) cm', size=15, color='navy')
+plt.text(Xsaturacion + 0.1, 0.7, r'9.8614(agregar) cm', color='navy')
 
 
-axs.set_xlabel(r'$t$ (cm)', size=20)
-axs.set_ylabel('Intensidad (cuentas)', size=20)
-plt.text(10.0,0.3,r'Geant4: $\mu_T$=0.144(5)$\frac{cm^2}{g}$', size=15)
-plt.text(10.0,0.2,r'NIST: $\mu_T$=0.252$\frac{cm^2}{g}$', size=15)
-plt.text(10.0,0.1,r'Discrepancia: 42.8$\%$', size=15)
+axs.set_xlabel(r'$t$ (cm)')
+axs.set_ylabel('Intensidad (cuentas)')
+#plt.text(10.0,0.3,r'Geant4: $\mu_T$=0.144(5)$\frac{cm^2}{g}$', size=15)
+#plt.text(10.0,0.2,r'NIST: $\mu_T$=0.252$\frac{cm^2}{g}$', size=15)
+#plt.text(10.0,0.1,r'Discrepancia: 42.8$\%$', size=15)
 axs.plot(x,intensidad(x,mu_T), label='Ajuste ',color='dimgrey')
-plt.xticks(grosor, fontsize=16)
-plt.yticks(fontsize=16)
+plt.xticks(grosor)# fontsize=16)
+#plt.yticks(fontsize=16)
 plt.ylim(0, 1.15)
 #plt.grid(True)
-leg=axs.legend(loc="upper left",prop={'size': 14})
-for legobj in leg.legendHandles: #tamaño de la leyenda
-    legobj.set_linewidth(2.0) #tamaño de la leyenda
+leg=axs.legend(loc="upper left")#,prop={'size': 14})
+#for legobj in leg.legendHandles: #tamaño de la leyenda
+#    legobj.set_linewidth(2.0) #tamaño de la leyenda
+fig2.tight_layout()           
 plt.show()

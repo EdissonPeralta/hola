@@ -11,16 +11,19 @@ import matplotlib as mpl
 from scipy.stats import norm
 import matplotlib.ticker as ticker #para los ticks
 
-mpl.rcParams['legend.fontsize'] = 12
-mpl.rcParams['axes.labelsize'] = 12
-mpl.rcParams['xtick.labelsize'] = 12
-mpl.rcParams['ytick.labelsize'] = 12
-mpl.rcParams['text.usetex'] = True
-mpl.rcParams['font.family'] = 'sans-serif'
-mpl.rcParams['mathtext.fontset'] = 'dejavusans'
-mpl.rcParams['text.latex.preamble'] = [r'\usepackage{mathrsfs}']
-#mpl.rcParams['text.latex.preamble'] = [r'\usepackage{pxfonts}']
-mpl.rcParams.update({'font.size': 12})
+mpl.rcParams.update({"text.usetex":True,
+                     "font.family":"serif",
+                     "font.sans-serif":["Computer Modern San serif"],
+                     "legend.fontsize":12,
+                     "axes.labelsize":12,
+                     "xtick.labelsize":12,
+                     "ytick.labelsize":12,
+                     "figure.figsize":(3.4,3.2),
+                     "mathtext.fontset":"dejavusans",
+                     "text.latex.preamble":r"\usepackage{amsmath}"
+})
+
+
 
 filenames=["gMC_h0_Ge.csv", "gMC_h1_Ge.csv","gMC_h2_Ge.csv","gMC_h3_Ge.csv","gMC_h4_Ge.csv","gMC_h4_Ge.csv","gMC_h5_Ge.csv","gMC_h6_Ge.csv","gMC_h7_Ge.csv","gMC_h8_Ge.csv","gMC_h9_Ge.csv","gMC_h10_Ge.csv"]
 
@@ -264,7 +267,7 @@ for i in range(pic):
 #fig_1.savefig('1.pdf')
 """
 #::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
+"""
 #grafico algun picos
 fig_1,axs=plt.subplots(2,2,figsize=(6.5,4))
 ii,jj=0,0
@@ -284,13 +287,14 @@ for j in range(0,8,2):
 #fig_1.tight_layout()
 #fig_1.savefig('2.pdf')
 #::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+"""
 
 #grafico los ajuste a la funcion potencia
 xx=x[50:]
-fig_1,axs=plt.subplots(1,1,figsize=(6.5,4))
+fig_1,axs=plt.subplots(1,1,figsize=(6,3.5))
 
-axs.set_ylabel(r"$\mu$ (cm$^2$/g)",fontsize=15, size=23)
-axs.set_xlabel(r'$E_{\gamma}$ (keV)', size=23)
+axs.set_ylabel(r"$\mu$ (cm$^2$/g)")
+axs.set_xlabel(r'$E_{\gamma}$ (keV)')
 
 #plt.tick_params(
 #    axis='y',          # changes apply to the y-axis
@@ -330,7 +334,7 @@ print (np.round(dalph2_nist,2))
 #los labels para que queden como una ecuación 
 
 #grafico
-plt.title("Morteros 4", size= 30)
+plt.title("Morteros 4")
 axs.plot(xx, myExpFunc(xx, *popt), 'C0', color='red')
 
 axs.errorbar(energy, mu, yerr=dmu, fmt='o', c='red',ecolor='k',label=r"Simulación")
@@ -340,12 +344,13 @@ axs.plot(xx, myExpFunc(xx, *pop_exp), 'purple')
 axs.errorbar(energy,munist,yerr=None, fmt='o',c='purple',ecolor='k',label=r'NIST')
 axs.legend()
 plt.tick_params(labelright=True, right=True)
-plt.xticks(fontsize=20)
-plt.yticks(fontsize=20)
-leg=plt.legend(loc="upper right",prop={'size': 20})
-for legobj in leg.legendHandles: #tamaño de la leyenda
-    legobj.set_linewidth(2.5) #tamaño de la leyenda
+#plt.xticks(fontsize=20)
+#plt.yticks(fontsize=20)
+leg=plt.legend(loc="upper right")#,prop={'size': 20})
+#for legobj in leg.legendHandles: #tamaño de la leyenda
+#    legobj.set_linewidth(2.5) #tamaño de la leyenda
 
+fig_1.tight_layout()
 plt.show()
 
 
