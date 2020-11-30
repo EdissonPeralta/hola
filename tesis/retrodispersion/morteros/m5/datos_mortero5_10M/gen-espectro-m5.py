@@ -672,6 +672,9 @@ Xsaturacion = 1/mu_T*np.log(0.1)
 print("distancia de saturación")
 print(Xsaturacion)
 
+print ("error en la distancia")
+sigmaXsatu=(np.log(0.1)*error)/(mu_T_masico_sim*mu_T_masico_sim)
+print (sigmaXsatu)
 
 #######################################################
 
@@ -683,7 +686,7 @@ axs.errorbar(grosor,intensidades,yerr=propaga_error_y, xerr=propaga_error_x,fmt=
 #axs.plot(grosor,intensidades,'o', label='Geant4',color='purple')
 
 axs.vlines(Xsaturacion, 0.0, 0.9, color='navy', alpha=0.5)
-plt.text(Xsaturacion + 0.1, 0.7, r'8.35021(agregar) cm', color='navy')
+plt.text(Xsaturacion + 0.1, 0.7, r'8.3(5) cm', color='navy')
 
 
 
