@@ -60,9 +60,9 @@ x=np.linspace(0,8000,10000)
 
 #x = range(799)
 #plt.plot(x,histogram3,linestyle='steps-mid',color='orange')
-axs.plot(ejeXM11,cuentasM11,color='black')
-axs.plot(ejeXM12,cuentasM12,color='purple')
-axs.plot(ejeXM13,cuentasM13,color='red')
+axs.plot(ejeXM11,cuentasM11,color='black')#133Ba
+axs.plot(ejeXM12,cuentasM12,color='purple')#57Co
+#axs.plot(ejeXM13,cuentasM13,color='red')
 
 plt.show()
     
