@@ -59,7 +59,7 @@ gMCRunAction::gMCRunAction(gMCEventAction* eventAction)
   
   // Creating 1D histograms
   analysisManager
-    ->CreateH1("NaI32","Ge counts", 700, 0., 700.); // h1 Id = 0
+    ->CreateH1("NaI14","Ge counts", 700, 0., 700.); // h1 Id = 0
   //  analysisManager
   //    ->CreateH1("NaI","NaI counts", 700, 0., 700); // h1 Id = 1
   
