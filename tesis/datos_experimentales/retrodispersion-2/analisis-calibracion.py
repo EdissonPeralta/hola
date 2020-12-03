@@ -23,6 +23,12 @@ datosMC3=ascii.read('27-11-2020-NaI-Detector-600s-fuente133Ba57Co-L3.mca', data_
 datosMC4=ascii.read('27-11-2020-NaI-Detector-600s-fuente133Ba57Co-L4.mca', data_start=0)
 datosMC5=ascii.read('27-11-2020-NaI-Detector-600s-fuente133Ba57Co-L5.mca', data_start=0)
 datosMC6=ascii.read('27-11-2020-NaI-Detector-600s-fuente133Ba57Co-L6.mca', data_start=0)
+datosMC7=ascii.read('01-12-2020-NaI-Detector-600s-fuente133Ba57Co-L7.mca', data_start=0)
+datosMC8=ascii.read('01-12-2020-NaI-Detector-600s-fuente133Ba57Co-L8.mca', data_start=0)
+datosMC9=ascii.read('01-12-2020-NaI-Detector-600s-fuente133Ba57Co-L9.mca', data_start=0)
+datosMC10=ascii.read('01-12-2020-NaI-Detector-600s-fuente133Ba57Co-L10.mca', data_start=0)
+datosMC11=ascii.read('01-12-2020-NaI-Detector-600s-fuente133Ba57Co-L11.mca', data_start=0)
+datosMC12=ascii.read('01-12-2020-NaI-Detector-600s-fuente133Ba57Co-L12.mca', data_start=0)
 
 #morteros
 datosM0=ascii.read('27-11-2020-NaI-Detector-3600s-fuenteCs137-L0.mca', data_start=0)
@@ -32,6 +38,16 @@ datosM3=ascii.read('27-11-2020-NaI-Detector-3600s-fuenteCs137-L3.mca', data_star
 datosM4=ascii.read('27-11-2020-NaI-Detector-3600s-fuenteCs137-L4.mca', data_start=0)
 datosM5=ascii.read('27-11-2020-NaI-Detector-3600s-fuenteCs137-L5.mca', data_start=0)
 datosM6=ascii.read('27-11-2020-NaI-Detector-3600s-fuenteCs137-L6.mca', data_start=0)
+datosM7=ascii.read('01-12-2020-NaI-Detector-3600s-fuenteCs137-L7.mca', data_start=0)
+datosM8=ascii.read('01-12-2020-NaI-Detector-3600s-fuenteCs137-L8.mca', data_start=0)
+datosM9=ascii.read('01-12-2020-NaI-Detector-3600s-fuenteCs137-L9.mca', data_start=0)
+datosM10=ascii.read('01-12-2020-NaI-Detector-3600s-fuenteCs137-L10.mca', data_start=0)
+datosM11=ascii.read('01-12-2020-NaI-Detector-3600s-fuenteCs137-L11.mca', data_start=0)
+datosM12=ascii.read('01-12-2020-NaI-Detector-3600s-fuenteCs137-L12.mca', data_start=0)
+
+
+
+
 
 gC0=len(datosMC0)
 gC1=len(datosMC1)
@@ -40,6 +56,13 @@ gC3=len(datosMC3)
 gC4=len(datosMC4)
 gC5=len(datosMC5)
 gC6=len(datosMC6)
+gC7=len(datosMC7)
+gC8=len(datosMC8)
+gC9=len(datosMC9)
+gC10=len(datosMC10)
+gC11=len(datosMC11)
+gC12=len(datosMC12)
+
 
 
 g0=len(datosM0)
@@ -49,6 +72,13 @@ g3=len(datosM3)
 g4=len(datosM4)
 g5=len(datosM5)
 g6=len(datosM6)
+g7=len(datosM7)
+g8=len(datosM8)
+g9=len(datosM9)
+g10=len(datosM10)
+g11=len(datosM11)
+g12=len(datosM12)
+
 
 
 cuentasMC0=np.zeros(gC0)
@@ -107,6 +137,56 @@ for i in range(0,gC6):
     #canal[i]=datos[i][0]
     ejeXMC6[i]=i
 
+
+cuentasMC7=np.zeros(gC7)
+canalMC7=np.zeros(gC7)
+ejeXMC7=np.zeros(gC7)
+for i in range(0,gC7):
+    cuentasMC7[i]=datosMC7[i][0]
+    #canal[i]=datos[i][0]
+    ejeXMC7[i]=i
+
+cuentasMC8=np.zeros(gC8)
+canalMC8=np.zeros(gC8)
+ejeXMC8=np.zeros(gC8)
+for i in range(0,gC8):
+    cuentasMC8[i]=datosMC8[i][0]
+    #canal[i]=datos[i][0]
+    ejeXMC8[i]=i
+
+cuentasMC9=np.zeros(gC9)
+canalMC9=np.zeros(gC9)
+ejeXMC9=np.zeros(gC9)
+for i in range(0,gC9):
+    cuentasMC9[i]=datosMC9[i][0]
+    #canal[i]=datos[i][0]
+    ejeXMC9[i]=i
+
+cuentasMC10=np.zeros(gC10)
+canalMC10=np.zeros(gC10)
+ejeXMC10=np.zeros(gC10)
+for i in range(0,gC10):
+    cuentasMC10[i]=datosMC10[i][0]
+    #canal[i]=datos[i][0]
+    ejeXMC10[i]=i
+
+cuentasMC11=np.zeros(gC11)
+canalMC11=np.zeros(gC11)
+ejeXMC11=np.zeros(gC11)
+for i in range(0,gC11):
+    cuentasMC11[i]=datosMC11[i][0]
+    #canal[i]=datos[i][0]
+    ejeXMC11[i]=i
+
+cuentasMC12=np.zeros(gC12)
+canalMC12=np.zeros(gC12)
+ejeXMC12=np.zeros(gC12)
+for i in range(0,gC12):
+    cuentasMC12[i]=datosMC12[i][0]
+    #canal[i]=datos[i][0]
+    ejeXMC12[i]=i
+
+    
 ###################################################################################
     
 cuentasM0=np.zeros(g0)
@@ -157,6 +237,7 @@ for i in range(0,g5):
     #canal[i]=datos[i][0]
     ejeXM5[i]=i
 
+
 cuentasM6=np.zeros(g6)
 canalM6=np.zeros(g6)
 ejeXM6=np.zeros(g6)
@@ -164,7 +245,58 @@ for i in range(0,g6):
     cuentasM6[i]=datosM6[i][0]
     #canal[i]=datos[i][0]
     ejeXM6[i]=i
+    
+cuentasM7=np.zeros(g7)
+canalM7=np.zeros(g7)
+ejeXM7=np.zeros(g7)
+for i in range(0,g7):
+    cuentasM7[i]=datosM7[i][0]
+    #canal[i]=datos[i][0]
+    ejeXM7[i]=i
 
+cuentasM8=np.zeros(g8)
+canalM8=np.zeros(g8)
+ejeXM8=np.zeros(g8)
+for i in range(0,g8):
+    cuentasM8[i]=datosM8[i][0]
+    #canal[i]=datos[i][0]
+    ejeXM8[i]=i
+
+cuentasM9=np.zeros(g9)
+canalM9=np.zeros(g9)
+ejeXM9=np.zeros(g9)
+for i in range(0,g9):
+    cuentasM9[i]=datosM9[i][0]
+    #canal[i]=datos[i][0]
+    ejeXM9[i]=i
+
+cuentasM10=np.zeros(g10)
+canalM10=np.zeros(g10)
+ejeXM10=np.zeros(g10)
+for i in range(0,g10):
+    cuentasM10[i]=datosM10[i][0]
+    #canal[i]=datos[i][0]
+    ejeXM10[i]=i
+
+cuentasM11=np.zeros(g11)
+canalM11=np.zeros(g11)
+ejeXM11=np.zeros(g11)
+for i in range(0,g11):
+    cuentasM11[i]=datosM1[i][0]
+    #canal[i]=datos[i][0]
+    ejeXM11[i]=i
+
+cuentasM12=np.zeros(g12)
+canalM12=np.zeros(g12)
+ejeXM12=np.zeros(g12)
+for i in range(0,g12):
+    cuentasM12[i]=datosM12[i][0]
+    #canal[i]=datos[i][0]
+    ejeXM12[i]=i
+
+
+
+    
 ##################################################################################
 #ajuste para acomodar los picos
 
@@ -496,6 +628,260 @@ for j in range (len(canalM6)):
     cuentasM6[j]= cuentasM6[j]/cuentas6
 ##############################################################
 
+
+################## L7 ######################################
+maximo0=int(max(cuentasMC7[m01:m02]))
+maximo1=int(max(cuentasMC7[m11:m12]))
+maximo2=int(max(cuentasMC7[m21:m22]))
+
+for i in range(m01,m02):
+	if cuentasMC7[i]==maximo0:
+		d0=ejeXMC7[i]
+                
+for i in range(m11,m12):
+	if cuentasMC7[i]==maximo1:
+		d1=ejeXMC7[i]
+
+for i in range(m21,m22):
+	if cuentasMC7[i]==maximo2:
+		d2=ejeXMC7[i]
+
+y=[81,122,356] #energía
+x=[d0,d1,d2] #canales
+
+popt_retro,pcov_retro=curve_fit(regresion, x, y, p0=[a1,a0])
+
+a1=popt_retro[0]
+a0=popt_retro[1]
+
+for j in range (len(ejeXMC7)):
+    canalMC7[j]= regresion(ejeXMC7[j],a1,a0)
+
+E1=int(regresion(m21,a1,a0)) #keV
+E2=int(regresion(m22,a1,a0)) #keV)
+
+energia7=canalMC7[E1:E2]
+cuentas7=0
+for i in range(len(energia7)):
+   cuentas7=cuentas7+cuentasMC7[i]
+    
+print (cuentas7)
+for j in range (len(canalM7)):
+    cuentasM7[j]= cuentasM7[j]/cuentas7
+############################################################
+
+######################## L8 #############################
+maximo0=int(max(cuentasMC8[m01:m02]))
+maximo1=int(max(cuentasMC8[m11:m12]))
+maximo2=int(max(cuentasMC8[m21:m22]))
+
+for i in range(m01,m02):
+	if cuentasMC8[i]==maximo0:
+		d0=ejeXMC8[i]
+                
+for i in range(m11,m12):
+	if cuentasMC8[i]==maximo1:
+		d1=ejeXMC8[i]
+
+for i in range(m21,m22):
+	if cuentasMC8[i]==maximo2:
+		d2=ejeXMC8[i]
+
+y=[81,122,356] #energía
+x=[d0,d1,d2] #canales
+
+popt_retro,pcov_retro=curve_fit(regresion, x, y, p0=[a1,a0])
+
+a1=popt_retro[0]
+a0=popt_retro[1]
+
+for j in range (len(ejeXMC8)):
+    canalMC8[j]= regresion(ejeXMC8[j],a1,a0)
+
+E1=int(regresion(m21,a1,a0)) #keV
+E2=int(regresion(m22,a1,a0)) #keV)
+
+energia8=canalMC8[E1:E2]
+cuentas8=0
+for i in range(len(energia8)):
+   cuentas8=cuentas8+cuentasMC8[i]
+    
+print (cuentas8)
+for j in range (len(canalM8)):
+    cuentasM8[j]= cuentasM8[j]/cuentas8
+######################################################
+
+######################## L9 #############################
+maximo0=int(max(cuentasMC9[m01:m02]))
+maximo1=int(max(cuentasMC9[m11:m12]))
+maximo2=int(max(cuentasMC9[m21:m22]))
+
+for i in range(m01,m02):
+	if cuentasMC9[i]==maximo0:
+		d0=ejeXMC9[i]
+                
+for i in range(m11,m12):
+	if cuentasMC9[i]==maximo1:
+		d1=ejeXMC9[i]
+
+for i in range(m21,m22):
+	if cuentasMC9[i]==maximo2:
+		d2=ejeXMC9[i]
+
+y=[81,122,356] #energía
+x=[d0,d1,d2] #canales
+
+popt_retro,pcov_retro=curve_fit(regresion, x, y, p0=[a1,a0])
+
+a1=popt_retro[0]
+a0=popt_retro[1]
+
+for j in range (len(ejeXMC9)):
+    canalMC9[j]= regresion(ejeXMC9[j],a1,a0)
+
+E1=int(regresion(m21,a1,a0)) #keV
+E2=int(regresion(m22,a1,a0)) #keV)
+
+energia9=canalMC9[E1:E2]
+cuentas9=0
+for i in range(len(energia9)):
+   cuentas9=cuentas9+cuentasMC9[i]
+    
+print (cuentas9)
+for j in range (len(canalM9)):
+    cuentasM9[j]= cuentasM9[j]/cuentas9
+###################################################
+
+######################## L10 #############################
+maximo0=int(max(cuentasMC10[m01:m02]))
+maximo1=int(max(cuentasMC10[m11:m12]))
+maximo2=int(max(cuentasMC10[m21:m22]))
+
+for i in range(m01,m02):
+	if cuentasMC10[i]==maximo0:
+		d0=ejeXMC10[i]
+                
+for i in range(m11,m12):
+	if cuentasMC10[i]==maximo1:
+		d1=ejeXMC10[i]
+
+for i in range(m21,m22):
+	if cuentasMC10[i]==maximo2:
+		d2=ejeXMC10[i]
+
+y=[81,122,356] #energía
+x=[d0,d1,d2] #canales
+
+popt_retro,pcov_retro=curve_fit(regresion, x, y, p0=[a1,a0])
+
+a1=popt_retro[0]
+a0=popt_retro[1]
+
+for j in range (len(ejeXMC10)):
+    canalMC10[j]= regresion(ejeXMC10[j],a1,a0)
+
+E1=int(regresion(m21,a1,a0)) #keV
+E2=int(regresion(m22,a1,a0)) #keV)
+
+energia10=canalMC10[E1:E2]
+cuentas10=0
+for i in range(len(energia10)):
+   cuentas10=cuentas10+cuentasMC10[i]
+    
+print (cuentas10)
+for j in range (len(canalM10)):
+    cuentasM10[j]= cuentasM10[j]/cuentas10
+###################################################
+
+######################## L11 #############################
+maximo0=int(max(cuentasMC11[m01:m02]))
+maximo1=int(max(cuentasMC11[m11:m12]))
+maximo2=int(max(cuentasMC11[m21:m22]))
+
+for i in range(m01,m02):
+	if cuentasMC11[i]==maximo0:
+		d0=ejeXMC11[i]
+                
+for i in range(m11,m12):
+	if cuentasMC11[i]==maximo1:
+		d1=ejeXMC11[i]
+
+for i in range(m21,m22):
+	if cuentasMC11[i]==maximo2:
+		d2=ejeXMC11[i]
+
+y=[81,122,356] #energía
+x=[d0,d1,d2] #canales
+
+popt_retro,pcov_retro=curve_fit(regresion, x, y, p0=[a1,a0])
+
+a1=popt_retro[0]
+a0=popt_retro[1]
+
+for j in range (len(ejeXMC11)):
+    canalMC11[j]= regresion(ejeXMC11[j],a1,a0)
+
+E1=int(regresion(m21,a1,a0)) #keV
+E2=int(regresion(m22,a1,a0)) #keV)
+
+energia11=canalMC11[E1:E2]
+cuentas11=0
+for i in range(len(energia11)):
+   cuentas11=cuentas11+cuentasMC11[i]
+    
+print (cuentas11)
+for j in range (len(canalM11)):
+    cuentasM11[j]= cuentasM11[j]/cuentas11
+###################################################
+
+######################## L12 #############################
+maximo0=int(max(cuentasMC12[m01:m02]))
+maximo1=int(max(cuentasMC12[m11:m12]))
+maximo2=int(max(cuentasMC12[m21:m22]))
+
+for i in range(m01,m02):
+	if cuentasMC12[i]==maximo0:
+		d0=ejeXMC12[i]
+                
+for i in range(m11,m12):
+	if cuentasMC12[i]==maximo1:
+		d1=ejeXMC12[i]
+
+for i in range(m21,m22):
+	if cuentasMC12[i]==maximo2:
+		d2=ejeXMC12[i]
+
+y=[81,122,356] #energía
+x=[d0,d1,d2] #canales
+
+popt_retro,pcov_retro=curve_fit(regresion, x, y, p0=[a1,a0])
+
+a1=popt_retro[0]
+a0=popt_retro[1]
+
+for j in range (len(ejeXMC12)):
+    canalMC12[j]= regresion(ejeXMC12[j],a1,a0)
+
+E1=int(regresion(m21,a1,a0)) #keV
+E2=int(regresion(m22,a1,a0)) #keV)
+
+energia12=canalMC12[E1:E2]
+cuentas12=0
+for i in range(len(energia12)):
+   cuentas12=cuentas12+cuentasMC12[i]
+    
+print (cuentas12)
+for j in range (len(canalM12)):
+    cuentasM12[j]= cuentasM12[j]/cuentas12
+###################################################
+
+
+
+
+
+
+
+
 fig, axs=plt.subplots(1,1,sharey=False)
 
 
@@ -510,7 +896,6 @@ x=np.linspace(0,8000,10000)
 
 axs.step(canalMC0,cuentasM0, where='mid',color= 'blue',label='L0')
 
-
 axs.step(canalMC1,cuentasM1, where='mid',color= 'red',label='L1')
 
 axs.step(canalMC2,cuentasM2, where='mid',color= 'aqua',label='L2')
@@ -522,13 +907,29 @@ axs.step(canalMC4,cuentasM4, where='mid',color= 'black', label='L4')
 axs.step(canalMC5,cuentasM5, where='mid',color= 'yellow', label='L5')
 
 axs.step(canalMC6,cuentasM6, where='mid',color= 'green', label='L6')
+
+axs.step(canalMC7,cuentasM7, where='mid',color= 'deeppink', label='L7')
+
+axs.step(canalMC8,cuentasM8, where='mid',color= 'orange', label='L8')
+
+axs.step(canalMC9,cuentasM9, where='mid',color= 'indigo', label='L9')
+
+axs.step(canalMC10,cuentasM10, where='mid',color= 'crimson', label='L10')
+
+axs.step(canalMC11,cuentasM11, where='mid',color= 'magenta', label='L11')
+
+axs.step(canalMC12,cuentasM12, where='mid',color= 'greenyellow', label='L12')
+
+
+
 leg=plt.legend(loc='upper right',prop={'size': 14})
 for legobj in leg.legendHandles: #tamaño de la leyenda
     legobj.set_linewidth(5.0) #tamaño de la leyenda
 
 plt.show()
     
-"""
+print ("------------------------------------")
+
 E1=190 #keV
 E2=250 #keV
 
@@ -681,12 +1082,7 @@ grosor=[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0]
 fig2, axs=plt.subplots(1,1,sharey=False)
 plt.xlabel('t(cm)', fontsize=14)
 plt.ylabel('Intensidad', fontsize=14)
+plt.xticks(grosor, fontsize=16)
 axs.plot(grosor,intensidades,'o',color= 'blue')
          
 plt.show()
-"""
-
-
-
-
-
