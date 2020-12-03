@@ -32,7 +32,7 @@ filenames=[]
 for i in range(N):
     filenames.extend([str(i)+'_Paso_'+str(paso)+'_Inicio_'+str(inicio)+'.py'])
 
-path='/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src'
+path='/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src'
 for i in range(len(filenames)):
     filename=os.path.join(path,filenames[i])
     f=open(filename,'w')
@@ -40,9 +40,7 @@ for i in range(len(filenames)):
         f.write(line)
     f.close
     
-path='/home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src'
-
-
+path='/home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src'
 
 f=open('myscript','w')
 f.write('#! /bin/sh'+' \n')

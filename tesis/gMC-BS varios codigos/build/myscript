@@ -1,5 +1,5 @@
 #! /bin/sh 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 0_Paso_0.5_Inicio_-8.0.py \ 
 echo 0_Paso_0.5_Inicio_-8.0.py \ 
@@ -7,7 +7,7 @@ rm -rf 0_Paso_0.5_Inicio_-8.0.py \
 cd ../build/  \ 
 make -j4 && pwd \ 
 ./gMC run1.mac  \ 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 1_Paso_0.5_Inicio_-8.0.py \ 
 echo 1_Paso_0.5_Inicio_-8.0.py \ 
@@ -15,7 +15,7 @@ rm -rf 1_Paso_0.5_Inicio_-8.0.py \
 cd ../build/  \ 
 make -j4 && pwd \ 
 ./gMC run1.mac  \ 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 2_Paso_0.5_Inicio_-8.0.py \ 
 echo 2_Paso_0.5_Inicio_-8.0.py \ 
@@ -23,7 +23,7 @@ rm -rf 2_Paso_0.5_Inicio_-8.0.py \
 cd ../build/  \ 
 make -j4 && pwd \ 
 ./gMC run1.mac  \ 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 3_Paso_0.5_Inicio_-8.0.py \ 
 echo 3_Paso_0.5_Inicio_-8.0.py \ 
@@ -31,7 +31,7 @@ rm -rf 3_Paso_0.5_Inicio_-8.0.py \
 cd ../build/  \ 
 make -j4 && pwd \ 
 ./gMC run1.mac  \ 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 4_Paso_0.5_Inicio_-8.0.py \ 
 echo 4_Paso_0.5_Inicio_-8.0.py \ 
@@ -39,7 +39,7 @@ rm -rf 4_Paso_0.5_Inicio_-8.0.py \
 cd ../build/  \ 
 make -j4 && pwd \ 
 ./gMC run1.mac  \ 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 5_Paso_0.5_Inicio_-8.0.py \ 
 echo 5_Paso_0.5_Inicio_-8.0.py \ 
@@ -47,7 +47,7 @@ rm -rf 5_Paso_0.5_Inicio_-8.0.py \
 cd ../build/  \ 
 make -j4 && pwd \ 
 ./gMC run1.mac  \ 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 6_Paso_0.5_Inicio_-8.0.py \ 
 echo 6_Paso_0.5_Inicio_-8.0.py \ 
@@ -55,7 +55,7 @@ rm -rf 6_Paso_0.5_Inicio_-8.0.py \
 cd ../build/  \ 
 make -j4 && pwd \ 
 ./gMC run1.mac  \ 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 7_Paso_0.5_Inicio_-8.0.py \ 
 echo 7_Paso_0.5_Inicio_-8.0.py \ 
@@ -63,7 +63,7 @@ rm -rf 7_Paso_0.5_Inicio_-8.0.py \
 cd ../build/  \ 
 make -j4 && pwd \ 
 ./gMC run1.mac  \ 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 8_Paso_0.5_Inicio_-8.0.py \ 
 echo 8_Paso_0.5_Inicio_-8.0.py \ 
@@ -71,7 +71,7 @@ rm -rf 8_Paso_0.5_Inicio_-8.0.py \
 cd ../build/  \ 
 make -j4 && pwd \ 
 ./gMC run1.mac  \ 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 9_Paso_0.5_Inicio_-8.0.py \ 
 echo 9_Paso_0.5_Inicio_-8.0.py \ 
@@ -79,7 +79,7 @@ rm -rf 9_Paso_0.5_Inicio_-8.0.py \
 cd ../build/  \ 
 make -j4 && pwd \ 
 ./gMC run1.mac  \ 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 10_Paso_0.5_Inicio_-8.0.py \ 
 echo 10_Paso_0.5_Inicio_-8.0.py \ 
@@ -87,7 +87,7 @@ rm -rf 10_Paso_0.5_Inicio_-8.0.py \
 cd ../build/  \ 
 make -j4 && pwd \ 
 ./gMC run1.mac  \ 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 11_Paso_0.5_Inicio_-8.0.py \ 
 echo 11_Paso_0.5_Inicio_-8.0.py \ 
@@ -95,7 +95,7 @@ rm -rf 11_Paso_0.5_Inicio_-8.0.py \
 cd ../build/  \ 
 make -j4 && pwd \ 
 ./gMC run1.mac  \ 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 12_Paso_0.5_Inicio_-8.0.py \ 
 echo 12_Paso_0.5_Inicio_-8.0.py \ 
@@ -103,7 +103,7 @@ rm -rf 12_Paso_0.5_Inicio_-8.0.py \
 cd ../build/  \ 
 make -j4 && pwd \ 
 ./gMC run1.mac  \ 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 13_Paso_0.5_Inicio_-8.0.py \ 
 echo 13_Paso_0.5_Inicio_-8.0.py \ 
@@ -111,7 +111,7 @@ rm -rf 13_Paso_0.5_Inicio_-8.0.py \
 cd ../build/  \ 
 make -j4 && pwd \ 
 ./gMC run1.mac  \ 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 14_Paso_0.5_Inicio_-8.0.py \ 
 echo 14_Paso_0.5_Inicio_-8.0.py \ 
@@ -119,7 +119,7 @@ rm -rf 14_Paso_0.5_Inicio_-8.0.py \
 cd ../build/  \ 
 make -j4 && pwd \ 
 ./gMC run1.mac  \ 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 15_Paso_0.5_Inicio_-8.0.py \ 
 echo 15_Paso_0.5_Inicio_-8.0.py \ 
@@ -127,7 +127,7 @@ rm -rf 15_Paso_0.5_Inicio_-8.0.py \
 cd ../build/  \ 
 make -j4 && pwd \ 
 ./gMC run1.mac  \ 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 16_Paso_0.5_Inicio_-8.0.py \ 
 echo 16_Paso_0.5_Inicio_-8.0.py \ 
@@ -135,7 +135,7 @@ rm -rf 16_Paso_0.5_Inicio_-8.0.py \
 cd ../build/  \ 
 make -j4 && pwd \ 
 ./gMC run1.mac  \ 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 17_Paso_0.5_Inicio_-8.0.py \ 
 echo 17_Paso_0.5_Inicio_-8.0.py \ 
@@ -143,7 +143,7 @@ rm -rf 17_Paso_0.5_Inicio_-8.0.py \
 cd ../build/  \ 
 make -j4 && pwd \ 
 ./gMC run1.mac  \ 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 18_Paso_0.5_Inicio_-8.0.py \ 
 echo 18_Paso_0.5_Inicio_-8.0.py \ 
@@ -151,7 +151,7 @@ rm -rf 18_Paso_0.5_Inicio_-8.0.py \
 cd ../build/  \ 
 make -j4 && pwd \ 
 ./gMC run1.mac  \ 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 19_Paso_0.5_Inicio_-8.0.py \ 
 echo 19_Paso_0.5_Inicio_-8.0.py \ 
@@ -159,7 +159,7 @@ rm -rf 19_Paso_0.5_Inicio_-8.0.py \
 cd ../build/  \ 
 make -j4 && pwd \ 
 ./gMC run1.mac  \ 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 20_Paso_0.5_Inicio_-8.0.py \ 
 echo 20_Paso_0.5_Inicio_-8.0.py \ 
@@ -167,7 +167,7 @@ rm -rf 20_Paso_0.5_Inicio_-8.0.py \
 cd ../build/  \ 
 make -j4 && pwd \ 
 ./gMC run1.mac  \ 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 21_Paso_0.5_Inicio_-8.0.py \ 
 echo 21_Paso_0.5_Inicio_-8.0.py \ 
@@ -175,7 +175,7 @@ rm -rf 21_Paso_0.5_Inicio_-8.0.py \
 cd ../build/  \ 
 make -j4 && pwd \ 
 ./gMC run1.mac  \ 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 22_Paso_0.5_Inicio_-8.0.py \ 
 echo 22_Paso_0.5_Inicio_-8.0.py \ 
@@ -183,7 +183,7 @@ rm -rf 22_Paso_0.5_Inicio_-8.0.py \
 cd ../build/  \ 
 make -j4 && pwd \ 
 ./gMC run1.mac  \ 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 23_Paso_0.5_Inicio_-8.0.py \ 
 echo 23_Paso_0.5_Inicio_-8.0.py \ 
@@ -191,7 +191,7 @@ rm -rf 23_Paso_0.5_Inicio_-8.0.py \
 cd ../build/  \ 
 make -j4 && pwd \ 
 ./gMC run1.mac  \ 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 24_Paso_0.5_Inicio_-8.0.py \ 
 echo 24_Paso_0.5_Inicio_-8.0.py \ 
@@ -199,7 +199,7 @@ rm -rf 24_Paso_0.5_Inicio_-8.0.py \
 cd ../build/  \ 
 make -j4 && pwd \ 
 ./gMC run1.mac  \ 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 25_Paso_0.5_Inicio_-8.0.py \ 
 echo 25_Paso_0.5_Inicio_-8.0.py \ 
@@ -207,7 +207,7 @@ rm -rf 25_Paso_0.5_Inicio_-8.0.py \
 cd ../build/  \ 
 make -j4 && pwd \ 
 ./gMC run1.mac  \ 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 26_Paso_0.5_Inicio_-8.0.py \ 
 echo 26_Paso_0.5_Inicio_-8.0.py \ 
@@ -215,7 +215,7 @@ rm -rf 26_Paso_0.5_Inicio_-8.0.py \
 cd ../build/  \ 
 make -j4 && pwd \ 
 ./gMC run1.mac  \ 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 27_Paso_0.5_Inicio_-8.0.py \ 
 echo 27_Paso_0.5_Inicio_-8.0.py \ 
@@ -223,7 +223,7 @@ rm -rf 27_Paso_0.5_Inicio_-8.0.py \
 cd ../build/  \ 
 make -j4 && pwd \ 
 ./gMC run1.mac  \ 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 28_Paso_0.5_Inicio_-8.0.py \ 
 echo 28_Paso_0.5_Inicio_-8.0.py \ 
@@ -231,7 +231,7 @@ rm -rf 28_Paso_0.5_Inicio_-8.0.py \
 cd ../build/  \ 
 make -j4 && pwd \ 
 ./gMC run1.mac  \ 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 29_Paso_0.5_Inicio_-8.0.py \ 
 echo 29_Paso_0.5_Inicio_-8.0.py \ 
@@ -239,7 +239,7 @@ rm -rf 29_Paso_0.5_Inicio_-8.0.py \
 cd ../build/  \ 
 make -j4 && pwd \ 
 ./gMC run1.mac  \ 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 30_Paso_0.5_Inicio_-8.0.py \ 
 echo 30_Paso_0.5_Inicio_-8.0.py \ 
@@ -247,7 +247,7 @@ rm -rf 30_Paso_0.5_Inicio_-8.0.py \
 cd ../build/  \ 
 make -j4 && pwd \ 
 ./gMC run1.mac  \ 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 31_Paso_0.5_Inicio_-8.0.py \ 
 echo 31_Paso_0.5_Inicio_-8.0.py \ 
@@ -255,7 +255,7 @@ rm -rf 31_Paso_0.5_Inicio_-8.0.py \
 cd ../build/  \ 
 make -j4 && pwd \ 
 ./gMC run1.mac  \ 
-cd /home/mauro/Documentos/hola/tesis/gMC-BS\ varios\ codigos/src \ 
+cd /home/gfnun/Documents/hola/tesis/gMC-BS\ varios\ codigos/src \ 
 pwd \ 
 python3 32_Paso_0.5_Inicio_-8.0.py \ 
 echo 32_Paso_0.5_Inicio_-8.0.py \ 
