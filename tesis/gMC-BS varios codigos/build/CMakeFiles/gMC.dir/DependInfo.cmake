@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/edisson/Downloads/gMC-BS varios codigos/gMC.cc" "/home/edisson/Downloads/gMC-BS varios codigos/build/CMakeFiles/gMC.dir/gMC.cc.o"
-  "/home/edisson/Downloads/gMC-BS varios codigos/src/gMCActionInitialization.cc" "/home/edisson/Downloads/gMC-BS varios codigos/build/CMakeFiles/gMC.dir/src/gMCActionInitialization.cc.o"
-  "/home/edisson/Downloads/gMC-BS varios codigos/src/gMCDetectorConstruction.cc" "/home/edisson/Downloads/gMC-BS varios codigos/build/CMakeFiles/gMC.dir/src/gMCDetectorConstruction.cc.o"
-  "/home/edisson/Downloads/gMC-BS varios codigos/src/gMCEmCalorimeterHit.cc" "/home/edisson/Downloads/gMC-BS varios codigos/build/CMakeFiles/gMC.dir/src/gMCEmCalorimeterHit.cc.o"
-  "/home/edisson/Downloads/gMC-BS varios codigos/src/gMCEmCalorimeterSD.cc" "/home/edisson/Downloads/gMC-BS varios codigos/build/CMakeFiles/gMC.dir/src/gMCEmCalorimeterSD.cc.o"
-  "/home/edisson/Downloads/gMC-BS varios codigos/src/gMCEventAction.cc" "/home/edisson/Downloads/gMC-BS varios codigos/build/CMakeFiles/gMC.dir/src/gMCEventAction.cc.o"
-  "/home/edisson/Downloads/gMC-BS varios codigos/src/gMCPrimaryGeneratorAction.cc" "/home/edisson/Downloads/gMC-BS varios codigos/build/CMakeFiles/gMC.dir/src/gMCPrimaryGeneratorAction.cc.o"
-  "/home/edisson/Downloads/gMC-BS varios codigos/src/gMCRunAction.cc" "/home/edisson/Downloads/gMC-BS varios codigos/build/CMakeFiles/gMC.dir/src/gMCRunAction.cc.o"
+  "/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/gMC.cc" "/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/build/CMakeFiles/gMC.dir/gMC.cc.o"
+  "/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/gMCActionInitialization.cc" "/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/build/CMakeFiles/gMC.dir/src/gMCActionInitialization.cc.o"
+  "/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/gMCDetectorConstruction.cc" "/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/build/CMakeFiles/gMC.dir/src/gMCDetectorConstruction.cc.o"
+  "/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/gMCEmCalorimeterHit.cc" "/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/build/CMakeFiles/gMC.dir/src/gMCEmCalorimeterHit.cc.o"
+  "/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/gMCEmCalorimeterSD.cc" "/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/build/CMakeFiles/gMC.dir/src/gMCEmCalorimeterSD.cc.o"
+  "/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/gMCEventAction.cc" "/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/build/CMakeFiles/gMC.dir/src/gMCEventAction.cc.o"
+  "/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/gMCPrimaryGeneratorAction.cc" "/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/build/CMakeFiles/gMC.dir/src/gMCPrimaryGeneratorAction.cc.o"
+  "/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/gMCRunAction.cc" "/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/build/CMakeFiles/gMC.dir/src/gMCRunAction.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

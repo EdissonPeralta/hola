@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/edisson/Downloads/gMC-BS varios codigos"
+CMAKE_SOURCE_DIR = "/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/edisson/Downloads/gMC-BS varios codigos/build"
+CMAKE_BINARY_DIR = "/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/build"
 
 # Utility rule file for gammaMaterialesConstruccion.
 
@@ -71,6 +71,6 @@ CMakeFiles/gammaMaterialesConstruccion.dir/clean:
 .PHONY : CMakeFiles/gammaMaterialesConstruccion.dir/clean
 
 CMakeFiles/gammaMaterialesConstruccion.dir/depend:
-	cd "/home/edisson/Downloads/gMC-BS varios codigos/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/edisson/Downloads/gMC-BS varios codigos" "/home/edisson/Downloads/gMC-BS varios codigos" "/home/edisson/Downloads/gMC-BS varios codigos/build" "/home/edisson/Downloads/gMC-BS varios codigos/build" "/home/edisson/Downloads/gMC-BS varios codigos/build/CMakeFiles/gammaMaterialesConstruccion.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos" "/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos" "/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/build" "/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/build" "/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/build/CMakeFiles/gammaMaterialesConstruccion.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/gammaMaterialesConstruccion.dir/depend
 

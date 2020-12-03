@@ -1,8 +1,8 @@
-/home/edisson/Downloads/gMC-BS varios codigos/build/CMakeFiles/install/strip.dir
-/home/edisson/Downloads/gMC-BS varios codigos/build/CMakeFiles/install.dir
-/home/edisson/Downloads/gMC-BS varios codigos/build/CMakeFiles/list_install_components.dir
-/home/edisson/Downloads/gMC-BS varios codigos/build/CMakeFiles/rebuild_cache.dir
-/home/edisson/Downloads/gMC-BS varios codigos/build/CMakeFiles/edit_cache.dir
-/home/edisson/Downloads/gMC-BS varios codigos/build/CMakeFiles/install/local.dir
-/home/edisson/Downloads/gMC-BS varios codigos/build/CMakeFiles/gammaMaterialesConstruccion.dir
-/home/edisson/Downloads/gMC-BS varios codigos/build/CMakeFiles/gMC.dir
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/build/CMakeFiles/install/strip.dir
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/build/CMakeFiles/install.dir
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/build/CMakeFiles/list_install_components.dir
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/build/CMakeFiles/rebuild_cache.dir
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/build/CMakeFiles/edit_cache.dir
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/build/CMakeFiles/install/local.dir
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/build/CMakeFiles/gammaMaterialesConstruccion.dir
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/build/CMakeFiles/gMC.dir
