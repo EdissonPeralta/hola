@@ -6,17 +6,9 @@
 
 #IncludeRegexTransform: 
 
-../include/gMCActionInitialization.hh
-G4VUserActionInitialization.hh
-../include/G4VUserActionInitialization.hh
-
 ../include/gMCAnalysis.hh
 g4csv.hh
 ../include/g4csv.hh
-
-../include/gMCConstants.hh
-globals.hh
-../include/globals.hh
 
 ../include/gMCDetectorConstruction.hh
 globals.hh
@@ -60,209 +52,83 @@ globals.hh
 vector
 -
 
-../include/gMCPrimaryGeneratorAction.hh
-G4VUserPrimaryGeneratorAction.hh
-../include/G4VUserPrimaryGeneratorAction.hh
-globals.hh
-../include/globals.hh
-
 ../include/gMCRunAction.hh
 G4UserRunAction.hh
 ../include/G4UserRunAction.hh
 globals.hh
 ../include/globals.hh
 
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/gMC.cc
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/gMCDetectorConstruction.cc
 gMCDetectorConstruction.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/gMCDetectorConstruction.hh
-gMCActionInitialization.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/gMCActionInitialization.hh
-G4MTRunManager.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/G4MTRunManager.hh
-G4RunManager.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/G4RunManager.hh
-G4UImanager.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/G4UImanager.hh
-G4PhysListFactory.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/G4PhysListFactory.hh
-G4VModularPhysicsList.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/G4VModularPhysicsList.hh
-G4VisExecutive.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/G4VisExecutive.hh
-G4UIExecutive.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/G4UIExecutive.hh
-
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/gMCActionInitialization.cc
-gMCActionInitialization.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/gMCActionInitialization.hh
-gMCPrimaryGeneratorAction.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/gMCPrimaryGeneratorAction.hh
-gMCRunAction.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/gMCRunAction.hh
-gMCEventAction.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/gMCEventAction.hh
-
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/gMCDetectorConstruction.cc
-gMCDetectorConstruction.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/gMCDetectorConstruction.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/gMCDetectorConstruction.hh
 gMCEmCalorimeterSD.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/gMCEmCalorimeterSD.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/gMCEmCalorimeterSD.hh
 G4FieldManager.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4FieldManager.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/G4FieldManager.hh
 G4TransportationManager.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4TransportationManager.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/G4TransportationManager.hh
 G4Mag_UsualEqRhs.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4Mag_UsualEqRhs.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/G4Mag_UsualEqRhs.hh
 G4AutoDelete.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4AutoDelete.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/G4AutoDelete.hh
 G4Material.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4Material.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/G4Material.hh
 G4Element.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4Element.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/G4Element.hh
 G4MaterialTable.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4MaterialTable.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/G4MaterialTable.hh
 G4NistManager.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4NistManager.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/G4NistManager.hh
 G4VSolid.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4VSolid.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/G4VSolid.hh
 G4SubtractionSolid.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4SubtractionSolid.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/G4SubtractionSolid.hh
 G4Box.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4Box.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/G4Box.hh
 G4Tubs.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4Tubs.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/G4Tubs.hh
 G4LogicalVolume.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4LogicalVolume.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/G4LogicalVolume.hh
 G4VPhysicalVolume.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4VPhysicalVolume.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/G4VPhysicalVolume.hh
 G4PVPlacement.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4PVPlacement.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/G4PVPlacement.hh
 G4PVParameterised.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4PVParameterised.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/G4PVParameterised.hh
 G4PVReplica.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4PVReplica.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/G4PVReplica.hh
 G4UserLimits.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4UserLimits.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/G4UserLimits.hh
 G4SDManager.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4SDManager.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/G4SDManager.hh
 G4VSensitiveDetector.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4VSensitiveDetector.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/G4VSensitiveDetector.hh
 G4RunManager.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4RunManager.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/G4RunManager.hh
 G4GenericMessenger.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4GenericMessenger.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/G4GenericMessenger.hh
 G4VisAttributes.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4VisAttributes.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/G4VisAttributes.hh
 G4Colour.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4Colour.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/G4Colour.hh
 G4ios.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4ios.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/G4ios.hh
 G4SystemOfUnits.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4SystemOfUnits.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/G4SystemOfUnits.hh
 
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/gMCEmCalorimeterHit.cc
-gMCEmCalorimeterHit.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/gMCEmCalorimeterHit.hh
-G4VVisManager.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4VVisManager.hh
-G4VisAttributes.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4VisAttributes.hh
-G4Colour.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4Colour.hh
-G4AttDefStore.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4AttDefStore.hh
-G4AttDef.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4AttDef.hh
-G4AttValue.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4AttValue.hh
-G4UIcommand.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4UIcommand.hh
-G4UnitsTable.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4UnitsTable.hh
-G4SystemOfUnits.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4SystemOfUnits.hh
-G4ios.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4ios.hh
-
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/gMCEmCalorimeterSD.cc
-gMCEmCalorimeterSD.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/gMCEmCalorimeterSD.hh
-gMCEmCalorimeterHit.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/gMCEmCalorimeterHit.hh
-gMCConstants.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/gMCConstants.hh
-G4HCofThisEvent.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4HCofThisEvent.hh
-G4TouchableHistory.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4TouchableHistory.hh
-G4Track.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4Track.hh
-G4Step.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4Step.hh
-G4SDManager.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4SDManager.hh
-G4ios.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4ios.hh
-
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/gMCEventAction.cc
-gMCEventAction.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/gMCEventAction.hh
-gMCEmCalorimeterHit.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/gMCEmCalorimeterHit.hh
-gMCConstants.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/gMCConstants.hh
-gMCAnalysis.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/gMCAnalysis.hh
-G4Event.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4Event.hh
-G4RunManager.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4RunManager.hh
-G4EventManager.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4EventManager.hh
-G4HCofThisEvent.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4HCofThisEvent.hh
-G4VHitsCollection.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4VHitsCollection.hh
-G4SDManager.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4SDManager.hh
-G4SystemOfUnits.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4SystemOfUnits.hh
-G4ios.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4ios.hh
-
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/gMCPrimaryGeneratorAction.cc
-gMCPrimaryGeneratorAction.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/gMCPrimaryGeneratorAction.hh
-G4Event.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4Event.hh
-G4ParticleGun.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4ParticleGun.hh
-G4GeneralParticleSource.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4GeneralParticleSource.hh
-G4ParticleTable.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4ParticleTable.hh
-G4ParticleDefinition.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4ParticleDefinition.hh
-G4GenericMessenger.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4GenericMessenger.hh
-G4SystemOfUnits.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4SystemOfUnits.hh
-Randomize.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/Randomize.hh
-
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/gMCRunAction.cc
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/gMCRunAction.cc
 gMCRunAction.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/gMCRunAction.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/gMCRunAction.hh
 gMCEventAction.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/gMCEventAction.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/gMCEventAction.hh
 gMCAnalysis.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/gMCAnalysis.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/gMCAnalysis.hh
 G4Run.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4Run.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/G4Run.hh
 G4UnitsTable.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4UnitsTable.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/G4UnitsTable.hh
 G4SystemOfUnits.hh
-/home/gfnun/Documents/hola/tesis/gMC-BS varios codigos/src/G4SystemOfUnits.hh
+/home/mauro/Documentos/hola/tesis/gMC-BS varios codigos/src/G4SystemOfUnits.hh
 
 /usr/local/include/Geant4/CLHEP/Geometry/BasicVector3D.h
 iosfwd
@@ -708,10 +574,6 @@ CLHEP/Vector/ThreeVector.icc
 cmath
 -
 
-/usr/local/include/Geant4/G4ASCIITree.hh
-G4VTree.hh
-/usr/local/include/Geant4/G4VTree.hh
-
 /usr/local/include/Geant4/G4AffineTransform.hh
 G4Types.hh
 /usr/local/include/Geant4/G4Types.hh
@@ -775,24 +637,6 @@ G4UIcommand.hh
 /usr/local/include/Geant4/G4UIcommand.hh
 
 /usr/local/include/Geant4/G4ApplicationState.hh
-
-/usr/local/include/Geant4/G4AttDef.hh
-globals.hh
-/usr/local/include/Geant4/globals.hh
-G4TypeKey.hh
-/usr/local/include/Geant4/G4TypeKey.hh
-map
--
-
-/usr/local/include/Geant4/G4AttDefStore.hh
-globals.hh
-/usr/local/include/Geant4/globals.hh
-map
--
-
-/usr/local/include/Geant4/G4AttValue.hh
-globals.hh
-/usr/local/include/Geant4/globals.hh
 
 /usr/local/include/Geant4/G4AutoDelete.hh
 G4ThreadLocalSingleton.hh
@@ -1038,10 +882,6 @@ globals.hh
 tools/rcsv_ntuple
 /usr/local/include/Geant4/tools/rcsv_ntuple
 
-/usr/local/include/Geant4/G4DAWNFILE.hh
-G4VGraphicsSystem.hh
-/usr/local/include/Geant4/G4VGraphicsSystem.hh
-
 /usr/local/include/Geant4/G4DCofThisEvent.hh
 globals.hh
 /usr/local/include/Geant4/globals.hh
@@ -1051,10 +891,6 @@ G4VDigiCollection.hh
 /usr/local/include/Geant4/G4VDigiCollection.hh
 vector
 -
-
-/usr/local/include/Geant4/G4DataInterpolation.hh
-globals.hh
-/usr/local/include/Geant4/globals.hh
 
 /usr/local/include/Geant4/G4DataVector.hh
 globals.hh
@@ -1071,14 +907,6 @@ G4DataVector.icc
 /usr/local/include/Geant4/G4DataVector.icc
 
 /usr/local/include/Geant4/G4DataVector.icc
-
-/usr/local/include/Geant4/G4DigiFilterFactories.hh
-G4VFilter.hh
-/usr/local/include/Geant4/G4VFilter.hh
-G4VModelFactory.hh
-/usr/local/include/Geant4/G4VModelFactory.hh
-G4VDigi.hh
-/usr/local/include/Geant4/G4VDigi.hh
 
 /usr/local/include/Geant4/G4DisplacedSolid.hh
 G4VSolid.hh
@@ -1272,10 +1100,6 @@ G4FieldManager.icc
 
 /usr/local/include/Geant4/G4ForceCondition.hh
 
-/usr/local/include/Geant4/G4GMocrenFile.hh
-G4VGraphicsSystem.hh
-/usr/local/include/Geant4/G4VGraphicsSystem.hh
-
 /usr/local/include/Geant4/G4GPILSelection.hh
 
 /usr/local/include/Geant4/G4GRSSolid.hh
@@ -1305,32 +1129,6 @@ G4GRSVolume.icc
 /usr/local/include/Geant4/G4GRSVolume.icc
 
 /usr/local/include/Geant4/G4GRSVolume.icc
-
-/usr/local/include/Geant4/G4GeneralParticleSource.hh
-globals.hh
-/usr/local/include/Geant4/globals.hh
-vector
--
-G4Event.hh
-/usr/local/include/Geant4/G4Event.hh
-G4SingleParticleSource.hh
-/usr/local/include/Geant4/G4SingleParticleSource.hh
-G4GeneralParticleSourceMessenger.hh
-/usr/local/include/Geant4/G4GeneralParticleSourceMessenger.hh
-G4GeneralParticleSourceData.hh
-/usr/local/include/Geant4/G4GeneralParticleSourceData.hh
-
-/usr/local/include/Geant4/G4GeneralParticleSourceData.hh
-G4SingleParticleSource.hh
-/usr/local/include/Geant4/G4SingleParticleSource.hh
-G4Threading.hh
-/usr/local/include/Geant4/G4Threading.hh
-
-/usr/local/include/Geant4/G4GeneralParticleSourceMessenger.hh
-G4UImessenger.hh
-/usr/local/include/Geant4/G4UImessenger.hh
-globals.hh
-/usr/local/include/Geant4/globals.hh
 
 /usr/local/include/Geant4/G4GenericMessenger.hh
 G4UImessenger.hh
@@ -1363,12 +1161,6 @@ G4GeomConfig.hh
 /usr/local/include/Geant4/G4GeomConfig.hh
 
 /usr/local/include/Geant4/G4GlobalConfig.hh
-
-/usr/local/include/Geant4/G4GraphicsSystemList.hh
-vector
--
-G4VGraphicsSystem.hh
-/usr/local/include/Geant4/G4VGraphicsSystem.hh
 
 /usr/local/include/Geant4/G4H1ToolsManager.hh
 G4VH1Manager.hh
@@ -1435,30 +1227,6 @@ globals.hh
 /usr/local/include/Geant4/globals.hh
 vector
 -
-
-/usr/local/include/Geant4/G4HepRep.hh
-G4VGraphicsSystem.hh
-/usr/local/include/Geant4/G4VGraphicsSystem.hh
-
-/usr/local/include/Geant4/G4HepRepFile.hh
-G4VGraphicsSystem.hh
-/usr/local/include/Geant4/G4VGraphicsSystem.hh
-G4HepRepFileXMLWriter.hh
-/usr/local/include/Geant4/G4HepRepFileXMLWriter.hh
-
-/usr/local/include/Geant4/G4HepRepFileXMLWriter.hh
-globals.hh
-/usr/local/include/Geant4/globals.hh
-fstream
--
-
-/usr/local/include/Geant4/G4HitFilterFactories.hh
-G4VFilter.hh
-/usr/local/include/Geant4/G4VFilter.hh
-G4VModelFactory.hh
-/usr/local/include/Geant4/G4VModelFactory.hh
-G4VHit.hh
-/usr/local/include/Geant4/G4VHit.hh
 
 /usr/local/include/Geant4/G4HnInformation.hh
 globals.hh
@@ -1556,32 +1324,6 @@ globals.hh
 CLHEP/Vector/LorentzVector.h
 -
 
-/usr/local/include/Geant4/G4MCCIndexConversionTable.hh
-vector
--
-globals.hh
-/usr/local/include/Geant4/globals.hh
-G4ios.hh
-/usr/local/include/Geant4/G4ios.hh
-
-/usr/local/include/Geant4/G4MTBarrier.hh
-G4Threading.hh
-/usr/local/include/Geant4/G4Threading.hh
-
-/usr/local/include/Geant4/G4MTRunManager.hh
-G4RunManager.hh
-/usr/local/include/Geant4/G4RunManager.hh
-G4Threading.hh
-/usr/local/include/Geant4/G4Threading.hh
-G4RNGHelper.hh
-/usr/local/include/Geant4/G4RNGHelper.hh
-G4MTBarrier.hh
-/usr/local/include/Geant4/G4MTBarrier.hh
-list
--
-map
--
-
 /usr/local/include/Geant4/G4Mag_EqRhs.hh
 G4Types.hh
 /usr/local/include/Geant4/G4Types.hh
@@ -1622,16 +1364,6 @@ G4MaterialTable.hh
 G4Threading.hh
 /usr/local/include/Geant4/G4Threading.hh
 
-/usr/local/include/Geant4/G4MaterialCutsCouple.hh
-globals.hh
-/usr/local/include/Geant4/globals.hh
-G4ios.hh
-/usr/local/include/Geant4/G4ios.hh
-G4ProductionCuts.hh
-/usr/local/include/Geant4/G4ProductionCuts.hh
-G4ProductionCuts.hh
-/usr/local/include/Geant4/G4ProductionCuts.hh
-
 /usr/local/include/Geant4/G4MaterialPropertiesIndex.hh
 vector
 -
@@ -1661,24 +1393,6 @@ G4PhysicsOrderedFreeVector.hh
 /usr/local/include/Geant4/G4MaterialTable.hh
 vector
 -
-
-/usr/local/include/Geant4/G4ModelingParameters.hh
-globals.hh
-/usr/local/include/Geant4/globals.hh
-G4VisExtent.hh
-/usr/local/include/Geant4/G4VisExtent.hh
-G4VisAttributes.hh
-/usr/local/include/Geant4/G4VisAttributes.hh
-G4VPhysicalVolume.hh
-/usr/local/include/Geant4/G4VPhysicalVolume.hh
-vector
--
-utility
--
-G4ModelingParameters.icc
-/usr/local/include/Geant4/G4ModelingParameters.icc
-
-/usr/local/include/Geant4/G4ModelingParameters.icc
 
 /usr/local/include/Geant4/G4NavigationHistory.hh
 assert.h
@@ -1868,42 +1582,6 @@ G4NormalNavigation.icc
 
 /usr/local/include/Geant4/G4NormalNavigation.icc
 
-/usr/local/include/Geant4/G4NullModel.hh
-G4VModel.hh
-/usr/local/include/Geant4/G4VModel.hh
-
-/usr/local/include/Geant4/G4OpenGLImmediateQt.hh
-G4OpenGLQt.hh
-/usr/local/include/Geant4/G4OpenGLQt.hh
-
-/usr/local/include/Geant4/G4OpenGLImmediateX.hh
-G4VGraphicsSystem.hh
-/usr/local/include/Geant4/G4VGraphicsSystem.hh
-
-/usr/local/include/Geant4/G4OpenGLImmediateXm.hh
-G4OpenGLXm.hh
-/usr/local/include/Geant4/G4OpenGLXm.hh
-
-/usr/local/include/Geant4/G4OpenGLQt.hh
-G4VGraphicsSystem.hh
-/usr/local/include/Geant4/G4VGraphicsSystem.hh
-
-/usr/local/include/Geant4/G4OpenGLStoredQt.hh
-G4OpenGLQt.hh
-/usr/local/include/Geant4/G4OpenGLQt.hh
-
-/usr/local/include/Geant4/G4OpenGLStoredX.hh
-G4VGraphicsSystem.hh
-/usr/local/include/Geant4/G4VGraphicsSystem.hh
-
-/usr/local/include/Geant4/G4OpenGLStoredXm.hh
-G4OpenGLXm.hh
-/usr/local/include/Geant4/G4OpenGLXm.hh
-
-/usr/local/include/Geant4/G4OpenGLXm.hh
-G4VGraphicsSystem.hh
-/usr/local/include/Geant4/G4VGraphicsSystem.hh
-
 /usr/local/include/Geant4/G4OrderedTable.hh
 globals.hh
 /usr/local/include/Geant4/globals.hh
@@ -2032,20 +1710,6 @@ G4ParticleDefinition.icc
 
 /usr/local/include/Geant4/G4ParticleDefinition.icc
 
-/usr/local/include/Geant4/G4ParticleGun.hh
-globals.hh
-/usr/local/include/Geant4/globals.hh
-G4VPrimaryGenerator.hh
-/usr/local/include/Geant4/G4VPrimaryGenerator.hh
-G4ThreeVector.hh
-/usr/local/include/Geant4/G4ThreeVector.hh
-G4ParticleDefinition.hh
-/usr/local/include/Geant4/G4ParticleDefinition.hh
-G4PrimaryVertex.hh
-/usr/local/include/Geant4/G4PrimaryVertex.hh
-G4ParticleMomentum.hh
-/usr/local/include/Geant4/G4ParticleMomentum.hh
-
 /usr/local/include/Geant4/G4ParticleMomentum.hh
 G4ThreeVector.hh
 /usr/local/include/Geant4/G4ThreeVector.hh
@@ -2074,30 +1738,6 @@ map
 G4ParticleDefinition.hh
 /usr/local/include/Geant4/G4ParticleDefinition.hh
 
-/usr/local/include/Geant4/G4PhysListFactory.hh
-G4VModularPhysicsList.hh
-/usr/local/include/Geant4/G4VModularPhysicsList.hh
-globals.hh
-/usr/local/include/Geant4/globals.hh
-
-/usr/local/include/Geant4/G4PhysicalVolumeModel.hh
-G4VModel.hh
-/usr/local/include/Geant4/G4VModel.hh
-G4ModelingParameters.hh
-/usr/local/include/Geant4/G4ModelingParameters.hh
-G4VTouchable.hh
-/usr/local/include/Geant4/G4VTouchable.hh
-G4Transform3D.hh
-/usr/local/include/Geant4/G4Transform3D.hh
-G4Plane3D.hh
-/usr/local/include/Geant4/G4Plane3D.hh
-iostream
--
-vector
--
-map
--
-
 /usr/local/include/Geant4/G4PhysicsFreeVector.hh
 globals.hh
 /usr/local/include/Geant4/globals.hh
@@ -2105,28 +1745,6 @@ G4PhysicsVector.hh
 /usr/local/include/Geant4/G4PhysicsVector.hh
 G4DataVector.hh
 /usr/local/include/Geant4/G4DataVector.hh
-
-/usr/local/include/Geant4/G4PhysicsListHelper.hh
-globals.hh
-/usr/local/include/Geant4/globals.hh
-G4ios.hh
-/usr/local/include/Geant4/G4ios.hh
-vector
--
-G4ParticleTable.hh
-/usr/local/include/Geant4/G4ParticleTable.hh
-G4ParticleDefinition.hh
-/usr/local/include/Geant4/G4ParticleDefinition.hh
-G4PhysicsListOrderingParameter.hh
-/usr/local/include/Geant4/G4PhysicsListOrderingParameter.hh
-G4ThreadLocalSingleton.hh
-/usr/local/include/Geant4/G4ThreadLocalSingleton.hh
-
-/usr/local/include/Geant4/G4PhysicsListOrderingParameter.hh
-globals.hh
-/usr/local/include/Geant4/globals.hh
-G4ios.hh
-/usr/local/include/Geant4/G4ios.hh
 
 /usr/local/include/Geant4/G4PhysicsModelCatalog.hh
 globals.hh
@@ -2276,44 +1894,6 @@ G4ProcessVector.icc
 
 /usr/local/include/Geant4/G4ProcessVector.icc
 
-/usr/local/include/Geant4/G4ProductionCuts.hh
-globals.hh
-/usr/local/include/Geant4/globals.hh
-G4ios.hh
-/usr/local/include/Geant4/G4ios.hh
-vector
--
-G4ParticleDefinition.hh
-/usr/local/include/Geant4/G4ParticleDefinition.hh
-
-/usr/local/include/Geant4/G4ProductionCutsTable.hh
-globals.hh
-/usr/local/include/Geant4/globals.hh
-cmath
--
-G4ios.hh
-/usr/local/include/Geant4/G4ios.hh
-vector
--
-G4MaterialCutsCouple.hh
-/usr/local/include/Geant4/G4MaterialCutsCouple.hh
-G4MCCIndexConversionTable.hh
-/usr/local/include/Geant4/G4MCCIndexConversionTable.hh
-G4Region.hh
-/usr/local/include/Geant4/G4Region.hh
-
-/usr/local/include/Geant4/G4RNGHelper.hh
-vector
--
-queue
--
-globals.hh
-/usr/local/include/Geant4/globals.hh
-
-/usr/local/include/Geant4/G4RayTracer.hh
-G4VGraphicsSystem.hh
-/usr/local/include/Geant4/G4VGraphicsSystem.hh
-
 /usr/local/include/Geant4/G4ReferenceCountedHandle.hh
 G4Types.hh
 /usr/local/include/Geant4/G4Types.hh
@@ -2422,62 +2002,6 @@ G4VSensitiveDetector.hh
 vector
 -
 
-/usr/local/include/Geant4/G4SPSAngDistribution.hh
-G4PhysicsOrderedFreeVector.hh
-/usr/local/include/Geant4/G4PhysicsOrderedFreeVector.hh
-G4DataInterpolation.hh
-/usr/local/include/Geant4/G4DataInterpolation.hh
-G4ParticleMomentum.hh
-/usr/local/include/Geant4/G4ParticleMomentum.hh
-G4SPSPosDistribution.hh
-/usr/local/include/Geant4/G4SPSPosDistribution.hh
-G4SPSRandomGenerator.hh
-/usr/local/include/Geant4/G4SPSRandomGenerator.hh
-G4Threading.hh
-/usr/local/include/Geant4/G4Threading.hh
-G4AutoLock.hh
-/usr/local/include/Geant4/G4AutoLock.hh
-
-/usr/local/include/Geant4/G4SPSEneDistribution.hh
-G4PhysicsOrderedFreeVector.hh
-/usr/local/include/Geant4/G4PhysicsOrderedFreeVector.hh
-G4ParticleMomentum.hh
-/usr/local/include/Geant4/G4ParticleMomentum.hh
-G4ParticleDefinition.hh
-/usr/local/include/Geant4/G4ParticleDefinition.hh
-G4DataInterpolation.hh
-/usr/local/include/Geant4/G4DataInterpolation.hh
-G4Threading.hh
-/usr/local/include/Geant4/G4Threading.hh
-G4Cache.hh
-/usr/local/include/Geant4/G4Cache.hh
-vector
--
-G4SPSRandomGenerator.hh
-/usr/local/include/Geant4/G4SPSRandomGenerator.hh
-
-/usr/local/include/Geant4/G4SPSPosDistribution.hh
-G4Navigator.hh
-/usr/local/include/Geant4/G4Navigator.hh
-G4SPSRandomGenerator.hh
-/usr/local/include/Geant4/G4SPSRandomGenerator.hh
-G4Threading.hh
-/usr/local/include/Geant4/G4Threading.hh
-G4Cache.hh
-/usr/local/include/Geant4/G4Cache.hh
-
-/usr/local/include/Geant4/G4SPSRandomGenerator.hh
-G4PhysicsOrderedFreeVector.hh
-/usr/local/include/Geant4/G4PhysicsOrderedFreeVector.hh
-G4DataInterpolation.hh
-/usr/local/include/Geant4/G4DataInterpolation.hh
-G4ThreeVector.hh
-/usr/local/include/Geant4/G4ThreeVector.hh
-G4Threading.hh
-/usr/local/include/Geant4/G4Threading.hh
-G4Cache.hh
-/usr/local/include/Geant4/G4Cache.hh
-
 /usr/local/include/Geant4/G4SafetyHelper.hh
 vector
 -
@@ -2502,36 +2026,6 @@ vector
 CLHEP/Units/PhysicalConstants.h
 -
 
-/usr/local/include/Geant4/G4Scene.hh
-globals.hh
-/usr/local/include/Geant4/globals.hh
-G4ios.hh
-/usr/local/include/Geant4/G4ios.hh
-G4VisExtent.hh
-/usr/local/include/Geant4/G4VisExtent.hh
-G4Point3D.hh
-/usr/local/include/Geant4/G4Point3D.hh
-G4VModel.hh
-/usr/local/include/Geant4/G4VModel.hh
-vector
--
-G4Scene.icc
-/usr/local/include/Geant4/G4Scene.icc
-
-/usr/local/include/Geant4/G4Scene.icc
-
-/usr/local/include/Geant4/G4SceneHandlerList.hh
-vector
--
-G4VSceneHandler.hh
-/usr/local/include/Geant4/G4VSceneHandler.hh
-
-/usr/local/include/Geant4/G4SceneList.hh
-G4Scene.hh
-/usr/local/include/Geant4/G4Scene.hh
-vector
--
-
 /usr/local/include/Geant4/G4SensitiveVolumeList.hh
 vector
 -
@@ -2539,26 +2033,6 @@ G4LogicalVolume.hh
 /usr/local/include/Geant4/G4LogicalVolume.hh
 G4VPhysicalVolume.hh
 /usr/local/include/Geant4/G4VPhysicalVolume.hh
-
-/usr/local/include/Geant4/G4SingleParticleSource.hh
-G4VPrimaryGenerator.hh
-/usr/local/include/Geant4/G4VPrimaryGenerator.hh
-G4ParticleMomentum.hh
-/usr/local/include/Geant4/G4ParticleMomentum.hh
-G4ParticleDefinition.hh
-/usr/local/include/Geant4/G4ParticleDefinition.hh
-G4SPSPosDistribution.hh
-/usr/local/include/Geant4/G4SPSPosDistribution.hh
-G4SPSAngDistribution.hh
-/usr/local/include/Geant4/G4SPSAngDistribution.hh
-G4SPSEneDistribution.hh
-/usr/local/include/Geant4/G4SPSEneDistribution.hh
-G4SPSRandomGenerator.hh
-/usr/local/include/Geant4/G4SPSRandomGenerator.hh
-G4Threading.hh
-/usr/local/include/Geant4/G4Threading.hh
-G4Cache.hh
-/usr/local/include/Geant4/G4Cache.hh
 
 /usr/local/include/Geant4/G4SmartTrackStack.hh
 G4StackedTrack.hh
@@ -2768,16 +2242,6 @@ G4Allocator.hh
 globals.hh
 /usr/local/include/Geant4/globals.hh
 vector
--
-
-/usr/local/include/Geant4/G4THitsMap.hh
-G4THitsCollection.hh
-/usr/local/include/Geant4/G4THitsCollection.hh
-globals.hh
-/usr/local/include/Geant4/globals.hh
-map
--
-unordered_map
 -
 
 /usr/local/include/Geant4/G4THnManager.hh
@@ -3066,14 +2530,6 @@ G4VTrajectory.hh
 G4UImessenger.hh
 /usr/local/include/Geant4/G4UImessenger.hh
 
-/usr/local/include/Geant4/G4TrajectoriesModel.hh
-G4VModel.hh
-/usr/local/include/Geant4/G4VModel.hh
-vector
--
-map
--
-
 /usr/local/include/Geant4/G4TrajectoryContainer.hh
 vector
 -
@@ -3085,20 +2541,6 @@ G4VTrajectory.hh
 /usr/local/include/Geant4/G4VTrajectory.hh
 G4Allocator.hh
 /usr/local/include/Geant4/G4Allocator.hh
-
-/usr/local/include/Geant4/G4TrajectoryFilterFactories.hh
-G4VFilter.hh
-/usr/local/include/Geant4/G4VFilter.hh
-G4VModelFactory.hh
-/usr/local/include/Geant4/G4VModelFactory.hh
-G4VTrajectory.hh
-/usr/local/include/Geant4/G4VTrajectory.hh
-
-/usr/local/include/Geant4/G4TrajectoryModelFactories.hh
-G4VModelFactory.hh
-/usr/local/include/Geant4/G4VModelFactory.hh
-G4VTrajectoryModel.hh
-/usr/local/include/Geant4/G4VTrajectoryModel.hh
 
 /usr/local/include/Geant4/G4Transform3D.hh
 globals.hh
@@ -3133,12 +2575,6 @@ G4Tubs.icc
 /usr/local/include/Geant4/G4Tubs.icc
 
 /usr/local/include/Geant4/G4Tubs.icc
-
-/usr/local/include/Geant4/G4TypeKey.hh
-globals.hh
-/usr/local/include/Geant4/globals.hh
-ostream
--
 
 /usr/local/include/Geant4/G4Types.hh
 G4GlobalConfig.hh
@@ -3182,12 +2618,6 @@ volumes/UnplacedBox.h
 G4Polyhedron.hh
 /usr/local/include/Geant4/G4Polyhedron.hh
 
-/usr/local/include/Geant4/G4UIExecutive.hh
-G4VUIshell.hh
-/usr/local/include/Geant4/G4VUIshell.hh
-map
--
-
 /usr/local/include/Geant4/G4UIcommand.hh
 G4UIparameter.hh
 /usr/local/include/Geant4/G4UIparameter.hh
@@ -3202,25 +2632,9 @@ G4UItokenNum.hh
 G4ThreeVector.hh
 /usr/local/include/Geant4/G4ThreeVector.hh
 
-/usr/local/include/Geant4/G4UIcommandStatus.hh
-
 /usr/local/include/Geant4/G4UIdirectory.hh
 G4UIcommand.hh
 /usr/local/include/Geant4/G4UIcommand.hh
-
-/usr/local/include/Geant4/G4UImanager.hh
-globals.hh
-/usr/local/include/Geant4/globals.hh
-vector
--
-fstream
--
-icomsdefs.hh
-/usr/local/include/Geant4/icomsdefs.hh
-G4VStateDependent.hh
-/usr/local/include/Geant4/G4VStateDependent.hh
-G4UIcommandStatus.hh
-/usr/local/include/Geant4/G4UIcommandStatus.hh
 
 /usr/local/include/Geant4/G4UImessenger.hh
 globals.hh
@@ -3344,14 +2758,6 @@ G4VNtupleManager.hh
 G4BaseFileManager.hh
 /usr/local/include/Geant4/G4BaseFileManager.hh
 
-/usr/local/include/Geant4/G4VDigi.hh
-globals.hh
-/usr/local/include/Geant4/globals.hh
-vector
--
-map
--
-
 /usr/local/include/Geant4/G4VDigiCollection.hh
 globals.hh
 /usr/local/include/Geant4/globals.hh
@@ -3380,25 +2786,11 @@ G4BaseFileManager.hh
 globals.hh
 /usr/local/include/Geant4/globals.hh
 
-/usr/local/include/Geant4/G4VFilter.hh
-globals.hh
-/usr/local/include/Geant4/globals.hh
-G4String.hh
-/usr/local/include/Geant4/G4String.hh
-iostream
--
-
 /usr/local/include/Geant4/G4VGraphicsScene.hh
 globals.hh
 /usr/local/include/Geant4/globals.hh
 G4Transform3D.hh
 /usr/local/include/Geant4/G4Transform3D.hh
-
-/usr/local/include/Geant4/G4VGraphicsSystem.hh
-globals.hh
-/usr/local/include/Geant4/globals.hh
-vector
--
 
 /usr/local/include/Geant4/G4VH1Manager.hh
 globals.hh
@@ -3435,60 +2827,6 @@ map
 /usr/local/include/Geant4/G4VHitsCollection.hh
 globals.hh
 /usr/local/include/Geant4/globals.hh
-
-/usr/local/include/Geant4/G4VMarker.hh
-globals.hh
-/usr/local/include/Geant4/globals.hh
-G4Visible.hh
-/usr/local/include/Geant4/G4Visible.hh
-G4Point3D.hh
-/usr/local/include/Geant4/G4Point3D.hh
-G4Colour.hh
-/usr/local/include/Geant4/G4Colour.hh
-G4Color.hh
-/usr/local/include/Geant4/G4Color.hh
-G4VMarker.icc
-/usr/local/include/Geant4/G4VMarker.icc
-
-/usr/local/include/Geant4/G4VMarker.icc
-
-/usr/local/include/Geant4/G4VModel.hh
-globals.hh
-/usr/local/include/Geant4/globals.hh
-G4VisExtent.hh
-/usr/local/include/Geant4/G4VisExtent.hh
-G4Transform3D.hh
-/usr/local/include/Geant4/G4Transform3D.hh
-G4VModel.icc
-/usr/local/include/Geant4/G4VModel.icc
-
-/usr/local/include/Geant4/G4VModel.icc
-
-/usr/local/include/Geant4/G4VModelFactory.hh
-G4String.hh
-/usr/local/include/Geant4/G4String.hh
-iostream
--
-utility
--
-vector
--
-
-/usr/local/include/Geant4/G4VModularPhysicsList.hh
-vector
--
-globals.hh
-/usr/local/include/Geant4/globals.hh
-rundefs.hh
-/usr/local/include/Geant4/rundefs.hh
-G4ios.hh
-/usr/local/include/Geant4/G4ios.hh
-G4VUserPhysicsList.hh
-/usr/local/include/Geant4/G4VUserPhysicsList.hh
-G4VPhysicsConstructor.hh
-/usr/local/include/Geant4/G4VPhysicsConstructor.hh
-G4VUPLSplitter.hh
-/usr/local/include/Geant4/G4VUPLSplitter.hh
 
 /usr/local/include/Geant4/G4VNtupleManager.hh
 G4BaseAnalysisManager.hh
@@ -3560,26 +2898,6 @@ G4VPhysicalVolume.icc
 
 /usr/local/include/Geant4/G4VPhysicalVolume.icc
 
-/usr/local/include/Geant4/G4VPhysicsConstructor.hh
-globals.hh
-/usr/local/include/Geant4/globals.hh
-rundefs.hh
-/usr/local/include/Geant4/rundefs.hh
-G4ios.hh
-/usr/local/include/Geant4/G4ios.hh
-G4ParticleTable.hh
-/usr/local/include/Geant4/G4ParticleTable.hh
-G4PhysicsListHelper.hh
-/usr/local/include/Geant4/G4PhysicsListHelper.hh
-G4VUPLSplitter.hh
-/usr/local/include/Geant4/G4VUPLSplitter.hh
-vector
--
-
-/usr/local/include/Geant4/G4VPrimaryGenerator.hh
-G4ThreeVector.hh
-/usr/local/include/Geant4/G4ThreeVector.hh
-
 /usr/local/include/Geant4/G4VProcess.hh
 globals.hh
 /usr/local/include/Geant4/globals.hh
@@ -3602,14 +2920,6 @@ G4ProcessType.hh
 Randomize.hh
 /usr/local/include/Geant4/Randomize.hh
 
-/usr/local/include/Geant4/G4VRML1File.hh
-G4VGraphicsSystem.hh
-/usr/local/include/Geant4/G4VGraphicsSystem.hh
-
-/usr/local/include/Geant4/G4VRML2File.hh
-G4VGraphicsSystem.hh
-/usr/local/include/Geant4/G4VGraphicsSystem.hh
-
 /usr/local/include/Geant4/G4VRNtupleManager.hh
 G4BaseAnalysisManager.hh
 /usr/local/include/Geant4/G4BaseAnalysisManager.hh
@@ -3629,22 +2939,6 @@ G4TouchableHistory.hh
 /usr/local/include/Geant4/G4VSDFilter.hh
 globals.hh
 /usr/local/include/Geant4/globals.hh
-
-/usr/local/include/Geant4/G4VSceneHandler.hh
-globals.hh
-/usr/local/include/Geant4/globals.hh
-G4VGraphicsScene.hh
-/usr/local/include/Geant4/G4VGraphicsScene.hh
-G4ViewerList.hh
-/usr/local/include/Geant4/G4ViewerList.hh
-G4ViewParameters.hh
-/usr/local/include/Geant4/G4ViewParameters.hh
-G4THitsMap.hh
-/usr/local/include/Geant4/G4THitsMap.hh
-G4VSceneHandler.icc
-/usr/local/include/Geant4/G4VSceneHandler.icc
-
-/usr/local/include/Geant4/G4VSceneHandler.icc
 
 /usr/local/include/Geant4/G4VSensitiveDetector.hh
 G4VHit.hh
@@ -3677,12 +2971,6 @@ G4VSolid.icc
 /usr/local/include/Geant4/G4VSolid.icc
 
 /usr/local/include/Geant4/G4VSolid.icc
-
-/usr/local/include/Geant4/G4VStateDependent.hh
-G4Types.hh
-/usr/local/include/Geant4/G4Types.hh
-G4ApplicationState.hh
-/usr/local/include/Geant4/G4ApplicationState.hh
 
 /usr/local/include/Geant4/G4VSteppingVerbose.hh
 globals.hh
@@ -3724,32 +3012,6 @@ map
 G4ThreeVector.hh
 /usr/local/include/Geant4/G4ThreeVector.hh
 
-/usr/local/include/Geant4/G4VTrajectoryModel.hh
-G4String.hh
-/usr/local/include/Geant4/G4String.hh
-G4VTrajectory.hh
-/usr/local/include/Geant4/G4VTrajectory.hh
-
-/usr/local/include/Geant4/G4VTree.hh
-G4VGraphicsSystem.hh
-/usr/local/include/Geant4/G4VGraphicsSystem.hh
-
-/usr/local/include/Geant4/G4VUIshell.hh
-globals.hh
-/usr/local/include/Geant4/globals.hh
-
-/usr/local/include/Geant4/G4VUPLSplitter.hh
-stdlib.h
--
-globals.hh
-/usr/local/include/Geant4/globals.hh
-rundefs.hh
-/usr/local/include/Geant4/rundefs.hh
-G4AutoLock.hh
-/usr/local/include/Geant4/G4AutoLock.hh
-
-/usr/local/include/Geant4/G4VUserActionInitialization.hh
-
 /usr/local/include/Geant4/G4VUserDetectorConstruction.hh
 vector
 -
@@ -3758,91 +3020,13 @@ globals.hh
 
 /usr/local/include/Geant4/G4VUserEventInformation.hh
 
-/usr/local/include/Geant4/G4VUserPhysicsList.hh
-globals.hh
-/usr/local/include/Geant4/globals.hh
-tls.hh
-/usr/local/include/Geant4/tls.hh
-rundefs.hh
-/usr/local/include/Geant4/rundefs.hh
-G4ios.hh
-/usr/local/include/Geant4/G4ios.hh
-G4ParticleTable.hh
-/usr/local/include/Geant4/G4ParticleTable.hh
-G4ParticleDefinition.hh
-/usr/local/include/Geant4/G4ParticleDefinition.hh
-G4ProductionCutsTable.hh
-/usr/local/include/Geant4/G4ProductionCutsTable.hh
-G4VUPLSplitter.hh
-/usr/local/include/Geant4/G4VUPLSplitter.hh
-G4Threading.hh
-/usr/local/include/Geant4/G4Threading.hh
-
-/usr/local/include/Geant4/G4VUserPrimaryGeneratorAction.hh
-
 /usr/local/include/Geant4/G4VUserTrackInformation.hh
 globals.hh
 /usr/local/include/Geant4/globals.hh
 
-/usr/local/include/Geant4/G4VViewer.hh
-globals.hh
-/usr/local/include/Geant4/globals.hh
-G4ViewParameters.hh
-/usr/local/include/Geant4/G4ViewParameters.hh
-G4PhysicalVolumeModel.hh
-/usr/local/include/Geant4/G4PhysicalVolumeModel.hh
-G4VViewer.icc
-/usr/local/include/Geant4/G4VViewer.icc
-
-/usr/local/include/Geant4/G4VViewer.icc
-
-/usr/local/include/Geant4/G4VVisManager.hh
-G4Transform3D.hh
-/usr/local/include/Geant4/G4Transform3D.hh
-G4ThreeVector.hh
-/usr/local/include/Geant4/G4ThreeVector.hh
-G4RotationMatrix.hh
-/usr/local/include/Geant4/G4RotationMatrix.hh
-
 /usr/local/include/Geant4/G4VVolumeMaterialScanner.hh
 G4Types.hh
 /usr/local/include/Geant4/G4Types.hh
-
-/usr/local/include/Geant4/G4Vector3D.hh
-globals.hh
-/usr/local/include/Geant4/globals.hh
-CLHEP/Geometry/Vector3D.h
--
-
-/usr/local/include/Geant4/G4ViewParameters.hh
-CLHEP/Units/SystemOfUnits.h
--
-G4Vector3D.hh
-/usr/local/include/Geant4/G4Vector3D.hh
-G4Point3D.hh
-/usr/local/include/Geant4/G4Point3D.hh
-G4Plane3D.hh
-/usr/local/include/Geant4/G4Plane3D.hh
-G4VisAttributes.hh
-/usr/local/include/Geant4/G4VisAttributes.hh
-G4VMarker.hh
-/usr/local/include/Geant4/G4VMarker.hh
-G4ModelingParameters.hh
-/usr/local/include/Geant4/G4ModelingParameters.hh
-vector
--
-utility
--
-G4ViewParameters.icc
-/usr/local/include/Geant4/G4ViewParameters.icc
-
-/usr/local/include/Geant4/G4ViewParameters.icc
-
-/usr/local/include/Geant4/G4ViewerList.hh
-vector
--
-G4VViewer.hh
-/usr/local/include/Geant4/G4VViewer.hh
 
 /usr/local/include/Geant4/G4VisAttributes.hh
 globals.hh
@@ -3864,72 +3048,6 @@ G4VisAttributes.icc
 
 /usr/local/include/Geant4/G4VisAttributes.icc
 
-/usr/local/include/Geant4/G4VisExecutive.hh
-G4VisManager.hh
-/usr/local/include/Geant4/G4VisManager.hh
-G4VisExecutive.icc
-/usr/local/include/Geant4/G4VisExecutive.icc
-
-/usr/local/include/Geant4/G4VisExecutive.icc
-G4ASCIITree.hh
-/usr/local/include/Geant4/G4ASCIITree.hh
-G4DAWNFILE.hh
-/usr/local/include/Geant4/G4DAWNFILE.hh
-G4HepRep.hh
-/usr/local/include/Geant4/G4HepRep.hh
-G4HepRepFile.hh
-/usr/local/include/Geant4/G4HepRepFile.hh
-G4RayTracer.hh
-/usr/local/include/Geant4/G4RayTracer.hh
-G4HitFilterFactories.hh
-/usr/local/include/Geant4/G4HitFilterFactories.hh
-G4DigiFilterFactories.hh
-/usr/local/include/Geant4/G4DigiFilterFactories.hh
-G4TrajectoryFilterFactories.hh
-/usr/local/include/Geant4/G4TrajectoryFilterFactories.hh
-G4TrajectoryModelFactories.hh
-/usr/local/include/Geant4/G4TrajectoryModelFactories.hh
-G4VRML1File.hh
-/usr/local/include/Geant4/G4VRML1File.hh
-G4VRML2File.hh
-/usr/local/include/Geant4/G4VRML2File.hh
-G4GMocrenFile.hh
-/usr/local/include/Geant4/G4GMocrenFile.hh
-G4FukuiRenderer.hh
-/usr/local/include/Geant4/G4FukuiRenderer.hh
-G4OpenGLImmediateX.hh
-/usr/local/include/Geant4/G4OpenGLImmediateX.hh
-G4OpenGLStoredX.hh
-/usr/local/include/Geant4/G4OpenGLStoredX.hh
-G4OpenGLImmediateWin32.hh
-/usr/local/include/Geant4/G4OpenGLImmediateWin32.hh
-G4OpenGLStoredWin32.hh
-/usr/local/include/Geant4/G4OpenGLStoredWin32.hh
-G4OpenGLImmediateXm.hh
-/usr/local/include/Geant4/G4OpenGLImmediateXm.hh
-G4OpenGLStoredXm.hh
-/usr/local/include/Geant4/G4OpenGLStoredXm.hh
-G4OpenGLImmediateQt.hh
-/usr/local/include/Geant4/G4OpenGLImmediateQt.hh
-G4OpenGLStoredQt.hh
-/usr/local/include/Geant4/G4OpenGLStoredQt.hh
-G4OpenGLImmediateWt.hh
-/usr/local/include/Geant4/G4OpenGLImmediateWt.hh
-G4OpenInventorX.hh
-/usr/local/include/Geant4/G4OpenInventorX.hh
-G4OpenInventorXtExtended.hh
-/usr/local/include/Geant4/G4OpenInventorXtExtended.hh
-G4OpenInventorQt.hh
-/usr/local/include/Geant4/G4OpenInventorQt.hh
-G4OpenInventorWin32.hh
-/usr/local/include/Geant4/G4OpenInventorWin32.hh
-G4RayTracerX.hh
-/usr/local/include/Geant4/G4RayTracerX.hh
-G4VRML1.hh
-/usr/local/include/Geant4/G4VRML1.hh
-G4VRML2.hh
-/usr/local/include/Geant4/G4VRML2.hh
-
 /usr/local/include/Geant4/G4VisExtent.hh
 globals.hh
 /usr/local/include/Geant4/globals.hh
@@ -3937,40 +3055,6 @@ G4Point3D.hh
 /usr/local/include/Geant4/G4Point3D.hh
 G4Transform3D.hh
 /usr/local/include/Geant4/G4Transform3D.hh
-
-/usr/local/include/Geant4/G4VisManager.hh
-G4VVisManager.hh
-/usr/local/include/Geant4/G4VVisManager.hh
-globals.hh
-/usr/local/include/Geant4/globals.hh
-G4GraphicsSystemList.hh
-/usr/local/include/Geant4/G4GraphicsSystemList.hh
-G4ModelingParameters.hh
-/usr/local/include/Geant4/G4ModelingParameters.hh
-G4NullModel.hh
-/usr/local/include/Geant4/G4NullModel.hh
-G4SceneHandlerList.hh
-/usr/local/include/Geant4/G4SceneHandlerList.hh
-G4SceneList.hh
-/usr/local/include/Geant4/G4SceneList.hh
-G4TrajectoriesModel.hh
-/usr/local/include/Geant4/G4TrajectoriesModel.hh
-G4Transform3D.hh
-/usr/local/include/Geant4/G4Transform3D.hh
-G4UImessenger.hh
-/usr/local/include/Geant4/G4UImessenger.hh
-iostream
--
-vector
--
-map
--
-G4Threading.hh
-/usr/local/include/Geant4/G4Threading.hh
-G4VisManager.icc
-/usr/local/include/Geant4/G4VisManager.icc
-
-/usr/local/include/Geant4/G4VisManager.icc
 
 /usr/local/include/Geant4/G4Visible.hh
 globals.hh
@@ -4126,15 +3210,7 @@ G4EnvironmentUtils.hh
 G4Types.hh
 /usr/local/include/Geant4/G4Types.hh
 
-/usr/local/include/Geant4/icomsdefs.hh
-G4Types.hh
-/usr/local/include/Geant4/G4Types.hh
-
 /usr/local/include/Geant4/pwdefs.hh
-G4Types.hh
-/usr/local/include/Geant4/G4Types.hh
-
-/usr/local/include/Geant4/rundefs.hh
 G4Types.hh
 /usr/local/include/Geant4/G4Types.hh
 
