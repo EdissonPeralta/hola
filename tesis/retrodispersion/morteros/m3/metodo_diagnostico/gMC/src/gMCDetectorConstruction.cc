@@ -303,16 +303,16 @@ G4Element* elNa = new G4Element(name="Sodium", symbol="Na", z=11., a);
   Morteros1->AddMaterial(Na2O, fractionMass=0.12562*perCent);;
   
   // Dimension of the cement board
-  G4double placa_hx = 4.7787*cm; // 9,5575
-  G4double placa_hy = 4.8692*cm; // 9,7385 
-  G4double placa_hz = 3.0*cm; // the variation is 0.5 
+  G4double placa_hx = 20.0*cm; // 9,5575
+  G4double placa_hy = 20.0*cm; // 9,7385 
+  G4double placa_hz = 1.5*cm; // the variation is 0.5 
 
 
   //Creation of the hole
 
   G4double h_x=2.0*cm;
   G4double h_y=2.0*cm;
-  G4double h_z=2.0*cm;
+  G4double h_z=0.75*cm;
   
   
   //////////////////////////////////////////////////////////////////////////
@@ -334,7 +334,7 @@ G4Element* elNa = new G4Element(name="Sodium", symbol="Na", z=11., a);
   fPlacaLogical = new G4LogicalVolume(nueva_placa, Morteros1,"placaLogical");
 
   
-  G4double desplazamiento= -1.0*cm; //Aca se regula el dezplazamiento en x para barrer el mortero. Se hace desde 8.0 hasta -1.0 de a 0.5
+  G4double desplazamiento= -1.5*cm; //Aca se regula el dezplazamiento en x para barrer el mortero. Se hace desde 8.0 hasta -1.0 de a 0.5
   G4ThreeVector Tplaca;    
   G4Transform3D T3Dplaca;
   Tplaca.setX(4.5*cm + desplazamiento);  Tplaca.setY(0.0*cm);
