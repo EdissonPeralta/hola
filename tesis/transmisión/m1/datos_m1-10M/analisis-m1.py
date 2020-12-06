@@ -288,7 +288,7 @@ for j in range(0,8,2):
 """
 #grafico los ajuste a la funcion potencia
 xx=x[50:]
-fig_1,axs=plt.subplots(1,1,figsize=(6,3.5))
+fig_1,axs=plt.subplots(1,1,figsize=(3.44,4))
 
 axs.set_ylabel(r"$\mu$ (cm$^2$/g)")
 axs.set_xlabel(r'$E_{\gamma}$ (keV)')
@@ -340,7 +340,7 @@ axs.plot(xx, myExpFunc(xx, *pop_exp), 'purple')
 
 axs.errorbar(energy,munist,yerr=None, fmt='o',c='purple',ecolor='k',label=r'NIST')
 axs.legend()
-plt.tick_params(labelright=True, right=True)
+plt.tick_params(labelright=False, right=False)
 #plt.xticks(fontsize=20)
 #plt.yticks(fontsize=20)
 leg=plt.legend(loc="upper right")#,prop={'size': 20})

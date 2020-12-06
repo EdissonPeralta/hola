@@ -686,7 +686,7 @@ print (sigmaXsatu)
 
 #######################################################
 
-fig2, axs=plt.subplots(1,1,figsize=(6,3.5))
+fig2, axs=plt.subplots(1,1,figsize=(3.44,4))
 x=np.linspace(0.2,13.0,10000)
 axs.errorbar(grosor,intensidades,yerr=propaga_error_y, xerr=propaga_error_x,fmt='.',color='purple',label='Geant4')
 
@@ -699,6 +699,7 @@ plt.text(9, 0.7, r'8.9(6) cm', color='navy')
 
 axs.set_xlabel(r'$t$ (cm)')
 axs.set_ylabel('Intensidad (cuentas)')
+plt.title('Morteros 1')
 #plt.text(10.0,0.3,r'Geant4: $\mu_T$=0.159(6)$\frac{cm^2}{g}$')
 #plt.text(10.0,0.2,r'NIST: $\mu_T$=0.257$\frac{cm^2}{g}$')
 #plt.text(10.0,0.1,r'Discrepancia: 38.1$\%$')
