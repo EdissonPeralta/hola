@@ -1,0 +1,10 @@
+ 
+03-Diciembre-2020
+Rafael Hurtado Carrillo
+
+Un detector de BF3  ubicado sobre un bloque de parafina con grosor de 8cm. Una fuente de 232Cf se ubicó a otro lado de la parafina para obtener un montaje de transmisión.
+Se tomaron espectros de 130 s de duración y se eligieron diferentes ganancias en la electrónica para cada espectro.
+Detector A guarda las cuentas tomadas en el canal (3) del archivo. 
+Adicionalmente el cable 05 va conectado al detector A. 
+
+El arreglo es detector A(izquierda)B(derecha) en vista frontal.
