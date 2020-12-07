@@ -12,6 +12,21 @@ from scipy.optimize import curve_fit
 from scipy.signal import find_peaks
 from astropy.io import ascii
 
+mpl.rcParams.update({"text.usetex":True,
+                     "font.family":"serif",
+                     "font.sans-serif":["Computer Modern San serif"],
+                     "legend.fontsize":12,
+                     "axes.labelsize":12,
+                     "xtick.labelsize":12,
+                     "ytick.labelsize":12,
+                     "figure.figsize":(3.4,3.2),
+                     "mathtext.fontset":"dejavusans",
+                     "text.latex.preamble":r"\usepackage{amsmath}"
+})
+
+
+
+
 #calibracion
 
 
@@ -882,12 +897,12 @@ for j in range (len(canalM12)):
 
 
 
-fig, axs=plt.subplots(1,1,sharey=False)
+fig, axs=plt.subplots(1,1,figsize=(6,3.4))
 
 
 #fig.suptitle('COMPARACIÓN DE REGIÓN COMPTON', fontsize=18)
-plt.xlabel('Energía (keV)', fontsize=14)
-plt.ylabel('cuentas', fontsize=14)
+plt.xlabel('Energía (keV)')
+plt.ylabel('cuentas')
 x=np.linspace(0,8000,10000)
 #axs.plot(x,pdf3_3(x),color='purple')  
 
@@ -922,10 +937,11 @@ axs.step(canalMC12,cuentasM12, where='mid',color= 'greenyellow', label='L12')
 
 
 
-leg=plt.legend(loc='upper right',prop={'size': 14})
-for legobj in leg.legendHandles: #tamaño de la leyenda
-    legobj.set_linewidth(5.0) #tamaño de la leyenda
+leg=plt.legend(loc='upper left', bbox_to_anchor=(1, 1.05))#(loc='upper right',prop={'size': 14})
+#for legobj in leg.legendHandles: #tamaño de la leyenda
+#    legobj.set_linewidth(5.0) #tamaño de la leyenda
 
+fig.tight_layout()
 plt.show()
     
 print ("------------------------------------")
@@ -1079,10 +1095,14 @@ propaga_error_x=[0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005, 0.
 #GROSORES-MODIFICAR
 grosor=[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0]
 
-fig2, axs=plt.subplots(1,1,sharey=False)
-plt.xlabel('t(cm)', fontsize=14)
-plt.ylabel('Intensidad', fontsize=14)
-plt.xticks(grosor, fontsize=16)
+fig2, axs=plt.subplots(1,1,figsize=(6,3.5))
+plt.title('Morteros 5')
+plt.xlabel('t(cm)')
+plt.ylabel('Intensidad')
+plt.xticks(grosor)
+#axs.errorbar(grosor,intensidades,yerr=propaga_error_y, fmt='.',color='blue')
 axs.plot(grosor,intensidades,'o',color= 'blue')
-         
+
+
+fig2.tight_layout()
 plt.show()

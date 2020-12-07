@@ -1,16 +1,4 @@
 import matplotlib as mpl
-mpl.rcParams['legend.fontsize'] = 12
-mpl.rcParams['axes.labelsize'] = 12
-mpl.rcParams['xtick.labelsize'] = 12
-mpl.rcParams['ytick.labelsize'] = 12
-mpl.rcParams['text.usetex'] = True
-mpl.rcParams['font.family'] = 'sans-serif'
-mpl.rcParams['mathtext.fontset'] = 'dejavusans'
-mpl.rcParams['text.latex.preamble'] = [r'\usepackage{mathrsfs}']
-#mpl.rcParams['text.latex.preamble'] = [r'\usepackage{pxfonts}']
-mpl.rcParams.update({'font.size': 12})
-
-#import metodos_MC as mt
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
@@ -18,8 +6,22 @@ from matplotlib.ticker import AutoMinorLocator
 from matplotlib.ticker import NullFormatter
 import scipy.stats as st
 from scipy.stats import norm
+import math
 
-#fig = plt.figure(figsize=(mt.cm2inch(18.0),mt.cm2inch(10.0)))
+mpl.rcParams.update({"text.usetex":True,
+                     "font.family":"serif",
+                     "font.sans-serif":["Computer Modern San serif"],
+                     "legend.fontsize":12,
+                     "axes.labelsize":12,
+                     "xtick.labelsize":12,
+                     "ytick.labelsize":12,
+                     "figure.figsize":(3.4,3.2),
+                     "mathtext.fontset":"dejavusans",
+                     "text.latex.preamble":r"\usepackage{amsmath}"
+})
+
+
+
 fig, ax=plt.subplots(1,1,sharey=True)
 #grid = plt.GridSpec(1, 1, wspace=0.25, hspace=0.2,left=0.1,right=0.98,bottom=0.17,top=0.98)
 
@@ -966,22 +968,31 @@ print (cuentas22)
 
 cuentas_totales=[cuentas22, cuentas21, cuentas20, cuentas19, cuentas18,cuentas1, cuentas2, cuentas3, cuentas4, cuentas5, cuentas6, cuentas7, cuentas8, cuentas9, cuentas10, cuentas11, cuentas12, cuentas13, cuentas14, cuentas15, cuentas16, cuentas17, cuentas18]
 
+errores_inten=[math.sqrt(cuentas22), math.sqrt(cuentas21), math.sqrt(cuentas20), math.sqrt(cuentas19), math.sqrt(cuentas18), math.sqrt(cuentas1), math.sqrt(cuentas2), math.sqrt(cuentas3), math.sqrt(cuentas4), math.sqrt(cuentas5), math.sqrt(cuentas6), math.sqrt(cuentas7), math.sqrt(cuentas8), math.sqrt(cuentas9), math.sqrt(cuentas10),  math.sqrt(cuentas11),  math.sqrt(cuentas12),  math.sqrt(cuentas13), math.sqrt(cuentas14),  math.sqrt(cuentas15),  math.sqrt(cuentas16),  math.sqrt(cuentas17), math.sqrt(cuentas18)]
+
+
 ejex_graf=[-2.5,-2.0,-1.5,-1.0, -0.5, 0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5, 7.0, 7.5, 8.0, 8.5]
 
-fig2, axs=plt.subplots(1,1,sharey=False)
+fig2, axs=plt.subplots(1,1,figsize=(3.44,4))
 x=np.linspace(0.2,13.0,10000)
 
 
-axs.set_xlabel(r'$x$ (cm)', size=20)
-axs.set_ylabel('Intensidad (cuentas)', size=20)
+axs.set_xlabel(r'$x$ (cm)')
+axs.set_ylabel('Intensidad (cuentas)')
+plt.title('Morteros 2')
 
-axs.plot(ejex_graf,cuentas_totales,'o', label='Ajuste ',color='purple')
-plt.xticks(ejex_graf,fontsize=16)
-plt.yticks(fontsize=16)
+axs.errorbar(ejex_graf,cuentas_totales,yerr=errores_inten, fmt='.',color='purple')
+
+
+#axs.plot(ejex_graf,cuentas_totales,'o', label='Ajuste ',color='purple')
+j=[-2.0,0.0, 2.0, 4.0, 6.0, 8.0]
+plt.xticks(j)
+#plt.yticks(fontsize=16)
 #plt.xlim(-1.0, 5.5)
 """
 leg=axs.legend(loc="upper left",prop={'size': 14})
 for legobj in leg.legendHandles: #tamaño de la leyenda
     legobj.set_linewidth(2.0) #tamaño de la leyenda
 """
+fig2.tight_layout()
 plt.show()

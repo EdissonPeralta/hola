@@ -13,6 +13,19 @@ from scipy.signal import find_peaks
 from astropy.io import ascii
 
 
+mpl.rcParams.update({"text.usetex":True,
+                     "font.family":"serif",
+                     "font.sans-serif":["Computer Modern San serif"],
+                     "legend.fontsize":12,
+                     "axes.labelsize":12,
+                     "xtick.labelsize":12,
+                     "ytick.labelsize":12,
+                     "figure.figsize":(3.4,3.2),
+                     "mathtext.fontset":"dejavusans",
+                     "text.latex.preamble":r"\usepackage{amsmath}"
+})
+
+
 
 datosM0=ascii.read('13-11-2020-NaI-Detector-3600s-fuenteCs137-L0.mca', data_start=0)
 datosM1=ascii.read('13-11-2020-NaI-Detector-3600s-fuenteCs137-L1.mca', data_start=0)
@@ -490,31 +503,33 @@ for j in range (len(ejeXM12)):
 ##############################################################
 
 
-fig, axs=plt.subplots(1,1,sharey=False)
+fig, axs=plt.subplots(1,1,figsize=(6,3.5))
 
 
 #fig.suptitle('COMPARACIÓN DE REGIÓN COMPTON', fontsize=18)
-plt.xlabel('Energía (keV)', fontsize=14)
-plt.ylabel('cuentas', fontsize=14)
+plt.xlabel('Energía (keV)')
+plt.ylabel('cuentas')
 x=np.linspace(0,8000,10000)
 #axs.plot(x,pdf3_3(x),color='purple')  
 
 #x = range(799)
 #plt.plot(x,histogram3,linestyle='steps-mid',color='orange')
-axs.step(canalM0,cuentasM0, where='mid', color= 'red')
-axs.step(canalM1,cuentasM1, where='mid',color= 'purple')
-axs.step(canalM2,cuentasM2, where='mid',color= 'aqua')
-axs.step(canalM3,cuentasM3, where='mid',color= 'yellow')
-axs.step(canalM4,cuentasM4, where='mid',color= 'black')
-axs.step(canalM5,cuentasM5, where='mid',color= 'orange')
-axs.step(canalM6,cuentasM6, where='mid',color= 'green')
-axs.step(canalM7,cuentasM7, where='mid',color= 'blue')
-axs.step(canalM8,cuentasM8, where='mid',color= 'yellow')
-axs.step(canalM9,cuentasM9, where='mid',color= 'black')
-axs.step(canalM10,cuentasM10, where='mid',color= 'orange')
-axs.step(canalM11,cuentasM11, where='mid',color= 'green')
-axs.step(canalM12,cuentasM12, where='mid',color= 'blue')
+axs.step(canalM0,cuentasM0, where='mid')
+axs.step(canalM1,cuentasM1, where='mid')
+axs.step(canalM2,cuentasM2, where='mid')
+axs.step(canalM3,cuentasM3, where='mid')
+axs.step(canalM4,cuentasM4, where='mid')
+axs.step(canalM5,cuentasM5, where='mid')
+axs.step(canalM6,cuentasM6, where='mid')
+axs.step(canalM7,cuentasM7, where='mid')
+axs.step(canalM8,cuentasM8, where='mid')
+axs.step(canalM9,cuentasM9, where='mid')
+axs.step(canalM10,cuentasM10, where='mid')
+axs.step(canalM11,cuentasM11, where='mid')
+axs.step(canalM12,cuentasM12, where='mid')
 
+
+fig.tight_layout()
 plt.show()
     
 
@@ -667,11 +682,15 @@ propaga_error_x=[0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005, 0.
 #GROSORES-MODIFICAR
 grosor=[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0]
 
-fig2, axs=plt.subplots(1,1,sharey=False)
-plt.xlabel('t(cm)', fontsize=14)
-plt.ylabel('Intensidad', fontsize=14)
+fig2, axs=plt.subplots(1,1,figsize=(6,3.5))
+plt.title('Morteros 5')
+plt.xlabel('t(cm)')
+plt.ylabel('Intensidad')
+#axs.errorbar(grosor,intensidades,yerr=propaga_error_y, fmt='.',color='blue')
 axs.plot(grosor,intensidades,'o',color= 'blue')
-         
+plt.xticks(grosor)
+
+fig2.tight_layout()
 plt.show()
 
 """

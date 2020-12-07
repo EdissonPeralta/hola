@@ -331,7 +331,7 @@ G4Element* elNa = new G4Element(name="Sodium", symbol="Na", z=11., a);
   fPlacaLogical = new G4LogicalVolume(nueva_placa, Morteros1,"placaLogical");
 
   
-  G4double desplazamiento= -1.0*cm; //Aca se regula el dezplazamiento en x para barrer el mortero. Se hace desde 8.0 hasta -1.0 de a 0.5
+  G4double desplazamiento= 1.5*cm; //Aca se regula el dezplazamiento en x para barrer el mortero. Se hace desde 8.0 hasta -1.0 de a 0.5
   G4ThreeVector Tplaca;    
   G4Transform3D T3Dplaca;
   Tplaca.setX(4.5*cm + desplazamiento);  Tplaca.setY(0.0*cm);
@@ -428,8 +428,9 @@ G4Element* elNa = new G4Element(name="Sodium", symbol="Na", z=11., a);
 
   // visualization attributes ------------------------------------------------
 
-  auto visAttributes = new G4VisAttributes(G4Colour(0.,0.,0.));
+  auto visAttributes = new G4VisAttributes(G4Colour(0.245,0.245,0.245));
   visAttributes->SetVisibility(false);
+  visAttributes->SetForceSolid(false);
   worldLogical->SetVisAttributes(visAttributes);
   fVisAttributes.push_back(visAttributes);
   
@@ -441,7 +442,7 @@ G4Element* elNa = new G4Element(name="Sodium", symbol="Na", z=11., a);
   /*
   visAttributes = new G4VisAttributes(G4Colour(0.40,0.40,0.40));
   visAttributes->SetVisibility(true);
-  visAttributes->SetForceSolid(true);
+  visAttributes->SetForceSolid(true); 
   fPlacaLogical_colimador ->SetVisAttributes(visAttributes);
   fVisAttributes.push_back(visAttributes);
   
