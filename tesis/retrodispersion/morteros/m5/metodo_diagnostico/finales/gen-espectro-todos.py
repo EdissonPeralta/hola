@@ -975,6 +975,25 @@ errores_inten=[math.sqrt(cuentas19), math.sqrt(cuentas18), math.sqrt(cuentas1), 
 
 ejex_graf=[-1.0, -0.5, 0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5, 7.0, 7.5, 8.0, 8.5]
 
+
+int_max=max(cuentas_totales)
+#cuentas_totales=cuentas_totales/int_max
+
+int_max_retro=5524.0
+error_retro=0.008
+mu_T=0.171
+cuentas_normalizadas=np.array(cuentas_totales)/int_max_retro
+def diagnostico(IB):
+    return -np.log(1-IB)/mu_T
+
+def error(IB):
+    return (np.log(1-IB)*error_retro)/(mu_T*mu_T)
+
+
+
+
+
+
 fig2, axs=plt.subplots(1,1,figsize=(6,3.5))
 x=np.linspace(0.2,13.0,10000)
 
@@ -997,3 +1016,16 @@ for legobj in leg.legendHandles: #tamaño de la leyenda
 """
 fig2.tight_layout()
 plt.show()
+
+
+fig3, axs=plt.subplots(1,1,figsize=(6,3.5))
+
+axs.set_xlabel(r'$x$ (cm)')
+axs.set_ylabel(r'$t$ (cm)')
+plt.title('Morteros 5')
+
+axs.errorbar(ejex_graf,diagnostico(cuentas_normalizadas),yerr=error(np.array(cuentas_normalizadas)), fmt='.',color='black')
+
+fig3.tight_layout()
+plt.show()
+

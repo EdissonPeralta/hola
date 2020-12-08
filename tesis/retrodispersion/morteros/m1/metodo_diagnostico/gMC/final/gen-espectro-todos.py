@@ -973,11 +973,22 @@ cuentas_totales=[cuentas19, cuentas18,cuentas1, cuentas2, cuentas3, cuentas4, cu
 errores_inten=[math.sqrt(cuentas19), math.sqrt(cuentas18), math.sqrt(cuentas1), math.sqrt(cuentas2), math.sqrt(cuentas3), math.sqrt(cuentas4), math.sqrt(cuentas5), math.sqrt(cuentas6), math.sqrt(cuentas7), math.sqrt(cuentas8), math.sqrt(cuentas9), math.sqrt(cuentas10),  math.sqrt(cuentas11),  math.sqrt(cuentas12),  math.sqrt(cuentas13), math.sqrt(cuentas14),  math.sqrt(cuentas15),  math.sqrt(cuentas16),  math.sqrt(cuentas17), math.sqrt(cuentas18)]
 
 
+
+
+
+
 int_max=max(cuentas_totales)
-cuentas_totales=cuentas_totales/int_max
+#cuentas_totales=cuentas_totales/int_max
 
+int_max_retro=6314.0
+error_retro=0.006
+mu_T=0.163
+cuentas_normalizadas=np.array(cuentas_totales)/int_max_retro
+def diagnostico(IB):
+    return -np.log(1-IB)/mu_T
 
-
+def error(IB):
+    return (np.log(1-IB)*error_retro)/(mu_T*mu_T)
 
 
 
@@ -994,7 +1005,7 @@ plt.title('Morteros 1')
 
 axs.errorbar(ejex_graf,cuentas_totales,yerr=errores_inten, fmt='.',color='purple')
 
-#axs.plot(ejex_graf,cuentas_totales,'o', label='Ajuste ',color='purple')
+#axs.plot(ejex_graf,diagnostico(cuentas_normalizadas),'o', label='Ajuste ',color='purple')
 j=[0.0, 2.0, 4.0, 6.0, 8.0]
 plt.xticks(j)
 #plt.yticks(fontsize=16)
@@ -1006,3 +1017,21 @@ for legobj in leg.legendHandles: #tamaño de la leyenda
 """
 fig2.tight_layout()
 plt.show()
+
+
+fig3, axs=plt.subplots(1,1,figsize=(3.44,4))
+
+axs.set_xlabel(r'$x$ (cm)')
+axs.set_ylabel(r'$t$ (cm)')
+plt.title('Morteros 1')
+
+axs.errorbar(ejex_graf,diagnostico(cuentas_normalizadas),yerr=error(np.array(cuentas_normalizadas)), fmt='.',color='black')
+
+fig3.tight_layout()
+plt.show()
+
+
+
+
+
+
