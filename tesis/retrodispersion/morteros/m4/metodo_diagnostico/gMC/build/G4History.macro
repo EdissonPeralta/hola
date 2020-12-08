@@ -5,7 +5,7 @@
 /gps/energy 662 keV
 /gps/ang/type iso
 /gps/ang/maxtheta 10. deg
-/gps/ang/mintheta 10. deg
+/gps/ang/mintheta 0. deg
 /gps/ang/minphi 0 deg
 /gps/ang/maxphi 360 deg
 /run/beamOn 10000000

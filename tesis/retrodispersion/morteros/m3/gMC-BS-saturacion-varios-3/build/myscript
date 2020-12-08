@@ -1,0 +1,97 @@
+#! /bin/sh 
+cd /home/edisson/Documents/hola/tesis/retrodispersion/morteros/m3/gMC-BS-saturacion-varios-3/src \ 
+pwd \ 
+python3 1_Paso_0.5_Inicio_0.0.py \ 
+echo 1_Paso_0.5_Inicio_0.0.py \ 
+rm -rf 1_Paso_0.5_Inicio_0.0.py \ 
+cd ../build/  \ 
+make -j4 && pwd \ 
+./gMC run1.mac  \ 
+cd /home/edisson/Documents/hola/tesis/retrodispersion/morteros/m3/gMC-BS-saturacion-varios-3/src \ 
+pwd \ 
+python3 2_Paso_0.5_Inicio_0.0.py \ 
+echo 2_Paso_0.5_Inicio_0.0.py \ 
+rm -rf 2_Paso_0.5_Inicio_0.0.py \ 
+cd ../build/  \ 
+make -j4 && pwd \ 
+./gMC run1.mac  \ 
+cd /home/edisson/Documents/hola/tesis/retrodispersion/morteros/m3/gMC-BS-saturacion-varios-3/src \ 
+pwd \ 
+python3 3_Paso_0.5_Inicio_0.0.py \ 
+echo 3_Paso_0.5_Inicio_0.0.py \ 
+rm -rf 3_Paso_0.5_Inicio_0.0.py \ 
+cd ../build/  \ 
+make -j4 && pwd \ 
+./gMC run1.mac  \ 
+cd /home/edisson/Documents/hola/tesis/retrodispersion/morteros/m3/gMC-BS-saturacion-varios-3/src \ 
+pwd \ 
+python3 4_Paso_0.5_Inicio_0.0.py \ 
+echo 4_Paso_0.5_Inicio_0.0.py \ 
+rm -rf 4_Paso_0.5_Inicio_0.0.py \ 
+cd ../build/  \ 
+make -j4 && pwd \ 
+./gMC run1.mac  \ 
+cd /home/edisson/Documents/hola/tesis/retrodispersion/morteros/m3/gMC-BS-saturacion-varios-3/src \ 
+pwd \ 
+python3 5_Paso_0.5_Inicio_0.0.py \ 
+echo 5_Paso_0.5_Inicio_0.0.py \ 
+rm -rf 5_Paso_0.5_Inicio_0.0.py \ 
+cd ../build/  \ 
+make -j4 && pwd \ 
+./gMC run1.mac  \ 
+cd /home/edisson/Documents/hola/tesis/retrodispersion/morteros/m3/gMC-BS-saturacion-varios-3/src \ 
+pwd \ 
+python3 6_Paso_0.5_Inicio_0.0.py \ 
+echo 6_Paso_0.5_Inicio_0.0.py \ 
+rm -rf 6_Paso_0.5_Inicio_0.0.py \ 
+cd ../build/  \ 
+make -j4 && pwd \ 
+./gMC run1.mac  \ 
+cd /home/edisson/Documents/hola/tesis/retrodispersion/morteros/m3/gMC-BS-saturacion-varios-3/src \ 
+pwd \ 
+python3 7_Paso_0.5_Inicio_0.0.py \ 
+echo 7_Paso_0.5_Inicio_0.0.py \ 
+rm -rf 7_Paso_0.5_Inicio_0.0.py \ 
+cd ../build/  \ 
+make -j4 && pwd \ 
+./gMC run1.mac  \ 
+cd /home/edisson/Documents/hola/tesis/retrodispersion/morteros/m3/gMC-BS-saturacion-varios-3/src \ 
+pwd \ 
+python3 8_Paso_0.5_Inicio_0.0.py \ 
+echo 8_Paso_0.5_Inicio_0.0.py \ 
+rm -rf 8_Paso_0.5_Inicio_0.0.py \ 
+cd ../build/  \ 
+make -j4 && pwd \ 
+./gMC run1.mac  \ 
+cd /home/edisson/Documents/hola/tesis/retrodispersion/morteros/m3/gMC-BS-saturacion-varios-3/src \ 
+pwd \ 
+python3 9_Paso_0.5_Inicio_0.0.py \ 
+echo 9_Paso_0.5_Inicio_0.0.py \ 
+rm -rf 9_Paso_0.5_Inicio_0.0.py \ 
+cd ../build/  \ 
+make -j4 && pwd \ 
+./gMC run1.mac  \ 
+cd /home/edisson/Documents/hola/tesis/retrodispersion/morteros/m3/gMC-BS-saturacion-varios-3/src \ 
+pwd \ 
+python3 10_Paso_0.5_Inicio_0.0.py \ 
+echo 10_Paso_0.5_Inicio_0.0.py \ 
+rm -rf 10_Paso_0.5_Inicio_0.0.py \ 
+cd ../build/  \ 
+make -j4 && pwd \ 
+./gMC run1.mac  \ 
+cd /home/edisson/Documents/hola/tesis/retrodispersion/morteros/m3/gMC-BS-saturacion-varios-3/src \ 
+pwd \ 
+python3 11_Paso_0.5_Inicio_0.0.py \ 
+echo 11_Paso_0.5_Inicio_0.0.py \ 
+rm -rf 11_Paso_0.5_Inicio_0.0.py \ 
+cd ../build/  \ 
+make -j4 && pwd \ 
+./gMC run1.mac  \ 
+cd /home/edisson/Documents/hola/tesis/retrodispersion/morteros/m3/gMC-BS-saturacion-varios-3/src \ 
+pwd \ 
+python3 12_Paso_0.5_Inicio_0.0.py \ 
+echo 12_Paso_0.5_Inicio_0.0.py \ 
+rm -rf 12_Paso_0.5_Inicio_0.0.py \ 
+cd ../build/  \ 
+make -j4 && pwd \ 
+./gMC run1.mac  \ 
