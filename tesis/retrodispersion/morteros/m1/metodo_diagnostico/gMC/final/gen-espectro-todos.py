@@ -973,6 +973,14 @@ cuentas_totales=[cuentas19, cuentas18,cuentas1, cuentas2, cuentas3, cuentas4, cu
 errores_inten=[math.sqrt(cuentas19), math.sqrt(cuentas18), math.sqrt(cuentas1), math.sqrt(cuentas2), math.sqrt(cuentas3), math.sqrt(cuentas4), math.sqrt(cuentas5), math.sqrt(cuentas6), math.sqrt(cuentas7), math.sqrt(cuentas8), math.sqrt(cuentas9), math.sqrt(cuentas10),  math.sqrt(cuentas11),  math.sqrt(cuentas12),  math.sqrt(cuentas13), math.sqrt(cuentas14),  math.sqrt(cuentas15),  math.sqrt(cuentas16),  math.sqrt(cuentas17), math.sqrt(cuentas18)]
 
 
+int_max=max(cuentas_totales)
+cuentas_totales=cuentas_totales/int_max
+
+
+
+
+
+
 
 ejex_graf=[-1.0, -0.5, 0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5, 7.0, 7.5, 8.0, 8.5]
 
