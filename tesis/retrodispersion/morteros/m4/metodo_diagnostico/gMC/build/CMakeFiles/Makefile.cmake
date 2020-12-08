@@ -8,9 +8,15 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
+<<<<<<< HEAD
   "CMakeFiles/3.16.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeSystem.cmake"
+=======
+  "CMakeFiles/3.10.2/CMakeCCompiler.cmake"
+  "CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.10.2/CMakeSystem.cmake"
+>>>>>>> 40d4f1ac87a9bb991057ff693f12355041c16e27
   "../gen-espectro.py"
   "../init.mac"
   "../run1.mac"
@@ -58,6 +64,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake"
+<<<<<<< HEAD
   "/usr/local/lib/Geant4-10.6.3/G4EXPATShim.cmake"
   "/usr/local/lib/Geant4-10.6.3/G4MotifShim.cmake"
   "/usr/local/lib/Geant4-10.6.3/G4X11Shim.cmake"
@@ -169,6 +176,46 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.16/Modules/Platform/Linux.cmake"
   "/usr/share/cmake-3.16/Modules/Platform/UnixPaths.cmake"
   "/usr/share/cmake-3.16/Modules/SelectLibraryConfigurations.cmake"
+=======
+  "/usr/local/lib/Geant4-10.6.2/G4EXPATShim.cmake"
+  "/usr/local/lib/Geant4-10.6.2/G4MotifShim.cmake"
+  "/usr/local/lib/Geant4-10.6.2/G4X11Shim.cmake"
+  "/usr/local/lib/Geant4-10.6.2/Geant4Config.cmake"
+  "/usr/local/lib/Geant4-10.6.2/Geant4ConfigVersion.cmake"
+  "/usr/local/lib/Geant4-10.6.2/Geant4LibraryDepends-release.cmake"
+  "/usr/local/lib/Geant4-10.6.2/Geant4LibraryDepends.cmake"
+  "/usr/local/lib/Geant4-10.6.2/Geant4PackageCache.cmake"
+  "/usr/local/lib/Geant4-10.6.2/Modules/IntelCompileFeatures.cmake"
+  "/usr/local/lib/Geant4-10.6.2/Modules/MSVCCompileFeatures.cmake"
+  "/usr/local/lib/Geant4-10.6.2/UseGeant4.cmake"
+  "/usr/share/cmake-3.10/Modules/CMakeCInformation.cmake"
+  "/usr/share/cmake-3.10/Modules/CMakeCXXInformation.cmake"
+  "/usr/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake"
+  "/usr/share/cmake-3.10/Modules/CMakeFindDependencyMacro.cmake"
+  "/usr/share/cmake-3.10/Modules/CMakeGenericSystem.cmake"
+  "/usr/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake"
+  "/usr/share/cmake-3.10/Modules/CMakeParseArguments.cmake"
+  "/usr/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake"
+  "/usr/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake"
+  "/usr/share/cmake-3.10/Modules/CheckFunctionExists.cmake"
+  "/usr/share/cmake-3.10/Modules/CheckLibraryExists.cmake"
+  "/usr/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+  "/usr/share/cmake-3.10/Modules/Compiler/GNU-C.cmake"
+  "/usr/share/cmake-3.10/Modules/Compiler/GNU-CXX.cmake"
+  "/usr/share/cmake-3.10/Modules/Compiler/GNU.cmake"
+  "/usr/share/cmake-3.10/Modules/FindEXPAT.cmake"
+  "/usr/share/cmake-3.10/Modules/FindMotif.cmake"
+  "/usr/share/cmake-3.10/Modules/FindOpenGL.cmake"
+  "/usr/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake"
+  "/usr/share/cmake-3.10/Modules/FindPackageMessage.cmake"
+  "/usr/share/cmake-3.10/Modules/FindPkgConfig.cmake"
+  "/usr/share/cmake-3.10/Modules/FindX11.cmake"
+  "/usr/share/cmake-3.10/Modules/Platform/Linux-GNU-C.cmake"
+  "/usr/share/cmake-3.10/Modules/Platform/Linux-GNU-CXX.cmake"
+  "/usr/share/cmake-3.10/Modules/Platform/Linux-GNU.cmake"
+  "/usr/share/cmake-3.10/Modules/Platform/Linux.cmake"
+  "/usr/share/cmake-3.10/Modules/Platform/UnixPaths.cmake"
+>>>>>>> 40d4f1ac87a9bb991057ff693f12355041c16e27
   )
 
 # The corresponding makefile is:
@@ -179,11 +226,14 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+<<<<<<< HEAD
   "CMakeFiles/3.16.3/CMakeSystem.cmake"
   "CMakeFiles/3.16.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
+=======
+>>>>>>> 40d4f1ac87a9bb991057ff693f12355041c16e27
   "init.mac"
   "run1.mac"
   "vis.mac"

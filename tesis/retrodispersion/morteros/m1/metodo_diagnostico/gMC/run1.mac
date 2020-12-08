@@ -7,10 +7,10 @@
 /gps/energy 662 keV
 #/gps/direction 0 0 1
 /gps/ang/type iso
-/gps/ang/maxtheta 360. deg
-/gps/ang/mintheta 180. deg
+/gps/ang/maxtheta 10. deg
+/gps/ang/mintheta 0. deg
 /gps/ang/minphi 0 deg
 /gps/ang/maxphi 360 deg
-/run/beamOn 100000000
+/run/beamOn 10000000
 
 

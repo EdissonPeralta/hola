@@ -332,7 +332,11 @@ G4Element* elNa = new G4Element(name="Sodium", symbol="Na", z=11., a);
   fPlacaLogical = new G4LogicalVolume(nueva_placa, Morteros1,"placaLogical");
 
   
+<<<<<<< HEAD
   G4double desplazamiento= 4.5*cm; //Aca se regula el dezplazamiento en x para barrer el mortero. Se hace desde 8.0 hasta -1.0 de a 0.5
+=======
+  G4double desplazamiento= -2.0*cm; //Aca se regula el dezplazamiento en x para barrer el mortero. Se hace desde 8.0 hasta -1.0 de a 0.5
+>>>>>>> 40d4f1ac87a9bb991057ff693f12355041c16e27
   G4ThreeVector Tplaca;    
   G4Transform3D T3Dplaca;
   Tplaca.setX(4.5*cm + desplazamiento);  Tplaca.setY(0.0*cm);
