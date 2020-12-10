@@ -986,6 +986,29 @@ def error(IB):
 
 
 
+print('--------------------xs')
+
+arr = diagnostico(cuentas_normalizadas)
+ 
+k = 4
+k2 = 8  
+ 
+arr1 = np.sort(arr)  
+
+int_min=arr1[0:k]
+int_max=arr1[(len(arr1)-k2):len(arr)]
+
+promedio_min=np.average(int_min)
+promedio_max=np.average(int_max)
+media_min=np.std(int_min)
+media_max=np.std(int_max)
+print(promedio_max-promedio_min)
+error_promedios=np.sqrt(media_min*media_min + media_max*media_max)
+print(error_promedios)
+####################
+print('--------------------xs')
+
+
 
 
 fig2, axs=plt.subplots(1,1,figsize=(3.44,4))

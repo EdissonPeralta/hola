@@ -992,8 +992,33 @@ def error(IB):
 
 
 
-
 ejex_graf=[-1.0, -0.5, 0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5, 7.0, 7.5, 8.0, 8.5]
+
+################################
+
+print('--------------------xs')
+
+arr = diagnostico(cuentas_normalizadas)
+ 
+k = 4
+k2 = 8  
+ 
+arr1 = np.sort(arr)  
+
+int_min=arr1[0:k]
+int_max=arr1[(len(arr1)-k2):len(arr)]
+
+promedio_min=np.average(int_min)
+promedio_max=np.average(int_max)
+media_min=np.std(int_min)
+media_max=np.std(int_max)
+print(promedio_max-promedio_min)
+error_promedios=np.sqrt(media_min*media_min + media_max*media_max)
+print(error_promedios)
+####################
+print('--------------------xs')
+
+
 
 fig2, axs=plt.subplots(1,1,figsize=(3.44,4))
 x=np.linspace(0.2,13.0,10000)
@@ -1026,6 +1051,8 @@ axs.set_ylabel(r'$t$ (cm)')
 plt.title('Morteros 1')
 
 axs.errorbar(ejex_graf,diagnostico(cuentas_normalizadas),yerr=error(np.array(cuentas_normalizadas)), fmt='.',color='black')
+
+
 
 fig3.tight_layout()
 plt.show()
