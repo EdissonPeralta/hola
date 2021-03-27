@@ -682,7 +682,7 @@ print (sigmaXsatu)
 #######################################################
 
 
-fig2, axs=plt.subplots(1,1,figsize=(6,3.4))
+fig2, axs=plt.subplots(1,1,figsize=(3.44,4))
 x=np.linspace(0.2,13.0,10000)
 axs.errorbar(grosor,intensidades,yerr=propaga_error_y, xerr=propaga_error_x,fmt='.',color='purple',label='Geant4')
 

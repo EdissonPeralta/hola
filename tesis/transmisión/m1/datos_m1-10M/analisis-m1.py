@@ -262,7 +262,7 @@ for i in range(pic):
     else:
         axs.text(peaksx[0][i],peaksy[0][i],str(energy[i])+' keV', fontsize=11,ha='center')
         
-#fig_1.savefig('1.pdf')
+fig_1.savefig('1.pdf')
 """
 #::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 """
@@ -288,7 +288,7 @@ for j in range(0,8,2):
 """
 #grafico los ajuste a la funcion potencia
 xx=x[50:]
-fig_1,axs=plt.subplots(1,1,figsize=(3.44,4))
+fig_1,axs=plt.subplots(1,1,figsize=(3.5,4))
 
 axs.set_ylabel(r"$\mu$ (cm$^2$/g)")
 axs.set_xlabel(r'$E_{\gamma}$ (keV)')
@@ -304,7 +304,7 @@ axs.yaxis.set_minor_locator(ticker.AutoMinorLocator())
 axs.yaxis.set_major_formatter(ticker.ScalarFormatter(useMathText=True))
 axs.set_xlim(7*10**1, 1.5*10**(3))
 axs.set_xticks([8*10**1, 2*10**2, 5*10**2, 1*10**3, 1.5*10**3])
-axs.set_xticklabels(['80','200','500','1000','1500'])
+axs.set_xticklabels(['80','100','200','500','1000'])
 
 
 #SIMULACION
